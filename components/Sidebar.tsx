@@ -1,5 +1,7 @@
 import Link from "next/link";
 import prisma from "@/lib/prisma";
+import TagList from "./TagList";
+import SearchInput from "./SearchInput";
 
 interface transcript {
   categories: string[],
@@ -9,15 +11,35 @@ interface transcript {
   youtubeId: string | null,
 }
 
-export default async function Sidebar({ searchQuery }: { searchQuery?: string }) {
+export default async function Sidebar({ 
+  searchQuery,
+  selectedTags = []
+}: { 
+  searchQuery?: string,
+  selectedTags?: string[]
+}) {
+  // Buscar todas as categorias únicas do banco
+  const allTranscripts = await prisma.transcript.findMany({
+    select: { categories: true }
+  });
+  
+  const rawTags: string[] = allTranscripts.flatMap((t: { categories: string[] }) => t.categories);
+  const uniqueTags: string[] = Array.from(new Set(rawTags)).sort();
+
   const transcripts = await prisma.transcript.findMany({
-    where: searchQuery ? {
-      OR: [
-        { title: { contains: searchQuery, mode: 'insensitive' } },
-        { channelName: { contains: searchQuery, mode: 'insensitive' } },
-        { categories: { hasSome: [searchQuery] } },
+    where: {
+      AND: [
+        searchQuery ? {
+          OR: [
+            { title: { contains: searchQuery, mode: 'insensitive' } },
+            { channelName: { contains: searchQuery, mode: 'insensitive' } },
+          ]
+        } : {},
+        selectedTags.length > 0 ? {
+          categories: { hasSome: selectedTags }
+        } : {}
       ]
-    } : undefined,
+    },
     orderBy: { createdAt: 'desc' },
     select: {
       id: true,
@@ -37,20 +59,17 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
         <p className="text-xs text-slate-500 mt-1">Sua coleção de conhecimento</p>
         
         <div className="mt-4">
-          <form action="/" method="GET" className="relative group">
-            <input 
-              type="text" 
-              name="search"
-              defaultValue={searchQuery}
-              placeholder="Buscar por título, canal..."
-              className="w-full bg-slate-900 border-slate-800 rounded-lg py-2 pl-3 pr-10 text-sm text-slate-300 placeholder:text-slate-600 focus:outline-none focus:border-blue-500 transition-all"
-            />
-            <button className="absolute right-3 top-2.5 text-slate-600 group-focus-within:text-blue-500">
-              🔍
-            </button>
-          </form>
+          <SearchInput defaultValue={searchQuery} selectedTags={selectedTags} />
         </div>
       </div>
+
+      <TagList 
+        uniqueTags={uniqueTags} 
+        selectedTags={selectedTags} 
+        searchQuery={searchQuery} 
+      />
+
+
 
       <div className="flex-1 overflow-y-auto p-2 space-y-1">
         {transcripts.map((transcript: transcript) => (
@@ -68,12 +87,15 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
                   {transcript.channelName}
                 </span>
               )}
-              <div className="flex gap-2">
-                {transcript.categories && transcript.categories.map((cat: string, i: number) => (
-                  <span key={i} className="text-[10px] bg-blue-900/30 text-blue-400 px-1.5 py-0.5 rounded leading-none">
-                    {cat}
+              <div className="flex gap-1 flex-wrap">
+                {transcript.categories && transcript.categories.slice(0, 2).map((cat: string, i: number) => (
+                  <span key={i} className="text-[10px] text-blue-500/70">
+                    #{cat}
                   </span>
                 ))}
+                {transcript.categories.length > 2 && (
+                  <span className="text-[10px] text-slate-600">+{transcript.categories.length - 2}</span>
+                )}
               </div>
             </div>
           </Link>
@@ -97,3 +119,4 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
     </div>
   );
 }
+
