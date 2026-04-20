@@ -11,7 +11,13 @@ interface SegmentInput {
 }
 
 export async function importTranscript(formData: FormData) {
+  // Verificação de Segurança
+  if (process.env.ALLOW_IMPORT !== "true") {
+    throw new Error("Importação não permitida neste ambiente.");
+  }
+
   const title = formData.get("title") as string;
+
   const youtubeId = formData.get("youtubeId") as string;
   const channelName = formData.get("channelName") as string;
   const categoryString = formData.get("category") as string;
