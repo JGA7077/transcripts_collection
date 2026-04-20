@@ -47,9 +47,12 @@ export default function TranscriptClient({
   segments: Segment[] 
 }) {
   const [activeId, setActiveId] = useState<string | null>(null);
+  const [showTranslation, setShowTranslation] = useState(true);
   const playerRef = useRef<YTPlayer | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const activeIdRef = useRef<string | null>(null);
+// ... [Mantenha os useEffects existentes] ...
+
 
   // Efeito 1: Inicialização do Player (Roda apenas quando o ID do vídeo muda)
   useEffect(() => {
@@ -131,7 +134,7 @@ export default function TranscriptClient({
   };
 
   return (
-    <div className="flex h-full flex-col lg:flex-row">
+    <div className="flex h-full flex-col lg:flex-row overflow-hidden">
       {/* Video Area */}
       <div className="lg:w-1/2 p-6 bg-black flex items-center justify-center">
         {transcript.youtubeId ? (
@@ -147,30 +150,48 @@ export default function TranscriptClient({
       </div>
 
       {/* Transcript Area */}
-      <div className="flex-1 bg-slate-900 overflow-y-auto p-4 space-y-4" ref={scrollRef}>
-        {segments.map((s) => (
-          <div 
-            key={s.id}
-            id={`segment-${s.id}`}
-            onClick={() => handleSeek(s.start)}
-            className={`p-4 rounded-xl cursor-pointer transition-all duration-300 border ${
-              activeId === s.id 
-                ? "bg-blue-600/20 border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.2)]" 
-                : "bg-slate-800/50 border-slate-700 hover:bg-slate-800"
+      <div className="flex-1 bg-slate-900 flex flex-col min-h-0">
+        <div className="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-950/20 backdrop-blur-sm">
+          <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">Transcrição</span>
+          <button 
+            onClick={() => setShowTranslation(!showTranslation)}
+            className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+              showTranslation 
+                ? "bg-blue-600/20 text-blue-400 border border-blue-500/30" 
+                : "bg-slate-800 text-slate-500 border border-slate-700"
             }`}
           >
-            <p className="text-slate-200 leading-relaxed font-medium">{s.content}</p>
-            {s.translatedContent && (
-              <p className="text-blue-400/80 text-sm mt-2 font-normal italic border-t border-slate-700/50 pt-2">
-                {s.translatedContent}
-              </p>
-            )}
-            <span className="text-[10px] text-slate-500 mt-2 block font-mono">
-              {Math.floor(s.start / 60)}:{(s.start % 60).toFixed(0).padStart(2, '0')}
-            </span>
-          </div>
-        ))}
+            <span className={`w-2 h-2 rounded-full ${showTranslation ? "bg-blue-500 animate-pulse" : "bg-slate-600"}`}></span>
+            Tradução: {showTranslation ? "Visível" : "Oculta"}
+          </button>
+        </div>
+
+        <div className="flex-1 overflow-y-auto p-4 space-y-4" ref={scrollRef}>
+          {segments.map((s) => (
+            <div 
+              key={s.id}
+              id={`segment-${s.id}`}
+              onClick={() => handleSeek(s.start)}
+              className={`p-4 rounded-xl cursor-pointer transition-all duration-300 border ${
+                activeId === s.id 
+                  ? "bg-blue-600/20 border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.2)]" 
+                  : "bg-slate-800/50 border-slate-700 hover:bg-slate-800"
+              }`}
+            >
+              <p className="text-slate-200 leading-relaxed font-medium">{s.content}</p>
+              {showTranslation && s.translatedContent && (
+                <p className="text-blue-400/80 text-sm mt-2 font-normal italic border-t border-slate-700/50 pt-2">
+                  {s.translatedContent}
+                </p>
+              )}
+              <span className="text-[10px] text-slate-500 mt-2 block font-mono">
+                {Math.floor(s.start / 60)}:{(s.start % 60).toFixed(0).padStart(2, '0')}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
+
