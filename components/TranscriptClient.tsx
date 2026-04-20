@@ -155,7 +155,7 @@ export default function TranscriptClient({
           <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">Transcrição</span>
           <button 
             onClick={() => setShowTranslation(!showTranslation)}
-            className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
+            className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all cursor-pointer ${
               showTranslation 
                 ? "bg-blue-600/20 text-blue-400 border border-blue-500/30" 
                 : "bg-slate-800 text-slate-500 border border-slate-700"
