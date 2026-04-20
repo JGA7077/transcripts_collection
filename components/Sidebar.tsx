@@ -1,6 +1,14 @@
 import Link from "next/link";
 import prisma from "@/lib/prisma";
 
+interface transcript {
+  categories: string[],
+  id: string,
+  title: string,
+  channelName: string,
+  youtubeId: string,
+}
+
 export default async function Sidebar({ searchQuery }: { searchQuery?: string }) {
   const transcripts = await prisma.transcript.findMany({
     where: searchQuery ? {
@@ -43,23 +51,23 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
       </div>
 
       <div className="flex-1 overflow-y-auto p-2 space-y-1">
-        {transcripts.map((t) => (
+        {transcripts.map((transcript: transcript) => (
           <Link 
-            key={t.id} 
-            href={`/transcript/${t.id}`}
+            key={transcript.id} 
+            href={`/transcript/${transcript.id}`}
             className="block p-3 rounded-lg hover:bg-slate-900 transition-colors group"
           >
             <h3 className="text-sm font-medium text-slate-200 group-hover:text-blue-400 truncate">
-              {t.title}
+              {transcript.title}
             </h3>
             <div className="flex items-center gap-2 mt-1">
-              {t.channelName && (
+              {transcript.channelName && (
                 <span className="text-[10px] bg-slate-800 text-slate-400 px-1.5 py-0.5 rounded leading-none">
-                  {t.channelName}
+                  {transcript.channelName}
                 </span>
               )}
               <div className="flex gap-2">
-                {t.categories && t.categories.map((cat, i) => (
+                {transcript.categories && transcript.categories.map((cat: string, i: number) => (
                   <span key={i} className="text-[10px] bg-blue-900/30 text-blue-400 px-1.5 py-0.5 rounded leading-none">
                     {cat}
                   </span>

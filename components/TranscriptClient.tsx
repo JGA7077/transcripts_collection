@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import YT from "youtube";
 
 interface Segment {
   id: string;
@@ -16,6 +17,24 @@ interface Transcript {
   title: string;
 }
 
+// Tipagem para a API do YouTube IFrame
+declare global {
+  interface Window {
+    YT: typeof YT;
+    onYouTubeIframeAPIReady: () => void;
+  }
+}
+
+interface YTPlayer {
+  getCurrentTime: () => number;
+  seekTo: (seconds: number, allowSeekAhead: boolean) => void;
+  destroy: () => void;
+}
+
+interface YTStateChangeEvent {
+  data: number;
+}
+
 export default function TranscriptClient({ 
   transcript, 
   segments 
@@ -24,30 +43,31 @@ export default function TranscriptClient({
   segments: Segment[] 
 }) {
   const [activeId, setActiveId] = useState<string | null>(null);
-  const playerRef = useRef<any>(null);
+  const playerRef = useRef<YTPlayer | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+
 
   useEffect(() => {
     // Load YouTube IFrame API
-    if (!(window as any).YT) {
+    if (typeof window !== "undefined" && !window.YT) {
       const tag = document.createElement('script');
       tag.src = "https://www.youtube.com/iframe_api";
       const firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
     }
 
-    (window as any).onYouTubeIframeAPIReady = () => {
+    window.onYouTubeIframeAPIReady = () => {
       initPlayer();
     };
 
-    if ((window as any).YT && (window as any).YT.Player) {
+    if (window.YT && window.YT.Player) {
       initPlayer();
     }
 
     function initPlayer() {
       if (!transcript.youtubeId) return;
       
-      playerRef.current = new (window as any).YT.Player('youtube-player', {
+      playerRef.current = new window.YT.Player('youtube-player', {
         videoId: transcript.youtubeId,
         playerVars: {
           autoplay: 0,
@@ -55,8 +75,8 @@ export default function TranscriptClient({
           modestbranding: 1,
         },
         events: {
-          onStateChange: (event: any) => {
-            if (event.data === (window as any).YT.PlayerState.PLAYING) {
+          onStateChange: (event: YTStateChangeEvent) => {
+            if (event.data === window.YT.PlayerState.PLAYING) {
               startSync();
             }
           }
@@ -64,7 +84,8 @@ export default function TranscriptClient({
       });
     }
 
-    let interval: NodeJS.Timeout;
+
+    let interval: ReturnType<typeof setInterval>;
     function startSync() {
       interval = setInterval(() => {
         if (playerRef.current && playerRef.current.getCurrentTime) {
@@ -90,7 +111,7 @@ export default function TranscriptClient({
         playerRef.current.destroy();
       }
     };
-  }, [transcript.youtubeId, segments]);
+  }, [transcript.youtubeId, segments, activeId]);
 
   const handleSeek = (time: number) => {
     if (playerRef.current && playerRef.current.seekTo) {

@@ -29,9 +29,9 @@ export default async function TranscriptPage({ params }: { params: Promise<{ id:
               <span className="text-sm text-slate-400">📺 {transcript.channelName}</span>
             )}
             <div className="flex gap-2">
-              {transcript.categories !== undefined && transcript.categories.map((cat, i) => (
-                <span key={i} className="text-xs bg-blue-900/30 text-blue-400 font-medium px-2 py-0.5 rounded">
-                  #{cat}
+              {transcript.categories !== undefined && transcript.categories.map((category: string, index: number) => (
+                <span key={index} className="text-xs bg-blue-900/30 text-blue-400 font-medium px-2 py-0.5 rounded">
+                  #{category}
                 </span>
               ))}
             </div>

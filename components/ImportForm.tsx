@@ -28,8 +28,12 @@ export default function ImportForm() {
         setMessage("✅ Importado com sucesso! Redirecionando...");
         router.push(`/transcript/${result.id}`);
       }
-    } catch (err: any) {
-      setMessage(`❌ Erro: ${err.message}`);
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        setMessage(`❌ Erro: ${err.message}`);
+      } else {
+        setMessage("❌ Erro desconhecido");
+      }
     } finally {
       setLoading(false);
     }

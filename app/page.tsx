@@ -1,6 +1,16 @@
 import Link from "next/link";
 import prisma from "@/lib/prisma";
 
+interface transcript {
+  categories: string[],
+  id: string,
+  title: string,
+  channelName: string,
+  youtubeId: string,
+  sourceLanguage: string,
+  _count: { segments: number }
+}
+
 export default async function Home({ 
   searchParams 
 }: { 
@@ -35,27 +45,27 @@ export default async function Home({
       {search ? (
         <div className="w-full max-w-4xl text-left">
           <h1 className="text-2xl font-bold mb-6 text-slate-200">
-            Resultados para: <span className="text-blue-400">"{search}"</span>
+            Resultados para: <span className="text-blue-400">&quot;{search}&quot;</span>
           </h1>
           
           <div className="grid gap-4">
-            {searchResults.map((t) => (
+            {searchResults.map((transcript: transcript) => (
               <Link 
-                key={t.id} 
-                href={`/transcript/${t.id}`}
+                key={transcript.id} 
+                href={`/transcript/${transcript.id}`}
                 className="group block p-6 bg-slate-900/50 border border-slate-800 rounded-2xl hover:border-blue-500 transition-all"
               >
                 <div className="flex justify-between items-start">
                   <div>
                     <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
-                      {t.title}
+                      {transcript.title}
                     </h3>
                     <div className="flex gap-3 mt-2">
-                      {t.channelName && (
-                        <span className="text-xs text-slate-400">📺 {t.channelName}</span>
+                      {transcript.channelName && (
+                        <span className="text-xs text-slate-400">📺 {transcript.channelName}</span>
                       )}
                       <span className="text-xs text-slate-500">
-                        {t.sourceLanguage.toUpperCase()} • {t._count.segments} frases
+                        {transcript.sourceLanguage.toUpperCase()} • {transcript._count.segments} frases
                       </span>
                     </div>
                   </div>
@@ -100,13 +110,13 @@ export default async function Home({
                 Adicionadas Recentemente
               </h2>
               <div className="grid gap-4">
-                {recent.map((t) => (
+                {recent.map((transcript: transcript) => (
                   <Link 
-                    key={t.id} 
-                    href={`/transcript/${t.id}`}
+                    key={transcript.id} 
+                    href={`/transcript/${transcript.id}`}
                     className="flex items-center justify-between p-4 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-blue-500/50 transition-colors group"
                   >
-                    <span className="text-slate-200 group-hover:text-white transition-colors">{t.title}</span>
+                    <span className="text-slate-200 group-hover:text-white transition-colors">{transcript.title}</span>
                     <span className="text-slate-600 text-xs">➔</span>
                   </Link>
                 ))}

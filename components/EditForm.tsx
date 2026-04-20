@@ -32,8 +32,12 @@ export default function EditForm({ transcript }: { transcript: TranscriptData })
         router.push(`/transcript/${transcript.id}`);
         router.refresh();
       }
-    } catch (err: any) {
-      setMessage(`❌ Erro: ${err.message}`);
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        setMessage(`❌ Erro: ${err.message}`);
+      } else {
+        setMessage("❌ Erro desconhecido");
+      }
     } finally {
       setLoading(false);
     }
