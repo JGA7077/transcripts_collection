@@ -14,13 +14,17 @@ export async function importTranscript(formData: FormData) {
   const title = formData.get("title") as string;
   const youtubeId = formData.get("youtubeId") as string;
   const channelName = formData.get("channelName") as string;
-  const category = formData.get("category") as string;
+  const categoryString = formData.get("category") as string;
   const sourceLanguage = formData.get("sourceLanguage") as string;
   const jsonContent = formData.get("jsonContent") as string;
 
   if (!title || !jsonContent) {
     throw new Error("Título e conteúdo JSON são obrigatórios");
   }
+
+  const categories = categoryString 
+    ? categoryString.split(",").map(s => s.trim()).filter(Boolean)
+    : [];
 
   const segments: SegmentInput[] = JSON.parse(jsonContent);
 
@@ -29,7 +33,7 @@ export async function importTranscript(formData: FormData) {
       title,
       youtubeId: youtubeId || null,
       channelName: channelName || null,
-      category: category || null,
+      categories: categories,
       sourceLanguage: sourceLanguage || "en",
       segments: {
         create: segments.map((s) => ({

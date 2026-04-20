@@ -7,7 +7,7 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
       OR: [
         { title: { contains: searchQuery, mode: 'insensitive' } },
         { channelName: { contains: searchQuery, mode: 'insensitive' } },
-        { category: { contains: searchQuery, mode: 'insensitive' } },
+        { categories: { hasSome: [searchQuery] } },
       ]
     } : undefined,
     orderBy: { createdAt: 'desc' },
@@ -15,7 +15,7 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
       id: true,
       title: true,
       channelName: true,
-      category: true,
+      categories: true,
       youtubeId: true
     }
   });
@@ -58,11 +58,13 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
                   {t.channelName}
                 </span>
               )}
-              {t.category && (
-                <span className="text-[10px] bg-blue-900/30 text-blue-400 px-1.5 py-0.5 rounded leading-none">
-                  {t.category}
-                </span>
-              )}
+              <div className="flex gap-2">
+                {t.categories && t.categories.map((cat, i) => (
+                  <span key={i} className="text-[10px] bg-blue-900/30 text-blue-400 px-1.5 py-0.5 rounded leading-none">
+                    {cat}
+                  </span>
+                ))}
+              </div>
             </div>
           </Link>
         ))}

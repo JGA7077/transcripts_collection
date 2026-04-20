@@ -15,7 +15,7 @@ model Transcript {
   title          String
   youtubeId      String?
   channelName    String?
-  category       String?
+  categories     String[]  @default([])
   sourceLanguage String    @default("en") // en, es
   targetLanguage String    @default("pt")
   createdAt      DateTime  @default(now())
