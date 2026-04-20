@@ -8,7 +8,7 @@ interface transcript {
   channelName: string | null,
   youtubeId: string | null,
   sourceLanguage: string,
-  _count: { segments: number }
+  _count?: { segments: number }
 }
 
 export default async function Home({ 
@@ -37,6 +37,9 @@ export default async function Home({
 
   const recent = await prisma.transcript.findMany({
     take: 3,
+    include: {
+      _count: { select: { segments: true } }
+    },
     orderBy: { createdAt: "desc" },
   });
 
@@ -65,7 +68,7 @@ export default async function Home({
                         <span className="text-xs text-slate-400">📺 {transcript.channelName}</span>
                       )}
                       <span className="text-xs text-slate-500">
-                        {transcript.sourceLanguage.toUpperCase()} • {transcript._count.segments} frases
+                        {transcript.sourceLanguage.toUpperCase()} • {transcript._count?.segments || 0} frases
                       </span>
                     </div>
                   </div>
