@@ -1,0 +1,39 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Transcript {
+  id             String    @id @default(uuid())
+  title          String
+  youtubeId      String?
+  channelName    String?
+  category       String?
+  sourceLanguage String    @default("en") // en, es
+  targetLanguage String    @default("pt")
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  segments       Segment[]
+
+  @@map("transcripts")
+}
+
+model Segment {
+  id                String     @id @default(uuid())
+  start             Float
+  end               Float
+  content           String     @db.Text
+  translatedContent String?    @db.Text
+  transcriptId      String
+  transcript        Transcript @relation(fields: [transcriptId], references: [id], onDelete: Cascade)
+
+  @@index([transcriptId])
+  @@map("segments")
+}
