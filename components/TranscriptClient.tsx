@@ -48,9 +48,14 @@ export default function TranscriptClient({
 }) {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [showTranslation, setShowTranslation] = useState(true);
+  const [viewMode, setViewMode] = useState<'full' | 'compact'>('full');
+  
   const playerRef = useRef<YTPlayer | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const activeIdRef = useRef<string | null>(null);
+
+  const activeSegment = segments.find(s => s.id === activeId);
+
 // ... [Mantenha os useEffects existentes] ...
 
 
@@ -134,12 +139,30 @@ export default function TranscriptClient({
   };
 
   return (
-    <div className="flex h-full flex-col lg:flex-row overflow-hidden">
+    <div className={`flex h-full flex-col ${viewMode === 'full' ? 'lg:flex-row' : 'items-center'} overflow-hidden bg-black`}>
       {/* Video Area */}
-      <div className="lg:w-1/2 p-6 bg-black flex items-center justify-center">
+      <div className={`${viewMode === 'full' ? 'lg:w-1/2' : 'w-full max-w-5xl'} p-4 lg:p-10 bg-black flex flex-col items-center justify-center relative`}>
         {transcript.youtubeId ? (
-          <div className="w-full aspect-video rounded-xl overflow-hidden shadow-2xl border border-slate-800">
-            <div id="youtube-player" className="w-full h-full"></div>
+          <div className="w-full relative group">
+            <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-slate-800/50">
+              <div id="youtube-player" className="w-full h-full"></div>
+            </div>
+
+            {/* Compact Overlay (Subtitle Mode) */}
+            {viewMode === 'compact' && activeSegment && (
+              <div className="absolute bottom-0 left-0 right-0 px-8 flex flex-col items-center pointer-events-none transition-all duration-500 animate-in fade-in slide-in-from-bottom-4">
+                <div className="bg-black/40 backdrop-blur-xl border border-white/10 p-5 rounded-2xl shadow-2xl max-w-[90%] text-center">
+                  <p className="text-sm md:text-md font-semibold text-white leading-tight drop-shadow-sm">
+                    {activeSegment.content}
+                  </p>
+                  {showTranslation && activeSegment.translatedContent && (
+                    <p className="text-blue-400/90 text-sm md:text-md mt-3 font-medium border-t border-white/5 pt-3">
+                      {activeSegment.translatedContent}
+                    </p>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         ) : (
           <div className="text-slate-500 text-center">
@@ -147,24 +170,56 @@ export default function TranscriptClient({
             <p>Este vídeo não possui um ID de YouTube válido.</p>
           </div>
         )}
+        
+        {/* Floating Controls in Compact Mode */}
+        {viewMode === 'compact' && (
+          <div className="mt-8 flex gap-3">
+            <button 
+              onClick={() => setViewMode('full')}
+              className="px-6 py-2 bg-slate-900 border border-slate-800 text-slate-300 rounded-full hover:bg-slate-800 transition-all text-sm font-medium"
+            >
+              🖥️ Sair do Modo Compacto
+            </button>
+            <button 
+              onClick={() => setShowTranslation(!showTranslation)}
+              className={`px-6 py-2 rounded-full border transition-all text-sm font-medium ${
+                showTranslation ? 'bg-blue-600/20 border-blue-500 text-blue-400' : 'bg-slate-900 border-slate-800 text-slate-500'
+              }`}
+            >
+              {showTranslation ? 'Ocultar Tradução' : 'Mostrar Tradução'}
+            </button>
+          </div>
+        )}
       </div>
 
-      {/* Transcript Area */}
-      <div className="flex-1 bg-slate-900 flex flex-col min-h-0">
-        <div className="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-950/20 backdrop-blur-sm">
-          <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">Transcrição</span>
-          <button 
-            onClick={() => setShowTranslation(!showTranslation)}
-            className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all cursor-pointer ${
-              showTranslation 
-                ? "bg-blue-600/20 text-blue-400 border border-blue-500/30" 
-                : "bg-slate-800 text-slate-500 border border-slate-700"
-            }`}
-          >
-            <span className={`w-2 h-2 rounded-full ${showTranslation ? "bg-blue-500 animate-pulse" : "bg-slate-600"}`}></span>
-            Tradução: {showTranslation ? "Visível" : "Oculta"}
-          </button>
-        </div>
+      {/* Transcript Area (Lateral - Only in Full Mode) */}
+      {viewMode === 'full' && (
+        <div className="flex-1 bg-slate-900/50 flex flex-col min-h-0 border-l border-slate-800/50">
+          <div className="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-950/20 backdrop-blur-sm">
+            <div className="flex items-center gap-4">
+              <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">Transcrição</span>
+              <button 
+                onClick={() => setViewMode('compact')}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-600/30 transition-all"
+                title="Modo Legenda"
+              >
+                📺 Compacto
+              </button>
+            </div>
+            
+            <button 
+              onClick={() => setShowTranslation(!showTranslation)}
+              className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all cursor-pointer ${
+                showTranslation 
+                  ? "bg-blue-600/20 text-blue-400 border border-blue-500/30" 
+                  : "bg-slate-800 text-slate-500 border border-slate-700"
+              }`}
+            >
+              <span className={`w-2 h-2 rounded-full ${showTranslation ? "bg-blue-500 animate-pulse" : "bg-slate-600"}`}></span>
+              Tradução: {showTranslation ? "Sim" : "Não"}
+            </button>
+          </div>
+
 
         <div className="flex-1 overflow-y-auto p-4 space-y-4" ref={scrollRef}>
           {segments.map((s) => (
@@ -191,7 +246,10 @@ export default function TranscriptClient({
           ))}
         </div>
       </div>
+      )}
     </div>
   );
 }
+
+
 
