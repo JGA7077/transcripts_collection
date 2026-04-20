@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface LayoutClientProps {
   sidebar: React.ReactNode;
@@ -8,7 +8,7 @@ interface LayoutClientProps {
 }
 
 export default function LayoutClient({ sidebar, children }: LayoutClientProps) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="flex h-screen overflow-hidden bg-black outline-none">
