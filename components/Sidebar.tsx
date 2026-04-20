@@ -29,9 +29,11 @@ export default async function Sidebar({ searchQuery }: { searchQuery?: string })
   });
 
   return (
-    <div className="w-80 h-screen bg-slate-950 border-r border-slate-800 flex flex-col">
+    <div className="w-full h-full bg-slate-950 flex flex-col">
       <div className="p-4 border-b border-slate-800">
-        <h1 className="text-xl font-bold text-white tracking-tight">Transcripts</h1>
+        <Link href="/">
+          <h1 className="text-xl font-bold text-white tracking-tight">Transcripts</h1>
+        </Link>
         <p className="text-xs text-slate-500 mt-1">Sua coleção de conhecimento</p>
         
         <div className="mt-4">
