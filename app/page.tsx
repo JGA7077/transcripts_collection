@@ -5,8 +5,8 @@ interface transcript {
   categories: string[],
   id: string,
   title: string,
-  channelName: string,
-  youtubeId: string,
+  channelName: string | null,
+  youtubeId: string | null,
   sourceLanguage: string,
   _count: { segments: number }
 }
