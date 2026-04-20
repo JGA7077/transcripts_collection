@@ -40,9 +40,7 @@ export default function LayoutClient({ sidebar, children }: LayoutClientProps) {
           )}
         </button>
 
-        <main className={`flex-1 overflow-y-auto bg-slate-950/50 transition-all duration-500 ${
-          isOpen ? "pl-0" : "pl-0"
-        }`}>
+        <main className="flex-1 overflow-y-auto bg-slate-950/50 transition-all duration-500">
           {children}
         </main>
       </div>

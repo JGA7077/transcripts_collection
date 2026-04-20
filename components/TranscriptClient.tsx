@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import YT from "youtube";
 
 interface Segment {
   id: string;
@@ -20,7 +19,12 @@ interface Transcript {
 // Tipagem para a API do YouTube IFrame
 declare global {
   interface Window {
-    YT: typeof YT;
+    YT: {
+      Player: any;
+      PlayerState: {
+        PLAYING: number;
+      };
+    };
     onYouTubeIframeAPIReady: () => void;
   }
 }
@@ -45,27 +49,21 @@ export default function TranscriptClient({
   const [activeId, setActiveId] = useState<string | null>(null);
   const playerRef = useRef<YTPlayer | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const activeIdRef = useRef<string | null>(null);
 
-
+  // Efeito 1: Inicialização do Player (Roda apenas quando o ID do vídeo muda)
   useEffect(() => {
-    // Load YouTube IFrame API
-    if (typeof window !== "undefined" && !window.YT) {
+    if (typeof window === "undefined") return;
+
+    if (!window.YT) {
       const tag = document.createElement('script');
       tag.src = "https://www.youtube.com/iframe_api";
       const firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
     }
 
-    window.onYouTubeIframeAPIReady = () => {
-      initPlayer();
-    };
-
-    if (window.YT && window.YT.Player) {
-      initPlayer();
-    }
-
-    function initPlayer() {
-      if (!transcript.youtubeId) return;
+    const initPlayer = () => {
+      if (!transcript.youtubeId || playerRef.current) return;
       
       playerRef.current = new window.YT.Player('youtube-player', {
         videoId: transcript.youtubeId,
@@ -76,42 +74,55 @@ export default function TranscriptClient({
         },
         events: {
           onStateChange: (event: YTStateChangeEvent) => {
-            if (event.data === window.YT.PlayerState.PLAYING) {
-              startSync();
-            }
+            // No-op aqui, o sincronismo roda em intervalo
           }
         }
       });
-    }
+    };
 
+    window.onYouTubeIframeAPIReady = initPlayer;
 
-    let interval: ReturnType<typeof setInterval>;
-    function startSync() {
-      interval = setInterval(() => {
-        if (playerRef.current && playerRef.current.getCurrentTime) {
-          const currentTime = playerRef.current.getCurrentTime();
-          const activeSegment = segments.find(
-            s => currentTime >= s.start && currentTime <= s.end
-          );
-          if (activeSegment && activeSegment.id !== activeId) {
-            setActiveId(activeSegment.id);
-            // Auto-scroll to active segment
-            const element = document.getElementById(`segment-${activeSegment.id}`);
-            if (element && scrollRef.current) {
-              element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-          }
-        }
-      }, 250);
+    if (window.YT && window.YT.Player) {
+      initPlayer();
     }
 
     return () => {
-      clearInterval(interval);
-      if (playerRef.current && playerRef.current.destroy) {
+      if (playerRef.current) {
         playerRef.current.destroy();
+        playerRef.current = null;
       }
     };
-  }, [transcript.youtubeId, segments, activeId]);
+  }, [transcript.youtubeId]);
+
+  // Efeito 2: Sincronização (Intervalo constante)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (playerRef.current && typeof playerRef.current.getCurrentTime === 'function') {
+        const currentTime = playerRef.current.getCurrentTime();
+        const activeSegment = segments.find(
+          s => currentTime >= s.start && currentTime <= s.end
+        );
+
+        if (activeSegment && activeSegment.id !== activeIdRef.current) {
+          activeIdRef.current = activeSegment.id;
+          setActiveId(activeSegment.id);
+        }
+      }
+    }, 250);
+
+    return () => clearInterval(interval);
+  }, [segments]);
+
+  // Efeito 3: Auto-scroll (Roda quando o ID ativo muda)
+  useEffect(() => {
+    if (activeId) {
+      const element = document.getElementById(`segment-${activeId}`);
+      if (element && scrollRef.current) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }, [activeId]);
+
 
   const handleSeek = (time: number) => {
     if (playerRef.current && playerRef.current.seekTo) {
