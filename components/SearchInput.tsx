@@ -26,6 +26,16 @@ export default function SearchInput({ defaultValue = "", selectedTags }: SearchI
     });
   };
 
+  const handleClear = () => {
+    setValue("");
+    const params = new URLSearchParams();
+    selectedTags.forEach(t => params.append("tags", t));
+    
+    startTransition(() => {
+      router.push(`/?${params.toString()}`);
+    });
+  };
+
   return (
     <>
       {isPending && (
@@ -34,26 +44,38 @@ export default function SearchInput({ defaultValue = "", selectedTags }: SearchI
         </div>
       )}
       <form onSubmit={handleSubmit} className="relative group">
-
-      <input 
-        type="text" 
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-        placeholder="Buscar por título, canal..."
-        className="w-full bg-slate-900 border-slate-800 rounded-lg py-2 pl-3 pr-10 text-sm text-slate-300 placeholder:text-slate-600 focus:outline-none focus:border-blue-500 transition-all"
-        disabled={isPending}
-      />
-      <button 
-        type="submit"
-        disabled={isPending}
-        className={`absolute right-3 top-2.5 text-slate-600 group-focus-within:text-blue-500 transition-colors ${
-          isPending ? "opacity-30" : "opacity-100"
-        }`}
-      >
-        {isPending ? "⏳" : "🔍"}
-      </button>
-    </form>
+        <input 
+          type="text" 
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          placeholder="Buscar por título, canal..."
+          className="w-full bg-slate-900 border-slate-800 rounded-lg py-2 pl-3 pr-16 text-sm text-slate-300 placeholder:text-slate-600 focus:outline-none focus:border-blue-500 transition-all"
+          disabled={isPending}
+        />
+        <div className="absolute right-3 top-2 flex items-center gap-2">
+          {value && (
+            <button
+              type="button"
+              onClick={handleClear}
+              className="text-slate-500 hover:text-slate-300 transition-colors p-0.5"
+              title="Limpar pesquisa"
+            >
+              ✕
+            </button>
+          )}
+          <button 
+            type="submit"
+            disabled={isPending}
+            className={`text-slate-600 group-focus-within:text-blue-500 transition-colors ${
+              isPending ? "opacity-30" : "opacity-100"
+            }`}
+          >
+            {isPending ? "⏳" : "🔍"}
+          </button>
+        </div>
+      </form>
     </>
   );
 }
+
 

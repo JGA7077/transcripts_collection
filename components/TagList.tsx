@@ -48,15 +48,16 @@ export default function TagList({ uniqueTags, selectedTags, searchQuery }: TagLi
       <div className="p-4 border-b border-slate-800">
         <h2 className="text-[10px] font-semibold text-slate-500 uppercase tracking-widest mb-3 flex justify-between items-center">
           Categorias
-          {selectedTags.length > 0 && (
+          {(selectedTags.length > 0 || searchQuery) && (
             <button 
               onClick={handleClear}
-              className="text-blue-500 hover:text-blue-400 lowercase tracking-normal font-normal cursor-pointer"
+              className="text-blue-500 hover:text-blue-400 lowercase tracking-normal font-normal cursor-pointer bg-blue-500/10 px-2 py-0.5 rounded-md transition-colors"
             >
-              Limpar
+              Limpar Tudo
             </button>
           )}
         </h2>
+
         <div className="flex flex-wrap gap-2">
           {uniqueTags.map((tag) => {
             const isSelected = selectedTags.includes(tag);
