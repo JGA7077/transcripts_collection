@@ -148,9 +148,9 @@ export default function TranscriptClient({
               <div id="youtube-player" className="w-full h-full"></div>
             </div>
 
-            {/* Compact Overlay (Subtitle Mode) */}
+            {/* Compact Overlay (Subtitle Mode - Only Desktop) */}
             {viewMode === 'compact' && activeSegment && (
-              <div className="absolute bottom-0 left-0 right-0 px-8 flex flex-col items-center pointer-events-none transition-all duration-500 animate-in fade-in slide-in-from-bottom-4">
+              <div className="hidden lg:flex absolute bottom-0 left-0 right-0 px-8 flex flex-col items-center pointer-events-none transition-all duration-500 animate-in fade-in slide-in-from-bottom-4">
                 <div className="bg-black/40 backdrop-blur-xl border border-white/10 p-5 rounded-2xl shadow-2xl max-w-[90%] text-center">
                   <p className="text-sm md:text-md font-semibold text-white leading-tight drop-shadow-sm">
                     {activeSegment.content}
@@ -170,6 +170,23 @@ export default function TranscriptClient({
             <p>Este vídeo não possui um ID de YouTube válido.</p>
           </div>
         )}
+
+        {/* Mobile Legend (Below Video - Compact Mode) */}
+        {viewMode === 'compact' && activeSegment && (
+          <div className="lg:hidden w-full mt-6 px-2 animate-in fade-in slide-in-from-top-4 duration-500">
+            <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-800 p-6 rounded-2xl shadow-xl text-center">
+              <p className="text-lg font-medium text-white leading-relaxed">
+                {activeSegment.content}
+              </p>
+              {showTranslation && activeSegment.translatedContent && (
+                <p className="text-blue-400/90 text-md mt-4 pt-4 border-t border-slate-800 font-medium">
+                  {activeSegment.translatedContent}
+                </p>
+              )}
+            </div>
+          </div>
+        )}
+
         
         {/* Floating Controls in Compact Mode */}
         {viewMode === 'compact' && (
@@ -221,7 +238,8 @@ export default function TranscriptClient({
           </div>
 
 
-        <div className="flex-1 overflow-y-auto p-4 space-y-4" ref={scrollRef}>
+        <div className="flex-1 overflow-y-auto p-4 space-y-4 pb-32 scroll-smooth" ref={scrollRef}>
+
           {segments.map((s) => (
             <div 
               key={s.id}

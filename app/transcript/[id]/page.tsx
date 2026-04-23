@@ -30,9 +30,10 @@ export default async function TranscriptPage({
   return (
     <MainLayout searchParams={sParams}>
       <div className="h-full flex flex-col">
-        <header className="p-6 border-b border-slate-800 bg-black/40 backdrop-blur-md flex justify-between items-center">
-          <div className="pl-15">
-            <h1 className="text-2xl font-bold text-white">{transcript.title}</h1>
+        <header className="p-4 md:p-6 border-b border-slate-800 bg-black/40 backdrop-blur-md flex justify-between items-center">
+          <div className="pl-0 md:pl-15 pr-4 flex-1">
+            <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-white line-clamp-2">{transcript.title}</h1>
+
             <div className="flex items-center gap-3 mt-2 flex-wrap">
               {transcript.channelName && (
                 <span className="text-sm text-slate-400">📺 {transcript.channelName}</span>
