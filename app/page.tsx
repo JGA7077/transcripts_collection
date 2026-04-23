@@ -60,13 +60,22 @@ export default async function Home({
         {/* ... resto do conteúdo existente ... */}
         {search || selectedTags.length > 0 ? (
           <div className="w-full max-w-4xl text-left">
-            <h1 className="text-2xl font-bold mb-6 text-slate-200">
-              {search ? (
-                <>Resultados para: <span className="text-blue-400">&quot;{search}&quot;</span></>
-              ) : (
-                <>Filtrando por categorias</>
-              )}
-            </h1>
+            <div className="flex justify-between items-end mb-6 gap-4">
+              <h1 className="text-2xl font-bold text-slate-200">
+                {search ? (
+                  <>Resultados para: <span className="text-blue-400">&quot;{search}&quot;</span></>
+                ) : (
+                  <>Filtrando por categorias</>
+                )}
+              </h1>
+              <Link 
+                href="/"
+                className="text-xs font-medium text-blue-400 hover:text-blue-300 transition-colors bg-blue-600/10 px-3 py-1.5 rounded-lg border border-blue-500/20 mb-1"
+              >
+                ✕ Limpar Filtros
+              </Link>
+            </div>
+
             
             <div className="grid gap-4">
               {searchResults.map((transcript: transcript) => (
