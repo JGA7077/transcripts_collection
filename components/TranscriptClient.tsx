@@ -199,9 +199,9 @@ export default function TranscriptClient({
           <div className="mt-8 flex gap-3">
             <button 
               onClick={() => setViewMode('full')}
-              className="px-6 py-2 bg-slate-900 border border-slate-800 text-slate-300 rounded-full hover:bg-slate-800 transition-all text-sm font-medium"
+              className="px-6 py-2 bg-slate-900 border border-slate-800 text-slate-300 uppercase rounded-full hover:bg-slate-800 transition-all text-sm font-medium"
             >
-              🖥️ Sair do Modo Compacto
+              Sair do Modo Compacto
             </button>
             <button 
               onClick={() => setShowTranslation(!showTranslation)}
@@ -218,7 +218,7 @@ export default function TranscriptClient({
       {/* Transcript Area (Lateral - Only in Full Mode) */}
       {viewMode === 'full' && (
         <div className="flex-1 bg-slate-900/50 flex flex-col min-h-0 border-l border-slate-800/50">
-          <div className="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-950/20 backdrop-blur-sm">
+          <div className="p-4 border-b border-slate-800 flex justify-start gap-4 items-center bg-slate-950/20 backdrop-blur-sm">
             <div className="flex items-center gap-4">
               <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">Transcrição</span>
               <button 
@@ -226,7 +226,7 @@ export default function TranscriptClient({
                 className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-600/30 transition-all"
                 title="Modo Legenda"
               >
-                📺 Compacto
+                Usar Versão Compacta
               </button>
             </div>
             
