@@ -51,6 +51,7 @@ export default function TranscriptClient({
   const [activeId, setActiveId] = useState<string | null>(null);
   const [showTranslation, setShowTranslation] = useState(true);
   const [viewMode, setViewMode] = useState<'full' | 'compact'>('full');
+  const [showExercises, setShowExercises] = useState(false);
   
   const playerRef = useRef<YTPlayer | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -220,9 +221,26 @@ export default function TranscriptClient({
         <div className="flex-1 bg-slate-900/50 flex flex-col min-h-0 border-l border-slate-800/50">
           <div className="p-4 border-b border-slate-800 flex justify-start gap-4 items-center bg-slate-950/20 backdrop-blur-sm">
             <div className="flex items-center gap-4">
-              <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">Transcrição</span>
+              <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">
+                {showExercises ? "Exercícios" : "Transcrição"}
+              </span>
+              
               <button 
-                onClick={() => setViewMode('compact')}
+                onClick={() => setShowExercises(!showExercises)}
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter transition-all ${
+                  showExercises 
+                    ? "bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/30" 
+                    : "bg-blue-600/20 text-blue-400 border border-blue-500/30 hover:bg-blue-600/30"
+                }`}
+              >
+                {showExercises ? "Ver Transcrição" : "Ver Exercícios"}
+              </button>
+
+              <button 
+                onClick={() => {
+                  setViewMode('compact');
+                  setShowExercises(false);
+                }}
                 className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-600/30 transition-all"
                 title="Modo Legenda"
               >
@@ -245,35 +263,35 @@ export default function TranscriptClient({
 
 
         <div className="flex-1 overflow-y-auto p-4 space-y-4 pb-32 scroll-smooth" ref={scrollRef}>
-
-          {segments.map((s) => (
-            <div 
-              key={s.id}
-              id={`segment-${s.id}`}
-              onClick={() => handleSeek(s.start)}
-              className={`p-4 rounded-xl cursor-pointer transition-all duration-300 border ${
-                activeId === s.id 
-                  ? "bg-blue-600/20 border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.2)]" 
-                  : "bg-slate-800/50 border-slate-700 hover:bg-slate-800"
-              }`}
-            >
-              <p className="text-slate-200 leading-relaxed font-medium">{s.content}</p>
-              {showTranslation && s.translatedContent && (
-                <p className="text-blue-400/80 text-sm mt-2 font-normal italic border-t border-slate-700/50 pt-2">
-                  {s.translatedContent}
-                </p>
-              )}
-              <span className="text-[10px] text-slate-500 mt-2 block font-mono">
-                {Math.floor(s.start / 60)}:{(s.start % 60).toFixed(0).padStart(2, '0')}
-              </span>
-            </div>
-          ))}
-
-          {/* Exercise Section at the bottom of the transcript */}
-          <ExerciseSection 
-            transcriptText={fullTranscriptText} 
-            language={transcript.sourceLanguage} 
-          />
+          {showExercises ? (
+            <ExerciseSection 
+              transcriptText={fullTranscriptText} 
+              language={transcript.sourceLanguage} 
+            />
+          ) : (
+            segments.map((s) => (
+              <div 
+                key={s.id}
+                id={`segment-${s.id}`}
+                onClick={() => handleSeek(s.start)}
+                className={`p-4 rounded-xl cursor-pointer transition-all duration-300 border ${
+                  activeId === s.id 
+                    ? "bg-blue-600/20 border-blue-500 shadow-[0_0_15px_rgba(59,130,246,0.2)]" 
+                    : "bg-slate-800/50 border-slate-700 hover:bg-slate-800"
+                }`}
+              >
+                <p className="text-slate-200 leading-relaxed font-medium">{s.content}</p>
+                {showTranslation && s.translatedContent && (
+                  <p className="text-blue-400/80 text-sm mt-2 font-normal italic border-t border-slate-700/50 pt-2">
+                    {s.translatedContent}
+                  </p>
+                )}
+                <span className="text-[10px] text-slate-500 mt-2 block font-mono">
+                  {Math.floor(s.start / 60)}:{(s.start % 60).toFixed(0).padStart(2, '0')}
+                </span>
+              </div>
+            ))
+          )}
         </div>
       </div>
       )}
