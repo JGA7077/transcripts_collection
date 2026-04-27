@@ -16,8 +16,19 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Texto é obrigatório' }, { status: 400 });
     }
 
-    const langKey = lang as keyof typeof IDIOMS;
-    const language = IDIOMS[langKey] ?? 'es';
+    const languageMap: Record<string, string> = {
+      'Inglês': 'en',
+      'Espanhol': 'es',
+      'Português': 'pt',
+      'en': 'en',
+      'es': 'es',
+      'pt': 'pt',
+      'fr': 'fr',
+      'it': 'it',
+      'de': 'de'
+    };
+
+    const language = languageMap[lang] || lang || 'en';
     const gtts = new GTTS(` ${text}`, language);
 
     const isVercel = !process.env.IS_VERCEL;

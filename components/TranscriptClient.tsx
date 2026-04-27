@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
+import ExerciseSection from "./ExerciseSection";
 
 interface Segment {
   id: string;
@@ -14,6 +15,7 @@ interface Transcript {
   id: string;
   youtubeId: string | null;
   title: string;
+  sourceLanguage: string;
 }
 
 // Tipagem para a API do YouTube IFrame
@@ -55,6 +57,10 @@ export default function TranscriptClient({
   const activeIdRef = useRef<string | null>(null);
 
   const activeSegment = segments.find(s => s.id === activeId);
+
+  const fullTranscriptText = useMemo(() => {
+    return segments.map(s => s.content).join(" ");
+  }, [segments]);
 
 // ... [Mantenha os useEffects existentes] ...
 
@@ -262,6 +268,12 @@ export default function TranscriptClient({
               </span>
             </div>
           ))}
+
+          {/* Exercise Section at the bottom of the transcript */}
+          <ExerciseSection 
+            transcriptText={fullTranscriptText} 
+            language={transcript.sourceLanguage} 
+          />
         </div>
       </div>
       )}
