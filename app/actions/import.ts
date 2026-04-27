@@ -3,7 +3,7 @@
 import prisma from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { ParaphraseEvaluation } from "../types/genericTypes";
+import { ParaphraseEvaluation, GenerateAudios } from "../types/genericTypes";
 
 interface SegmentInput {
   start: number;
@@ -76,7 +76,6 @@ export async function generateGapFillExercises(
       A partir desse texto, você deve gerar um exercício de preenchimento de lacunas em formato JSON.
       
       IMPORTANTE: Escolha frases aleatórias e variadas do texto. Não repita sempre as mesmas frases.
-      Seed aleatória: ${Math.random().toString(36).substring(7)}
       
       Crie exatamente 5 frases completas com até 10 palavras retiradas do texto para testar gramática e vocabulário. Em cada uma dessas frases, remova uma palavra-chave, envolvendo a palavra original APENAS com ** (por exemplo: **been**).
       Para testar o idioma e não apenas a memória, adicione uma dica ou a forma base da palavra em inglês entre parênteses logo após a lacuna, por exemplo: "I have **been** (to be) working".
@@ -128,7 +127,6 @@ export async function generateListeningExercises(
       Atue como um professor de ${idiom}. Gere exatamente 3 frases completas com até 10 palavras baseando-se no texto original, não precisam estar no texto original.
       
       IMPORTANTE: Varie as frases. Explore diferentes partes do texto fornecido.
-      Seed aleatória: ${Math.random().toString(36).substring(7)}
 
       Retorne APENAS um JSON válido, sem textos adicionais, seguindo estritamente o esquema abaixo:
       {
@@ -153,51 +151,6 @@ export async function generateListeningExercises(
     return JSON.parse(outputText).listeningExercises as string[];
   } catch (error) {
     console.error("Error generating listening exercises:", error);
-    throw error;
-  }
-}
-
-export async function generateParaphrasingExercises(
-  extractedText: string,
-  idiom: string,
-  level: string
-) {
-
-  try {
-    const model = genAI.getGenerativeModel({
-      model: 'gemini-2.5-flash',
-      generationConfig: { temperature: 0.5 },
-    });
-
-    const prompt = `
-      Atue como um professor de idiomas. O usuário me enviou este texto no idioma ${idiom} e ele possui o nível de proficiência ${level} no CEFR.
-      A partir desse texto, você deve gerar um exercício de reescrita (paráfrase).
-      
-      Escolha exatamente 3 frases completas com até 10 palavras do texto original que tenham expressões, vocabulário rico ou uma estrutura flexível. Estas frases devem estar intactas.
-      
-      Retorne APENAS um JSON seguindo estritamente o esquema abaixo:
-      {
-        "paraphrasingExercises": [
-          string, string, string
-        ]
-      }
-
-      Texto:
-      "${extractedText}"
-    `;
-
-    const result = await model.generateContent(prompt);
-    let outputText = result.response.text();
-    
-    if (outputText.includes('```json')) {
-      outputText = outputText.replace(/```json/g, '').replace(/```/g, '').trim();
-    } else if (outputText.startsWith('```')) {
-      outputText = outputText.replace(/```/g, '').trim();
-    }
-
-    return JSON.parse(outputText).paraphrasingExercises as string[];
-  } catch (error) {
-    console.error("Error generating paraphrasing exercises:", error);
     throw error;
   }
 }
@@ -250,5 +203,36 @@ export async function evaluateParaphrases(
   } catch (error) {
     console.error("Error evaluating paraphrases:", error);
     throw new Error("Falha ao avaliar respostas com a Inteligência Artificial.");
+  }
+}
+
+export async function generateAudios(infos: GenerateAudios) {
+  const payload = {
+    text: infos.text,
+    lang: infos.lang,
+  };
+
+  try {
+    const response = await fetch(
+      process.env.URL
+        ? `${process.env.URL}/api/tts`
+        : 'https://idiom-seeker.vercel.app/api/tts',
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`Erro ao gerar áudio: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    return data;
+  } catch (error) {
+    console.log('error API: ', error);
+    throw error
   }
 }
