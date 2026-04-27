@@ -22,7 +22,19 @@ interface Transcript {
 declare global {
   interface Window {
     YT: {
-      Player: any;
+      Player: {
+        new (elementId: string, options: {
+          videoId: string;
+          playerVars?: {
+            autoplay?: number;
+            controls?: number;
+            modestbranding?: number;
+          };
+          events?: {
+            onStateChange?: (event: YTStateChangeEvent) => void;
+          };
+        }): YTPlayer;
+      };
       PlayerState: {
         PLAYING: number;
       };

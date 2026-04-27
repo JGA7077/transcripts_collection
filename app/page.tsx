@@ -1,3 +1,4 @@
+import { Prisma } from "@prisma/client";
 import Link from "next/link";
 import prisma from "@/lib/prisma";
 import MainLayout from "@/components/MainLayout";
@@ -23,7 +24,7 @@ export default async function Home({
   const count = await prisma.transcript.count();
 
   // Filtro base para as queries
-  const filterConditions = {
+  const filterConditions: Prisma.TranscriptWhereInput = {
     AND: [
       search ? {
         OR: [
@@ -39,7 +40,7 @@ export default async function Home({
   };
 
   const searchResults = (search || selectedTags.length > 0) ? await prisma.transcript.findMany({
-    where: filterConditions as any,
+    where: filterConditions,
     include: {
       _count: { select: { segments: true } }
     },
