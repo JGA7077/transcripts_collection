@@ -90,6 +90,7 @@ export default function TranscriptClient({
         events: {
           onStateChange: (event: YTStateChangeEvent) => {
             // No-op aqui, o sincronismo roda em intervalo
+            console.log('event ==>', event);
           }
         }
       });

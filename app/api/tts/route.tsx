@@ -3,11 +3,6 @@ import GTTS from 'gtts';
 import fs from 'fs';
 import path from 'path';
 
-const IDIOMS = {
-  Inglês: 'en',
-  Espanhol: 'es',
-};
-
 export async function POST(req: Request) {
   try {
     const { text, lang } = await req.json();
