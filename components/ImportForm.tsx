@@ -78,8 +78,8 @@ export default function ImportForm() {
         <div>
           <label className="block text-sm font-medium text-slate-400">Idioma Original</label>
           <select name="sourceLanguage" className="mt-1 block w-full bg-slate-800 border-slate-700 rounded-md text-white px-3 py-2">
-            <option value="en">Inglês</option>
-            <option value="es">Espanhol</option>
+            <option value="Inglês">Inglês</option>
+            <option value="Espanhol">Espanhol</option>
           </select>
         </div>
       </div>
