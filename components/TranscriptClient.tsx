@@ -243,11 +243,11 @@ export default function TranscriptClient({
         {viewMode === 'compact' && activeSegment && (
           <div className="lg:hidden w-full mt-6 px-2 animate-in fade-in slide-in-from-top-4 duration-500">
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-800 p-6 rounded-2xl shadow-xl text-center">
-              <p className="text-lg font-medium text-white leading-relaxed">
+              <p className="text-base md:text-lg font-medium text-white leading-relaxed">
                 {activeSegment.content}
               </p>
               {showTranslation && activeSegment.translatedContent && (
-                <p className="text-blue-400/90 text-md mt-4 pt-4 border-t border-slate-800 font-medium">
+                <p className="text-blue-400/90 text-base md:text-lg mt-4 pt-4 border-t border-slate-800 font-medium">
                   {activeSegment.translatedContent}
                 </p>
               )}
