@@ -64,10 +64,12 @@ export default function TranscriptClient({
   const [showTranslation, setShowTranslation] = useState(true);
   const [viewMode, setViewMode] = useState<'full' | 'compact'>('full');
   const [showExercises, setShowExercises] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   
   const playerRef = useRef<YTPlayer | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const activeIdRef = useRef<string | null>(null);
+  const fullscreenContainerRef = useRef<HTMLDivElement>(null);
 
   const activeSegment = segments.find(s => s.id === activeId);
 
@@ -98,6 +100,7 @@ export default function TranscriptClient({
           autoplay: 0,
           controls: 1,
           modestbranding: 1,
+          fs: 0,
         },
         events: {
           onStateChange: (event: YTStateChangeEvent) => {
@@ -151,6 +154,26 @@ export default function TranscriptClient({
     }
   }, [activeId]);
 
+  // Efeito 4: Fullscreen change listener
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
+  }, []);
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      fullscreenContainerRef.current?.requestFullscreen().catch(err => {
+        console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+      });
+    } else {
+      document.exitFullscreen();
+    }
+  };
+
 
   const handleSeek = (time: number) => {
     if (playerRef.current && playerRef.current.seekTo) {
@@ -163,20 +186,45 @@ export default function TranscriptClient({
       {/* Video Area */}
       <div className={`${viewMode === 'full' ? 'lg:w-1/2' : 'w-full max-w-5xl'} p-4 lg:p-10 bg-black flex flex-col items-center justify-center relative`}>
         {transcript.youtubeId ? (
-          <div className="w-full relative group">
-            <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-slate-800/50">
+          <div ref={fullscreenContainerRef} className="w-full relative group flex flex-col justify-center items-center bg-black">
+            <div className={`w-full aspect-video ${isFullscreen ? 'h-screen' : 'rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-slate-800/50'}`}>
               <div id="youtube-player" className="w-full h-full"></div>
             </div>
 
+            {/* Custom Fullscreen Button */}
+            <button
+              onClick={toggleFullscreen}
+              className="absolute top-[45px] right-4 z-50 p-2 bg-black/50 hover:bg-black/80 text-white rounded-lg opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm border border-white/10"
+              title={isFullscreen ? "Sair da Tela Cheia" : "Tela Cheia"}
+            >
+              {isFullscreen ? (
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" /></svg>
+              )}
+            </button>
+
             {/* Compact Overlay (Subtitle Mode - Only Desktop) */}
-            {viewMode === 'compact' && activeSegment && (
-              <div className="hidden lg:flex absolute bottom-0 left-0 right-0 px-8 flex flex-col items-center pointer-events-none transition-all duration-500 animate-in fade-in slide-in-from-bottom-4">
-                <div className="bg-black/40 backdrop-blur-xl border border-white/10 p-5 rounded-2xl shadow-2xl max-w-[90%] text-center">
-                  <p className="text-sm md:text-md font-semibold text-white leading-tight drop-shadow-sm">
+            {(viewMode === 'compact' || isFullscreen) && activeSegment && (
+              <div className={`hidden lg:flex absolute bottom-0 left-0 right-0 px-8 flex-col items-center pointer-events-none transition-all duration-500 animate-in fade-in slide-in-from-bottom-4 ${isFullscreen ? 'pb-12' : 'pb-0'}`}>
+                <div className="bg-black/60 backdrop-blur-xl border border-white/10 p-5 rounded-2xl shadow-2xl max-w-[90%] text-center mb-4">
+                  <p className={`${isFullscreen ? 'text-xl md:text-3xl' : 'text-sm md:text-md'} font-semibold text-white leading-tight drop-shadow-sm`}>
                     {activeSegment.content}
                   </p>
                   {showTranslation && activeSegment.translatedContent && (
-                    <p className="text-blue-400/90 text-sm md:text-md mt-3 font-medium border-t border-white/5 pt-3">
+                    <p className="text-blue-400/90 text-sm md:text-xl mt-3 font-medium border-t border-white/5 pt-3">
                       {activeSegment.translatedContent}
                     </p>
                   )}
