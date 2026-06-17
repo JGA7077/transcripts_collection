@@ -29,7 +29,7 @@ export default function LayoutClient({ sidebar, children }: LayoutClientProps) {
         <button
           onClick={() => setIsOpen(!isOpen)}
           className={`absolute top-6 z-50 p-2.5 bg-slate-900 border border-slate-800 text-slate-400 hover:text-white rounded-xl shadow-xl transition-all duration-300 hover:scale-110 active:scale-95 ${
-            isOpen ? "left-4" : "left-6"
+            isOpen ? "left-4" : "left-[85%] md:left-6"
           }`}
           title={isOpen ? "Esconder barra lateral" : "Mostrar barra lateral"}
         >
