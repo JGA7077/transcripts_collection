@@ -42,10 +42,18 @@ export default function ExerciseSection({
   const [loading, setLoading] = useState<{ [key: string]: boolean }>({});
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [showReviseMessage, setShowReviseMessage] = useState<{ [key: string]: boolean }>({});
+  const [showSuccessMessage, setShowSuccessMessage] = useState<{ [key: string]: boolean }>({});
+
+  const [gapFillAnswers, setGapFillAnswers] = useState<{ [key: string]: string }>({});
+  const [gapFillValidation, setGapFillValidation] = useState<{ [key: string]: boolean | null }>({});
 
   const generateGapFill = async () => {
     setLoading({ gapFill: true });
     setErrorMsg(null);
+    setGapFillAnswers({});
+    setGapFillValidation({});
+    setShowReviseMessage(prev => ({ ...prev, gapFill: false }));
+    setShowSuccessMessage(prev => ({ ...prev, gapFill: false }));
     try {
       const gapFill = await generateGapFillExercises(transcriptText, language);
       setGapFillExercises(gapFill);
@@ -92,21 +100,30 @@ export default function ExerciseSection({
   };
 
   const validateGapFill = () => {
-    const inputs = document.querySelectorAll<HTMLInputElement>(".gap-fill-input");
     let hasError = false;
-    inputs.forEach(input => {
-      const answer = input.getAttribute("data-answer")?.toLowerCase().trim();
-      const value = input.value.toLowerCase().trim();
-      if (value !== answer) {
-        input.classList.add("border-red-500", "bg-red-900/20");
-        input.classList.remove("border-slate-700", "bg-slate-800/50");
-        hasError = true;
-      } else {
-        input.classList.remove("border-red-500", "bg-red-900/20");
-        input.classList.add("border-green-500", "bg-green-900/20");
-      }
+    const newValidation: { [key: string]: boolean | null } = {};
+    
+    gapFillExercises.forEach((ex, exerciseIndex) => {
+      const parts = ex.question.split(/(\*\*.*?\*\*)/g);
+      parts.forEach((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          const answer = part.slice(2, -2).toLowerCase().trim();
+          const inputKey = `${exerciseIndex}-${i}`;
+          const value = (gapFillAnswers[inputKey] || "").toLowerCase().trim();
+          
+          if (value !== answer) {
+            hasError = true;
+            newValidation[inputKey] = false;
+          } else {
+            newValidation[inputKey] = true;
+          }
+        }
+      });
     });
+
+    setGapFillValidation(newValidation);
     setShowReviseMessage(prev => ({ ...prev, gapFill: hasError }));
+    setShowSuccessMessage(prev => ({ ...prev, gapFill: !hasError && Object.keys(newValidation).length > 0 }));
   };
 
   const validateListening = () => {
@@ -149,17 +166,27 @@ export default function ExerciseSection({
     audio.play();
   };
 
-  const renderGapFillText = (text: string) => {
+  const renderGapFillText = (text: string, exerciseIndex: number) => {
     const parts = text.split(/(\*\*.*?\*\*)/g);
     return parts.map((part, i) => {
       if (part.startsWith("**") && part.endsWith("**")) {
         const answer = part.slice(2, -2);
+        const inputKey = `${exerciseIndex}-${i}`;
+        const isCorrect = gapFillValidation[inputKey];
         return (
           <input
             key={i}
             type="text"
             data-answer={answer}
-            className="gap-fill-input inline-block w-32 mx-1 px-2 py-0.5 bg-slate-800/50 border border-slate-700 rounded text-blue-400 focus:outline-none focus:border-blue-500 transition-colors"
+            value={gapFillAnswers[inputKey] || ""}
+            onChange={(e) => setGapFillAnswers(prev => ({ ...prev, [inputKey]: e.target.value }))}
+            className={`inline-block w-32 mx-1 px-2 py-0.5 rounded focus:outline-none transition-colors ${
+              isCorrect === true
+                ? "border border-green-500 bg-green-900/20 text-green-400 focus:border-green-400"
+                : isCorrect === false
+                ? "border border-red-500 bg-red-900/20 text-red-400 focus:border-red-400"
+                : "bg-slate-800/50 border border-slate-700 text-blue-400 focus:border-blue-500"
+            }`}
             placeholder="..."
           />
         );
@@ -238,11 +265,14 @@ export default function ExerciseSection({
             {showReviseMessage.gapFill && (
               <p className="text-red-400 font-medium mb-4 animate-pulse">⚠️ Revise as respostas incorretas</p>
             )}
+            {showSuccessMessage.gapFill && (
+              <p className="text-green-400 font-medium mb-4 animate-pulse">🎉 Todas as respostas estão corretas!</p>
+            )}
             <div className="space-y-6">
               {gapFillExercises.map((ex, i) => (
                 <div key={i} className="p-4 bg-black/20 rounded-xl border border-white/5">
                   <p className="text-slate-200 leading-relaxed text-lg">
-                    {renderGapFillText(ex.question)}
+                    {renderGapFillText(ex.question, i)}
                   </p>
                   <p className="text-slate-500 text-sm mt-2 italic">{ex.translation}</p>
                 </div>
