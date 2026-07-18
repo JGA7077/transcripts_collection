@@ -64,6 +64,9 @@ export async function generateGapFillExercises(
   extractedText: string,
   idiom: string
 ) {
+  if (process.env.ALLOW_IMPORT !== "true") {
+    throw new Error("Geração de exercícios não permitida neste ambiente.");
+  }
 
   try {
     const model = genAI.getGenerativeModel({
@@ -128,7 +131,7 @@ export async function generateListeningExercises(
       
       IMPORTANTE: Varie as frases. Explore diferentes partes do texto fornecido.
 
-      Retorne APENAS um JSON válido, sem textos adicionais, seguindo estritamente o esquema abaixo:
+      Utilize o seguinte esquema JSON sem adicionar textos antes ou depois, APENAS esse schema em JSON:
       {
         "listeningExercises": [
           string, string, string
