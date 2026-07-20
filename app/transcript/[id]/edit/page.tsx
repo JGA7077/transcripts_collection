@@ -28,7 +28,7 @@ export default async function EditTranscriptPage({
   return (
     <MainLayout searchParams={sParams}>
       <div className="flex items-center justify-center min-h-[80vh] p-8">
-        <EditForm transcript={transcript} />
+        <EditForm transcript={{ ...transcript, exercises: transcript.exercises as { question: string; translation: string }[][] }} />
       </div>
     </MainLayout>
   );

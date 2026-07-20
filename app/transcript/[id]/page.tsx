@@ -61,7 +61,7 @@ export default async function TranscriptPage({
 
 
         <div className="flex-1 overflow-hidden">
-          <TranscriptClient transcript={transcript} segments={transcript.segments} allowImport={process.env.ALLOW_IMPORT === "true"} />
+          <TranscriptClient transcript={{ ...transcript, exercises: transcript.exercises as { question: string; translation: string }[][] }} segments={transcript.segments} allowImport={process.env.ALLOW_IMPORT === "true"} />
         </div>
       </div>
     </MainLayout>
