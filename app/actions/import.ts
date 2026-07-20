@@ -1,9 +1,15 @@
 "use server";
 
 import prisma from "@/lib/prisma";
+import { Prisma } from "@prisma/client";
 import { revalidatePath } from "next/cache";
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { ParaphraseEvaluation, GenerateAudios } from "../types/genericTypes";
+
+interface GapFillExercise {
+  question: string;
+  translation: string;
+}
 
 interface SegmentInput {
   start: number;
@@ -25,6 +31,7 @@ export async function importTranscript(formData: FormData) {
   const categoryString = formData.get("category") as string;
   const sourceLanguage = formData.get("sourceLanguage") as string;
   const jsonContent = formData.get("jsonContent") as string;
+  const exercisesJson = formData.get("exercises") as string | null;
 
   if (!title || !jsonContent) {
     throw new Error("Título e conteúdo JSON são obrigatórios");
@@ -33,6 +40,22 @@ export async function importTranscript(formData: FormData) {
   const categories = categoryString 
     ? categoryString.split(",").map(s => s.trim()).filter(Boolean)
     : [];
+
+  let exercises: GapFillExercise[][] = [];
+  if (exercisesJson) {
+    try {
+      const parsed = JSON.parse(exercisesJson);
+      if (Array.isArray(parsed)) {
+        if (Array.isArray(parsed[0])) {
+          exercises = parsed.slice(0, 3);
+        } else if (parsed.length > 0 && typeof parsed[0] === "object") {
+          exercises = [parsed];
+        }
+      }
+    } catch {
+      exercises = [];
+    }
+  }
 
   const segments: SegmentInput[] = JSON.parse(jsonContent);
 
@@ -43,6 +66,7 @@ export async function importTranscript(formData: FormData) {
       channelName: channelName || null,
       categories: categories,
       sourceLanguage: sourceLanguage || "en",
+      exercises: exercises as unknown as Prisma.InputJsonValue,
       segments: {
         create: segments.map((s) => ({
           start: s.start,

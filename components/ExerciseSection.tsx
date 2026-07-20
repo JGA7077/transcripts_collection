@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { 
-  generateGapFillExercises, 
   generateListeningExercises, 
   generateAudios, 
   evaluateParaphrases 
@@ -30,10 +29,12 @@ interface ParaphraseExercise {
 
 export default function ExerciseSection({ 
   transcriptText, 
-  language 
+  language,
+  exercises 
 }: { 
   transcriptText: string;
   language: string;
+  exercises: GapFillExercise[][];
 }) {
   const [gapFillExercises, setGapFillExercises] = useState<GapFillExercise[]>([]);
   const [listeningExercises, setListeningExercises] = useState<ListeningExercise[]>([]);
@@ -46,23 +47,15 @@ export default function ExerciseSection({
 
   const [gapFillAnswers, setGapFillAnswers] = useState<{ [key: string]: string }>({});
   const [gapFillValidation, setGapFillValidation] = useState<{ [key: string]: boolean | null }>({});
+  const [selectedVersion, setSelectedVersion] = useState(0);
 
-  const generateGapFill = async () => {
-    setLoading({ gapFill: true });
-    setErrorMsg(null);
+  const loadGapFill = (versionIndex: number) => {
+    setSelectedVersion(versionIndex);
+    setGapFillExercises(exercises[versionIndex] || []);
     setGapFillAnswers({});
     setGapFillValidation({});
     setShowReviseMessage(prev => ({ ...prev, gapFill: false }));
     setShowSuccessMessage(prev => ({ ...prev, gapFill: false }));
-    try {
-      const gapFill = await generateGapFillExercises(transcriptText, language);
-      setGapFillExercises(gapFill);
-    } catch (error) {
-      console.error("Error generating gap-fill:", error);
-      setErrorMsg("Erro ao gerar Gap Fill. Tente novamente.");
-    } finally {
-      setLoading({ gapFill: false });
-    }
   };
 
   const generateListeningAndParaphrase = async () => {
@@ -231,20 +224,12 @@ export default function ExerciseSection({
           <h2 className="text-2xl font-bold text-white">Exercícios de Fixação</h2>
           <p className="text-slate-400 text-sm mt-1">Gere exercícios baseados no conteúdo desta transcrição.</p>
         </div>
-        {!gapFillExercises.length && (
+        {!gapFillExercises.length && exercises.length > 0 && (
           <button
-            onClick={generateGapFill}
-            disabled={loading.gapFill}
+            onClick={() => loadGapFill(0)}
             className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 disabled:bg-slate-700 text-white font-semibold rounded-xl transition-all shadow-lg shadow-blue-600/20 flex items-center gap-2"
           >
-            {loading.gapFill ? (
-              <>
-                <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-                Gerando Gap Fill...
-              </>
-            ) : (
-              "✨ Gerar Gap Fill"
-            )}
+            ✨ Gerar Gap Fill
           </button>
         )}
       </div>
@@ -255,13 +240,39 @@ export default function ExerciseSection({
         </div>
       )}
 
+      {!gapFillExercises.length && exercises.length === 0 && (
+        <div className="text-center py-8 text-slate-500">
+          Nenhum exercício disponível para esta transcrição.
+        </div>
+      )}
+
       {/* GAP FILL SECTION */}
       {gapFillExercises.length > 0 && (
         <section className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
           <div className="bg-slate-800/20 p-6 rounded-2xl border border-white/5">
-            <h3 className="text-lg font-semibold text-blue-400 mb-4 flex items-center gap-2">
-              📝 Preencha as lacunas
-            </h3>
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-lg font-semibold text-blue-400 flex items-center gap-2">
+                📝 Preencha as lacunas
+              </h3>
+              {exercises.length > 1 && (
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-slate-500">Versão:</span>
+                  {exercises.map((_, i) => (
+                    <button
+                      key={i}
+                      onClick={() => loadGapFill(i)}
+                      className={`w-7 h-7 rounded-lg text-xs font-bold transition-all ${
+                        selectedVersion === i
+                          ? "bg-blue-600 text-white shadow-lg shadow-blue-900/40"
+                          : "bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-200"
+                      }`}
+                    >
+                      {i + 1}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             {showReviseMessage.gapFill && (
               <p className="text-red-400 font-medium mb-4 animate-pulse">⚠️ Revise as respostas incorretas</p>
             )}

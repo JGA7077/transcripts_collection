@@ -11,6 +11,7 @@ interface TranscriptData {
   channelName: string | null;
   categories: string[];
   sourceLanguage: string;
+  exercises: { question: string; translation: string }[][];
 }
 
 export default function EditForm({ transcript }: { transcript: TranscriptData }) {
@@ -111,6 +112,20 @@ export default function EditForm({ transcript }: { transcript: TranscriptData })
               className="w-full bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all"
             />
           </div>
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-slate-400 mb-1">
+            Exercícios (JSON) <span className="text-slate-600">- Até 3 versões</span>
+          </label>
+          <textarea 
+            name="exercises" 
+            rows={6}
+            defaultValue={transcript.exercises?.length ? JSON.stringify(transcript.exercises, null, 2) : ""}
+            placeholder='[[{"question": "I have **been** (to be) working...", "translation": "Eu tenho trabalhado..."}]]'
+            className="w-full bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all text-xs font-mono resize-none"
+          />
+          <p className="text-xs text-slate-600 mt-1">Formato: array de versões, cada versão é um array de exercícios Gap Fill</p>
         </div>
       </div>
 

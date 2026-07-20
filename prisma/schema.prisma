@@ -18,6 +18,7 @@ model Transcript {
   categories     String[]  @default([])
   sourceLanguage String    @default("en") // en, es
   targetLanguage String    @default("pt")
+  exercises      Json      @default("[]")
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
   segments       Segment[]

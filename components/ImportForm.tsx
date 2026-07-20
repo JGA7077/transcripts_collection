@@ -23,6 +23,11 @@ export default function ImportForm() {
       const text = await file.text();
       formData.append("jsonContent", text);
 
+      const exercisesText = (e.currentTarget.elements.namedItem("exercises") as HTMLTextAreaElement).value;
+      if (exercisesText.trim()) {
+        formData.append("exercises", exercisesText);
+      }
+
       const result = await importTranscript(formData);
       if (result.success && result.id) {
         setMessage("✅ Importado com sucesso! Redirecionando...");
@@ -101,6 +106,19 @@ export default function ImportForm() {
             className="mt-1 block w-full bg-slate-800 border-slate-700 rounded-md text-white px-3 py-2"
           />
         </div>
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-slate-400">
+          Exercícios (JSON) <span className="text-slate-600">- Opcional</span>
+        </label>
+        <textarea 
+          name="exercises" 
+          rows={4}
+          placeholder='[[{"question": "I have **been** (to be) working...", "translation": "Eu tenho trabalhado..."}]]'
+          className="mt-1 block w-full bg-slate-800 border-slate-700 rounded-md text-white px-3 py-2 text-xs font-mono"
+        />
+        <p className="text-xs text-slate-600 mt-1">Formato: array de versões, cada versão é um array de exercícios (máx 3 versões)</p>
       </div>
 
       <button 

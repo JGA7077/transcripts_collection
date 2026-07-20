@@ -11,11 +11,17 @@ interface Segment {
   translatedContent: string | null;
 }
 
+interface GapFillExercise {
+  question: string;
+  translation: string;
+}
+
 interface Transcript {
   id: string;
   youtubeId: string | null;
   title: string;
   sourceLanguage: string;
+  exercises: GapFillExercise[][];
 }
 
 // Tipagem para a API do YouTube IFrame
@@ -332,7 +338,8 @@ export default function TranscriptClient({
           {showExercises ? (
             <ExerciseSection 
               transcriptText={fullTranscriptText} 
-              language={transcript.sourceLanguage} 
+              language={transcript.sourceLanguage}
+              exercises={transcript.exercises}
             />
           ) : (
             segments.map((s) => (
