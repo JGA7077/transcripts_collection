@@ -288,45 +288,47 @@ export default function TranscriptClient({
       {viewMode === 'full' && (
         <div className="flex-1 bg-slate-900/50 flex flex-col min-h-0 border-l border-slate-800/50">
           <div className="p-4 border-b border-slate-800 flex justify-start gap-4 items-center bg-slate-950/20 backdrop-blur-sm">
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col items-start gap-4">
               <span className="text-xs font-semibold text-slate-500 uppercase tracking-widest">
                 {showExercises ? "Exercícios" : "Transcrição"}
               </span>
               
-              <button 
-                onClick={() => setShowExercises(!showExercises)}
-                className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter transition-all ${
-                  showExercises 
-                    ? "bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/30" 
-                    : "bg-blue-600/20 text-blue-400 border border-blue-500/30 hover:bg-blue-600/30"
-                }`}
-              >
-                {showExercises ? "Ver Transcrição" : "Ver Exercícios"}
-              </button>
+              <div className="flex gap-2">
+                <button 
+                  onClick={() => setShowExercises(!showExercises)}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter transition-all ${
+                    showExercises 
+                      ? "bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/30" 
+                      : "bg-blue-600/20 text-blue-400 border border-blue-500/30 hover:bg-blue-600/30"
+                  }`}
+                >
+                  {showExercises ? "Ver Transcrição" : "Ver Exercícios"}
+                </button>
 
-              <button 
-                onClick={() => {
-                  setViewMode('compact');
-                  setShowExercises(false);
-                }}
-                className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-600/30 transition-all"
-                title="Modo Legenda"
-              >
-                Usar Versão Compacta
-              </button>
-            </div>
-            
-            <button 
-              onClick={() => setShowTranslation(!showTranslation)}
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all cursor-pointer ${
-                showTranslation 
-                  ? "bg-blue-600/20 text-blue-400 border border-blue-500/30" 
-                  : "bg-slate-800 text-slate-500 border border-slate-700"
-              }`}
-            >
-              <span className={`w-2 h-2 rounded-full ${showTranslation ? "bg-blue-500 animate-pulse" : "bg-slate-600"}`}></span>
-              Tradução: {showTranslation ? "Sim" : "Não"}
-            </button>
+                <button 
+                  onClick={() => {
+                    setViewMode('compact');
+                    setShowExercises(false);
+                  }}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter bg-indigo-600/20 text-indigo-400 border border-indigo-500/30 hover:bg-indigo-600/30 transition-all"
+                  title="Modo Legenda"
+                >
+                  Usar Versão Compacta
+                </button>
+
+                <button 
+                  onClick={() => setShowTranslation(!showTranslation)}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium transition-all cursor-pointer ${
+                    showTranslation 
+                      ? "bg-blue-600/20 text-blue-400 border border-blue-500/30" 
+                      : "bg-slate-800 text-slate-500 border border-slate-700"
+                  }`}
+                >
+                  <span className={`w-2 h-2 rounded-full ${showTranslation ? "bg-blue-500 animate-pulse" : "bg-slate-600"}`}></span>
+                  Tradução: {showTranslation ? "Sim" : "Não"}
+                </button>
+              </div>
+              </div>
           </div>
 
 
