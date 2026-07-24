@@ -62,12 +62,10 @@ interface YTStateChangeEvent {
 
 export default function TranscriptClient({ 
   transcript, 
-  segments,
-  allowImport
+  segments
 }: { 
   transcript: Transcript, 
-  segments: Segment[],
-  allowImport: boolean
+  segments: Segment[]
 }) {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [showTranslation, setShowTranslation] = useState(true);
@@ -295,18 +293,16 @@ export default function TranscriptClient({
                 {showExercises ? "Exercícios" : "Transcrição"}
               </span>
               
-              {allowImport && (
-                <button 
-                  onClick={() => setShowExercises(!showExercises)}
-                  className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter transition-all ${
-                    showExercises 
-                      ? "bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/30" 
-                      : "bg-blue-600/20 text-blue-400 border border-blue-500/30 hover:bg-blue-600/30"
-                  }`}
-                >
-                  {showExercises ? "Ver Transcrição" : "Ver Exercícios"}
-                </button>
-              )}
+              <button 
+                onClick={() => setShowExercises(!showExercises)}
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-tighter transition-all ${
+                  showExercises 
+                    ? "bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/30" 
+                    : "bg-blue-600/20 text-blue-400 border border-blue-500/30 hover:bg-blue-600/30"
+                }`}
+              >
+                {showExercises ? "Ver Transcrição" : "Ver Exercícios"}
+              </button>
 
               <button 
                 onClick={() => {
