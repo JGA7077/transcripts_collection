@@ -190,8 +190,8 @@ export default function TranscriptClient({
 
   return (
     <div className={`flex h-full flex-col ${viewMode === 'full' ? 'lg:flex-row' : 'items-center'} overflow-hidden bg-black`}>
-      {/* Video Area */}
-      <div className={`${viewMode === 'full' ? 'lg:w-1/2' : 'w-full max-w-5xl'} p-4 lg:p-10 bg-black flex flex-col items-center justify-center relative`}>
+      {/* Video Area - Hidden on mobile when exercises are showing */}
+      <div className={`${viewMode === 'full' ? 'lg:w-1/2' : 'w-full max-w-5xl'} p-4 lg:p-10 bg-black flex flex-col items-center justify-center relative ${showExercises ? 'hidden lg:flex' : ''}`}>
         {transcript.youtubeId ? (
           <div ref={fullscreenContainerRef} className="w-full relative group flex flex-col justify-center items-center bg-black">
             <div className={`w-full aspect-video ${isFullscreen ? 'h-screen' : 'rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] border border-slate-800/50'}`}>
