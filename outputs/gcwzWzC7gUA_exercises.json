@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "question": "I continue to be amazed by this curious **paradox** we find ourselves in in our industry.",
+      "translation": "Continuo a surpreender-me com este curioso paradoxo em que nos encontramos na nossa indústria."
+    },
+    {
+      "question": "There has never been more free open source **available**, computers have never been faster.",
+      "translation": "Nunca houve tanto código aberto gratuito disponível os computadores nunca foram tão rápidos."
+    },
+    {
+      "question": "A single developer in 1999 could deploy a change to their web application in literally five **seconds**.",
+      "translation": "Um único desenvolvedor em 1999 poderia implantar uma mudança em sua aplicação web em literalmente cinco segundos."
+    },
+    {
+      "question": "Something has gone seriously wrong when we have **regressed** from the ancient ways of deploying with FTP.",
+      "translation": "Algo deu muito errado quando regredimos das antigas formas de implantação com FTP."
+    },
+    {
+      "question": "We have sliced so many of the big problems into tiny little **problems**, and then we work on that tiny little slice.",
+      "translation": "Dividimos tantos dos grandes problemas em pequenos problemas e depois trabalhamos naquela pequena fatia."
+    }
+  ],
+  [
+    {
+      "question": "We have a psychological need to be seen as more than just **crud** monkeys.",
+      "translation": "Temos uma necessidade psicológica de ser vistos como mais do que apenas macacos crud."
+    },
+    {
+      "question": "It feels too simple, it doesn't feel computer **science**-y enough.",
+      "translation": "Parece muito simples não parece ciência da computação o suficiente."
+    },
+    {
+      "question": "We have to get back to embracing happily, **proudly** the monkey.",
+      "translation": "Temos que voltar a abraçar com alegria e orgulho o macaco."
+    },
+    {
+      "question": "When we solve problems end to end, because we don't **overcomplicate** things, we can think about things at a higher level.",
+      "translation": "Quando resolvemos os problemas de ponta a ponta porque não complicamos demais as coisas podemos pensar sobre coisas em um nível superior."
+    },
+    {
+      "question": "Ruby on Rails has been a mega **framework** since the start, trying to do everything required for most people to create a web application.",
+      "translation": "Ruby on Rails tem sido um mega framework desde o início tentando fazer tudo o que era necessário para a maioria das pessoas criar um aplicativo da web."
+    }
+  ],
+  [
+    {
+      "question": "None of the new frameworks you see announced every day are trying to address the whole **problem**.",
+      "translation": "Nenhum dos novos frameworks que você vê anunciados todos os dias está tentando resolver todo o problema."
+    },
+    {
+      "question": "In the open source world I think we need to get back to solving full **problems**, as Rails has done since the beginning.",
+      "translation": "No mundo do código aberto acho que precisamos voltar a resolver problemas completos como o Rails tem feito desde o início."
+    },
+    {
+      "question": "I like to think about the **height** of the Roman Empire, not the end.",
+      "translation": "Gosto de pensar no auge do Império Romano, não no fim."
+    },
+    {
+      "question": "It's a **philosophy** of life, and that philosophy has given me the interest and motivation to keep going.",
+      "translation": "É uma filosofia de vida e essa filosofia me deu o interesse e a motivação para continuar."
+    },
+    {
+      "question": "We are not just consumers of a **framework**, we're not just beneficiaries of some magic open source vendor in the sky.",
+      "translation": "Não somos apenas consumidores de uma estrutura, não somos apenas beneficiários de algum código aberto mágico vendedor no céu."
+    }
+  ]
+]
