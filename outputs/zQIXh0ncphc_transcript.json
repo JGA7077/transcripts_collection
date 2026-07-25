@@ -1,0 +1,2708 @@
+[
+  {
+    "start": 96.08,
+    "end": 101.92,
+    "content": "That's a good jam. Nick really, Nick really killed it on that jam. Hello, everybody. Thank",
+    "translatedContent": "Essa é uma boa geléia. Nick realmente, Nick realmente arrasou naquela jam. Olá a todos. Agradecer"
+  },
+  {
+    "start": 101.92,
+    "end": 109.84,
+    "content": "you for joining me on this wonderful Wednesday afternoon. Yes, it's afternoon, but not yet",
+    "translatedContent": "você por se juntar a mim nesta maravilhosa tarde de quarta-feira. Sim, é tarde, mas ainda não"
+  },
+  {
+    "start": 109.84,
+    "end": 119.24,
+    "content": "evening. It is the pre-eve. Back at my bench here. I had this grand plan last year. You may remember",
+    "translatedContent": "noite. É a pré-véspera. De volta ao meu banco aqui. Eu tinha esse grande plano no ano passado. Você pode se lembrar"
+  },
+  {
+    "start": 119.24,
+    "end": 128.38,
+    "content": "I built a kit and it was fun and then life happened and business got busy and so one of my",
+    "translatedContent": "Eu construí um kit e foi divertido e então a vida aconteceu e os negócios ficaram agitados e então um dos meus"
+  },
+  {
+    "start": 128.38,
+    "end": 135.94,
+    "content": "fun zones is to attempt doing live streams here where I teach you circuitry and some basic things",
+    "translatedContent": "Fun Zones é tentar fazer transmissões ao vivo aqui, onde eu ensino circuitos e algumas coisas básicas"
+  },
+  {
+    "start": 135.94,
+    "end": 141.86,
+    "content": "and so this is me being selfish and hopefully many of you getting to take advantage of it and",
+    "translatedContent": "e então sou eu sendo egoísta e espero que muitos de vocês aproveitem isso e"
+  },
+  {
+    "start": 141.86,
+    "end": 148.58,
+    "content": "explore and experiment in the world of building your own effects and I learned through the DIY",
+    "translatedContent": "explore e experimente o mundo da construção de seus próprios efeitos e aprendi através do DIY"
+  },
+  {
+    "start": 148.58,
+    "end": 156.46,
+    "content": "community. I've learned through many people helping me, and I very much love doing this.",
+    "translatedContent": "comunidade. Aprendi com muitas pessoas me ajudando e adoro fazer isso."
+  },
+  {
+    "start": 156.6,
+    "end": 160.92,
+    "content": "So today I'm going to focus on a really classic circuit we'll get into in a minute. It's the",
+    "translatedContent": "Então hoje vou me concentrar em um circuito realmente clássico que entraremos em um minuto. É o"
+  },
+  {
+    "start": 160.92,
+    "end": 168.1,
+    "content": "Electro-Harmonix LPB-1, and a really simple kind of a textbook circuit. And I'm going to explain",
+    "translatedContent": "Electro-Harmonix LPB-1, e um tipo realmente simples de circuito de livro didático. E eu vou explicar"
+  },
+  {
+    "start": 168.1,
+    "end": 174.66,
+    "content": "how to breadboard that and what a breadboard is. This episode is not sponsored by anyone,",
+    "translatedContent": "como fazer o breadboard e o que é um breadboard. Este episódio não é patrocinado por ninguém,"
+  },
+  {
+    "start": 174.66,
+    "end": 183.1,
+    "content": "but I will say I saw these really great products by a brand called Copper Sound that I've shown",
+    "translatedContent": "mas direi que vi esses produtos realmente ótimos de uma marca chamada Copper Sound que mostrei"
+  },
+  {
+    "start": 183.1,
+    "end": 190.34,
+    "content": "on the episode a few times. They have an entire section called Copper Sound DIY, and if you go",
+    "translatedContent": "no episódio algumas vezes. Eles têm uma seção inteira chamada Copper Sound DIY, e se você for"
+  },
+  {
+    "start": 190.34,
+    "end": 196.66,
+    "content": "to their website, you can see all of that. I may actually have that queued up here. Yeah, look at",
+    "translatedContent": "ao site deles, você pode ver tudo isso. Na verdade, posso ter isso na fila aqui. Sim, olhe"
+  },
+  {
+    "start": 196.66,
+    "end": 203.34,
+    "content": "me. I'm almost prepared sometimes. So you have, just go to Copper Sound Pedals, and then when you",
+    "translatedContent": "meu. Estou quase preparado às vezes. Então você tem, basta ir para Copper Sound Pedals, e então quando você"
+  },
+  {
+    "start": 203.34,
+    "end": 211.6,
+    "content": "go up to shop you'll see diy in there so that's really the focus of today um and just to be sure",
+    "translatedContent": "vá até a loja e você verá DIY lá, então esse é realmente o foco de hoje, hum, e só para ter certeza"
+  },
+  {
+    "start": 211.6,
+    "end": 215.28,
+    "content": "because i'm i'm alone on this i believe there's some people in the chat but i'm at home i'm doing",
+    "translatedContent": "porque estou sozinho nisso acredito que tem algumas pessoas no chat mas estou em casa estou fazendo"
+  },
+  {
+    "start": 215.28,
+    "end": 221.32,
+    "content": "all the tech by myself pretty easy you can hear me and you can see me because i'm i have an ipad",
+    "translatedContent": "toda a tecnologia sozinho é muito fácil, você pode me ouvir e me ver porque eu tenho um ipad"
+  },
+  {
+    "start": 221.32,
+    "end": 225.7,
+    "content": "here looking i won't be able to live in the comments but as long as you can hear me the",
+    "translatedContent": "aqui olhando não poderei viver nos comentários mas contanto que vocês possam me ouvir o"
+  },
+  {
+    "start": 225.7,
+    "end": 231,
+    "content": "moment someone says we're good to go i'm going to continue because i don't want to say stuff and",
+    "translatedContent": "momento em que alguém disser que estamos prontos, vou continuar porque não quero dizer nada e"
+  },
+  {
+    "start": 231,
+    "end": 236.68,
+    "content": "then have to unsay it. So this is a casual hang. I think this will take 30 minutes or so.",
+    "translatedContent": "então tenho que desdizer. Então este é um jeito casual. Acho que isso levará cerca de 30 minutos."
+  },
+  {
+    "start": 239.18,
+    "end": 244.94,
+    "content": "It looks like you can hear it. I'm getting some good comments. Midnight in November says,",
+    "translatedContent": "Parece que você pode ouvir. Estou recebendo alguns bons comentários. Meia-noite de novembro diz:"
+  },
+  {
+    "start": 245.02,
+    "end": 250.68,
+    "content": "please continue the series. It's 1130 PM in Paris. It's good to remember. I'm not seeing",
+    "translatedContent": "por favor continue a série. São 23h30 em Paris. É bom lembrar. Eu não estou vendo"
+  },
+  {
+    "start": 250.68,
+    "end": 254.94,
+    "content": "anyone say they can hear me, but I'm not seeing anyone say that they can't hear me.",
+    "translatedContent": "alguém diz que pode me ouvir, mas não estou vendo ninguém dizer que não pode me ouvir."
+  },
+  {
+    "start": 254.94,
+    "end": 264.98,
+    "content": "all good says to bolt bell says we're good and if bell says we're good we're good all right let's do",
+    "translatedContent": "tudo bem diz para sair, Bell diz que estamos bem e se Bell disser que estamos bem, estamos bem, tudo bem, vamos fazer"
+  },
+  {
+    "start": 264.98,
+    "end": 271.96,
+    "content": "this bench cam here i'm going to show you some basic things um i actually have a third camera",
+    "translatedContent": "essa câmera de bancada aqui vou mostrar algumas coisas básicas, na verdade tenho uma terceira câmera"
+  },
+  {
+    "start": 271.96,
+    "end": 278.52,
+    "content": "this time i'm trying i'm trying to do better you know this is a breadboard so a breadboard is this",
+    "translatedContent": "desta vez estou tentando, estou tentando fazer melhor, você sabe que isso é uma placa de ensaio, então uma placa de ensaio é isso"
+  },
+  {
+    "start": 278.52,
+    "end": 285.68,
+    "content": "board. And essentially, it has holes in it. And those holes connect in different ways. So if we",
+    "translatedContent": "quadro. E essencialmente, tem buracos. E esses buracos se conectam de maneiras diferentes. Então se nós"
+  },
+  {
+    "start": 285.68,
+    "end": 292.22,
+    "content": "look here, let me zoom on in with this overhead. Let me get real down in there as much as I can.",
+    "translatedContent": "olhe aqui, deixe-me ampliar essa sobrecarga. Deixe-me cair na real o máximo que puder."
+  },
+  {
+    "start": 292.94,
+    "end": 300.76,
+    "content": "Oh, classic. Let's see here. Let me focus that in. Nope. Look at this. Hold on. Here we go. Here",
+    "translatedContent": "Ah, clássico. Vamos ver aqui. Deixe-me focar nisso. Não. Veja isso. Aguentar. Aqui vamos nós. Aqui"
+  },
+  {
+    "start": 300.76,
+    "end": 307.78,
+    "content": "we go. Here we go. I had everything working except for that. Hold on. Here we go. We're",
+    "translatedContent": "nós vamos. Aqui vamos nós. Eu tinha tudo funcionando, exceto isso. Aguentar. Aqui vamos nós. Eram"
+  },
+  {
+    "start": 307.78,
+    "end": 314.56,
+    "content": "going to focus in. Okay, here it goes. I can see it focusing. I'm not a videographer, but I play",
+    "translatedContent": "vou focar. Ok, aqui vai. Eu posso ver isso se concentrando. Não sou cinegrafista, mas toco"
+  },
+  {
+    "start": 314.56,
+    "end": 323.52,
+    "content": "one at home. All right, so let me turn that shutter speed back up. That looks good. So a breadboard,",
+    "translatedContent": "um em casa. Tudo bem, deixe-me aumentar a velocidade do obturador novamente. Isso parece bom. Então, uma placa de ensaio,"
+  },
+  {
+    "start": 323.66,
+    "end": 328.78,
+    "content": "let me walk you through what this is, and then I'm going to get rid of this breadboard, and I'm",
+    "translatedContent": "deixe-me explicar o que é isso, e então vou me livrar dessa placa de ensaio e vou"
+  },
+  {
+    "start": 328.78,
+    "end": 334.36,
+    "content": "going to show you these really cool copper sound breadboards and why I like them for this community",
+    "translatedContent": "vou mostrar a vocês essas placas de ensaio de cobre muito legais e por que gosto delas para esta comunidade"
+  },
+  {
+    "start": 334.36,
+    "end": 341.9,
+    "content": "and for you. So a breadboard is essentially a plug and play device for a circuit. What you're",
+    "translatedContent": "e para você. Portanto, uma placa de ensaio é essencialmente um dispositivo plug and play para um circuito. O que você é"
+  },
+  {
+    "start": 341.9,
+    "end": 348.14,
+    "content": "looking at right here is a Sam Ash fuzz that I breadboarded like a year ago. I found it on the",
+    "translatedContent": "olhando aqui está um fuzz de Sam Ash que eu criei há um ano. Eu encontrei no"
+  },
+  {
+    "start": 348.14,
+    "end": 354.34,
+    "content": "shelf. It's also the Astrotone fuzz. This is a cool circuit. It's a two transistor kind of thing,",
+    "translatedContent": "prateleira. É também o fuzz Astrotone. Este é um circuito legal. É uma coisa de dois transistores,"
+  },
+  {
+    "start": 354.46,
+    "end": 358.26,
+    "content": "a couple of diodes. But essentially what you have with a breadboard is you have a place for power.",
+    "translatedContent": "alguns diodos. Mas essencialmente o que você tem com uma placa de ensaio é um lugar para energia."
+  },
+  {
+    "start": 358.82,
+    "end": 363.28,
+    "content": "On this build, I actually used a battery. Sometimes I'll do that if I don't want to deal with,",
+    "translatedContent": "Nesta construção, na verdade usei uma bateria. Às vezes faço isso se não quiser lidar com"
+  },
+  {
+    "start": 363.28,
+    "end": 367.58,
+    "content": "you know, I didn't have my power supply plug out or whatever. So, you know, you have your battery",
+    "translatedContent": "você sabe, eu não estava com a fonte de alimentação desligada ou algo assim. Então, você sabe, você tem sua bateria"
+  },
+  {
+    "start": 367.58,
+    "end": 372.7,
+    "content": "and you would just power it like that. And you'll notice that black wire goes into the, what's",
+    "translatedContent": "e você simplesmente ligaria assim. E você notará que o fio preto entra no, o que é"
+  },
+  {
+    "start": 372.7,
+    "end": 378.24,
+    "content": "called the blue negative ground right here. And then you have a red, which is positive and that's",
+    "translatedContent": "chamado de terreno negativo azul aqui. E então você tem um vermelho, que é positivo e isso é"
+  },
+  {
+    "start": 378.24,
+    "end": 384.76,
+    "content": "the plus. So that power, I would plug the battery or power supply in there and I would power this",
+    "translatedContent": "o mais. Então, essa energia, eu conectaria a bateria ou a fonte de alimentação lá e alimentaria isso"
+  },
+  {
+    "start": 384.76,
+    "end": 392.22,
+    "content": "circuit. On breadboards, I normally take the jacks like we use in our JHS pedals and I just",
+    "translatedContent": "circuito. Em protoboards, eu normalmente pego os macacos que usamos em nossos pedais JHS e simplesmente"
+  },
+  {
+    "start": 392.22,
+    "end": 397.68,
+    "content": "shoved them into the breadboard which is problematic sometimes because they come out",
+    "translatedContent": "enfiou-os na placa de ensaio, o que às vezes é problemático porque eles saem"
+  },
+  {
+    "start": 397.68,
+    "end": 403.74,
+    "content": "but i like doing that more than using more wire and then the pots they also can stick down in",
+    "translatedContent": "mas eu gosto mais de fazer isso do que usar mais arame e então os potes eles também podem ficar presos"
+  },
+  {
+    "start": 403.74,
+    "end": 409.3,
+    "content": "there but you essentially just have all these paths and it's it's fairly simple let me do away",
+    "translatedContent": "aí, mas você basicamente tem todos esses caminhos e é bastante simples, deixe-me acabar"
+  },
+  {
+    "start": 409.3,
+    "end": 417.02,
+    "content": "with this and then let me show you uh kind of how this works in real life there's three sizes",
+    "translatedContent": "com isso e então deixe-me mostrar como isso funciona na vida real, há três tamanhos"
+  },
+  {
+    "start": 417.02,
+    "end": 424.24,
+    "content": "uh well there's four sizes there may be more i see four sizes so we have a big big one",
+    "translatedContent": "bem, há quatro tamanhos, pode haver mais, vejo quatro tamanhos, então temos um grande, grande"
+  },
+  {
+    "start": 424.24,
+    "end": 433.3,
+    "content": "a smaller there's that lawnmower then you have a medium uh in the chat some of you might notice",
+    "translatedContent": "um menor tem aquele cortador de grama, então você tem um meio uh no chat, alguns de vocês podem notar"
+  },
+  {
+    "start": 433.3,
+    "end": 439.52,
+    "content": "um i put that today was the day my lawn guy decided to mow it exactly the time i'm going",
+    "translatedContent": "hum, eu disse que hoje foi o dia em que meu jardineiro decidiu cortá-lo exatamente na hora em que vou"
+  },
+  {
+    "start": 439.52,
+    "end": 444.9,
+    "content": "live that's his life i'm going to use this size these are cool because they have integrated parts",
+    "translatedContent": "viva essa é a vida dele vou usar esse tamanho esses são legais porque tem partes integradas"
+  },
+  {
+    "start": 444.9,
+    "end": 449.54,
+    "content": "on the board which i'll get into but these are really wild this is for stereo this has all kinds",
+    "translatedContent": "no quadro em que irei entrar, mas estes são realmente selvagens, isso é para estéreo, tem todos os tipos"
+  },
+  {
+    "start": 449.54,
+    "end": 455.72,
+    "content": "of stuff so i'm going to put these aside and you can buy these at copper sound pedals there's a",
+    "translatedContent": "de coisas, então vou deixar isso de lado e você pode comprá-los em pedais de som de cobre, há um"
+  },
+  {
+    "start": 455.72,
+    "end": 460.16,
+    "content": "link in the description so let's let's focus on this breadboard i'm going to use it to build",
+    "translatedContent": "link na descrição, então vamos nos concentrar nesta placa de ensaio, vou usá-la para construir"
+  },
+  {
+    "start": 460.16,
+    "end": 469.52,
+    "content": "a boost today i'm going to zoom back in for you okay look at that that's perfect here's how this",
+    "translatedContent": "um impulso hoje, vou aumentar o zoom para você, ok, veja isso, é perfeito, aqui está como isso"
+  },
+  {
+    "start": 469.52,
+    "end": 474.88,
+    "content": "works a breadboard essentially i had someone explain it like this one time and i think it",
+    "translatedContent": "funciona como uma placa de ensaio, essencialmente, alguém me explicou assim uma vez e acho que sim"
+  },
+  {
+    "start": 474.88,
+    "end": 481.44,
+    "content": "was a really good explanation it was a breadboard is kind of like the levels of a building like say",
+    "translatedContent": "foi uma explicação muito boa, era uma placa de ensaio, é como os níveis de um edifício, digamos"
+  },
+  {
+    "start": 481.44,
+    "end": 488.74,
+    "content": "a high-rise building all of these rows are like the walls they they touch going down the wall",
+    "translatedContent": "um prédio alto, todas essas fileiras são como as paredes que elas tocam descendo pela parede"
+  },
+  {
+    "start": 488.74,
+    "end": 495.06,
+    "content": "so imagine these are the walls and they touch right and then these are like the floors they",
+    "translatedContent": "então imagine que essas são as paredes e elas se tocam bem e então são como os pisos que elas"
+  },
+  {
+    "start": 495.06,
+    "end": 502.48,
+    "content": "go this way and they touch the power touches this way but all of these connecting vertically",
+    "translatedContent": "vá por aqui e eles tocam o poder toca por aqui, mas todos eles se conectando verticalmente"
+  },
+  {
+    "start": 502.48,
+    "end": 509.64,
+    "content": "touch and then these do not touch so that's just one way of remembering it is like think there's",
+    "translatedContent": "toque e então estes não tocam, então essa é apenas uma maneira de lembrar que é como pensar que há"
+  },
+  {
+    "start": 509.64,
+    "end": 517.68,
+    "content": "two axis here up and down and side to side side to side in the building area not the power area",
+    "translatedContent": "dois eixos aqui para cima e para baixo e lado a lado lado a lado na área de construção, não na área de energia"
+  },
+  {
+    "start": 517.68,
+    "end": 524,
+    "content": "but the building area does not touch the verticals touch so imagine all the walls down all the floors",
+    "translatedContent": "mas a área do edifício não toca as verticais, então imagine todas as paredes em todos os andares"
+  },
+  {
+    "start": 524,
+    "end": 532.42,
+    "content": "touch. And then you have the horizontal lines. So the horizontal lines of the power, like these",
+    "translatedContent": "tocar. E então você tem as linhas horizontais. Então as linhas horizontais do poder, como estas"
+  },
+  {
+    "start": 532.42,
+    "end": 537.9,
+    "content": "all touch. So if I go across the ground like this, all of these are touching. If I insert a cable",
+    "translatedContent": "todos se tocam. Então, se eu atravessar o terreno assim, tudo isso se tocará. Se eu inserir um cabo"
+  },
+  {
+    "start": 537.9,
+    "end": 542.72,
+    "content": "here and all the way over here, it's going to touch all the way through, but they don't touch",
+    "translatedContent": "aqui e até aqui, vai tocar até o fim, mas eles não tocam"
+  },
+  {
+    "start": 542.72,
+    "end": 550.38,
+    "content": "this way. So the power and negative ground, the ground, they go like a floor and the building",
+    "translatedContent": "Por aqui. Então o poder e o aterramento negativo, o aterramento, eles vão como o chão e o prédio"
+  },
+  {
+    "start": 550.38,
+    "end": 554.76,
+    "content": "area is vertical. And you might wonder what this little hole is. Well, it actually is built to",
+    "translatedContent": "área é vertical. E você pode estar se perguntando o que é esse buraquinho. Bem, na verdade ele foi construído para"
+  },
+  {
+    "start": 554.76,
+    "end": 562.74,
+    "content": "break the wall because if you take a chipset, you notice that chipsets have, let's look at it like",
+    "translatedContent": "quebrar a parede porque se você pegar um chipset, você percebe que os chipsets têm, vamos ver assim"
+  },
+  {
+    "start": 562.74,
+    "end": 570.3,
+    "content": "this, chipsets have kind of a pair of legs separated by the body. So what you end up doing",
+    "translatedContent": "isso, os chipsets têm uma espécie de par de pernas separadas pelo corpo. Então o que você acaba fazendo"
+  },
+  {
+    "start": 570.3,
+    "end": 578.48,
+    "content": "here is you don't want those touching. So breadboards, they consider op amps. And so when",
+    "translatedContent": "aqui está você não quer que eles se toquem. Então, protoboards, eles consideram amplificadores operacionais. E então quando"
+  },
+  {
+    "start": 578.48,
+    "end": 586.26,
+    "content": "i put in an op amp like that the it's not touching itself because this was created this ditch or this",
+    "translatedContent": "coloquei um amplificador operacional assim e ele não está se tocando porque foi criado essa vala ou essa"
+  },
+  {
+    "start": 586.26,
+    "end": 591.92,
+    "content": "gap was created and yes i'm using a reticon it's busted some of you are seeing this reticon and",
+    "translatedContent": "a lacuna foi criada e sim, estou usando um reticon, ele quebrou, alguns de vocês estão vendo este reticon e"
+  },
+  {
+    "start": 591.92,
+    "end": 600.54,
+    "content": "you're like that's a 300 chip oh my god um all right so let's jump into um first of all how cool",
+    "translatedContent": "você é como se isso fosse uma ficha de 300, oh meu Deus, tudo bem, então vamos começar, primeiro de tudo, que legal"
+  },
+  {
+    "start": 600.54,
+    "end": 610.56,
+    "content": "this breadboard is this breadboard is as the kids would say mid no cap bussin because it has",
+    "translatedContent": "esta placa de ensaio é esta placa de ensaio é como as crianças diriam no meio do negócio sem tampa porque tem"
+  },
+  {
+    "start": 610.56,
+    "end": 618.52,
+    "content": "all of this stuff integrated you have an input jack which connects to an input terminal so that",
+    "translatedContent": "com tudo isso integrado, você tem um conector de entrada que se conecta a um terminal de entrada para que"
+  },
+  {
+    "start": 618.52,
+    "end": 622.42,
+    "content": "means i can connect a wire straight like that wire is going to come out of here and it's already",
+    "translatedContent": "significa que posso conectar um fio reto como se aquele fio fosse sair daqui e já está"
+  },
+  {
+    "start": 622.42,
+    "end": 628.94,
+    "content": "plugged in i don't have to do anything so if i take my input to this circuit i have a couple",
+    "translatedContent": "conectado, não preciso fazer nada, então se eu levar minha entrada para este circuito, tenho alguns"
+  },
+  {
+    "start": 628.94,
+    "end": 634.9,
+    "content": "I have a guitar amp here and I have my leads coming out. If you can see, I actually use a",
+    "translatedContent": "Eu tenho um amplificador de guitarra aqui e meus leads estão saindo. Se você pode ver, eu realmente uso um"
+  },
+  {
+    "start": 634.9,
+    "end": 642,
+    "content": "switchback at my desk. I'm drinking Waterloo Ginger Citrus Twist, but I use a switchback,",
+    "translatedContent": "ziguezague na minha mesa. Estou bebendo Waterloo Ginger Citrus Twist, mas uso um ziguezague,"
+  },
+  {
+    "start": 642.08,
+    "end": 645.16,
+    "content": "one of our products that you've seen me shoot out things like the Bad Monkey with.",
+    "translatedContent": "um de nossos produtos com o qual você me viu atirar em coisas como o Bad Monkey."
+  },
+  {
+    "start": 645.44,
+    "end": 651.96,
+    "content": "I leave one side of it empty so that when I hit the switch, it gets the breadboard out of the",
+    "translatedContent": "Deixo um lado vazio para que, quando eu apertar o botão, ele tire a placa de ensaio do"
+  },
+  {
+    "start": 651.96,
+    "end": 658.14,
+    "content": "circuit. But then I use one of the loops to loop in my breadboard like a pedal so that I can remove",
+    "translatedContent": "circuito. Mas então eu uso um dos loops para fazer um loop na minha protoboard como um pedal para que eu possa remover"
+  },
+  {
+    "start": 658.14,
+    "end": 662.86,
+    "content": "it and hear just the amp and then put the breadboard in so i'm treating the breadboard",
+    "translatedContent": "e ouço apenas o amplificador e depois coloco a placa de ensaio, então estou tratando a placa de ensaio"
+  },
+  {
+    "start": 662.86,
+    "end": 669.44,
+    "content": "like a pedal is what i'm saying and when i when i'm in green i am hearing the breadboard",
+    "translatedContent": "como um pedal é o que estou dizendo e quando estou no verde ouço a placa de ensaio"
+  },
+  {
+    "start": 669.44,
+    "end": 674.86,
+    "content": "you can't see the color but and then when i hit it it goes red and that means i'm bypassed i'm",
+    "translatedContent": "você não consegue ver a cor, mas quando eu bato ela fica vermelha e isso significa que fui ignorado, estou"
+  },
+  {
+    "start": 674.86,
+    "end": 679.32,
+    "content": "true bypassed so that's one way i've done that but the cool thing with this is they added a switch",
+    "translatedContent": "true bypassado, então essa é uma maneira de fazer isso, mas o legal disso é que eles adicionaram uma opção"
+  },
+  {
+    "start": 679.32,
+    "end": 685.94,
+    "content": "here um this is an on and off switch like that's a huge thing and it has an led built in so the",
+    "translatedContent": "aqui, hum, este é um botão liga e desliga como se fosse uma coisa enorme e tem um led embutido para que o"
+  },
+  {
+    "start": 685.94,
+    "end": 691.64,
+    "content": "first thing you can do is you can plug your power in, right? And then look at that. That is like",
+    "translatedContent": "A primeira coisa que você pode fazer é conectar a energia, certo? E então olhe para isso. Isso é como"
+  },
+  {
+    "start": 691.64,
+    "end": 700.14,
+    "content": "so cool for DIY, right? I mean, it's amazing that I don't have to wire all this crap. I don't have",
+    "translatedContent": "tão legal para DIY, certo? Quero dizer, é incrível que eu não precise conectar toda essa porcaria. eu não tenho"
+  },
+  {
+    "start": 700.14,
+    "end": 704.6,
+    "content": "to wire an LED to see if it's on. I don't have to put any switch. I don't even need a switchback.",
+    "translatedContent": "para conectar um LED para ver se está ligado. Não preciso colocar nenhum interruptor. Eu nem preciso de um retorno."
+  },
+  {
+    "start": 705.08,
+    "end": 711.64,
+    "content": "I don't have to put the jacks. So what I'm going to do, my input is from this wire. So I'm just",
+    "translatedContent": "Não preciso colocar os macacos. Então, o que vou fazer, minha contribuição vem deste fio. Então eu estou apenas"
+  },
+  {
+    "start": 711.64,
+    "end": 717.78,
+    "content": "going to plug it in right that's my that's my guitar going in and then you can hear this",
+    "translatedContent": "vou conectá-lo certo, é o meu, é a minha guitarra entrando e então você pode ouvir isso"
+  },
+  {
+    "start": 717.78,
+    "end": 724.8,
+    "content": "that's my amp under the bench here i have a waris acs1 that i use on the workbench",
+    "translatedContent": "esse é o meu amplificador embaixo da bancada aqui eu tenho um waris acs1 que uso na bancada"
+  },
+  {
+    "start": 724.8,
+    "end": 732.5,
+    "content": "big shout to waris so you can now hear let me get a good position here you can hear nothing",
+    "translatedContent": "grande grito para waris, então agora você pode ouvir, deixe-me conseguir uma boa posição aqui, você não pode ouvir nada"
+  },
+  {
+    "start": 732.5,
+    "end": 736.3,
+    "content": "well you hear true bypass so if i pick my guitar up",
+    "translatedContent": "bem, você ouve o true bypass, então se eu pegar minha guitarra"
+  },
+  {
+    "start": 736.3,
+    "end": 746.46,
+    "content": "that's the circuit there's nothing on the circuit of the breadboard but i turned it on see",
+    "translatedContent": "esse é o circuito, não há nada no circuito da placa de ensaio, mas eu liguei, veja"
+  },
+  {
+    "start": 746.46,
+    "end": 752.32,
+    "content": "so my guitar is dead that's true bypass so i don't even need my switchback thing over here",
+    "translatedContent": "então minha guitarra está morta, isso é verdadeiro bypass, então eu nem preciso do meu ziguezague aqui"
+  },
+  {
+    "start": 752.32,
+    "end": 758.26,
+    "content": "you could you could throw the switchback back you could you could you could throw you could",
+    "translatedContent": "você poderia, você poderia jogar o ziguezague para trás, você poderia, você poderia, você poderia jogar, você poderia"
+  },
+  {
+    "start": 758.26,
+    "end": 764.62,
+    "content": "i was ready for my fumbles because i have many you can throw the switchback away so to speak",
+    "translatedContent": "eu estava pronto para minhas dificuldades porque tenho muitas, você pode jogar o ziguezague fora, por assim dizer"
+  },
+  {
+    "start": 764.62,
+    "end": 772.7,
+    "content": "all right so let's look here and just keep going i'm gonna peek in the comments it looks like y'all",
+    "translatedContent": "tudo bem, então vamos dar uma olhada aqui e continuar, vou dar uma espiada nos comentários, parece que vocês"
+  },
+  {
+    "start": 772.7,
+    "end": 778.42,
+    "content": "are liking this and that means you're all nerds and i like i like nerds because this is nerdy",
+    "translatedContent": "estão gostando disso e isso significa que vocês são todos nerds e eu gosto de nerds porque isso é nerd"
+  },
+  {
+    "start": 778.42,
+    "end": 784.48,
+    "content": "this is good this is good times this is wholesome this is good stuff someone said taco bell i am",
+    "translatedContent": "isso é bom, isso é bom, isso é saudável, isso é bom, alguém disse taco bell, eu sou"
+  },
+  {
+    "start": 784.48,
+    "end": 788.36,
+    "content": "ready for dinner let's see here there's a lot of good interaction i'm loving this so let's keep",
+    "translatedContent": "pronto para o jantar vamos ver aqui tem muita interação boa estou adorando isso então vamos continuar"
+  },
+  {
+    "start": 788.36,
+    "end": 797.42,
+    "content": "going all right breadboard start so where do we start well you kind of want a schematic of",
+    "translatedContent": "indo tudo bem, comece a placa de ensaio, então por onde começamos bem, você meio que quer um esquema de"
+  },
+  {
+    "start": 797.42,
+    "end": 803.4,
+    "content": "something to build and i think there's nothing better to recommend to you than a simple boost",
+    "translatedContent": "algo para construir e acho que não há nada melhor para recomendar a você do que um simples impulso"
+  },
+  {
+    "start": 803.4,
+    "end": 811.1,
+    "content": "some really nice simple boost stuff to build so i have made a little uh print off here from jack",
+    "translatedContent": "algumas coisas simples e muito legais para construir, então fiz uma pequena impressão aqui do jack"
+  },
+  {
+    "start": 811.1,
+    "end": 820.63,
+    "content": "a diy legend let me zoom out zoom out a little bit let's do it like this so i'm going to attempt",
+    "translatedContent": "uma lenda DIY, deixe-me diminuir o zoom, diminuir um pouco, vamos fazer assim, então vou tentar"
+  },
+  {
+    "start": 820.63,
+    "end": 826.33,
+    "content": "you know how cables are i'm trying to keep it neat and symmetrical for the cinema cinematography",
+    "translatedContent": "você sabe como são os cabos, estou tentando mantê-los organizados e simétricos para a fotografia do cinema"
+  },
+  {
+    "start": 826.33,
+    "end": 835.89,
+    "content": "but it doesn't always work so here here's a boost this is the lpb1 and essentially if i can scoot",
+    "translatedContent": "mas nem sempre funciona, então aqui está um impulso, este é o lpb1 e, essencialmente, se eu conseguir fugir"
+  },
+  {
+    "start": 835.89,
+    "end": 842.39,
+    "content": "it in there that's the circuit that says output over there so let's um let's just kind of look",
+    "translatedContent": "ali está o circuito que diz saída ali, então vamos dar uma olhada"
+  },
+  {
+    "start": 842.39,
+    "end": 847.57,
+    "content": "at this circuit and go from there. And I'll do a little, I'll do a little segment for the super",
+    "translatedContent": "neste circuito e partir daí. E farei um pouco, farei um pequeno segmento para o super"
+  },
+  {
+    "start": 847.57,
+    "end": 856.3,
+    "content": "nerds. So for all of the super nerds, cause I know you're in here, the LPB one is really",
+    "translatedContent": "nerds. Então, para todos os super nerds, porque eu sei que vocês estão aqui, o do LPB é realmente"
+  },
+  {
+    "start": 856.3,
+    "end": 861.02,
+    "content": "significant because it was the first electro harmonics product, which launched the company",
+    "translatedContent": "significativo porque foi o primeiro produto eletro-harmônico, que lançou a empresa"
+  },
+  {
+    "start": 861.02,
+    "end": 872.9,
+    "content": "in October of 1968. Now, Mike Matthews wanted to make a distortion free sustainer. And he,",
+    "translatedContent": "em outubro de 1968. Agora, Mike Matthews queria fazer um sustentador sem distorção. E ele,"
+  },
+  {
+    "start": 872.9,
+    "end": 877.24,
+    "content": "uh in his mind he saw the hendrix thing and he's like he's trying to find an engineer to help him",
+    "translatedContent": "uh, em sua mente, ele viu a coisa do Hendrix e está tentando encontrar um engenheiro para ajudá-lo"
+  },
+  {
+    "start": 877.24,
+    "end": 882.2,
+    "content": "essentially make a compressor the compressors weren't that common so he finds this guy bob",
+    "translatedContent": "essencialmente fazer um compressor, os compressores não eram tão comuns, então ele encontra esse cara, bob"
+  },
+  {
+    "start": 882.2,
+    "end": 887.68,
+    "content": "meyer who's an engineer and uh works for bell labs this guy's like building rockets and guidance",
+    "translatedContent": "Meyer, que é engenheiro e trabalha para Bell Labs, esse cara gosta de construir foguetes e orientar"
+  },
+  {
+    "start": 887.68,
+    "end": 891.42,
+    "content": "systems and stuff so he gets a hold of the guy and the guy's like yeah i'll take some side cash",
+    "translatedContent": "sistemas e outras coisas para que ele entre em contato com o cara e o cara diga, sim, vou pegar algum dinheiro extra"
+  },
+  {
+    "start": 891.42,
+    "end": 898.06,
+    "content": "and uh mike drives out to new jersey it's about 45 minutes away from manhattan and um",
+    "translatedContent": "e uh Mike dirige para Nova Jersey, fica a cerca de 45 minutos de Manhattan e hum"
+  },
+  {
+    "start": 898.06,
+    "end": 906.6,
+    "content": "bob shows him this really complicated crazy box it's a circuit and he says here's the distortion",
+    "translatedContent": "bob mostra a ele uma caixa maluca realmente complicada, é um circuito e ele diz que aqui está a distorção"
+  },
+  {
+    "start": 906.6,
+    "end": 912.18,
+    "content": "free sustainer and mike's like that's too complicated and also it's really quiet why",
+    "translatedContent": "Sustentador grátis e Mike são muito complicados e também é muito tranquilo, por que"
+  },
+  {
+    "start": 912.18,
+    "end": 916.62,
+    "content": "is this so quiet and bob goes well i don't play guitar and i just sent a signal in i didn't realize",
+    "translatedContent": "isso é tão quieto e bob vai bem, eu não toco guitarra e acabei de enviar um sinal, não percebi"
+  },
+  {
+    "start": 916.62,
+    "end": 923.28,
+    "content": "how weak the guitar was so bob he's a transistor guy he's one of the first and best transistor guys",
+    "translatedContent": "quão fraca a guitarra era tão bob, ele é um cara de transistor, ele é um dos primeiros e melhores caras de transistor"
+  },
+  {
+    "start": 923.28,
+    "end": 930.54,
+    "content": "at Bell Labs, he runs over real quick to his little bench in his living room. And I've had",
+    "translatedContent": "no Bell Labs, ele corre bem rápido para seu banquinho na sala de estar. E eu tive"
+  },
+  {
+    "start": 930.54,
+    "end": 933.9,
+    "content": "the privilege of going here twice and actually kind of living in the moment and seeing it all.",
+    "translatedContent": "o privilégio de vir aqui duas vezes e realmente viver o momento e ver tudo."
+  },
+  {
+    "start": 934.74,
+    "end": 940.52,
+    "content": "And he goes in and he just plops together a little boost. And when you look in these old",
+    "translatedContent": "E ele entra e simplesmente dá um pequeno impulso. E quando você olha para esses velhos"
+  },
+  {
+    "start": 940.52,
+    "end": 945.4,
+    "content": "transistor manuals, this stuff is not rocket science because the people who made the transistors,",
+    "translatedContent": "manuais de transistores, essas coisas não são ciência de foguetes porque as pessoas que fizeram os transistores,"
+  },
+  {
+    "start": 945.4,
+    "end": 950.64,
+    "content": "they want to sell the transistors, right? You know what I'm saying? So I made a little bookmark",
+    "translatedContent": "eles querem vender os transistores, certo? Você sabe o que estou dizendo? Então eu fiz um pequeno marcador"
+  },
+  {
+    "start": 950.64,
+    "end": 956.68,
+    "content": "here with this plastic baggie. This is essentially the kind of stuff you would see in these old",
+    "translatedContent": "aqui com esse saquinho plástico. Este é essencialmente o tipo de coisa que você veria nestes velhos"
+  },
+  {
+    "start": 956.68,
+    "end": 963.14,
+    "content": "manuals. So look at that schematic right there. Simple low-level class A amplifier.",
+    "translatedContent": "manuais. Então olhe aquele esquema ali. Amplificador classe A simples de baixo nível."
+  },
+  {
+    "start": 964.24,
+    "end": 968.76,
+    "content": "It's a little different. This is a little more like some other guitar circuits, but I'm just",
+    "translatedContent": "É um pouco diferente. Isso é um pouco mais parecido com alguns outros circuitos de guitarra, mas estou apenas"
+  },
+  {
+    "start": 968.76,
+    "end": 978.3,
+    "content": "showing you this LPB-1 that's so good on guitar is essentially a data sheet schematic for a common",
+    "translatedContent": "mostrar a você este LPB-1 que é tão bom na guitarra é essencialmente um esquema de folha de dados para um"
+  },
+  {
+    "start": 978.3,
+    "end": 984.7,
+    "content": "emitter amplifier and if you take these kind of books and look through it um look at all these",
+    "translatedContent": "amplificador emissor e se você pegar esse tipo de livro e dar uma olhada neles, dê uma olhada em todos esses"
+  },
+  {
+    "start": 984.7,
+    "end": 990.62,
+    "content": "look at this you could start a pedal company from this old book you could and people have and you",
+    "translatedContent": "olhe isso, você poderia começar uma empresa de pedais a partir deste livro antigo que você poderia e as pessoas têm e você"
+  },
+  {
+    "start": 990.62,
+    "end": 997.1,
+    "content": "should there's all kinds of cool stuff but the point is uh if you're super nerdy get a transistor",
+    "translatedContent": "deveria haver todo tipo de coisa legal, mas a questão é, se você é super nerd, compre um transistor"
+  },
+  {
+    "start": 997.1,
+    "end": 1005.26,
+    "content": "manual never look back all right let's keep on rolling here how do we build this what do we do",
+    "translatedContent": "manual nunca olhe para trás, certo, vamos continuar rolando aqui, como construímos isso, o que fazemos"
+  },
+  {
+    "start": 1005.26,
+    "end": 1012.08,
+    "content": "how exactly do we build it and what do we do we start with getting the parts out",
+    "translatedContent": "como exatamente o construímos e o que fazemos, começamos retirando as peças"
+  },
+  {
+    "start": 1012.08,
+    "end": 1021.08,
+    "content": "now in front of me i have a big parts like station at my bench i'm looking at a camera",
+    "translatedContent": "agora na minha frente tenho uma grande parte como uma estação no meu banco estou olhando para uma câmera"
+  },
+  {
+    "start": 1021.08,
+    "end": 1024.22,
+    "content": "but behind that camera are all these little drawers and you've probably seen that so",
+    "translatedContent": "mas atrás daquela câmera há todas essas pequenas gavetas e você provavelmente já viu isso"
+  },
+  {
+    "start": 1024.22,
+    "end": 1027.76,
+    "content": "i have resistors over here and capacitors and stuff and you might want to build something",
+    "translatedContent": "eu tenho resistores aqui e capacitores e outras coisas e você pode querer construir algo"
+  },
+  {
+    "start": 1027.76,
+    "end": 1032.34,
+    "content": "like that for yourself a good place to start is like the little tackle boxes you can buy at",
+    "translatedContent": "assim, para você, um bom lugar para começar são as caixinhas de equipamento que você pode comprar em"
+  },
+  {
+    "start": 1032.34,
+    "end": 1037.38,
+    "content": "Walmart or a craft store, like people put beads in the craft box, you could gather some parts,",
+    "translatedContent": "Walmart ou uma loja de artesanato, como se as pessoas colocassem miçangas na caixa de artesanato, você poderia juntar algumas peças,"
+  },
+  {
+    "start": 1037.46,
+    "end": 1043.5,
+    "content": "right? So starting with something like this kind of lets you hone in on normal parts. Like this",
+    "translatedContent": "certo? Então, começar com algo assim permite que você aprimore as partes normais. Assim"
+  },
+  {
+    "start": 1043.5,
+    "end": 1047.94,
+    "content": "transistor is really common and all these parts are, there's nothing really special here. That's",
+    "translatedContent": "transistor é muito comum e todas essas peças são, não há nada realmente especial aqui. Isso é"
+  },
+  {
+    "start": 1047.94,
+    "end": 1052.42,
+    "content": "what I'm trying to say. I prepped this little sheet. This is something that I've often recommended",
+    "translatedContent": "o que estou tentando dizer. Eu preparei esta pequena folha. Isso é algo que eu sempre recomendei"
+  },
+  {
+    "start": 1052.42,
+    "end": 1059.58,
+    "content": "to people, the same sheet. And I just took scotch tape and I made sure I had the parts, right?",
+    "translatedContent": "para as pessoas, a mesma folha. E eu apenas peguei fita adesiva e me certifiquei de que tinha as peças, certo?"
+  },
+  {
+    "start": 1059.58,
+    "end": 1066.32,
+    "content": "that's the battery or power connector that's the jack in that's the pot out the volume pot out",
+    "translatedContent": "essa é a bateria ou o conector de alimentação, esse é o conector, esse é o potenciômetro, o potenciômetro de volume"
+  },
+  {
+    "start": 1066.32,
+    "end": 1073.56,
+    "content": "that apparently has fallen and i see it in my bench it's over here it fell all right that pot is",
+    "translatedContent": "que aparentemente caiu e eu vejo no meu banco está aqui caiu tudo bem aquele pote está"
+  },
+  {
+    "start": 1073.56,
+    "end": 1080.57,
+    "content": "that pot is right here okay so that's that pot so what i'm gonna do is i would suggest",
+    "translatedContent": "esse pote está bem aqui, ok, então é esse pote, então o que vou fazer é sugerir"
+  },
+  {
+    "start": 1080.57,
+    "end": 1087.87,
+    "content": "a little prep work i know that we all we we get pumped the blood starts flowing you're on your",
+    "translatedContent": "um pouco de trabalho de preparação, eu sei que todos nós somos bombeados, o sangue começa a fluir, você está no seu"
+  },
+  {
+    "start": 1087.87,
+    "end": 1094.07,
+    "content": "third Red Bull in 30 minutes, you're eating those cluster nerds, that cluster nerd candy that Nick",
+    "translatedContent": "terceiro Red Bull em 30 minutos, você está comendo aqueles cluster nerds, aquele cluster nerd candy que Nick"
+  },
+  {
+    "start": 1094.07,
+    "end": 1100.19,
+    "content": "has gotten me addicted to. You're eating that. The sugars are high, but you can't, you got to",
+    "translatedContent": "me deixou viciado. Você está comendo isso. Os açúcares estão altos, mas você não pode, você tem que"
+  },
+  {
+    "start": 1100.19,
+    "end": 1105.63,
+    "content": "breathe and stop and you got to go, let's prep. Let's do some prep here. Like I don't want to",
+    "translatedContent": "respire e pare e você tem que ir, vamos nos preparar. Vamos fazer alguma preparação aqui. Como se eu não quisesse"
+  },
+  {
+    "start": 1105.63,
+    "end": 1110.91,
+    "content": "cook a dinner straight out of the fridge, right? So let's pull this stuff out and kind of get it",
+    "translatedContent": "preparar um jantar direto da geladeira, certo? Então, vamos retirar essas coisas e pegá-las"
+  },
+  {
+    "start": 1110.91,
+    "end": 1116.75,
+    "content": "on the counter. That's my prep. So know that during this, I kind of have this setting over",
+    "translatedContent": "no balcão. Essa é a minha preparação. Então saiba que durante isso, eu meio que terminei essa configuração"
+  },
+  {
+    "start": 1116.75,
+    "end": 1122.33,
+    "content": "here to the side. Okay. I'm also going to give away this copper sound device that I will show",
+    "translatedContent": "aqui para o lado. OK. Também vou sortear esse aparelho de som de cobre que vou mostrar"
+  },
+  {
+    "start": 1122.33,
+    "end": 1128.83,
+    "content": "you soon. So stay tuned. So there's a giveaway I forgot to mention, but here we go. All right.",
+    "translatedContent": "você em breve. Então fique ligado. Então tem um sorteio que esqueci de mencionar, mas vamos lá. Tudo bem."
+  },
+  {
+    "start": 1129.37,
+    "end": 1137.87,
+    "content": "Input. That's the input jack right here. Let's zoom in and I'm going to work through this schematic",
+    "translatedContent": "Entrada. Esse é o conector de entrada aqui. Vamos ampliar e vou trabalhar neste esquema"
+  },
+  {
+    "start": 1137.87,
+    "end": 1145.17,
+    "content": "in kind of a linear way so I can zoom in on the board. So if I go right here,",
+    "translatedContent": "de uma forma linear para que eu possa ampliar o quadro. Então, se eu for aqui,"
+  },
+  {
+    "start": 1145.17,
+    "end": 1152.3,
+    "content": "i thought about background music but honestly at this point in my life i love silence",
+    "translatedContent": "pensei em música de fundo, mas sinceramente, neste momento da minha vida, adoro o silêncio"
+  },
+  {
+    "start": 1152.3,
+    "end": 1158.66,
+    "content": "that's just where i'm at so i'm gonna force you to be like me um i want silence so you're gonna",
+    "translatedContent": "é exatamente onde estou, então vou forçar você a ser como eu, hum, eu quero silêncio, então você vai"
+  },
+  {
+    "start": 1158.66,
+    "end": 1166.9,
+    "content": "have to hear me talk okay i see a lot of people's pumped about the cluster nerds all right let's do",
+    "translatedContent": "tenho que me ouvir falar, ok, vejo muitas pessoas entusiasmadas com os nerds do cluster, tudo bem, vamos fazer"
+  },
+  {
+    "start": 1166.9,
+    "end": 1174.52,
+    "content": "this input needs to come out of this onto the board so one thing we can do here and copper",
+    "translatedContent": "essa entrada precisa sair disso para a placa, então uma coisa que podemos fazer aqui e cobre"
+  },
+  {
+    "start": 1174.52,
+    "end": 1179.44,
+    "content": "sound sells all kinds of cool parts and they did send me all this for free but i'm not being paid",
+    "translatedContent": "sound vende todos os tipos de peças legais e eles me enviaram tudo isso de graça, mas não estou sendo pago"
+  },
+  {
+    "start": 1179.44,
+    "end": 1184.94,
+    "content": "to rep this i literally reached out and i said this stuff is so cool i want to do more breadboarding",
+    "translatedContent": "para repetir isso, eu literalmente estendi a mão e disse que essas coisas são tão legais que quero fazer mais breadboard"
+  },
+  {
+    "start": 1184.94,
+    "end": 1190.84,
+    "content": "they have all kinds of stuff in this bag there's like foot switches and all kinds of wire for",
+    "translatedContent": "eles têm todos os tipos de coisas nesta bolsa, como interruptores de pé e todos os tipos de fios para"
+  },
+  {
+    "start": 1190.84,
+    "end": 1196.54,
+    "content": "breadboarding and pot this is so much cool stuff on their site i'm not going to get to go through",
+    "translatedContent": "breadboard e maconha, isso é tanta coisa legal no site deles que não vou conseguir ler"
+  },
+  {
+    "start": 1196.54,
+    "end": 1202.82,
+    "content": "it all but these are cool too these are just little leads that make life easy so i'm going",
+    "translatedContent": "tudo, mas esses também são legais, são apenas pequenas pistas que tornam a vida mais fácil, então vou"
+  },
+  {
+    "start": 1202.82,
+    "end": 1207.8,
+    "content": "pull some of these out. These are like little cheat jumpers. I'm not going to, I'm not going",
+    "translatedContent": "retire alguns desses. São como pequenos jumpers trapaceiros. Eu não vou, eu não vou"
+  },
+  {
+    "start": 1207.8,
+    "end": 1213.04,
+    "content": "to try to make like the neatest, most aesthetically pleasing breadboard. I'm just going to show you",
+    "translatedContent": "para tentar fazer a placa de ensaio mais elegante e esteticamente agradável. Eu só vou te mostrar"
+  },
+  {
+    "start": 1213.04,
+    "end": 1218.1,
+    "content": "that you can make a circuit work pretty simply. So these are going to be helpful. If I'm breadboarding",
+    "translatedContent": "que você pode fazer um circuito funcionar de maneira bastante simples. Então, isso será útil. Se eu estiver experimentando"
+  },
+  {
+    "start": 1218.1,
+    "end": 1227.72,
+    "content": "for JHS with design in mind, I'm keeping notes, I'm creating, I'm tweaking notes. That breadboard's",
+    "translatedContent": "para JHS com design em mente, estou fazendo anotações, estou criando, estou ajustando as anotações. Aquela placa de ensaio"
+  },
+  {
+    "start": 1227.72,
+    "end": 1232.28,
+    "content": "got to be replicatable and it needs to always match the schematics. So things are a lot neater.",
+    "translatedContent": "tem que ser replicável e precisa sempre corresponder aos esquemas. Então as coisas são muito mais organizadas."
+  },
+  {
+    "start": 1232.28,
+    "end": 1237.16,
+    "content": "If you, and I'll show you this sometime, a production breadboard from us, an R&D breadboard",
+    "translatedContent": "Se você, e eu mostrarei isso algum dia, uma placa de ensaio de produção nossa, uma placa de ensaio de pesquisa e desenvolvimento"
+  },
+  {
+    "start": 1237.16,
+    "end": 1241.46,
+    "content": "would be cool to show you. Maybe Bell or somebody can remind me on the next one of these, just to",
+    "translatedContent": "seria legal te mostrar. Talvez Bell ou alguém possa me lembrar do próximo, só para"
+  },
+  {
+    "start": 1241.46,
+    "end": 1246.08,
+    "content": "kind of give you a heads up, like some breadboards are works of art. You're not going to see that",
+    "translatedContent": "meio que avisa, como se algumas placas de ensaio fossem obras de arte. Você não vai ver isso"
+  },
+  {
+    "start": 1246.08,
+    "end": 1251.24,
+    "content": "today. You're going to see me making a circuit pretty quickly. So with that out of the way,",
+    "translatedContent": "hoje. Você me verá fazendo um circuito muito rapidamente. Então, com isso fora do caminho,"
+  },
+  {
+    "start": 1251.62,
+    "end": 1259.1,
+    "content": "these are fun. So let's get that input going and let's get power to the board. So the input,",
+    "translatedContent": "isso é divertido. Então, vamos colocar essa entrada em funcionamento e colocar energia na placa. Então a entrada,"
+  },
+  {
+    "start": 1259.1,
+    "end": 1263.8,
+    "content": "I'm going to plug in, I'm going to use yellow for in. I have historically done that. I don't know",
+    "translatedContent": "Vou conectar, vou usar o amarelo para entrar. Historicamente, tenho feito isso. Não sei"
+  },
+  {
+    "start": 1263.8,
+    "end": 1269.12,
+    "content": "why. So input, I'm going to run it over here. I'm just going to pick a spot. This circuit is so",
+    "translatedContent": "por que. Então, entrada, vou executá-lo aqui. Só vou escolher um lugar. Este circuito é tão"
+  },
+  {
+    "start": 1269.12,
+    "end": 1277.5,
+    "content": "small. I'm going to just run the tip of that cable, the input, so that it touches this vertical",
+    "translatedContent": "pequeno. Vou apenas passar a ponta desse cabo, a entrada, para que ele toque nessa vertical"
+  },
+  {
+    "start": 1277.5,
+    "end": 1284.44,
+    "content": "line. Remember I said they all touch like a wall. So this yellow is touching all of those lines.",
+    "translatedContent": "linha. Lembre-se que eu disse que todos eles se tocam como uma parede. Então este amarelo está tocando todas essas linhas."
+  },
+  {
+    "start": 1284.44,
+    "end": 1290.58,
+    "content": "that means I can start the circuit here, anywhere here. It's all conductive. If I put it here,",
+    "translatedContent": "isso significa que posso iniciar o circuito aqui, em qualquer lugar aqui. É tudo condutivo. Se eu colocar aqui,"
+  },
+  {
+    "start": 1290.68,
+    "end": 1295.04,
+    "content": "it won't touch this wire, but if I put it in the vertical, it'll touch the wire. So let's start",
+    "translatedContent": "não vai tocar nesse fio, mas se eu colocar na vertical, ele vai tocar no fio. Então vamos começar"
+  },
+  {
+    "start": 1295.04,
+    "end": 1300.08,
+    "content": "there. You'll notice on the schematic, I drew a resistor called a one mag. If you were making a",
+    "translatedContent": "lá. Você notará no esquema que desenhei um resistor chamado one mag. Se você estivesse fazendo um"
+  },
+  {
+    "start": 1300.08,
+    "end": 1307.16,
+    "content": "pedal, you would want to put a one mag pull down resistor here. Some of you know that that's what",
+    "translatedContent": "pedal, você gostaria de colocar um resistor pull down magnético aqui. Alguns de vocês sabem que é isso que"
+  },
+  {
+    "start": 1307.16,
+    "end": 1312.36,
+    "content": "that's for. It just, it helps ease some of the pop that a foot switch might give you, but we're not",
+    "translatedContent": "isso é para. Apenas ajuda a aliviar um pouco do estalo que um pedal pode causar, mas não estamos"
+  },
+  {
+    "start": 1312.36,
+    "end": 1317.42,
+    "content": "going to worry about that and nor did they on the original because the original lpb1 plugged in",
+    "translatedContent": "vão se preocupar com isso e nem no original porque o lpb1 original foi conectado"
+  },
+  {
+    "start": 1317.42,
+    "end": 1326.48,
+    "content": "this little box so we have a 0.15 here i think a 0.1 uh you can do a lot of things here one thing",
+    "translatedContent": "esta caixinha então temos um 0,15 aqui eu acho que um 0,1 uh você pode fazer um monte de coisas aqui uma coisa"
+  },
+  {
+    "start": 1326.48,
+    "end": 1331.82,
+    "content": "that's interesting about the lpb1 is that electro harmonics made a lot of products that are",
+    "translatedContent": "o que é interessante sobre o lpb1 é que a eletro harmônica fez muitos produtos que são"
+  },
+  {
+    "start": 1331.82,
+    "end": 1338.7,
+    "content": "essentially the identical circuit they had the lpb1 which is linear power booster they had the",
+    "translatedContent": "essencialmente o circuito idêntico, eles tinham o lpb1, que é um amplificador de potência linear, eles tinham o"
+  },
+  {
+    "start": 1338.7,
+    "end": 1345.62,
+    "content": "a screaming bird, which is a treble booster. And all that treble booster did is change these cap",
+    "translatedContent": "um pássaro gritando, que é um reforço agudo. E tudo o que o reforço de agudos fez foi mudar essa tampa"
+  },
+  {
+    "start": 1345.62,
+    "end": 1351.96,
+    "content": "values. Literally, it just took out low end and made it more trebly. And then we had the mole",
+    "translatedContent": "valores. Literalmente, ele apenas eliminou os graves e os tornou mais agudos. E então tivemos a toupeira"
+  },
+  {
+    "start": 1351.96,
+    "end": 1358.8,
+    "content": "base boost, which raised those capacitors. So if you're getting my drift here, you can mod this",
+    "translatedContent": "impulso de base, que aumentou esses capacitores. Então, se você está me entendendo aqui, você pode modificar isso"
+  },
+  {
+    "start": 1358.8,
+    "end": 1362.96,
+    "content": "because they modded the crap out of it and essentially made different products. So this",
+    "translatedContent": "porque eles modificaram tudo e essencialmente fizeram produtos diferentes. Então isso"
+  },
+  {
+    "start": 1362.96,
+    "end": 1370.16,
+    "content": "value is real important for bass content. You would call this a coupling capacitor. This is",
+    "translatedContent": "o valor é muito importante para o conteúdo do baixo. Você chamaria isso de capacitor de acoplamento. Isso é"
+  },
+  {
+    "start": 1370.16,
+    "end": 1379.22,
+    "content": "the capacitor that as your guitar signal comes in, this capacitor separates your archaic 1930s",
+    "translatedContent": "o capacitor que, à medida que o sinal da sua guitarra entra, esse capacitor separa o seu arcaico dos anos 1930"
+  },
+  {
+    "start": 1379.22,
+    "end": 1385.98,
+    "content": "magnet in your guitar from an active transistor. You don't want these touching. So this is a type",
+    "translatedContent": "ímã em sua guitarra a partir de um transistor ativo. Você não quer que isso se toque. Então este é um tipo"
+  },
+  {
+    "start": 1385.98,
+    "end": 1393.58,
+    "content": "of safety wall or think about in your car a firewall of sorts you're protecting that dc",
+    "translatedContent": "de parede de segurança ou pense em um tipo de firewall em seu carro que você está protegendo aquele DC"
+  },
+  {
+    "start": 1393.58,
+    "end": 1399.08,
+    "content": "current from getting all gobbled together so this is like really important for that but it's also",
+    "translatedContent": "atual seja engolida, então isso é muito importante para isso, mas também é"
+  },
+  {
+    "start": 1399.08,
+    "end": 1408,
+    "content": "setting the frequency or you could say the tone um with r2 there's a network these work together",
+    "translatedContent": "definindo a frequência ou você poderia dizer o tom um com r2, há uma rede que funciona junto"
+  },
+  {
+    "start": 1408,
+    "end": 1416.54,
+    "content": "and essentially that creates what's called a high-pass filter um so this boost does not have",
+    "translatedContent": "e essencialmente isso cria o que é chamado de filtro passa-alta, então esse aumento não tem"
+  },
+  {
+    "start": 1416.54,
+    "end": 1422.56,
+    "content": "eq but this is the eq of the pedal if that makes sense so you can you can do a lot of things with",
+    "translatedContent": "eq, mas este é o eq do pedal, se isso faz sentido, então você pode fazer muitas coisas com"
+  },
+  {
+    "start": 1422.56,
+    "end": 1430.9,
+    "content": "that so let's let's keep trucking here everybody good everybody good now uh i think we're i think",
+    "translatedContent": "então vamos continuar transportando aqui, todo mundo bem, todo mundo bem agora, uh, acho que estamos, eu acho"
+  },
+  {
+    "start": 1430.9,
+    "end": 1436.14,
+    "content": "y'all are digging this i'm a little surprised because it's really nerdy all right so i'm going",
+    "translatedContent": "vocês estão curtindo isso, estou um pouco surpreso porque é muito nerd, tudo bem, então vou"
+  },
+  {
+    "start": 1436.14,
+    "end": 1443,
+    "content": "to take my my little prep my little prep scotch tape copy i'm just going to pull that cap off",
+    "translatedContent": "para pegar minha pequena preparação minha pequena cópia da fita adesiva de preparação, só vou tirar essa tampa"
+  },
+  {
+    "start": 1443,
+    "end": 1450.56,
+    "content": "right so there it is i'm pulling that capacitor off um the capacitor let me grab this so i can",
+    "translatedContent": "certo, então aí está, estou retirando aquele capacitor, hum, o capacitor, deixe-me pegar isso para que eu possa"
+  },
+  {
+    "start": 1450.56,
+    "end": 1454.84,
+    "content": "do some close-ups last time i did this bell was like for the love of god have a close-up camera",
+    "translatedContent": "fiz alguns closes da última vez que fiz esse sino, pelo amor de Deus, tenho uma câmera close-up"
+  },
+  {
+    "start": 1454.84,
+    "end": 1463.18,
+    "content": "that's a capacitor and that is the physical manifestation i'll use that word of that part",
+    "translatedContent": "isso é um capacitor e essa é a manifestação física, vou usar a palavra dessa parte"
+  },
+  {
+    "start": 1463.18,
+    "end": 1472.12,
+    "content": "Okay, so that's that capacitor. So what we're going to do here is we're going to place this",
+    "translatedContent": "Ok, então esse é aquele capacitor. Então o que vamos fazer aqui é colocar isso"
+  },
+  {
+    "start": 1472.12,
+    "end": 1483.68,
+    "content": "right here so that one leg is touching just like the input line of this line is going across",
+    "translatedContent": "bem aqui para que uma perna se toque exatamente como a linha de entrada desta linha está atravessando"
+  },
+  {
+    "start": 1483.68,
+    "end": 1492.1,
+    "content": "into the cap, out of the cap, and it's going to touch other stuff. There's going to be a",
+    "translatedContent": "dentro da tampa, fora da tampa, e vai tocar em outras coisas. Haverá um"
+  },
+  {
+    "start": 1492.1,
+    "end": 1498.08,
+    "content": "point here that's like an intersection of a road. There's four points touching. That's this leg of",
+    "translatedContent": "ponto aqui é como um cruzamento de uma estrada. Há quatro pontos se tocando. Essa é essa perna"
+  },
+  {
+    "start": 1498.08,
+    "end": 1506.1,
+    "content": "the cap. It needs to go through the cap. So this cap acts like a bridge. So if you notice, I'm into",
+    "translatedContent": "a tampa. Precisa passar pela tampa. Portanto, esta tampa funciona como uma ponte. Então, se você notar, eu gosto"
+  },
+  {
+    "start": 1506.1,
+    "end": 1516.02,
+    "content": "it. We're going to flow through this decoupling cap. That was a good opportunity. We're going to",
+    "translatedContent": "isto. Vamos fluir através desta tampa de dissociação. Essa foi uma boa oportunidade. Nós vamos"
+  },
+  {
+    "start": 1516.02,
+    "end": 1520.76,
+    "content": "flow through the cap and then we're going to need to connect things over here. I bent it so you could",
+    "translatedContent": "flui através da tampa e então precisaremos conectar as coisas aqui. Eu dobrei para que você pudesse"
+  },
+  {
+    "start": 1520.76,
+    "end": 1527.98,
+    "content": "see that. I'm going to raise it back up a little bit. It's helpful that you understand that kind",
+    "translatedContent": "veja isso. Vou aumentá-lo um pouco. É útil que você entenda esse tipo"
+  },
+  {
+    "start": 1527.98,
+    "end": 1533.58,
+    "content": "of connection. Now, one thing I don't want to jump ahead on is I want to go ahead and prep for an",
+    "translatedContent": "de conexão. Agora, uma coisa que não quero avançar é que quero seguir em frente e me preparar para um"
+  },
+  {
+    "start": 1533.58,
+    "end": 1542.12,
+    "content": "output. Over here on the other side, you see output. So that's connecting this output to my",
+    "translatedContent": "saída. Aqui do outro lado, você vê a saída. Então isso é conectar esta saída ao meu"
+  },
+  {
+    "start": 1542.12,
+    "end": 1551.14,
+    "content": "amp. So if I touch this, where we got, where we got, that is connected directly to my amp now.",
+    "translatedContent": "amplificador. Então, se eu tocar nisso, onde chegamos, onde chegamos, isso está conectado diretamente ao meu amplificador agora."
+  },
+  {
+    "start": 1552.14,
+    "end": 1555.44,
+    "content": "If I wanted to, it'll sound like hot garbage.",
+    "translatedContent": "Se eu quisesse, soaria como lixo quente."
+  },
+  {
+    "start": 1555.8,
+    "end": 1558.32,
+    "content": "I could just play my guitar through a capacitor.",
+    "translatedContent": "Eu poderia simplesmente tocar minha guitarra através de um capacitor."
+  },
+  {
+    "start": 1560.14,
+    "end": 1561.46,
+    "content": "Ready for hot garbage?",
+    "translatedContent": "Pronto para o lixo quente?"
+  },
+  {
+    "start": 1561.62,
+    "end": 1563.58,
+    "content": "It's going to sound like hot doo-doo garbage.",
+    "translatedContent": "Vai soar como lixo quente."
+  },
+  {
+    "start": 1568.3,
+    "end": 1569.32,
+    "content": "I've heard worse.",
+    "translatedContent": "Já ouvi coisas piores."
+  },
+  {
+    "start": 1569.96,
+    "end": 1573.18,
+    "content": "It's not a wonderful sound, but it was a sound.",
+    "translatedContent": "Não é um som maravilhoso, mas era um som."
+  },
+  {
+    "start": 1573.4,
+    "end": 1576.8,
+    "content": "All right, so let's keep trucking here.",
+    "translatedContent": "Tudo bem, então vamos continuar transportando aqui."
+  },
+  {
+    "start": 1577.46,
+    "end": 1580.16,
+    "content": "But that's kind of like literally how that flow works.",
+    "translatedContent": "Mas é literalmente assim que esse fluxo funciona."
+  },
+  {
+    "start": 1580.16,
+    "end": 1582.52,
+    "content": "You've got to connect that input jack to that output jack.",
+    "translatedContent": "Você precisa conectar esse conector de entrada ao conector de saída."
+  },
+  {
+    "start": 1582.6,
+    "end": 1584.82,
+    "content": "So this is freestanding over here.",
+    "translatedContent": "Então isso é independente aqui."
+  },
+  {
+    "start": 1584.92,
+    "end": 1589.72,
+    "content": "little ditty just hanging out what we need to keep doing is going on but we do need power",
+    "translatedContent": "cantiga só pensando o que precisamos continuar fazendo está acontecendo, mas precisamos de energia"
+  },
+  {
+    "start": 1589.72,
+    "end": 1597.72,
+    "content": "and i don't want to forget power so let's do a positive 9 volt with this orange cable and we're",
+    "translatedContent": "e não quero esquecer a energia, então vamos fazer um positivo de 9 volts com este cabo laranja e estamos"
+  },
+  {
+    "start": 1597.72,
+    "end": 1605.56,
+    "content": "going to plug it in here where it says vcc that is the voltage that's coming from this nine volt",
+    "translatedContent": "vou conectá-lo aqui onde diz vcc que é a voltagem que vem deste nove volts"
+  },
+  {
+    "start": 1605.56,
+    "end": 1612.04,
+    "content": "supply i'm just going to plug it in right there to the red plus hopefully you can see that i literally",
+    "translatedContent": "fornecimento, vou conectá-lo ali mesmo no vermelho e espero que você possa ver que eu literalmente"
+  },
+  {
+    "start": 1612.04,
+    "end": 1617.72,
+    "content": "just connected the power from this through these this board this is an actual circuit board and",
+    "translatedContent": "acabei de conectar a energia através desta placa, esta é uma placa de circuito real e"
+  },
+  {
+    "start": 1617.72,
+    "end": 1621.8,
+    "content": "they mounted this on it and now i'm into the power and then i'm going to do the same thing",
+    "translatedContent": "eles montaram isso nele e agora estou no poder e então farei a mesma coisa"
+  },
+  {
+    "start": 1621.8,
+    "end": 1627.8,
+    "content": "with the ground right next to it is a ground input which is connecting the ground and i'm",
+    "translatedContent": "com o aterramento próximo a ele há uma entrada de aterramento que está conectando o aterramento e estou"
+  },
+  {
+    "start": 1627.8,
+    "end": 1637.48,
+    "content": "going to just go right in to that ground area that is going to be the power okay so from there",
+    "translatedContent": "vou direto para aquela área terrestre que será a energia, ok, então a partir daí"
+  },
+  {
+    "start": 1637.48,
+    "end": 1644.28,
+    "content": "we're just going to keep rolling. There's always catastrophic stuff that could happen and cause",
+    "translatedContent": "vamos continuar rolando. Sempre há coisas catastróficas que podem acontecer e causar"
+  },
+  {
+    "start": 1644.28,
+    "end": 1650.88,
+    "content": "this not to work, but we'll see. We now need to make this intersection. We have the capacitor",
+    "translatedContent": "isso não vai funcionar, mas veremos. Agora precisamos fazer essa interseção. Temos o capacitor"
+  },
+  {
+    "start": 1650.88,
+    "end": 1658.44,
+    "content": "and we want to make this intersection right here. All right. So the way we do this is we jump over",
+    "translatedContent": "e queremos fazer esta intersecção aqui mesmo. Tudo bem. Então a maneira como fazemos isso é pular"
+  },
+  {
+    "start": 1658.44,
+    "end": 1664,
+    "content": "here and we look at what we need to do. We need these different writings here are different",
+    "translatedContent": "aqui e vemos o que precisamos fazer. Precisamos desses escritos diferentes aqui são diferentes"
+  },
+  {
+    "start": 1664,
+    "end": 1668.18,
+    "content": "versions of this circuit over the years so you can use so many different parts there's there's",
+    "translatedContent": "versões deste circuito ao longo dos anos para que você possa usar tantas peças diferentes que há"
+  },
+  {
+    "start": 1668.18,
+    "end": 1673.88,
+    "content": "different combinations the point is this is called a voltage divider you want for this transistor to",
+    "translatedContent": "combinações diferentes, a questão é que isso é chamado de divisor de tensão que você deseja que este transistor"
+  },
+  {
+    "start": 1673.88,
+    "end": 1681.26,
+    "content": "operate properly you need to the transistor has three parts you have a base and emitter",
+    "translatedContent": "funcionar corretamente, você precisa que o transistor tenha três partes, você tem uma base e um emissor"
+  },
+  {
+    "start": 1681.26,
+    "end": 1689.72,
+    "content": "that's horrible that is so bad because it like broke as i wrote on it base emitter and collector",
+    "translatedContent": "isso é horrível, é tão ruim porque quebrou como escrevi nele, emissor e coletor de base"
+  },
+  {
+    "start": 1689.72,
+    "end": 1697.16,
+    "content": "now the base of a transistor one needs to be half supply voltage we use nine volt supplies for",
+    "translatedContent": "agora a base de um transistor precisa ter metade da tensão de alimentação, usamos fontes de nove volts para"
+  },
+  {
+    "start": 1697.16,
+    "end": 1704.84,
+    "content": "pedals so i need to cut this nine volts in half and i do it with this voltage division this is",
+    "translatedContent": "pedais, então preciso cortar esses nove volts pela metade e faço isso com essa divisão de tensão, isso é"
+  },
+  {
+    "start": 1704.84,
+    "end": 1710.2,
+    "content": "math that i hate and don't even understand but it at this point when this comes down and these",
+    "translatedContent": "matemática que eu odeio e nem entendo, mas é nesse momento que isso acontece e esses"
+  },
+  {
+    "start": 1710.2,
+    "end": 1719.04,
+    "content": "connect this will be 4.5 volts so so this is creating a division of voltage that starts with",
+    "translatedContent": "conectar, isso será de 4,5 volts, então isso está criando uma divisão de tensão que começa com"
+  },
+  {
+    "start": 1719.04,
+    "end": 1727.2,
+    "content": "9 cut by 50 is 4.5 volts so we're going to start that now and i'm pulling off my i'm going to quit",
+    "translatedContent": "9 cortado em 50 é 4,5 volts, então vamos começar agora e vou desistir."
+  },
+  {
+    "start": 1727.2,
+    "end": 1732.48,
+    "content": "showing this but i have these taped right so i'm just going to pull it off there and now here we go",
+    "translatedContent": "mostrando isso, mas eu tenho isso gravado corretamente, então vou retirá-lo aí e agora vamos lá"
+  },
+  {
+    "start": 1732.48,
+    "end": 1739.36,
+    "content": "so i need to connect from this leg over here the one that we used and i want to go up to the",
+    "translatedContent": "então eu preciso conectar desta perna aqui aquela que usamos e quero ir até o"
+  },
+  {
+    "start": 1739.36,
+    "end": 1746.64,
+    "content": "positive meaning power i'm literally going to touch that leg of that capacitor place the 830",
+    "translatedContent": "significado positivo poder, vou literalmente tocar aquela perna daquele capacitor, coloque o 830"
+  },
+  {
+    "start": 1746.64,
+    "end": 1758.14,
+    "content": "and make it touch power so to do that bam bam that is some seriously exposed light right there",
+    "translatedContent": "e fazê-lo tocar o poder para fazer aquele bam bam que é uma luz seriamente exposta bem ali"
+  },
+  {
+    "start": 1759.34,
+    "end": 1761.1,
+    "content": "that doesn't really help let's see here",
+    "translatedContent": "isso realmente não ajuda, vamos ver aqui"
+  },
+  {
+    "start": 1765.18,
+    "end": 1773.58,
+    "content": "that's fine i like it like it is we're good but you see i put it there i connected it to that",
+    "translatedContent": "tudo bem, eu gosto, estamos bem, mas você vê, eu coloquei lá, conectei a isso"
+  },
+  {
+    "start": 1773.58,
+    "end": 1778.86,
+    "content": "side and then i plugged it into the power let's now do this side of the voltage division to get",
+    "translatedContent": "lado e então liguei na energia vamos agora fazer este lado da divisão de tensão para obter"
+  },
+  {
+    "start": 1778.86,
+    "end": 1785.34,
+    "content": "the 4.5 volts this is also part of that uh filter that we that i mentioned so this is this circuit",
+    "translatedContent": "os 4,5 volts isso também faz parte daquele filtro que mencionei, então este é esse circuito"
+  },
+  {
+    "start": 1785.34,
+    "end": 1790.7,
+    "content": "is so simple but it's freaking amazing like this is genius stuff and we don't appreciate it anymore",
+    "translatedContent": "é tão simples, mas é incrível como se isso fosse algo genial e nós não apreciamos mais isso"
+  },
+  {
+    "start": 1790.7,
+    "end": 1798.14,
+    "content": "like this is so cool all right 100k let's pull it off the old we'll call it the cutting board",
+    "translatedContent": "assim é tão legal, tudo bem, 100k, vamos tirar isso do velho, vamos chamá-lo de tábua de corte"
+  },
+  {
+    "start": 1799.58,
+    "end": 1807.18,
+    "content": "and we're gonna need to go from that same point so any of these that touch this leg to ground",
+    "translatedContent": "e precisaremos ir desse mesmo ponto para que qualquer um desses que toque esta perna no chão"
+  },
+  {
+    "start": 1807.18,
+    "end": 1814.58,
+    "content": "all right so honestly i'm gonna just do it like this it's a little cluttered i don't like how it",
+    "translatedContent": "tudo bem, honestamente, vou fazer assim, é um pouco confuso, não gosto de como é"
+  },
+  {
+    "start": 1814.58,
+    "end": 1820.76,
+    "content": "looks but it works i plugged it in right there so these three parts are touching and that resistor",
+    "translatedContent": "parece, mas funciona, conectei ali mesmo, então essas três partes estão se tocando e aquele resistor"
+  },
+  {
+    "start": 1820.76,
+    "end": 1826.24,
+    "content": "is over here on ground so i have officially done and i actually advise that you do this",
+    "translatedContent": "está aqui no chão, então eu fiz oficialmente e na verdade aconselho que você faça isso"
+  },
+  {
+    "start": 1826.24,
+    "end": 1835.82,
+    "content": "i'm done with the capacitor i'm done with the 100k i'm done with the 830k i have the",
+    "translatedContent": "terminei com o capacitor, terminei com 100k, terminei com 830k, tenho o"
+  },
+  {
+    "start": 1835.82,
+    "end": 1841.8,
+    "content": "power plugged in you know then you just make your way down so the next thing is transistor",
+    "translatedContent": "energia conectada, você sabe, então você simplesmente desce, então a próxima coisa é o transistor"
+  },
+  {
+    "start": 1841.8,
+    "end": 1849.5,
+    "content": "now transistors with pedals it gets saucy you got people saying that transistors sound different and",
+    "translatedContent": "agora transistores com pedais fica atrevido, você tem pessoas dizendo que os transistores soam diferentes e"
+  },
+  {
+    "start": 1849.5,
+    "end": 1853.66,
+    "content": "all this stuff and they're right they do sound different and you might want to try different",
+    "translatedContent": "todas essas coisas e eles estão certos, eles soam diferentes e você pode querer tentar diferente"
+  },
+  {
+    "start": 1853.66,
+    "end": 1859.2,
+    "content": "transistors in a circuit like this but it's not that big of a deal in this circuit this is uh",
+    "translatedContent": "transistores em um circuito como este, mas não é grande coisa neste circuito, isso é uh"
+  },
+  {
+    "start": 1859.2,
+    "end": 1866.28,
+    "content": "what we got here can you see it that's a transistor let's see it's three legs",
+    "translatedContent": "o que temos aqui você pode ver que é um transistor vamos ver que tem três pernas"
+  },
+  {
+    "start": 1866.28,
+    "end": 1873.2,
+    "content": "oh that kind of works that kind of works hold on that zoom is not what i'm needing y'all",
+    "translatedContent": "ah, esse tipo de trabalho, esse tipo de trabalho, esperem, esse zoom não é o que estou precisando de vocês"
+  },
+  {
+    "start": 1873.2,
+    "end": 1879.8,
+    "content": "that's good enough so you got you got three legs the middle is the base and you have the",
+    "translatedContent": "isso é bom o suficiente, então você tem três pernas, o meio é a base e você tem o"
+  },
+  {
+    "start": 1879.8,
+    "end": 1885.42,
+    "content": "emitter and the collector and it actually says if you look really closely which you can't it says",
+    "translatedContent": "emissor e coletor e na verdade diz se você olhar bem de perto o que não pode, diz"
+  },
+  {
+    "start": 1885.42,
+    "end": 1891.56,
+    "content": "EBC on it. I can see it there. EBC. So it tells you emitter base collector. It tells you what leg",
+    "translatedContent": "EBC nisso. Eu posso ver isso aí. EBC. Então, ele informa o coletor da base do emissor. Ele diz qual perna"
+  },
+  {
+    "start": 1891.56,
+    "end": 1899.12,
+    "content": "is what. So we know that this intersection right here, let's look down at it. This intersection",
+    "translatedContent": "é o quê. Então sabemos que esta intersecção aqui, vamos olhar para ela. Esta intersecção"
+  },
+  {
+    "start": 1899.12,
+    "end": 1907.82,
+    "content": "is a four-way. It's a four-way intersection. So that four-way intersection needs to touch the base",
+    "translatedContent": "é um quatro vias. É um cruzamento de quatro vias. Então essa intersecção de quatro vias precisa tocar a base"
+  },
+  {
+    "start": 1907.82,
+    "end": 1913.8,
+    "content": "of this transistor. The easiest way to do it right now for demonstration is just how I connected",
+    "translatedContent": "deste transistor. A maneira mais fácil de fazer isso agora para demonstração é como eu me conectei"
+  },
+  {
+    "start": 1913.8,
+    "end": 1918.44,
+    "content": "these three points, I'm going to use another jumper and just move over here and give some",
+    "translatedContent": "esses três pontos, vou usar outro saltador e passar para cá e dar alguns"
+  },
+  {
+    "start": 1918.44,
+    "end": 1924.16,
+    "content": "space. I could build this whole circuit on like that little section if I wanted to, but I'm not",
+    "translatedContent": "espaço. Eu poderia construir todo esse circuito naquela pequena seção se quisesse, mas não estou"
+  },
+  {
+    "start": 1924.16,
+    "end": 1929.36,
+    "content": "trying to do that. I have nothing to prove today. So I'm just jumping over here, right? I'm just",
+    "translatedContent": "tentando fazer isso. Não tenho nada a provar hoje. Então, estou apenas pulando aqui, certo? Eu só estou"
+  },
+  {
+    "start": 1929.36,
+    "end": 1935.36,
+    "content": "like, I'm just making it connect. We're just playing Legos here. So now I want the base.",
+    "translatedContent": "tipo, estou apenas conectando. Estamos apenas jogando Legos aqui. Então agora eu quero a base."
+  },
+  {
+    "start": 1936.18,
+    "end": 1942.54,
+    "content": "I want the base of this transistor, which is the middle, the middle leg. I just want to place it",
+    "translatedContent": "Eu quero a base desse transistor, que é a perna do meio, do meio. Eu só quero colocá-lo"
+  },
+  {
+    "start": 1942.54,
+    "end": 1951.1,
+    "content": "right on. You ever have like giant hands and breadboards are small? Because I do.",
+    "translatedContent": "direto. Você já teve mãos gigantes e placas de ensaio pequenas? Porque eu faço."
+  },
+  {
+    "start": 1951.58,
+    "end": 1961.3,
+    "content": "Let's place the base of it closer on. Let's see here. There's that Seinfeld episode where he",
+    "translatedContent": "Vamos colocar a base mais perto. Vamos ver aqui. Tem aquele episódio de Seinfeld onde ele"
+  },
+  {
+    "start": 1961.3,
+    "end": 1968.76,
+    "content": "dates the girl with giant hands. Sometimes I feel like that. So this is plugged in and I have,",
+    "translatedContent": "namora a garota com mãos gigantes. Às vezes me sinto assim. Então, isso está conectado e eu tenho,"
+  },
+  {
+    "start": 1968.76,
+    "end": 1975.38,
+    "content": "I'll pull out one more time I have emitter on this side base in the middle collector over here",
+    "translatedContent": "Vou retirar mais uma vez, tenho emissor nesta base lateral no coletor do meio aqui"
+  },
+  {
+    "start": 1975.38,
+    "end": 1980.98,
+    "content": "so I'm going to plug it in but what really matters is that that green wire from over here",
+    "translatedContent": "então vou conectá-lo, mas o que realmente importa é que aquele fio verde daqui"
+  },
+  {
+    "start": 1980.98,
+    "end": 1987.26,
+    "content": "is connecting to the base which is that point so I have now built the front of this now what I need",
+    "translatedContent": "está se conectando à base que é esse ponto, então agora construí a frente disso, agora o que preciso"
+  },
+  {
+    "start": 1987.26,
+    "end": 1993.18,
+    "content": "to do I need to go to the emitter and I need to connect that resistor I'm going to slide this in",
+    "translatedContent": "para fazer, preciso ir até o emissor e conectar aquele resistor, vou inserir isso"
+  },
+  {
+    "start": 1993.18,
+    "end": 2000.84,
+    "content": "look at that it's almost like i thought through this sometimes i think sometimes i think oh is",
+    "translatedContent": "olha isso é quase como se eu tivesse pensado nisso às vezes eu acho que às vezes eu penso ah é"
+  },
+  {
+    "start": 2000.84,
+    "end": 2004.62,
+    "content": "that that's almost like savage garden and britney spears combined i'm sorry that that happened",
+    "translatedContent": "isso é quase como Savage Garden e Britney Spears combinados, sinto muito que isso tenha acontecido"
+  },
+  {
+    "start": 2004.62,
+    "end": 2011.44,
+    "content": "um emitter i want to come off the emitter and i want to put this 360",
+    "translatedContent": "hum emissor, quero sair do emissor e quero colocar esse 360"
+  },
+  {
+    "start": 2011.44,
+    "end": 2020.34,
+    "content": "ohm ohm ohm ohm and ohm that's a small resistor value to ground off that emitter so i want to do",
+    "translatedContent": "ohm ohm ohm ohm e ohm, esse é um pequeno valor de resistor para aterrar aquele emissor, então eu quero fazer"
+  },
+  {
+    "start": 2020.34,
+    "end": 2029.98,
+    "content": "that right now. Here's the part resistance. This is the resistor. Resistors have colors on them",
+    "translatedContent": "isso agora. Aqui está a resistência da parte. Este é o resistor. Os resistores têm cores"
+  },
+  {
+    "start": 2029.98,
+    "end": 2036.88,
+    "content": "and the colors mean the values. There's things about them. You can, that was locking on better",
+    "translatedContent": "e as cores significam os valores. Há coisas sobre eles. Você pode, isso estava travando melhor"
+  },
+  {
+    "start": 2036.88,
+    "end": 2043.96,
+    "content": "the other day. I feel attacked. That was like, hold on, hold on, hold on. Hold on. I was, there",
+    "translatedContent": "outro dia. Eu me sinto atacado. Isso foi tipo, espere, espere, espere. Aguentar. Eu estava lá"
+  },
+  {
+    "start": 2043.96,
+    "end": 2048.14,
+    "content": "we go. Look at that. I was using it wrong. So see those colors mean things. We won't get into that",
+    "translatedContent": "nós vamos. Veja isso. Eu estava usando errado. Então veja que essas cores significam coisas. Não vamos entrar nisso"
+  },
+  {
+    "start": 2048.14,
+    "end": 2055.26,
+    "content": "now, but it's called color coding. So I need to come off the emitter, which I said, oh my gosh,",
+    "translatedContent": "agora, mas é chamado de codificação por cores. Então eu preciso desligar o emissor, o que eu disse, oh meu Deus,"
+  },
+  {
+    "start": 2055.36,
+    "end": 2060.86,
+    "content": "which side? Just to be sure, I don't want to go through this nine times, ten times with it broken.",
+    "translatedContent": "de que lado? Só para ter certeza, não quero passar por isso nove vezes, dez vezes com ele quebrado."
+  },
+  {
+    "start": 2061.48,
+    "end": 2069.64,
+    "content": "Emitter to ground. Bam. Done. Emitter to ground. Let me show you that. I came off of the emitter,",
+    "translatedContent": "Emissor para terra. Bam. Feito. Emissor para terra. Deixe-me mostrar isso a você. Eu saí do emissor,"
+  },
+  {
+    "start": 2069.94,
+    "end": 2075.52,
+    "content": "which is the, in this case of the breadboard on the left side, I plugged into that vertical wall.",
+    "translatedContent": "que é, neste caso da placa de ensaio do lado esquerdo, que conectei naquela parede vertical."
+  },
+  {
+    "start": 2075.52,
+    "end": 2081.94,
+    "content": "remember that these touch they don't touch this way they touch this way and i went to ground and",
+    "translatedContent": "lembre-se que esses toques eles não tocam assim eles tocam assim e eu fui para o chão e"
+  },
+  {
+    "start": 2081.94,
+    "end": 2086.02,
+    "content": "that ground touches all the way over i could have plugged this in over here it doesn't matter because",
+    "translatedContent": "aquele chão toca todo o caminho, eu poderia ter conectado isso aqui, não importa porque"
+  },
+  {
+    "start": 2086.02,
+    "end": 2090.54,
+    "content": "it's all coming down and through way of these connectors that copper sound brilliantly connected",
+    "translatedContent": "tudo está descendo e através desses conectores que o cobre soa brilhantemente conectado"
+  },
+  {
+    "start": 2090.54,
+    "end": 2098.82,
+    "content": "it's going to the power supply so i have now thrown in the 360 ohm um and now 10k",
+    "translatedContent": "vai para a fonte de alimentação, então agora coloquei 360 ohms e agora 10k"
+  },
+  {
+    "start": 2098.82,
+    "end": 2107.28,
+    "content": "i didn't have a 10k i'm apparently out of them so i took two 5ks and i wired them together which",
+    "translatedContent": "eu não tinha 10k, aparentemente estou sem eles, então peguei dois 5ks e os conectei, o que"
+  },
+  {
+    "start": 2107.28,
+    "end": 2115.18,
+    "content": "resistors in tied together work additionally it is a math it's just it's one plus one is two",
+    "translatedContent": "resistores amarrados funcionam adicionalmente, é uma matemática, é apenas um mais um é dois"
+  },
+  {
+    "start": 2115.18,
+    "end": 2119.18,
+    "content": "you know five plus five is ten that's how resistors work if you put them in series",
+    "translatedContent": "você sabe que cinco mais cinco são dez, é assim que os resistores funcionam se você os colocar em série"
+  },
+  {
+    "start": 2119.18,
+    "end": 2126.5,
+    "content": "you can do this that's a 10 that's a 10k resistor yeah 10k resistor it looks stupid but that it'll",
+    "translatedContent": "você pode fazer isso, é um 10, é um resistor de 10k, sim, resistor de 10k, parece estúpido, mas vai"
+  },
+  {
+    "start": 2126.5,
+    "end": 2133.32,
+    "content": "do the job so 10k resistor i'm going to do that off this collector now the collector needs to",
+    "translatedContent": "faça o trabalho, então resistor de 10k, vou fazer isso neste coletor agora o coletor precisa"
+  },
+  {
+    "start": 2133.32,
+    "end": 2141.68,
+    "content": "touch the power i can see that clearly on the schematic the power goes across that 10k there's",
+    "translatedContent": "toque na potência, posso ver claramente no esquema que a potência atravessa aqueles 10k que existem"
+  },
+  {
+    "start": 2141.68,
+    "end": 2146.36,
+    "content": "this whole thing that happens with transistor operation and it's unbelievably cool it's physics",
+    "translatedContent": "toda essa coisa que acontece com a operação do transistor e é incrivelmente legal, é física"
+  },
+  {
+    "start": 2146.36,
+    "end": 2154.6,
+    "content": "but that 4.5 hits the base this collector value here kind of sets the gain playing off the normal",
+    "translatedContent": "mas aquele 4,5 atinge a base deste valor de coletor aqui meio que define o ganho fora do normal"
+  },
+  {
+    "start": 2154.6,
+    "end": 2160.84,
+    "content": "nine volts you have nine here 4.5 here ground is like wide open except for this tiny little",
+    "translatedContent": "nove volts você tem nove aqui 4,5 aqui o aterramento está totalmente aberto, exceto por este pequenino"
+  },
+  {
+    "start": 2160.84,
+    "end": 2166.54,
+    "content": "transistor and you have it's these values right here that you can make this an overdrive or a",
+    "translatedContent": "transistor e você tem esses valores aqui que você pode fazer disso um overdrive ou um"
+  },
+  {
+    "start": 2166.54,
+    "end": 2171.92,
+    "content": "fuzz you could destroy this transistor by putting it off balance but we don't want to do that we",
+    "translatedContent": "fuzz, você poderia destruir esse transistor desequilibrando-o, mas não queremos fazer isso,"
+  },
+  {
+    "start": 2171.92,
+    "end": 2177.16,
+    "content": "just want to make an electro harmonics booster probably the most famous boost pedal ever made",
+    "translatedContent": "só quero fazer um booster eletro harmônico provavelmente o pedal de boost mais famoso já feito"
+  },
+  {
+    "start": 2177.16,
+    "end": 2185.74,
+    "content": "so let's plug it in we're going to go collector that's that leg to positive so i'm going to plug",
+    "translatedContent": "então vamos conectá-lo, vamos para o coletor, essa perna é positiva, então vou conectar"
+  },
+  {
+    "start": 2185.74,
+    "end": 2191.12,
+    "content": "it in right here collector to positive which is the red that's the nine volts so i plug that in",
+    "translatedContent": "coloque aqui mesmo o coletor no positivo, que é o vermelho, são os nove volts, então eu conecto isso"
+  },
+  {
+    "start": 2191.12,
+    "end": 2197.9,
+    "content": "there my my reference screen is really small but i think you're understanding this and you can zoom",
+    "translatedContent": "aí minha tela de referência é bem pequena mas acho que você está entendendo isso e pode dar zoom"
+  },
+  {
+    "start": 2197.9,
+    "end": 2207.66,
+    "content": "in if you need to on your screen um brian s says how's it possible um that josh is out of 10k",
+    "translatedContent": "entre se precisar na tela um brian s diz como é possível que josh esteja sem 10k"
+  },
+  {
+    "start": 2207.66,
+    "end": 2216.02,
+    "content": "resistors i feel it too i feel the shame i spill and bell saying it makes her miss modding pedals",
+    "translatedContent": "resistores, eu também sinto isso, sinto uma vergonha de derramar e tocar a campainha dizendo que isso a faz sentir falta dos pedais de modding"
+  },
+  {
+    "start": 2216.02,
+    "end": 2220.86,
+    "content": "i have the same feeling i sometimes i'm i work at a pedal company and sometimes i miss pedals",
+    "translatedContent": "tenho a mesma sensação, às vezes trabalho em uma empresa de pedais e às vezes sinto falta dos pedais"
+  },
+  {
+    "start": 2220.86,
+    "end": 2227.76,
+    "content": "here we go we have one part really left it's this and it's the other cat so we're done with",
+    "translatedContent": "aqui vamos nós, ainda temos uma parte, é isso e é o outro gato, então terminamos"
+  },
+  {
+    "start": 2227.76,
+    "end": 2236.59,
+    "content": "this sheet i'm gonna throw it behind me be gone that was really dramatic the lawn cutting did not",
+    "translatedContent": "este lençol vou jogá-lo para trás, vá embora, foi realmente dramático, o corte da grama não"
+  },
+  {
+    "start": 2236.59,
+    "end": 2242.13,
+    "content": "it didn't last that long i was kind of hoping to play into it i was going to talk about shredding",
+    "translatedContent": "não durou tanto tempo eu meio que esperava participar disso eu ia falar sobre trituração"
+  },
+  {
+    "start": 2242.13,
+    "end": 2251.29,
+    "content": "like shredding grass cutting the tone trimming the low end never got the chance i feel robbed",
+    "translatedContent": "como cortar grama, cortar o tom, aparar os graves, nunca tive a chance, me sinto roubado"
+  },
+  {
+    "start": 2251.29,
+    "end": 2258.83,
+    "content": "all right let's get this in we have loaded that part in we're right here y'all we're we're this",
+    "translatedContent": "tudo bem, vamos começar, carregamos essa parte, estamos bem aqui, pessoal, somos isso"
+  },
+  {
+    "start": 2258.83,
+    "end": 2264.75,
+    "content": "third base we're at third base we're about to win the world series if it works all right 0.15",
+    "translatedContent": "terceira base estamos na terceira base estamos prestes a ganhar a série mundial se tudo funcionar bem 0,15"
+  },
+  {
+    "start": 2264.75,
+    "end": 2271.63,
+    "content": "this value again you know 0.1 0.00 something would be like a treble booster you do all kinds of",
+    "translatedContent": "esse valor novamente você sabe 0,1 0,00 algo seria como um reforço de agudos você faz todos os tipos de"
+  },
+  {
+    "start": 2271.63,
+    "end": 2278.93,
+    "content": "stuff this is post emphasis content that's pre-emphasis content so you can you can make",
+    "translatedContent": "coisas, este é um conteúdo de pós-ênfase que é um conteúdo de pré-ênfase para que você possa fazer"
+  },
+  {
+    "start": 2278.93,
+    "end": 2283.05,
+    "content": "it more trebly up front and then lift the bass out you can do all kinds of stuff you can make",
+    "translatedContent": "mais agudo na frente e, em seguida, levante o baixo, você pode fazer todos os tipos de coisas que pode fazer"
+  },
+  {
+    "start": 2283.05,
+    "end": 2288.25,
+    "content": "that a really bassy bigger cap and then trim it down over here because that bass will distort",
+    "translatedContent": "que uma tampa maior e bem atrevida e depois corte-a aqui porque o baixo vai distorcer"
+  },
+  {
+    "start": 2288.25,
+    "end": 2295.87,
+    "content": "the transistor because base frequency hitting that acts as a type of voltage gain that overloads.",
+    "translatedContent": "o transistor porque atinge a frequência base que atua como um tipo de ganho de tensão que sobrecarrega."
+  },
+  {
+    "start": 2295.91,
+    "end": 2299.39,
+    "content": "It's really cool. You can do all kinds of stuff with this simple circuit. I could mod this circuit",
+    "translatedContent": "É muito legal. Você pode fazer todo tipo de coisa com este circuito simples. Eu poderia modificar esse circuito"
+  },
+  {
+    "start": 2299.39,
+    "end": 2304.53,
+    "content": "for hours and show you there's not a lot of witchcraft in pedals. It's just knowing how to",
+    "translatedContent": "por horas e mostrar que não há muita bruxaria nos pedais. É só saber como"
+  },
+  {
+    "start": 2304.53,
+    "end": 2311.57,
+    "content": "use the ingredients. So let's add this. We're going to come off this point, which is the 10k",
+    "translatedContent": "use os ingredientes. Então vamos adicionar isso. Vamos sair deste ponto, que é o 10k"
+  },
+  {
+    "start": 2311.57,
+    "end": 2319.15,
+    "content": "touching the collector. And that is this vertical roll here. I did this vertical moment here.",
+    "translatedContent": "tocando o coletor. E esse é esse rolo vertical aqui. Fiz esse momento vertical aqui."
+  },
+  {
+    "start": 2320.23,
+    "end": 2326.25,
+    "content": "That's the collector. Let me lay this transistor back. That's the collector. That's the leg of the",
+    "translatedContent": "Esse é o colecionador. Deixe-me colocar este transistor de volta. Esse é o colecionador. Essa é a perna do"
+  },
+  {
+    "start": 2326.25,
+    "end": 2332.33,
+    "content": "10K. So I need to touch it here. I need this cap to touch here. And I'm going to take advantage of",
+    "translatedContent": "10K. Então eu preciso tocar aqui. Preciso que esse boné toque aqui. E vou aproveitar"
+  },
+  {
+    "start": 2332.33,
+    "end": 2337.99,
+    "content": "this crevice because remember I said that crevice disconnects. So I'll actually go down because that",
+    "translatedContent": "esta fenda porque lembre-se que eu disse que a fenda desconecta. Então, na verdade, vou descer porque isso"
+  },
+  {
+    "start": 2337.99,
+    "end": 2343.99,
+    "content": "broke the contact and that lets me build down here and i like that so we're going to put this pot on",
+    "translatedContent": "quebrou o contato e isso me permite construir aqui e eu gosto disso então vamos colocar esse pote"
+  },
+  {
+    "start": 2343.99,
+    "end": 2352.39,
+    "content": "here i'm just going to stick this pot in let's actually do it like this over here and i'll and",
+    "translatedContent": "aqui eu só vou enfiar esse pote, vamos fazer assim aqui e eu vou e"
+  },
+  {
+    "start": 2352.39,
+    "end": 2359.35,
+    "content": "now what i need to do is i need one leg of the pot to just go to ground so i'm going to do that",
+    "translatedContent": "agora o que preciso fazer é que uma perna do pote vá para o chão, então vou fazer isso"
+  },
+  {
+    "start": 2359.35,
+    "end": 2366.09,
+    "content": "right now that leg i'm going to ground it out i'm going to grab a couple more of these and again i",
+    "translatedContent": "agora mesmo essa perna, vou aterrá-la, vou pegar mais alguns desses e novamente eu"
+  },
+  {
+    "start": 2366.09,
+    "end": 2369.79,
+    "content": "if you're a builder and you want to make fun i'm just breadboard and i'm not trying to make this",
+    "translatedContent": "se você é um construtor e quer tirar sarro, sou apenas uma tábua de pão e não estou tentando fazer isso"
+  },
+  {
+    "start": 2369.79,
+    "end": 2376.39,
+    "content": "pretty i'm not trying to impress anyone the middle is the output so that middle when i was touching",
+    "translatedContent": "bonito, não estou tentando impressionar ninguém, o meio é a saída, então aquele meio quando eu estava tocando"
+  },
+  {
+    "start": 2376.39,
+    "end": 2385.25,
+    "content": "this where to go where to go hold on that's the output and we want that to be a volume",
+    "translatedContent": "aqui para onde ir, para onde ir, espere, essa é a saída e queremos que seja um volume"
+  },
+  {
+    "start": 2385.25,
+    "end": 2393.83,
+    "content": "so we put it at the center of the pot and now that pot's working i am i am turning it up and down",
+    "translatedContent": "então colocamos no centro da panela e agora a panela está funcionando, estou virando para cima e para baixo"
+  },
+  {
+    "start": 2393.83,
+    "end": 2398.77,
+    "content": "now i just need i have a volume control working you hear it working on the output",
+    "translatedContent": "agora eu só preciso ter um controle de volume funcionando, você ouve ele funcionando na saída"
+  },
+  {
+    "start": 2398.77,
+    "end": 2405.95,
+    "content": "it's grounding the dead signal but i need to connect right here so here we go y'all ready",
+    "translatedContent": "está aterrando o sinal morto, mas preciso conectar aqui mesmo, então vamos lá, vocês estão prontos"
+  },
+  {
+    "start": 2405.95,
+    "end": 2412.53,
+    "content": "for this this is a this is a moment of does my circuit actually work um brian s says pot",
+    "translatedContent": "pois este é um momento em que meu circuito realmente funciona um brian diz pot"
+  },
+  {
+    "start": 2412.53,
+    "end": 2418.47,
+    "content": "orientation is important yes um i'm just wanting to finish before five and i plan on doing hundreds",
+    "translatedContent": "orientação é importante sim, só quero terminar antes das cinco e pretendo fazer centenas"
+  },
+  {
+    "start": 2418.47,
+    "end": 2424.67,
+    "content": "of these but yes pot orientation is important lugs one two three there's a whole there's a",
+    "translatedContent": "destes, mas sim, a orientação do pote é importante, um, dois, três, há um todo, há um"
+  },
+  {
+    "start": 2424.67,
+    "end": 2432.53,
+    "content": "thing there but yeah for this circuit you can you can just um draw it out here you know the ground",
+    "translatedContent": "coisa aí, mas sim, para este circuito você pode, você pode apenas desenhar aqui, você conhece o terreno"
+  },
+  {
+    "start": 2432.53,
+    "end": 2438.67,
+    "content": "would be lug one lug three and then we're going to come out of lug two for an output so thank you",
+    "translatedContent": "seria o lug um lug três e então sairemos do lug dois para uma saída, então obrigado"
+  },
+  {
+    "start": 2438.67,
+    "end": 2443.75,
+    "content": "brian brian's brian's probably a pedal builder it's probably better than me all right we have",
+    "translatedContent": "brian brian provavelmente é um construtor de pedais, provavelmente é melhor do que eu, tudo bem, temos"
+  },
+  {
+    "start": 2443.75,
+    "end": 2485.66,
+    "content": "connected it in so now does it work it works let me uh let me dim this light because it's",
+    "translatedContent": "conectei, então agora funciona, funciona, deixe-me, deixe-me diminuir a luz porque está"
+  },
+  {
+    "start": 2485.66,
+    "end": 2503.55,
+    "content": "ferocious there we go that's still pretty ferocious check it i'm straight up distorting",
+    "translatedContent": "feroz, lá vamos nós, ainda é muito feroz, verifique, estou distorcendo"
+  },
+  {
+    "start": 2503.55,
+    "end": 2511.17,
+    "content": "the uh the preamp here let me back that off so here's bypass the breadboard's off",
+    "translatedContent": "o uh, o pré-amplificador aqui, deixe-me recuar, então aqui está o desvio da placa de ensaio"
+  },
+  {
+    "start": 2511.17,
+    "end": 2517.5,
+    "content": "i'm gonna mute my my vocal mic so you don't hear the clackety of the stringety",
+    "translatedContent": "vou silenciar meu microfone vocal para que você não ouça o barulho da corda"
+  },
+  {
+    "start": 2517.5,
+    "end": 2533.01,
+    "content": "that is the guitar straight in so it's like into a waris acs1 into the stream so sounds great",
+    "translatedContent": "essa é a guitarra direto, então é como um waris acs1 no stream, então parece ótimo"
+  },
+  {
+    "start": 2533.01,
+    "end": 2585.79,
+    "content": "then i'm going to turn it on a lot of people don't realize they really want boost pedals",
+    "translatedContent": "então vou ligá-lo, muitas pessoas não percebem que realmente querem pedais de impulso"
+  },
+  {
+    "start": 2585.79,
+    "end": 2590.69,
+    "content": "for overdrive pedals i've said this about our prestige forever or an lpb1 that you can buy for",
+    "translatedContent": "para pedais overdrive, eu disse isso sobre nosso prestígio para sempre ou um lpb1 que você pode comprar por"
+  },
+  {
+    "start": 2590.69,
+    "end": 2597.37,
+    "content": "like 30 or you can make and be your first pedal build ever listen to how good that is i'm gonna",
+    "translatedContent": "tipo 30 ou você pode fazer e ser seu primeiro pedal construído, ouça como isso é bom, eu vou"
+  },
+  {
+    "start": 2597.37,
+    "end": 2603.81,
+    "content": "turn it off it's the clean amp and it's such a good overdrive it's perfect and i can i can keep",
+    "translatedContent": "desligue-o, é o amplificador limpo e é um overdrive tão bom que é perfeito e posso manter"
+  },
+  {
+    "start": 2603.81,
+    "end": 2610.35,
+    "content": "modding my frequency however i want it if i put a smaller cap here i can make it more trebly but",
+    "translatedContent": "modificando minha frequência da maneira que eu quiser, se eu colocar um limite menor aqui, posso aumentá-lo mais, mas"
+  },
+  {
+    "start": 2610.35,
+    "end": 2633.52,
+    "content": "i'm not going to do that today but check this out so super sick and super cool let me show you",
+    "translatedContent": "não vou fazer isso hoje, mas dê uma olhada, é muito doentio e muito legal, deixe-me mostrar a vocês"
+  },
+  {
+    "start": 2633.52,
+    "end": 2638.14,
+    "content": "another copper sound device before i go and i'm going to give it away i'm going to give away this",
+    "translatedContent": "outro dispositivo de som de cobre antes de eu ir e vou doá-lo vou doar este"
+  },
+  {
+    "start": 2638.14,
+    "end": 2645.92,
+    "content": "device so these are really cool they're called substitution boxes now i want to show you a little",
+    "translatedContent": "dispositivo, então essas são muito legais, são chamadas de caixas de substituição, agora quero mostrar um pouco para vocês"
+  },
+  {
+    "start": 2645.92,
+    "end": 2651.12,
+    "content": "bit about what that is so these things have been around forever this is one i've used on my bench",
+    "translatedContent": "um pouco sobre o que é isso, então essas coisas existem desde sempre, este é um que usei no meu banco"
+  },
+  {
+    "start": 2651.12,
+    "end": 2659.3,
+    "content": "for a long time this was an engineer called cliffs and i got it from him at here jhs it basically you",
+    "translatedContent": "por muito tempo esse era um engenheiro chamado cliffs e eu peguei dele aqui jhs é basicamente você"
+  },
+  {
+    "start": 2659.3,
+    "end": 2664.88,
+    "content": "plug this in where a cap would go right like you saw a cap had two legs well this has two leads",
+    "translatedContent": "conecte isso onde uma tampa iria, como você viu, uma tampa tinha duas pernas, bem, isso tem dois terminais"
+  },
+  {
+    "start": 2664.88,
+    "end": 2670.96,
+    "content": "then you turn this and it selects a new cap so you don't have to sit there and like insert stuff",
+    "translatedContent": "então você gira isso e ele seleciona uma nova tampa para que você não precise ficar sentado e inserir coisas"
+  },
+  {
+    "start": 2670.96,
+    "end": 2678.26,
+    "content": "so copper sound made tons of these like check this out they made one for electrolytic caps which we",
+    "translatedContent": "então o som de cobre fez toneladas deles, veja só, eles fizeram um para tampas eletrolíticas que nós"
+  },
+  {
+    "start": 2678.26,
+    "end": 2683.88,
+    "content": "didn't use in this build but they made one for diodes this is like if you're building tube",
+    "translatedContent": "não usei nesta construção, mas eles fizeram um para diodos, é como se você estivesse construindo um tubo"
+  },
+  {
+    "start": 2683.88,
+    "end": 2689.62,
+    "content": "screamers and overdrives this is amazing look at this one transistors i'm about to use this i'm",
+    "translatedContent": "gritadores e overdrives, isso é incrível, olhe para este transistores, estou prestes a usar isso, estou"
+  },
+  {
+    "start": 2689.62,
+    "end": 2696.36,
+    "content": "going to give one away um and then ceramic caps which are like smaller value caps and they even",
+    "translatedContent": "vou doar um e depois tampas de cerâmica que são como tampas de valor menor e até"
+  },
+  {
+    "start": 2696.36,
+    "end": 2701.5,
+    "content": "made a film cap which is we did use film caps that's the brown one so they made all this stuff",
+    "translatedContent": "fizemos uma tampa de filme, que usamos tampas de filme, essa é a marrom, então eles fizeram todas essas coisas"
+  },
+  {
+    "start": 2701.5,
+    "end": 2707.54,
+    "content": "it's at it's at their website oh there's even more there's a resistor a resistor sub and then",
+    "translatedContent": "está no site deles, ah, tem ainda mais, tem um resistor, um resistor sub e então"
+  },
+  {
+    "start": 2707.54,
+    "end": 2712.86,
+    "content": "this one is so cool no one had ever made this this is a fet substitution box so this is like a",
+    "translatedContent": "este é tão legal que ninguém nunca fez isso, esta é uma caixa de substituição de fetos, então isso é como um"
+  },
+  {
+    "start": 2712.86,
+    "end": 2718.94,
+    "content": "a type of transistor that's like just nobody's ever made that so remember go over to the website",
+    "translatedContent": "um tipo de transistor que ninguém nunca fez, então lembre-se de acessar o site"
+  },
+  {
+    "start": 2718.94,
+    "end": 2724.46,
+    "content": "copper sound diy i'm not getting paid to say this i truly love this product and it's so so cool",
+    "translatedContent": "som de cobre diy, não estou sendo pago para dizer isso, eu realmente amo esse produto e é tão legal"
+  },
+  {
+    "start": 2724.46,
+    "end": 2728.54,
+    "content": "so they have that page and they have all this stuff on it so let me let me exemplify",
+    "translatedContent": "então eles têm aquela página e todas essas coisas nela, então deixe-me exemplificar"
+  },
+  {
+    "start": 2729.26,
+    "end": 2734.78,
+    "content": "and in the comments i mean i know i have a couple peeps up in here so let's give this away",
+    "translatedContent": "e nos comentários quero dizer que sei que tenho algumas pessoas aqui, então vamos distribuir isso"
+  },
+  {
+    "start": 2734.78,
+    "end": 2747.24,
+    "content": "um i think the first person i i'm gonna just have any of my actually jordan jordan collins",
+    "translatedContent": "hum, acho que a primeira pessoa que vou ter é qualquer um dos meus Jordan Jordan Collins"
+  },
+  {
+    "start": 2747.24,
+    "end": 2753.24,
+    "content": "you're in here we'll mail this for you um jordan from copper sound is in the chat jordan i want",
+    "translatedContent": "você está aqui, enviaremos isso para você um jordan do cobre som está no chat jordan eu quero"
+  },
+  {
+    "start": 2753.24,
+    "end": 2761.16,
+    "content": "you to just pick someone based off this answer if you want to get in more seriously to breadboarding",
+    "translatedContent": "você deve escolher alguém com base nesta resposta se quiser levar mais a sério o breadboard"
+  },
+  {
+    "start": 2761.16,
+    "end": 2767,
+    "content": "and try this just say i would love to get into breadboarding and everyone that says i would love",
+    "translatedContent": "e tente isso, apenas diga que eu adoraria entrar no breadboard e a todos que disserem que eu adoraria"
+  },
+  {
+    "start": 2767,
+    "end": 2771.24,
+    "content": "to get into breadboarding jordan you pick them out and then let me know text me or something",
+    "translatedContent": "para entrar no breadboarding Jordan, você os escolhe e depois me avisa, me manda uma mensagem ou algo assim"
+  },
+  {
+    "start": 2771.24,
+    "end": 2777.4,
+    "content": "tonight and i will we'll work that out we'll mail this this is the substitution box so i'm going to",
+    "translatedContent": "esta noite e eu irei resolver isso, enviaremos isto pelo correio, esta é a caixa de substituição, então vou"
+  },
+  {
+    "start": 2777.4,
+    "end": 2783.08,
+    "content": "mail this to you it's brand new giveaway material here that's from him he gave me some extras so if",
+    "translatedContent": "envie isso para você, é um novo material de sorteio aqui, que é dele, ele me deu alguns extras, então se"
+  },
+  {
+    "start": 2783.08,
+    "end": 2787.88,
+    "content": "you want to get more seriously into breadboarding we're going to give that away i'm going to keep",
+    "translatedContent": "você quer levar mais a sério o breadboard, vamos doar isso, vou continuar"
+  },
+  {
+    "start": 2787.88,
+    "end": 2793.08,
+    "content": "doing these lives and give more of their stuff away because he gave me a lot of doubles so let",
+    "translatedContent": "fazendo esses shows e doando mais coisas deles porque ele me deu muitas duplicatas então vamos"
+  },
+  {
+    "start": 2793.08,
+    "end": 2794.24,
+    "content": "Let me exemplify it though.",
+    "translatedContent": "Deixe-me exemplificar isso."
+  },
+  {
+    "start": 2794.34,
+    "end": 2795.8,
+    "content": "So if you want to get more into breadboarding,",
+    "translatedContent": "Então, se você quiser se aprofundar mais no breadboard,"
+  },
+  {
+    "start": 2795.94,
+    "end": 2796.8,
+    "content": "Jordan's going to pick you",
+    "translatedContent": "Jordan vai escolher você"
+  },
+  {
+    "start": 2796.8,
+    "end": 2798.74,
+    "content": "and then I'll find out from him who you are",
+    "translatedContent": "e então eu vou descobrir com ele quem você é"
+  },
+  {
+    "start": 2798.74,
+    "end": 2799.54,
+    "content": "and we'll work that out.",
+    "translatedContent": "e vamos resolver isso."
+  },
+  {
+    "start": 2800.14,
+    "end": 2804.46,
+    "content": "I would say, yeah, that'd be pretty simple.",
+    "translatedContent": "Eu diria, sim, isso seria muito simples."
+  },
+  {
+    "start": 2804.7,
+    "end": 2805.74,
+    "content": "Joshua and Bella are in there.",
+    "translatedContent": "Joshua e Bella estão lá."
+  },
+  {
+    "start": 2805.82,
+    "end": 2808.12,
+    "content": "Y'all can do all the little details there.",
+    "translatedContent": "Vocês podem fazer todos os pequenos detalhes lá."
+  },
+  {
+    "start": 2808.18,
+    "end": 2809.32,
+    "content": "Let me do this and wrap it up.",
+    "translatedContent": "Deixe-me fazer isso e encerrar."
+  },
+  {
+    "start": 2809.38,
+    "end": 2810.18,
+    "content": "I have three minutes.",
+    "translatedContent": "Eu tenho três minutos."
+  },
+  {
+    "start": 2810.7,
+    "end": 2811.64,
+    "content": "So this is cool.",
+    "translatedContent": "Então isso é legal."
+  },
+  {
+    "start": 2812.74,
+    "end": 2814.66,
+    "content": "One of the things with transistors,",
+    "translatedContent": "Uma das coisas com transistores,"
+  },
+  {
+    "start": 2814.76,
+    "end": 2816.9,
+    "content": "you're not going to hear a big deal with this example,",
+    "translatedContent": "você não vai ouvir muita coisa com esse exemplo,"
+  },
+  {
+    "start": 2816.9,
+    "end": 2818.98,
+    "content": "but I'm going to pull this transistor out.",
+    "translatedContent": "mas vou retirar esse transistor."
+  },
+  {
+    "start": 2819.94,
+    "end": 2823.06,
+    "content": "Now, if I'm working on like certain overdrives",
+    "translatedContent": "Agora, se estou trabalhando em certos overdrives"
+  },
+  {
+    "start": 2823.06,
+    "end": 2830.36,
+    "content": "different like a fuzz face like a silly like this is so cool i'm gonna pull this out and i want to",
+    "translatedContent": "diferente como uma cara felpuda como um bobo assim é tão legal vou tirar isso e quero"
+  },
+  {
+    "start": 2830.36,
+    "end": 2835.08,
+    "content": "hear some different transistors right but i don't want to i have them all in front of me i mean you",
+    "translatedContent": "ouço alguns transistores diferentes, certo, mas eu não quero, tenho todos eles na minha frente, quero dizer, você"
+  },
+  {
+    "start": 2835.08,
+    "end": 2840.84,
+    "content": "can't see my bench but i have tons in front of me but watch this three colored wires and it says",
+    "translatedContent": "não consigo ver meu banco, mas tenho toneladas na minha frente, mas observe estes três fios coloridos e diz"
+  },
+  {
+    "start": 2840.84,
+    "end": 2848.22,
+    "content": "really clearly emitter is black base is white collector is violet so i'm just gonna plug this",
+    "translatedContent": "realmente claramente o emissor é preto, a base é branca, o coletor é violeta, então vou apenas conectar isso"
+  },
+  {
+    "start": 2848.22,
+    "end": 2856.32,
+    "content": "in here i wish i had had this when i was learning to build like it's so so cool so emitter is black",
+    "translatedContent": "aqui eu gostaria de ter tido isso quando estava aprendendo a construir, como se fosse tão legal, então o emissor é preto"
+  },
+  {
+    "start": 2856.32,
+    "end": 2863.56,
+    "content": "that would go to ground right there the white is the color is the base yeah no yeah yeah yeah",
+    "translatedContent": "isso iria para o chão ali mesmo, o branco é a cor é a base, sim, não, sim, sim, sim"
+  },
+  {
+    "start": 2863.56,
+    "end": 2869.32,
+    "content": "what is base and then violet is the collector so i'm gonna put that right there now what i have",
+    "translatedContent": "o que é base e depois violeta é o coletor então vou colocar isso aí agora o que tenho"
+  },
+  {
+    "start": 2869.32,
+    "end": 2877.82,
+    "content": "done is i have inserted this substitution box into my breadboard and i'm gonna change transistors",
+    "translatedContent": "pronto, inseri esta caixa de substituição na minha placa de ensaio e vou trocar os transistores"
+  },
+  {
+    "start": 2877.82,
+    "end": 2884.5,
+    "content": "instantly this is so cool this is uh copper sounds should win the pulitzer prize for this",
+    "translatedContent": "instantaneamente, isso é tão legal, isso é, uh, sons de cobre, deveria ganhar o prêmio Pulitzer por isso"
+  },
+  {
+    "start": 2884.5,
+    "end": 2895.61,
+    "content": "all right here we go i don't think you'll hear massive differences but i'm going to show you",
+    "translatedContent": "tudo bem, vamos lá, acho que você não ouvirá grandes diferenças, mas vou mostrar a você"
+  },
+  {
+    "start": 2895.61,
+    "end": 2902.67,
+    "content": "what happens when i rotate through each side of this and you'll hear real transistor changes",
+    "translatedContent": "o que acontece quando eu giro em cada lado disso e você ouvirá mudanças reais no transistor"
+  },
+  {
+    "start": 2902.67,
+    "end": 2907.87,
+    "content": "that's the stock one the 5088 on the schematic so here we go i'm going to mute my mic i don't",
+    "translatedContent": "esse é o estoque, o 5088 no esquema, então vamos lá, vou silenciar meu microfone, não"
+  },
+  {
+    "start": 2907.87,
+    "end": 2912.23,
+    "content": "think you'll hear it but it's so cool the reason you might not hear it as drastically here is it's",
+    "translatedContent": "acho que você vai ouvir, mas é tão legal que o motivo pelo qual você pode não ouvir tão drasticamente aqui é que é"
+  },
+  {
+    "start": 2912.23,
+    "end": 2929.63,
+    "content": "because of the nature of the circuit but let's check it out that's way more compressed i don't",
+    "translatedContent": "por causa da natureza do circuito, mas vamos dar uma olhada, é muito mais comprimido, não"
+  },
+  {
+    "start": 2929.63,
+    "end": 2951.05,
+    "content": "know if you can hear that like i can but that's really cool that has a little more treble it's",
+    "translatedContent": "sei se você consegue ouvir isso como eu, mas é muito legal que tenha um pouco mais de agudos, é"
+  },
+  {
+    "start": 2951.05,
+    "end": 2965.7,
+    "content": "very subtle in this circuit now i'm going to switch over to this set so that won't even work",
+    "translatedContent": "muito sutil neste circuito agora vou mudar para este conjunto para que nem funcione"
+  },
+  {
+    "start": 2965.7,
+    "end": 2972.94,
+    "content": "in this circuit. The pinout is probably wildly different, but MPSA 12 and 13 and 18, these are",
+    "translatedContent": "neste circuito. A pinagem provavelmente é totalmente diferente, mas MPSA 12, 13 e 18, estes são"
+  },
+  {
+    "start": 2972.94,
+    "end": 2980.7,
+    "content": "high gain. Notice the noise floor. These are lower gain, a little bit higher, high gain. Check that.",
+    "translatedContent": "alto ganho. Observe o nível de ruído. Estes são de menor ganho, um pouco mais alto e de alto ganho. Verifique isso."
+  },
+  {
+    "start": 2981.76,
+    "end": 2997.08,
+    "content": "That got this circuit maxed into a distorted fuzz tone. So 5088, if I switch over, I'll be",
+    "translatedContent": "Isso levou o circuito ao máximo em um tom fuzz distorcido. Então 5088, se eu mudar, estarei"
+  },
+  {
+    "start": 2997.08,
+    "end": 3018.68,
+    "content": "the original oh absolutely audible just such a beautiful device so original mpsa",
+    "translatedContent": "o original, oh, absolutamente audível, um dispositivo tão bonito, tão original mpsa"
+  },
+  {
+    "start": 3018.68,
+    "end": 3038.76,
+    "content": "all right we have successfully breadboarded an lpb1 i gave you a little bit of history on it",
+    "translatedContent": "tudo bem, fizemos o breadboard com sucesso em um lpb1, contei a vocês um pouco da história dele"
+  },
+  {
+    "start": 3038.76,
+    "end": 3047.72,
+    "content": "this copper sound stuff is beyond cool again they didn't pay me a dime i just love this stuff",
+    "translatedContent": "esse som de cobre é muito legal de novo, eles não me pagaram um centavo, eu simplesmente adoro esse material"
+  },
+  {
+    "start": 3047.72,
+    "end": 3053.54,
+    "content": "so please check it out i see a lot of cool people in the chat brian wampler is in the chat i mean",
+    "translatedContent": "então por favor dê uma olhada, vejo muitas pessoas legais no chat brian wampler está no chat, quero dizer"
+  },
+  {
+    "start": 3053.54,
+    "end": 3060.06,
+    "content": "he's the og of modding and doing this stuff if you like this his whole channel has been",
+    "translatedContent": "ele é o responsável por modificar e fazer essas coisas, se você gosta disso, todo o canal dele foi"
+  },
+  {
+    "start": 3060.06,
+    "end": 3065.66,
+    "content": "on this wave for years he'll show you how circuits work so brian thanks for dropping in jordan thank",
+    "translatedContent": "nesta onda há anos, ele mostrará como os circuitos funcionam, então Brian, obrigado por aparecer na Jordânia, obrigado"
+  },
+  {
+    "start": 3065.66,
+    "end": 3071.44,
+    "content": "you for being around and in the chat i don't have anything else to say other than i actually had a",
+    "translatedContent": "você por estar por perto e no bate-papo, não tenho mais nada a dizer além de que realmente tive um"
+  },
+  {
+    "start": 3071.44,
+    "end": 3080.86,
+    "content": "blast. I enjoy teaching a lot and I really enjoy this setup. If you enjoyed this, please do hit",
+    "translatedContent": "explosão. Gosto muito de ensinar e gosto muito dessa configuração. Se você gostou disso, por favor clique"
+  },
+  {
+    "start": 3080.86,
+    "end": 3087.12,
+    "content": "like. It means a lot and it actually helps me gauge what in the world's going on. You know,",
+    "translatedContent": "como. Significa muito e realmente me ajuda a avaliar o que está acontecendo no mundo. Você sabe,"
+  },
+  {
+    "start": 3087.14,
+    "end": 3092.1,
+    "content": "do people enjoy this? Share it with some friends. Go look at the Copper Sound stuff. I want to do",
+    "translatedContent": "as pessoas gostam disso? Compartilhe com alguns amigos. Dê uma olhada no material do Copper Sound. eu quero fazer"
+  },
+  {
+    "start": 3092.1,
+    "end": 3098.04,
+    "content": "more of this because as many of you know, you know, creatively, sometimes you just really love",
+    "translatedContent": "mais disso porque, como muitos de vocês sabem, criativamente, às vezes vocês realmente amam"
+  },
+  {
+    "start": 3098.04,
+    "end": 3104.08,
+    "content": "doing something and it's not hard to do because you enjoy it. That's how this feels for me. So",
+    "translatedContent": "fazendo algo e não é difícil de fazer porque você gosta disso. É assim que me sinto. Então"
+  },
+  {
+    "start": 3104.08,
+    "end": 3108.54,
+    "content": "it's been a pleasure to hang out. I don't have anything else to say here. I don't have any",
+    "translatedContent": "foi um prazer sair. Não tenho mais nada a dizer aqui. Eu não tenho nenhum"
+  },
+  {
+    "start": 3108.54,
+    "end": 3116.92,
+    "content": "emergency texts for my gang. Thank you, Bell and Joshua for hanging out. Yeah, that's all I know",
+    "translatedContent": "mensagens de emergência para minha gangue. Obrigado, Bell e Joshua por sair. Sim, isso é tudo que eu sei"
+  },
+  {
+    "start": 3116.92,
+    "end": 3123.68,
+    "content": "to say. This has been really, really special. Thank you again. And LPB1, I don't think I'm",
+    "translatedContent": "para dizer. Isso foi muito, muito especial. Obrigado novamente. E LPB1, eu não acho que estou"
+  },
+  {
+    "start": 3123.68,
+    "end": 3129.2,
+    "content": "forgetting anything in the comments one last thing tell me some stuff you would like to learn",
+    "translatedContent": "esquecendo alguma coisa nos comentários uma última coisa me diga alguma coisa que você gostaria de aprender"
+  },
+  {
+    "start": 3129.2,
+    "end": 3136.1,
+    "content": "to breadboard in my mind i'm going fuzz face is a no-brainer i might do you know things like the",
+    "translatedContent": "para a placa de ensaio em minha mente, estou ficando confuso, é um acéfalo, talvez você saiba coisas como o"
+  },
+  {
+    "start": 3136.1,
+    "end": 3143.52,
+    "content": "sam ash astrotone yeah i'm not going to get into complicated stuff but i'd like to help any of you",
+    "translatedContent": "Sam Ash Astrotone sim, não vou entrar em coisas complicadas, mas gostaria de ajudar qualquer um de vocês"
+  },
+  {
+    "start": 3143.52,
+    "end": 3149.68,
+    "content": "get into some confidence that you can actually do this so that's it thanks to everyone bye",
+    "translatedContent": "tenha alguma confiança de que você pode realmente fazer isso, então é isso, obrigado a todos, tchau"
+  }
+]

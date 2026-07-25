@@ -1,0 +1,2312 @@
+[
+  {
+    "start": 0,
+    "end": 3.4,
+    "content": "Chili!",
+    "translatedContent": "Pimentão!"
+  },
+  {
+    "start": 3.4,
+    "end": 4.4,
+    "content": "Yes!",
+    "translatedContent": "Sim!"
+  },
+  {
+    "start": 4.4,
+    "end": 6.4,
+    "content": "Okay, this is some serious sauce.",
+    "translatedContent": "Ok, este é um molho sério."
+  },
+  {
+    "start": 6.4,
+    "end": 14.54,
+    "content": "Hey, what's going on, everybody?",
+    "translatedContent": "Ei, o que está acontecendo, pessoal?"
+  },
+  {
+    "start": 14.54,
+    "end": 17.54,
+    "content": "For First We Feast, I'm Sean Evans, and you're watching Hot Ones.",
+    "translatedContent": "Para First We Feast, sou Sean Evans e você está assistindo Hot Ones."
+  },
+  {
+    "start": 17.54,
+    "end": 19.54,
+    "content": "It's the show with hot questions and even hotter wings.",
+    "translatedContent": "É o show com perguntas quentes e asas ainda mais quentes."
+  },
+  {
+    "start": 19.54,
+    "end": 21.54,
+    "content": "And today we're joined by Flea.",
+    "translatedContent": "E hoje estamos acompanhados por Flea."
+  },
+  {
+    "start": 21.54,
+    "end": 25.54,
+    "content": "He's a six-time Grammy award-winning artist, author of the 2019 memoir Acid for the Children,",
+    "translatedContent": "Ele é um artista seis vezes vencedor do Grammy, autor do livro de memórias Acid for the Children de 2019,"
+  },
+  {
+    "start": 25.54,
+    "end": 29.54,
+    "content": "a Rock & Roll Hall of Fame inductee, and still going strong, with a pair of No. 1 albums",
+    "translatedContent": "um membro do Rock & Roll Hall of Fame, e ainda forte, com dois álbuns em primeiro lugar"
+  },
+  {
+    "start": 29.54,
+    "end": 32.54,
+    "content": "in the last year and currently on a global stadium tour.",
+    "translatedContent": "no ano passado e atualmente em uma turnê global por estádios."
+  },
+  {
+    "start": 32.54,
+    "end": 36.54,
+    "content": "But how will a founding member of the Red Hot Chili Peppers fare today against a flight",
+    "translatedContent": "Mas como um membro fundador do Red Hot Chili Peppers se sairá hoje contra um voo"
+  },
+  {
+    "start": 36.54,
+    "end": 37.54,
+    "content": "of blistering spicy wings?",
+    "translatedContent": "de asas picantes e escaldantes?"
+  },
+  {
+    "start": 37.54,
+    "end": 41.26,
+    "content": "wings we'll find out soon flea welcome to the show thank you very much for",
+    "translatedContent": "asas descobriremos em breve pulga bem vindo ao show muito obrigado por"
+  },
+  {
+    "start": 41.26,
+    "end": 45.98,
+    "content": "having me against I don't feel like I'm going against the wings I'm flowing with",
+    "translatedContent": "tendo-me contra, não sinto que estou indo contra as asas com as quais estou fluindo"
+  },
+  {
+    "start": 45.98,
+    "end": 50.38,
+    "content": "the wings I'm in harmony with that attitude I love that attitude I am one",
+    "translatedContent": "as asas estou em harmonia com essa atitude eu amo essa atitude eu sou um"
+  },
+  {
+    "start": 50.38,
+    "end": 75.43,
+    "content": "with the wing you know I always pray before I eat there we go then as you",
+    "translatedContent": "com a asa você sabe que eu sempre rezo antes de comer lá vamos nós como você"
+  },
+  {
+    "start": 75.43,
+    "end": 82.57,
+    "content": "know I'm a ritualist we discussed this yes earlier the whole thing I did there",
+    "translatedContent": "sei que sou um ritualista, discutimos isso, sim, antes, tudo o que fiz lá"
+  },
+  {
+    "start": 82.57,
+    "end": 90.6,
+    "content": "we go I feel like with each hot sauce you have to let it run its course I mean",
+    "translatedContent": "vamos, sinto que com cada molho picante você tem que deixá-lo seguir seu curso, quero dizer"
+  },
+  {
+    "start": 90.6,
+    "end": 95.6,
+    "content": "The hot sauce doesn't always show itself on the first taste.",
+    "translatedContent": "O molho picante nem sempre aparece na primeira degustação."
+  },
+  {
+    "start": 95.66,
+    "end": 97.86,
+    "content": "The first impressions can be a little misleading.",
+    "translatedContent": "As primeiras impressões podem ser um pouco enganadoras."
+  },
+  {
+    "start": 98.18,
+    "end": 98.32,
+    "content": "Yeah.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 98.32,
+    "end": 100.52,
+    "content": "That's someone who's been around the game a little while, Fleer.",
+    "translatedContent": "É alguém que já está no jogo há algum tempo, Fleer."
+  },
+  {
+    "start": 101.08,
+    "end": 101.28,
+    "content": "Yeah, yeah.",
+    "translatedContent": "Yeah, yeah."
+  },
+  {
+    "start": 101.46,
+    "end": 106.26,
+    "content": "You know, it's not my first trip on the hot sauce car.",
+    "translatedContent": "Você sabe, não é minha primeira viagem no carro do molho picante."
+  },
+  {
+    "start": 107.88,
+    "end": 113.1,
+    "content": "So I know it's well-worn territory, but remarkable that you and Anthony Kias have known each other since you were kids",
+    "translatedContent": "Então, eu sei que é um território bastante conhecido, mas é notável que você e Anthony Kias se conheçam desde que eram crianças."
+  },
+  {
+    "start": 113.1,
+    "end": 119.06,
+    "content": "and that the Red Hot Chili Peppers formed naturally amongst this group of tight-knit outcasts from Fairfax High School in Hollywood.",
+    "translatedContent": "e que o Red Hot Chili Peppers se formou naturalmente entre esse grupo de excluídos da Fairfax High School, em Hollywood."
+  },
+  {
+    "start": 119.28,
+    "end": 119.44,
+    "content": "Yeah.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 119.44,
+    "end": 124.84,
+    "content": "From the Crooked Q to the dilapidated duplex at Venice and Hauser to Harry Houdini's mansion,",
+    "translatedContent": "Do Crooked Q ao duplex dilapidado em Venice and Hauser à mansão de Harry Houdini"
+  },
+  {
+    "start": 125.02,
+    "end": 129.88,
+    "content": "is there a jam pad that you look back on and reflect and remember most fondly?",
+    "translatedContent": "existe um jam pad que você olha para trás, reflete e lembra com mais carinho?"
+  },
+  {
+    "start": 130.46,
+    "end": 134.94,
+    "content": "I'm very impressed with your knowledge of our rehearsal places.",
+    "translatedContent": "Estou muito impressionado com o seu conhecimento sobre nossos locais de ensaio."
+  },
+  {
+    "start": 135.7,
+    "end": 138.5,
+    "content": "The Crooked Q was an amazing spot.",
+    "translatedContent": "O Crooked Q foi um local incrível."
+  },
+  {
+    "start": 138.72,
+    "end": 145.06,
+    "content": "It had been a pool hall, but it was just this dingy little hole in the wall down the street",
+    "translatedContent": "Era um salão de sinuca, mas era apenas um buraquinho sujo na parede da rua"
+  },
+  {
+    "start": 145.06,
+    "end": 147.78,
+    "content": "in East Hollywood on Heliotrope Street.",
+    "translatedContent": "em East Hollywood, na Heliotrope Street."
+  },
+  {
+    "start": 148.52,
+    "end": 150.38,
+    "content": "And I have a lot of memories in there,",
+    "translatedContent": "E eu tenho muitas lembranças lá,"
+  },
+  {
+    "start": 150.48,
+    "end": 152.88,
+    "content": "some early, early Chili Pepper rehearsals,",
+    "translatedContent": "alguns ensaios iniciais do Chili Pepper,"
+  },
+  {
+    "start": 152.98,
+    "end": 155.26,
+    "content": "coming up with our first songs for our first album.",
+    "translatedContent": "criando nossas primeiras músicas para nosso primeiro álbum."
+  },
+  {
+    "start": 156.2,
+    "end": 157.82,
+    "content": "But the Harry Houdini house,",
+    "translatedContent": "Mas a casa de Harry Houdini,"
+  },
+  {
+    "start": 157.86,
+    "end": 159.54,
+    "content": "it was actually not the Harry Houdini house,",
+    "translatedContent": "na verdade não era a casa de Harry Houdini,"
+  },
+  {
+    "start": 159.62,
+    "end": 160.24,
+    "content": "people called it that,",
+    "translatedContent": "as pessoas chamavam assim,"
+  },
+  {
+    "start": 160.26,
+    "end": 162.16,
+    "content": "but it was a kiddie corner across the street from it.",
+    "translatedContent": "mas era uma esquina infantil do outro lado da rua."
+  },
+  {
+    "start": 162.54,
+    "end": 164.78,
+    "content": "And there was rumors that there was a tunnel",
+    "translatedContent": "E havia rumores de que havia um túnel"
+  },
+  {
+    "start": 164.78,
+    "end": 166.78,
+    "content": "going under Laurel Canyon in Hollywood",
+    "translatedContent": "indo sob Laurel Canyon em Hollywood"
+  },
+  {
+    "start": 166.78,
+    "end": 170.18,
+    "content": "from one mansion to the other during Prohibition.",
+    "translatedContent": "de uma mansão para outra durante a Lei Seca."
+  },
+  {
+    "start": 170.18,
+    "end": 172.48,
+    "content": "They would run liquor and party and whatever else,",
+    "translatedContent": "Eles ofereciam bebidas alcoólicas, festas e tudo mais,"
+  },
+  {
+    "start": 172.66,
+    "end": 174.68,
+    "content": "shenanigans they got up to and hijinks.",
+    "translatedContent": "travessuras que eles faziam e travessuras."
+  },
+  {
+    "start": 175.44,
+    "end": 179.18,
+    "content": "But all we had to do was live in this place and make music all day.",
+    "translatedContent": "Mas tudo o que tínhamos que fazer era viver neste lugar e fazer música o dia todo."
+  },
+  {
+    "start": 179.18,
+    "end": 183.5,
+    "content": "And it was a dream come true for someone who just wanted to play music.",
+    "translatedContent": "E foi a realização de um sonho para quem só queria tocar música."
+  },
+  {
+    "start": 185.28,
+    "end": 189.08,
+    "content": "Yeah, we were really finding ourselves in an exciting way at that time.",
+    "translatedContent": "Sim, estávamos realmente nos encontrando de uma forma emocionante naquela época."
+  },
+  {
+    "start": 189.24,
+    "end": 190.14,
+    "content": "It was an incredible house.",
+    "translatedContent": "Era uma casa incrível."
+  },
+  {
+    "start": 194.98,
+    "end": 195.46,
+    "content": "All right.",
+    "translatedContent": "Tudo bem."
+  },
+  {
+    "start": 205.95,
+    "end": 206.57,
+    "content": "Processing it.",
+    "translatedContent": "Processando isso."
+  },
+  {
+    "start": 207.11,
+    "end": 207.51,
+    "content": "It's lovely.",
+    "translatedContent": "É adorável."
+  },
+  {
+    "start": 208.93,
+    "end": 210.51,
+    "content": "Has a little depth to it.",
+    "translatedContent": "Tem um pouco de profundidade."
+  },
+  {
+    "start": 212.83,
+    "end": 213.55,
+    "content": "Feeling it.",
+    "translatedContent": "Sentindo isso."
+  },
+  {
+    "start": 214.21,
+    "end": 215.25,
+    "content": "It's light.",
+    "translatedContent": "É leve."
+  },
+  {
+    "start": 215.73,
+    "end": 215.95,
+    "content": "Yep.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 216.09,
+    "end": 217.07,
+    "content": "Kind of fruity, maybe.",
+    "translatedContent": "Um pouco frutado, talvez."
+  },
+  {
+    "start": 217.21,
+    "end": 217.45,
+    "content": "Yep.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 217.45,
+    "end": 219.81,
+    "content": "Yep. The shishito pepper is a lovely pepper.",
+    "translatedContent": "Sim. A pimenta shishito é uma pimenta adorável."
+  },
+  {
+    "start": 220.03,
+    "end": 223.71,
+    "content": "Yep, and it has the kind of sort of savory trail that it kind of leaves behind there.",
+    "translatedContent": "Sim, e tem aquele tipo de rastro saboroso que deixa para trás."
+  },
+  {
+    "start": 224.09,
+    "end": 226.57,
+    "content": "Mm-hmm. Yeah, yeah, really nice.",
+    "translatedContent": "Hum-hmm. Sim, sim, muito bom."
+  },
+  {
+    "start": 227.43,
+    "end": 231.15,
+    "content": "So while reading your memoir, I was really taken by the way that you sentimentalized",
+    "translatedContent": "Então, ao ler suas memórias, fiquei realmente impressionado com a maneira como você sentimentalizou"
+  },
+  {
+    "start": 231.15,
+    "end": 234.01,
+    "content": "the Hollywood rock clubs of a bygone era.",
+    "translatedContent": "os clubes de rock de Hollywood de uma época passada."
+  },
+  {
+    "start": 234.27,
+    "end": 238.41,
+    "content": "Is there an album, a specific album, that you think best synthesizes",
+    "translatedContent": "Existe algum álbum, um álbum específico, que você acha que sintetiza melhor"
+  },
+  {
+    "start": 238.41,
+    "end": 242.11,
+    "content": "the angst and sound of that late 1970s L.A. punk rock scene?",
+    "translatedContent": "a angústia e o som daquela cena punk rock de Los Angeles do final dos anos 1970?"
+  },
+  {
+    "start": 243.19,
+    "end": 246.29,
+    "content": "Um, you know, I'm very—there are a lot.",
+    "translatedContent": "Hum, você sabe, eu sou muito - há muitos."
+  },
+  {
+    "start": 246.29,
+    "end": 253.25,
+    "content": "so for me the big one was the germs album GI it touched my heart so much and",
+    "translatedContent": "então para mim o maior foi o álbum de germes GI que tocou muito meu coração e"
+  },
+  {
+    "start": 253.25,
+    "end": 257.01,
+    "content": "made me feel so much emotion and feeling the same as when I listened to John",
+    "translatedContent": "me fez sentir tanta emoção e sentir o mesmo de quando ouvi John"
+  },
+  {
+    "start": 257.01,
+    "end": 262.55,
+    "content": "Coltrane and I realized that it doesn't matter how technically brilliant you are",
+    "translatedContent": "Coltrane e eu percebemos que não importa quão brilhante você seja tecnicamente"
+  },
+  {
+    "start": 262.55,
+    "end": 265.73,
+    "content": "like yes it's great to learn stuff and the more colors you have to paint with",
+    "translatedContent": "tipo, sim, é ótimo aprender coisas e quanto mais cores você tiver para pintar"
+  },
+  {
+    "start": 265.73,
+    "end": 269.93,
+    "content": "the more options incredible but there's something about working with very simple",
+    "translatedContent": "mais opções são incríveis, mas há algo em trabalhar com coisas muito simples"
+  },
+  {
+    "start": 269.93,
+    "end": 274.67,
+    "content": "materials and having a lot of restraint and being able to express yourself like",
+    "translatedContent": "materiais e ter muita moderação e ser capaz de se expressar como"
+  },
+  {
+    "start": 274.67,
+    "end": 278.47,
+    "content": "Bob Marley always talked about doesn't matter what kind of music all it matters",
+    "translatedContent": "Bob Marley sempre falou sobre não importa que tipo de música tudo importa"
+  },
+  {
+    "start": 278.47,
+    "end": 281.85,
+    "content": "is your motivation and what you're trying to say and I'm that really hit",
+    "translatedContent": "é a sua motivação e o que você está tentando dizer e eu estou realmente impressionado"
+  },
+  {
+    "start": 281.85,
+    "end": 286.39,
+    "content": "home to me when I heard that germs record so that's a huge record for me",
+    "translatedContent": "para casa quando ouvi aquele disco de germes, então é um grande disco para mim"
+  },
+  {
+    "start": 286.39,
+    "end": 296.34,
+    "content": "yeah number three I feel like I just you know a mischievous fucking look in your",
+    "translatedContent": "sim, número três, eu sinto que você conhece um olhar travesso no seu"
+  },
+  {
+    "start": 296.34,
+    "end": 301.04,
+    "content": "eyes dude yeah I wouldn't lead you anywhere crazy",
+    "translatedContent": "olhos cara, sim, eu não te levaria a lugar nenhum louco"
+  },
+  {
+    "start": 301.14,
+    "end": 302.02,
+    "content": "I would have made you anyway.",
+    "translatedContent": "Eu teria feito você de qualquer maneira."
+  },
+  {
+    "start": 308.24,
+    "end": 308.62,
+    "content": "There you go.",
+    "translatedContent": "Aí está."
+  },
+  {
+    "start": 308.64,
+    "end": 309.82,
+    "content": "I ate like nine-tenths of that one.",
+    "translatedContent": "Comi uns nove décimos daquele."
+  },
+  {
+    "start": 309.94,
+    "end": 310.66,
+    "content": "I saw that.",
+    "translatedContent": "Eu vi isso."
+  },
+  {
+    "start": 311.04,
+    "end": 311.9,
+    "content": "I saw that.",
+    "translatedContent": "Eu vi isso."
+  },
+  {
+    "start": 313.16,
+    "end": 314.9,
+    "content": "So when Dave Grohl was on the show,",
+    "translatedContent": "Então, quando Dave Grohl estava no programa,"
+  },
+  {
+    "start": 315,
+    "end": 318.1,
+    "content": "he told this story about how he was performing at a corporate gig",
+    "translatedContent": "ele contou uma história sobre como estava se apresentando em um show corporativo"
+  },
+  {
+    "start": 318.1,
+    "end": 321.54,
+    "content": "and in the middle of it decided to just jump into the hotel pool.",
+    "translatedContent": "e no meio disso decidiu simplesmente pular na piscina do hotel."
+  },
+  {
+    "start": 321.9,
+    "end": 323.9,
+    "content": "And then when he got out of the pool,",
+    "translatedContent": "E então, quando ele saiu da piscina,"
+  },
+  {
+    "start": 324.06,
+    "end": 327.24,
+    "content": "immediately electrocuted himself when he stepped on the distortion pedal.",
+    "translatedContent": "imediatamente se eletrocutou ao pisar no pedal de distorção."
+  },
+  {
+    "start": 327.64,
+    "end": 330.36,
+    "content": "As a rocker for 40-plus years yourself,",
+    "translatedContent": "Como roqueiro há mais de 40 anos,"
+  },
+  {
+    "start": 330.72,
+    "end": 333.64,
+    "content": "what would you say is the most bizarre or painful injury",
+    "translatedContent": "qual você diria que é a lesão mais bizarra ou dolorosa"
+  },
+  {
+    "start": 333.64,
+    "end": 335.1,
+    "content": "that you've ever suffered while performing?",
+    "translatedContent": "que você já sofreu enquanto se apresentava?"
+  },
+  {
+    "start": 335.64,
+    "end": 338.28,
+    "content": "I've been hit in the head with a flying bottle back in the day.",
+    "translatedContent": "Fui atingido na cabeça por uma garrafa voadora naquela época."
+  },
+  {
+    "start": 339.32,
+    "end": 342.62,
+    "content": "I've been spit on numerous times.",
+    "translatedContent": "Já fui cuspido inúmeras vezes."
+  },
+  {
+    "start": 343.72,
+    "end": 347.26,
+    "content": "You know, one time Anthony was swinging the mic around like that.",
+    "translatedContent": "Você sabe, uma vez Anthony estava balançando o microfone daquele jeito."
+  },
+  {
+    "start": 347.78,
+    "end": 349.8,
+    "content": "Boom, cocked me in the head, took me out.",
+    "translatedContent": "Boom, me inclinou na cabeça e me tirou."
+  },
+  {
+    "start": 350.42,
+    "end": 353.18,
+    "content": "You know, I've hit myself in the face with my bass.",
+    "translatedContent": "Você sabe, eu me bati no rosto com meu baixo."
+  },
+  {
+    "start": 353.26,
+    "end": 353.84,
+    "content": "Yeah, I imagine.",
+    "translatedContent": "Sim, eu imagino."
+  },
+  {
+    "start": 353.96,
+    "end": 359.26,
+    "content": "One time I have like a scar on my head somewhere from I cut my head open, you know, like bam, like that.",
+    "translatedContent": "Uma vez eu tenho uma cicatriz na cabeça em algum lugar depois de eu ter cortado minha cabeça, você sabe, tipo bam, assim."
+  },
+  {
+    "start": 360.92,
+    "end": 361.92,
+    "content": "I used to do this.",
+    "translatedContent": "Eu costumava fazer isso."
+  },
+  {
+    "start": 361.92,
+    "end": 365.64,
+    "content": "I used to do a flip, you know, onto my back while I was playing,",
+    "translatedContent": "Eu costumava dar uma cambalhota, você sabe, de costas enquanto jogava,"
+  },
+  {
+    "start": 365.8,
+    "end": 367.28,
+    "content": "and that fucked me up a bunch of times.",
+    "translatedContent": "e isso me ferrou um monte de vezes."
+  },
+  {
+    "start": 368.3,
+    "end": 373.28,
+    "content": "You know, of course, a lot of long-term wear and tear from, you know, going bonkers.",
+    "translatedContent": "Você conhece, é claro, muito desgaste a longo prazo por, você sabe, ficar maluco."
+  },
+  {
+    "start": 374.82,
+    "end": 377.48,
+    "content": "But honestly, to be honest, it's mostly emotional pain.",
+    "translatedContent": "Mas, honestamente, para ser honesto, é principalmente dor emocional."
+  },
+  {
+    "start": 378.08,
+    "end": 378.3,
+    "content": "Yeah.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 383.04,
+    "end": 383.8,
+    "content": "Barber cover.",
+    "translatedContent": "Capa de barbeiro."
+  },
+  {
+    "start": 384.36,
+    "end": 384.9,
+    "content": "Lois Kelly.",
+    "translatedContent": "Lois Kelly."
+  },
+  {
+    "start": 385.06,
+    "end": 386.8,
+    "content": "It's got a kind of a fearsome-looking bottle.",
+    "translatedContent": "Tem uma espécie de garrafa de aparência assustadora."
+  },
+  {
+    "start": 391.95,
+    "end": 392.67,
+    "content": "There you go.",
+    "translatedContent": "Aí está."
+  },
+  {
+    "start": 392.93,
+    "end": 393.65,
+    "content": "I saw that.",
+    "translatedContent": "Eu vi isso."
+  },
+  {
+    "start": 395.17,
+    "end": 396.71,
+    "content": "Got to keep pace over here.",
+    "translatedContent": "Tenho que manter o ritmo aqui."
+  },
+  {
+    "start": 398.47,
+    "end": 399.01,
+    "content": "Much good.",
+    "translatedContent": "Muito bom."
+  },
+  {
+    "start": 399.01,
+    "end": 405.92,
+    "content": "Sitting back, relaxed. No problem at all.",
+    "translatedContent": "Sentado, relaxado. Não há problema algum."
+  },
+  {
+    "start": 405.92,
+    "end": 412.62,
+    "content": "Let it come down. Give it to me.",
+    "translatedContent": "Deixe descer. Dê para mim."
+  },
+  {
+    "start": 412.62,
+    "end": 418.14,
+    "content": "So it's interesting to me that after touring the world and achieving all this remarkable",
+    "translatedContent": "Então é interessante para mim que depois de viajar pelo mundo e alcançar todo esse notável"
+  },
+  {
+    "start": 418.14,
+    "end": 423.02,
+    "content": "success that you went back to school in 2008, enrolling at USC where you studied music theory,",
+    "translatedContent": "sucesso que você voltou para a escola em 2008, matriculando-se na USC onde estudou teoria musical,"
+  },
+  {
+    "start": 423.02,
+    "end": 428.46,
+    "content": "composition, and jazz trumpet. How did becoming a literal student of music influence your approach",
+    "translatedContent": "composição e trompete de jazz. Como se tornar um estudante literal de música influenciou sua abordagem"
+  },
+  {
+    "start": 428.46,
+    "end": 432.86,
+    "content": "to making records? Did you recognize a tangible difference going from the classroom back into",
+    "translatedContent": "para fazer discos? Você reconheceu uma diferença tangível ao passar da sala de aula para a sala de aula?"
+  },
+  {
+    "start": 432.86,
+    "end": 434.14,
+    "content": "into the studio?",
+    "translatedContent": "para o estúdio?"
+  },
+  {
+    "start": 434.14,
+    "end": 436.86,
+    "content": "Yeah, I had never studied academically,",
+    "translatedContent": "Sim, eu nunca tinha estudado academicamente,"
+  },
+  {
+    "start": 436.86,
+    "end": 439.04,
+    "content": "you know, beyond the most remedial basics.",
+    "translatedContent": "você sabe, além dos princípios básicos mais corretivos."
+  },
+  {
+    "start": 439.04,
+    "end": 441.02,
+    "content": "And I really wanted to, whoo,",
+    "translatedContent": "E eu realmente queria, whoo,"
+  },
+  {
+    "start": 441.02,
+    "end": 443.18,
+    "content": "the sauce kind of got a little kick.",
+    "translatedContent": "o molho meio que deu um chute."
+  },
+  {
+    "start": 443.18,
+    "end": 444.46,
+    "content": "It got a little staying power.",
+    "translatedContent": "Tem um pouco de poder de permanência."
+  },
+  {
+    "start": 444.46,
+    "end": 445.54,
+    "content": "It's fun, you know, the show,",
+    "translatedContent": "É divertido, você sabe, o show,"
+  },
+  {
+    "start": 445.54,
+    "end": 447.26,
+    "content": "that's how it goes over here. Yeah, I'm feeling it.",
+    "translatedContent": "é assim que acontece aqui. Sim, estou sentindo isso."
+  },
+  {
+    "start": 447.26,
+    "end": 450.26,
+    "content": "Anyways, yeah, I really wanted to start,",
+    "translatedContent": "De qualquer forma, sim, eu realmente queria começar,"
+  },
+  {
+    "start": 450.26,
+    "end": 451.82,
+    "content": "just mix it up, you know,",
+    "translatedContent": "apenas misture tudo, você sabe,"
+  },
+  {
+    "start": 451.82,
+    "end": 454.64,
+    "content": "and always want to like learn new things to keep me excited.",
+    "translatedContent": "e sempre quero aprender coisas novas para me manter animado."
+  },
+  {
+    "start": 454.64,
+    "end": 456.9,
+    "content": "Like I've always been completely turned off by math.",
+    "translatedContent": "Como se eu sempre estivesse completamente desligado da matemática."
+  },
+  {
+    "start": 456.9,
+    "end": 458.44,
+    "content": "And then I started music academically",
+    "translatedContent": "E então comecei a música academicamente"
+  },
+  {
+    "start": 458.44,
+    "end": 460.2,
+    "content": "and I started to start kind of loving math,",
+    "translatedContent": "e comecei a amar a matemática,"
+  },
+  {
+    "start": 460.2,
+    "end": 461.78,
+    "content": "like seeing how it related to music",
+    "translatedContent": "gosto de ver como isso se relaciona com a música"
+  },
+  {
+    "start": 461.78,
+    "end": 465.44,
+    "content": "and, like, how infinite it is, and how far it can go,",
+    "translatedContent": "e, tipo, quão infinito é, e até onde pode ir,"
+  },
+  {
+    "start": 465.72,
+    "end": 471.04,
+    "content": "and just being kind of amazed and, like, starting to see, like, how music works.",
+    "translatedContent": "e ficar meio surpreso e começar a ver como a música funciona."
+  },
+  {
+    "start": 471.04,
+    "end": 474.44,
+    "content": "So if you have a note that goes, da, that's a sound wave, let's say.",
+    "translatedContent": "Então, se você tem uma nota que diz, sim, isso é uma onda sonora, digamos."
+  },
+  {
+    "start": 474.48,
+    "end": 475.2,
+    "content": "It's going like that.",
+    "translatedContent": "Está indo assim."
+  },
+  {
+    "start": 475.5,
+    "end": 479.42,
+    "content": "And then you go an octave higher, da, then there's that note up there",
+    "translatedContent": "E então você sobe uma oitava, pai, então tem aquela nota lá em cima"
+  },
+  {
+    "start": 479.42,
+    "end": 482.46,
+    "content": "that's going exactly, the sound wave's exactly twice as fast.",
+    "translatedContent": "isso está acontecendo exatamente, a onda sonora é exatamente duas vezes mais rápida."
+  },
+  {
+    "start": 483.12,
+    "end": 483.68,
+    "content": "You know what I mean?",
+    "translatedContent": "Você sabe o que eu quero dizer?"
+  },
+  {
+    "start": 484.04,
+    "end": 487.74,
+    "content": "So it's like, you know, bra, bra, you know what I mean?",
+    "translatedContent": "Então é tipo, você sabe, sutiã, sutiã, você entende o que quero dizer?"
+  },
+  {
+    "start": 487.86,
+    "end": 491.48,
+    "content": "So, and then all these subdivisions of sound waves,",
+    "translatedContent": "Então, e todas essas subdivisões de ondas sonoras,"
+  },
+  {
+    "start": 491.7,
+    "end": 493.76,
+    "content": "and they math them out and mac them out,",
+    "translatedContent": "e eles calculam e calculam,"
+  },
+  {
+    "start": 493.88,
+    "end": 498.68,
+    "content": "and sometimes they become consonant and pleasing to the ear,",
+    "translatedContent": "e às vezes eles se tornam consoantes e agradáveis ​​ao ouvido,"
+  },
+  {
+    "start": 498.68,
+    "end": 503.8,
+    "content": "sometimes they cause tension and sadness and a feeling of anxiety and then you have the tension",
+    "translatedContent": "às vezes causam tensão e tristeza e uma sensação de ansiedade e aí você tem a tensão"
+  },
+  {
+    "start": 503.8,
+    "end": 507.48,
+    "content": "and then you have different ways you learn of resolving it and making makes you feel good",
+    "translatedContent": "e então você tem diferentes maneiras de aprender a resolver isso e fazer com que você se sinta bem"
+  },
+  {
+    "start": 507.48,
+    "end": 511.72,
+    "content": "because you get tense and revved up and then you feel good you know hills and valleys and",
+    "translatedContent": "porque você fica tenso e acelerado e então você se sente bem, você conhece colinas e vales e"
+  },
+  {
+    "start": 512.28,
+    "end": 516.36,
+    "content": "and just kind of like putting a name and an understanding to all these things and finding",
+    "translatedContent": "e é como colocar um nome e uma compreensão para todas essas coisas e descobrir"
+  },
+  {
+    "start": 516.36,
+    "end": 522.04,
+    "content": "ways to navigate music um and it's just super healthy for me as a songwriter as a musician",
+    "translatedContent": "maneiras de navegar na música e é super saudável para mim como compositor e músico"
+  },
+  {
+    "start": 522.04,
+    "end": 527.32,
+    "content": "i mean i would love to go back and study more i guess the way to say is it took me from a place",
+    "translatedContent": "quero dizer, eu adoraria voltar e estudar mais, acho que a maneira de dizer é que isso me tirou de um lugar"
+  },
+  {
+    "start": 527.32,
+    "end": 534.76,
+    "content": "of like working just on emotional intuition um to also working with um you know with academics",
+    "translatedContent": "de trabalhar apenas com a intuição emocional, também trabalhar com, você sabe, com acadêmicos"
+  },
+  {
+    "start": 534.76,
+    "end": 544.84,
+    "content": "and academics are beautiful okay kind of has astro boy on the cover a little psychedelic",
+    "translatedContent": "e os acadêmicos são lindos, ok, tem astro boy na capa um pouco psicodélico"
+  },
+  {
+    "start": 544.84,
+    "end": 557.36,
+    "content": "kind of a pretty color whoa okay starting off pretty mellow and then it um got a bouquet i",
+    "translatedContent": "meio que uma cor bonita, tudo bem, começando bem suave e depois ganhou um buquê que eu"
+  },
+  {
+    "start": 557.36,
+    "end": 560.76,
+    "content": "I can feel if it's okay, you know,",
+    "translatedContent": "Eu posso sentir se está tudo bem, você sabe,"
+  },
+  {
+    "start": 561.68,
+    "end": 564.48,
+    "content": "wee, feel a little something, something.",
+    "translatedContent": "pequenino, sinta uma coisinha, alguma coisa."
+  },
+  {
+    "start": 565.72,
+    "end": 568.18,
+    "content": "Is it true that Circle Jerk's front man, Keith Morris,",
+    "translatedContent": "É verdade que o vocalista do Circle Jerk, Keith Morris,"
+  },
+  {
+    "start": 568.18,
+    "end": 570.26,
+    "content": "he once stepped in as lead singer",
+    "translatedContent": "uma vez ele assumiu como vocalista"
+  },
+  {
+    "start": 570.26,
+    "end": 572.84,
+    "content": "for the Red Hot Chili Peppers at a show in 1984",
+    "translatedContent": "para o Red Hot Chili Peppers em um show em 1984"
+  },
+  {
+    "start": 572.84,
+    "end": 574.84,
+    "content": "when Anthony Kiedis couldn't make the gig,",
+    "translatedContent": "quando Anthony Kiedis não pôde comparecer ao show,"
+  },
+  {
+    "start": 574.84,
+    "end": 577,
+    "content": "and then here he is, the lead singer",
+    "translatedContent": "e então aqui está ele, o vocalista"
+  },
+  {
+    "start": 577,
+    "end": 578.98,
+    "content": "of the Red Hot Chili Peppers, does a whole show,",
+    "translatedContent": "do Red Hot Chili Peppers, faz um show inteiro,"
+  },
+  {
+    "start": 578.98,
+    "end": 580.08,
+    "content": "doesn't know the lyrics.",
+    "translatedContent": "não sabe a letra."
+  },
+  {
+    "start": 580.08,
+    "end": 580.92,
+    "content": "Is that true?",
+    "translatedContent": "Isso é verdade?"
+  },
+  {
+    "start": 580.92,
+    "end": 581.84,
+    "content": "Yeah, absolutely true.",
+    "translatedContent": "Sim, absolutamente verdade."
+  },
+  {
+    "start": 581.84,
+    "end": 584.48,
+    "content": "I'm not sure as to like whole show and how long,",
+    "translatedContent": "Não tenho certeza se gosto do show inteiro e por quanto tempo,"
+  },
+  {
+    "start": 584.48,
+    "end": 586.06,
+    "content": "but he definitely did it.",
+    "translatedContent": "mas ele definitivamente fez isso."
+  },
+  {
+    "start": 586.06,
+    "end": 588.06,
+    "content": "I remember he came out and we just played some funk grooves.",
+    "translatedContent": "Lembro que ele apareceu e tocamos alguns grooves de funk."
+  },
+  {
+    "start": 588.26,
+    "end": 589.26,
+    "content": "Because we were going to get paid.",
+    "translatedContent": "Porque íamos receber o pagamento."
+  },
+  {
+    "start": 589.34,
+    "end": 591.68,
+    "content": "We showed up to the gig and it was like 50 bucks a piece.",
+    "translatedContent": "Aparecemos no show e custou uns 50 dólares cada."
+  },
+  {
+    "start": 591.78,
+    "end": 592.7,
+    "content": "And I was like, no way.",
+    "translatedContent": "E eu pensei, de jeito nenhum."
+  },
+  {
+    "start": 593.18,
+    "end": 594.32,
+    "content": "I'm not going to play this show.",
+    "translatedContent": "Eu não vou fazer esse show."
+  },
+  {
+    "start": 594.98,
+    "end": 598.7,
+    "content": "And I just remember he put, put your left hand in your underwear.",
+    "translatedContent": "E eu só lembro que ele colocou a mão esquerda na cueca."
+  },
+  {
+    "start": 599.1,
+    "end": 600.78,
+    "content": "Put your right hand in the air.",
+    "translatedContent": "Coloque sua mão direita no ar."
+  },
+  {
+    "start": 600.98,
+    "end": 601.92,
+    "content": "And scream.",
+    "translatedContent": "E gritar."
+  },
+  {
+    "start": 602.44,
+    "end": 602.8,
+    "content": "Yeah.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 603.8,
+    "end": 604.2,
+    "content": "Scream.",
+    "translatedContent": "Gritar."
+  },
+  {
+    "start": 604.2,
+    "end": 604.9,
+    "content": "And we'd say.",
+    "translatedContent": "E diríamos."
+  },
+  {
+    "start": 607.36,
+    "end": 610.22,
+    "content": "And that's all he did the whole time.",
+    "translatedContent": "E isso foi tudo que ele fez o tempo todo."
+  },
+  {
+    "start": 610.42,
+    "end": 612.9,
+    "content": "And he did it with great enthusiasm.",
+    "translatedContent": "E ele fez isso com grande entusiasmo."
+  },
+  {
+    "start": 613.78,
+    "end": 615.12,
+    "content": "And then the show was done.",
+    "translatedContent": "E então o show acabou."
+  },
+  {
+    "start": 615.12,
+    "end": 616.84,
+    "content": "and we're back in a dressing room,",
+    "translatedContent": "e estamos de volta ao camarim,"
+  },
+  {
+    "start": 616.84,
+    "end": 617.88,
+    "content": "and kind of like, well, we did it,",
+    "translatedContent": "e tipo, bem, nós conseguimos,"
+  },
+  {
+    "start": 617.88,
+    "end": 619.6,
+    "content": "but also kind of like, where the fuck is Anthony?",
+    "translatedContent": "mas também tipo, onde diabos está Anthony?"
+  },
+  {
+    "start": 619.6,
+    "end": 622.16,
+    "content": "You know, he didn't show up, but Anthony showed up.",
+    "translatedContent": "Você sabe, ele não apareceu, mas Anthony apareceu."
+  },
+  {
+    "start": 622.16,
+    "end": 623,
+    "content": "He's like, what's up, guys?",
+    "translatedContent": "Ele fica tipo, e aí, pessoal?"
+  },
+  {
+    "start": 623,
+    "end": 623.84,
+    "content": "Let's do the show.",
+    "translatedContent": "Vamos fazer o show."
+  },
+  {
+    "start": 623.84,
+    "end": 625.9,
+    "content": "We're like, mm, we're gonna do the show.",
+    "translatedContent": "Nós pensamos, mm, vamos fazer o show."
+  },
+  {
+    "start": 631.11,
+    "end": 633.19,
+    "content": "Is this like the back nine in the Masters?",
+    "translatedContent": "Isso é como os últimos nove do Masters?"
+  },
+  {
+    "start": 633.19,
+    "end": 634.15,
+    "content": "Holy fuck.",
+    "translatedContent": "Puta merda."
+  },
+  {
+    "start": 635.17,
+    "end": 638.45,
+    "content": "It's a hot sauce, H-A-U-T-E.",
+    "translatedContent": "É um molho picante, H-A-U-T-E."
+  },
+  {
+    "start": 638.45,
+    "end": 639.73,
+    "content": "Yeah, yeah, yeah.",
+    "translatedContent": "Sim, sim, sim."
+  },
+  {
+    "start": 639.73,
+    "end": 642.25,
+    "content": "It's a high-level label over here, you know?",
+    "translatedContent": "É um selo de alto nível aqui, sabe?"
+  },
+  {
+    "start": 642.25,
+    "end": 654.43,
+    "content": "It's like a nice bottle of wine or something.",
+    "translatedContent": "É como uma boa garrafa de vinho ou algo assim."
+  },
+  {
+    "start": 654.43,
+    "end": 656.53,
+    "content": "Dup, dup, did a little walk in the park.",
+    "translatedContent": "Dup, dup, fiz uma pequena caminhada no parque."
+  },
+  {
+    "start": 656.53,
+    "end": 658.53,
+    "content": "Eh, eh, eh, eh, can't burn me.",
+    "translatedContent": "Eh, eh, eh, eh, não pode me queimar."
+  },
+  {
+    "start": 658.77,
+    "end": 660.69,
+    "content": "I'm not scared of anything.",
+    "translatedContent": "Não tenho medo de nada."
+  },
+  {
+    "start": 661.19,
+    "end": 662.21,
+    "content": "Can't burn me.",
+    "translatedContent": "Não posso me queimar."
+  },
+  {
+    "start": 662.33,
+    "end": 663.07,
+    "content": "Ha, ha, ha.",
+    "translatedContent": "Ha, ha, ha."
+  },
+  {
+    "start": 664.31,
+    "end": 667.11,
+    "content": "Wig, wig, wig, wig, wig, wig, wig, wig, wig, wig, wig, wig.",
+    "translatedContent": "Peruca, peruca, peruca, peruca, peruca, peruca, peruca, peruca, peruca, peruca, peruca, peruca."
+  },
+  {
+    "start": 667.93,
+    "end": 670.69,
+    "content": "What makes the trumpet, as you call it, the king of instruments?",
+    "translatedContent": "O que faz do trompete, como você o chama, o rei dos instrumentos?"
+  },
+  {
+    "start": 671.49,
+    "end": 675.51,
+    "content": "Well, I think it was the king of instruments until the electric guitar came along.",
+    "translatedContent": "Bem, acho que era o rei dos instrumentos até surgir a guitarra elétrica."
+  },
+  {
+    "start": 676.19,
+    "end": 679.37,
+    "content": "The electric guitar came along with a fuzz pedal and a marshal, you know,",
+    "translatedContent": "A guitarra elétrica veio junto com um pedal fuzz e um marechal, você sabe,"
+  },
+  {
+    "start": 679.45,
+    "end": 681.21,
+    "content": "and trumpet players were kind of fucked.",
+    "translatedContent": "e os trompetistas estavam meio fodidos."
+  },
+  {
+    "start": 681.21,
+    "end": 690.23,
+    "content": "um but um you know it's before the electric guitar it was the loudest the brightest um",
+    "translatedContent": "hum, mas hum, você sabe que antes da guitarra elétrica era o mais alto, o mais brilhante, hum"
+  },
+  {
+    "start": 690.23,
+    "end": 695.55,
+    "content": "could soar above everything else the trumpet is just a beautiful thing i play my trumpet every",
+    "translatedContent": "poderia voar acima de tudo o trompete é simplesmente uma coisa linda eu toco meu trompete todo"
+  },
+  {
+    "start": 695.55,
+    "end": 700.05,
+    "content": "day you called it a spokesman for the divine yeah well i love that line you know and yeah",
+    "translatedContent": "dia em que você chamou isso de porta-voz do divino, sim, bem, eu amo essa frase, você sabe e sim"
+  },
+  {
+    "start": 700.05,
+    "end": 705.67,
+    "content": "thanks for so much for reading my book oh yeah yeah well we have to yeah oh cool we have to did",
+    "translatedContent": "muito obrigado por ler meu livro, oh, sim, sim, bem, temos que sim, oh, legal, temos que fazer"
+  },
+  {
+    "start": 705.67,
+    "end": 711.25,
+    "content": "your work man I appreciate it but yeah you know it's like just the immediate thing of this thing",
+    "translatedContent": "seu trabalho, cara, eu agradeço, mas sim, você sabe que é apenas a coisa imediata dessa coisa"
+  },
+  {
+    "start": 711.25,
+    "end": 719.19,
+    "content": "it's kind of like a cold metal valves whole spit oil you know and you kind of warm it up it becomes",
+    "translatedContent": "é como se uma válvula de metal frio cuspisse óleo, você sabe, e você meio que aquece, torna-se"
+  },
+  {
+    "start": 719.19,
+    "end": 724.77,
+    "content": "an extension of you and it becomes this warm like beautiful thing you know and the more you do it",
+    "translatedContent": "uma extensão de você e se torna uma coisa linda e quente que você conhece e quanto mais você faz isso"
+  },
+  {
+    "start": 724.77,
+    "end": 730.45,
+    "content": "the more it just like this direct expression from you your heart like it's breath man it's so",
+    "translatedContent": "quanto mais é essa expressão direta de você, seu coração parece uma respiração, cara, é tão"
+  },
+  {
+    "start": 730.45,
+    "end": 739.33,
+    "content": "beautiful. The wind instruments are just so awesome. Okay, are we gonna eat the whole thing",
+    "translatedContent": "lindo. Os instrumentos de sopro são simplesmente fantásticos. Ok, vamos comer tudo"
+  },
+  {
+    "start": 739.33,
+    "end": 753.97,
+    "content": "or are we gonna take a bite? I'm gonna go wherever you go. Oh, yeah. I feel like, you know, when you",
+    "translatedContent": "ou vamos dar uma mordida? Eu irei aonde você for. Oh sim. Eu sinto que, você sabe, quando você"
+  },
+  {
+    "start": 753.97,
+    "end": 760.09,
+    "content": "have a little baby, I have a little baby, and you give them lemon and they like, you know, they go",
+    "translatedContent": "tenho um bebezinho, eu tenho um bebezinho, e você dá limão para eles e eles gostam, você sabe, eles vão"
+  },
+  {
+    "start": 760.09,
+    "end": 764.73,
+    "content": "like that, but then they want more after. I feel like that's what's gonna happen. That's kind of",
+    "translatedContent": "assim, mas depois eles querem mais. Eu sinto que é isso que vai acontecer. Isso é tipo"
+  },
+  {
+    "start": 764.73,
+    "end": 770.73,
+    "content": "where you're at with hot sauce, yeah. So I've heard you say that most songs begin with a bass line.",
+    "translatedContent": "onde você está com molho picante, sim. Ouvi você dizer que a maioria das músicas começa com uma linha de baixo."
+  },
+  {
+    "start": 770.73,
+    "end": 777.45,
+    "content": "Is that just standard practice to set the tempo or they're subtle ways that you're able to shape the spirit of a song with that opening",
+    "translatedContent": "Isso é apenas uma prática padrão para definir o andamento ou são maneiras sutis de moldar o espírito de uma música com aquela abertura"
+  },
+  {
+    "start": 777.45,
+    "end": 779.85,
+    "content": "Gambit many times they do start with bass lines and",
+    "translatedContent": "Gambit muitas vezes eles começam com linhas de baixo e"
+  },
+  {
+    "start": 783.87,
+    "end": 785.37,
+    "content": "Yes",
+    "translatedContent": "Sim"
+  },
+  {
+    "start": 785.37,
+    "end": 792.09,
+    "content": "Whoa, it's really it's still flowing through my you you feel it and it's gonna just build kind of from here. Oh, yeah",
+    "translatedContent": "Uau, é realmente que ainda está fluindo através de mim, você sente isso e isso vai crescer a partir daqui. Oh sim"
+  },
+  {
+    "start": 793.15,
+    "end": 795.69,
+    "content": "We're a rocket ship and we're just taking off",
+    "translatedContent": "Somos um foguete e estamos decolando"
+  },
+  {
+    "start": 795.69,
+    "end": 803.13,
+    "content": "over here. This is fuel, it's got some staying power. Yeah, I mean, you know, if a song starts",
+    "translatedContent": "aqui. Isto é combustível, tem algum poder de permanência. Sim, quero dizer, você sabe, se uma música começar"
+  },
+  {
+    "start": 803.13,
+    "end": 813.15,
+    "content": "with a bass line, there's a lot of, it's cool because a bass line can infer melody, it can infer",
+    "translatedContent": "com linha de baixo tem muita coisa, é legal porque linha de baixo pode inferir melodia, pode inferir"
+  },
+  {
+    "start": 813.15,
+    "end": 820.49,
+    "content": "chords, and it's nice that it's something that leaves so much open and so much empty space to",
+    "translatedContent": "acordes, e é bom que seja algo que deixa tanto espaço aberto e vazio para"
+  },
+  {
+    "start": 820.49,
+    "end": 822.83,
+    "content": "be interpreted and discovered.",
+    "translatedContent": "ser interpretado e descoberto."
+  },
+  {
+    "start": 822.83,
+    "end": 824.41,
+    "content": "Writing music is so fun.",
+    "translatedContent": "Escrever música é tão divertido."
+  },
+  {
+    "start": 824.41,
+    "end": 825.75,
+    "content": "Oh my God.",
+    "translatedContent": "Oh meu Deus."
+  },
+  {
+    "start": 825.75,
+    "end": 826.59,
+    "content": "So fun.",
+    "translatedContent": "Tão divertido."
+  },
+  {
+    "start": 826.59,
+    "end": 829.75,
+    "content": "It's like that, you know, just the act of doing it,",
+    "translatedContent": "É assim, você sabe, só o ato de fazer,"
+  },
+  {
+    "start": 829.75,
+    "end": 833.37,
+    "content": "sitting down and being lost and kind of like,",
+    "translatedContent": "sentar e ficar perdido e tipo,"
+  },
+  {
+    "start": 833.37,
+    "end": 835.59,
+    "content": "I always, for me, it's like the drool test.",
+    "translatedContent": "Eu sempre, para mim, é como o teste de baba."
+  },
+  {
+    "start": 835.59,
+    "end": 837.57,
+    "content": "If I'm playing something and I just haven't been thinking",
+    "translatedContent": "Se estou tocando alguma coisa e simplesmente não estou pensando"
+  },
+  {
+    "start": 837.57,
+    "end": 840.55,
+    "content": "and I see like a big drool coming down on my shirt.",
+    "translatedContent": "e vejo uma grande baba escorrendo pela minha camisa."
+  },
+  {
+    "start": 840.55,
+    "end": 841.49,
+    "content": "That's the sweet spot.",
+    "translatedContent": "Esse é o ponto ideal."
+  },
+  {
+    "start": 841.49,
+    "end": 842.73,
+    "content": "That's a good spot.",
+    "translatedContent": "Esse é um bom lugar."
+  },
+  {
+    "start": 842.73,
+    "end": 844.99,
+    "content": "That means I'm just like, you know what I mean?",
+    "translatedContent": "Isso significa que estou tipo, você entende o que quero dizer?"
+  },
+  {
+    "start": 844.99,
+    "end": 847.13,
+    "content": "Whatever I'm doing is so hypnotic",
+    "translatedContent": "Tudo o que estou fazendo é tão hipnótico"
+  },
+  {
+    "start": 847.13,
+    "end": 849.09,
+    "content": "that I'm just vibrating to the point where I'm drooling.",
+    "translatedContent": "que estou vibrando a ponto de babar."
+  },
+  {
+    "start": 849.09,
+    "end": 851.01,
+    "content": "and say I took a sleeping pill or something, you know?",
+    "translatedContent": "e dizer que tomei um remédio para dormir ou algo assim, sabe?"
+  },
+  {
+    "start": 851.15,
+    "end": 856.07,
+    "content": "Well, on the topic of vibrating and drooling,",
+    "translatedContent": "Bem, sobre o assunto de vibrar e babar,"
+  },
+  {
+    "start": 856.25,
+    "end": 860.61,
+    "content": "this next hot sauce is Da Bomb Beyond Insanity.",
+    "translatedContent": "este próximo molho picante é Da Bomb Beyond Insanity."
+  },
+  {
+    "start": 861.09,
+    "end": 862.81,
+    "content": "Now, I've heard about this.",
+    "translatedContent": "Agora, eu ouvi sobre isso."
+  },
+  {
+    "start": 864.71,
+    "end": 867.93,
+    "content": "Our nanny Rachel just told me, because she's seen this show a lot,",
+    "translatedContent": "Nossa babá Rachel acabou de me contar, porque ela viu muito esse programa,"
+  },
+  {
+    "start": 868.07,
+    "end": 869.71,
+    "content": "and she said, see that short one?",
+    "translatedContent": "e ela disse, vê aquele baixinho?"
+  },
+  {
+    "start": 869.85,
+    "end": 870.37,
+    "content": "Yeah, yeah.",
+    "translatedContent": "Yeah, yeah."
+  },
+  {
+    "start": 870.39,
+    "end": 873.21,
+    "content": "The short bottle is going to be the one that's going to fuck you up.",
+    "translatedContent": "A garrafa curta vai ser a que vai te foder."
+  },
+  {
+    "start": 874.25,
+    "end": 875.59,
+    "content": "So what are we going to do here?",
+    "translatedContent": "Então, o que vamos fazer aqui?"
+  },
+  {
+    "start": 875.65,
+    "end": 876.81,
+    "content": "How are we going to handle this?",
+    "translatedContent": "Como vamos lidar com isso?"
+  },
+  {
+    "start": 877.37,
+    "end": 878.57,
+    "content": "Give it to me straight.",
+    "translatedContent": "Dê-me isso diretamente."
+  },
+  {
+    "start": 878.57,
+    "end": 884.65,
+    "content": "uh listen soft pedal i won't i won't this is me uh just leveling maybe we start with one bite if",
+    "translatedContent": "uh ouça pedal suave, não vou, não vou, sou eu, apenas nivelando, talvez comecemos com uma mordida se"
+  },
+  {
+    "start": 887.4,
+    "end": 892.12,
+    "content": "right more than half yeah i think it's a good place to start and we'll see where it goes from",
+    "translatedContent": "certo, mais da metade, sim, acho que é um bom lugar para começar e veremos aonde isso vai"
+  },
+  {
+    "start": 892.12,
+    "end": 904.51,
+    "content": "there it's on my lips where my trumpet lips feel it already do it already sean sean if i need you",
+    "translatedContent": "aí está nos meus lábios onde meus lábios de trombeta já sentem, já faça isso Sean Sean se eu precisar de você"
+  },
+  {
+    "start": 904.51,
+    "end": 911.47,
+    "content": "if i need a hug i'm here for you whatever you need right we're just in this abstract hot sauce storm",
+    "translatedContent": "se eu precisar de um abraço, estou aqui para ajudá-lo, o que você precisar, certo, estamos apenas nessa tempestade abstrata de molho picante"
+  },
+  {
+    "start": 911.47,
+    "end": 917.47,
+    "content": "right now whatever we need to get through it okay i'm here for you well it's building yeah",
+    "translatedContent": "agora, tudo o que precisamos para superar isso, ok, estou aqui para ajudá-lo, bem, está crescendo, sim"
+  },
+  {
+    "start": 917.47,
+    "end": 923.19,
+    "content": "it's not gonna stop the rocket ship has taken off it's building and we don't know where it's",
+    "translatedContent": "isso não vai parar o foguete decolou, está construindo e não sabemos onde está"
+  },
+  {
+    "start": 923.19,
+    "end": 927.71,
+    "content": "gonna go it is building i know i know what did you do today how was your morning",
+    "translatedContent": "vou ir, está construindo, eu sei, eu sei o que você fez hoje, como foi sua manhã"
+  },
+  {
+    "start": 927.71,
+    "end": 935.91,
+    "content": "where do you live i live here in new york yeah yeah yeah you live alone i do i do uh no no i",
+    "translatedContent": "onde você mora, eu moro aqui em Nova York, sim, sim, você mora sozinho, eu moro, eu faço, uh, não, eu"
+  },
+  {
+    "start": 935.91,
+    "end": 939.59,
+    "content": "travel a little bit too much but i kind of have a puppy fever thing going on right now good i was",
+    "translatedContent": "viajo um pouco demais, mas estou meio que com febre de cachorrinho acontecendo agora, bom, eu estava"
+  },
+  {
+    "start": 939.59,
+    "end": 947.42,
+    "content": "looking at them online yes yes okay this is some serious yeah yeah this is for",
+    "translatedContent": "olhando para eles on-line sim, sim, ok, isso é sério, sim, sim, isso é para"
+  },
+  {
+    "start": 947.42,
+    "end": 964.08,
+    "content": "real this is for real you're you got good information you were right she did",
+    "translatedContent": "real, isso é real, você tem boas informações, você estava certo, ela fez"
+  },
+  {
+    "start": 964.08,
+    "end": 970.8,
+    "content": "not lie she did not lie so know that outside of music your lifelong Hooper",
+    "translatedContent": "não mentiu, ela não mentiu, então saiba que fora da música seu Hooper vitalício"
+  },
+  {
+    "start": 970.8,
+    "end": 974.66,
+    "content": "you've always sought basketball as an outlet I love basketball oh she's is",
+    "translatedContent": "você sempre buscou o basquete como uma saída Eu amo basquete, ah, ela é"
+  },
+  {
+    "start": 974.66,
+    "end": 978.2,
+    "content": "about to start are you excited you like basketball I do I love basketball live",
+    "translatedContent": "prestes a começar você está animado você gosta de basquete eu adoro basquete ao vivo"
+  },
+  {
+    "start": 978.2,
+    "end": 983,
+    "content": "for it. What's your all-time Lakers starting five? Magic Johnson, Kareem Abdul-Jabbar,",
+    "translatedContent": "por isso. Qual é o seu Lakers de todos os tempos começando com cinco? Magic Johnson, Kareem Abdul-Jabbar,"
+  },
+  {
+    "start": 983,
+    "end": 990.26,
+    "content": "Kobe Bryant, Michael Cooper, Jerry West. Set it in stone. Do you have an all-time",
+    "translatedContent": "Kobe Bryant, Michael Cooper, Jerry West. Coloque-o em pedra. Você tem um tempo todo"
+  },
+  {
+    "start": 990.26,
+    "end": 994.4,
+    "content": "favorite or most enduring Rockin' Jock memory? Is it cheating to take a drink? It's not",
+    "translatedContent": "memória favorita ou mais duradoura do Rockin 'Jock? É trapaça tomar uma bebida? Não é"
+  },
+  {
+    "start": 994.4,
+    "end": 997.44,
+    "content": "cheating to take a drink. Go ahead and take a drink. You know when I won the three-point shoot-off was my",
+    "translatedContent": "trapaceando para tomar uma bebida. Vá em frente e tome uma bebida. Você sabe, quando ganhei a disputa de três pontos foi meu"
+  },
+  {
+    "start": 997.44,
+    "end": 1010.1,
+    "content": "my favorite time you hit like an MVP who was MVP me Flea was MVP who drained a",
+    "translatedContent": "meu momento favorito você bateu como um MVP que foi MVP, eu Flea foi MVP que drenou um"
+  },
+  {
+    "start": 1010.1,
+    "end": 1013.64,
+    "content": "fucking ten-pointer which is further than a three-pointer on an assist from",
+    "translatedContent": "porra de uma cesta de dez pontos que é mais do que uma cesta de três pontos em uma assistência de"
+  },
+  {
+    "start": 1013.64,
+    "end": 1017.72,
+    "content": "Mitch Richmond in the winning seconds of the game to put fucking Marky Mark to",
+    "translatedContent": "Mitch Richmond nos segundos vencedores do jogo para colocar o maldito Marky Mark para"
+  },
+  {
+    "start": 1017.72,
+    "end": 1027.04,
+    "content": "shame yeah ma'am it was so fun that was a really fun there's a great time great",
+    "translatedContent": "pena, sim, senhora, foi tão divertido, foi muito divertido, foi um ótimo momento, ótimo"
+  },
+  {
+    "start": 1027.04,
+    "end": 1031.12,
+    "content": "Era they got to bring that back, but I don't even know if something like that could even exist any don't have any more",
+    "translatedContent": "Era que eles tinham que trazer isso de volta, mas eu nem sei se algo assim poderia existir, não tenho mais"
+  },
+  {
+    "start": 1031.12,
+    "end": 1037.36,
+    "content": "They're like NBA celebrity game. Yeah, but that's not the same the rock and the rock and jock hit on an is a kind of",
+    "translatedContent": "Eles são como um jogo de celebridades da NBA. Sim, mas não é a mesma coisa, o rock e o rock e o atleta batem em um tipo de"
+  },
+  {
+    "start": 1038.06,
+    "end": 1042.12,
+    "content": "Culturally kind of perfect, you know, and I'm better now than I was then give me a chance put me in",
+    "translatedContent": "Culturalmente meio perfeito, você sabe, e estou melhor agora do que era, então me dê uma chance, me coloque dentro"
+  },
+  {
+    "start": 1042.12,
+    "end": 1044.12,
+    "content": "I went to the NBA celebrity game like",
+    "translatedContent": "Eu fui ao jogo de celebridades da NBA como"
+  },
+  {
+    "start": 1044.9,
+    "end": 1049.78,
+    "content": "Feels good and fucking play me. What didn't play me. I said they see the rock and jock tape",
+    "translatedContent": "É uma sensação boa e brinca comigo. O que não mexeu comigo. Eu disse que eles viram a fita de rock e jock"
+  },
+  {
+    "start": 1049.78,
+    "end": 1051.82,
+    "content": "Yeah, they see that you had a ten boy my coach was",
+    "translatedContent": "Sim, eles veem que você tinha um garoto de dez anos, meu treinador era"
+  },
+  {
+    "start": 1052.44,
+    "end": 1054.36,
+    "content": "But I was pissed",
+    "translatedContent": "Mas eu estava chateado"
+  },
+  {
+    "start": 1054.36,
+    "end": 1061.49,
+    "content": "It's the back. It's the back of the tongue. I know and the larynx. Yeah, you're right the larynx",
+    "translatedContent": "São as costas. É a parte de trás da língua. Eu sei e a laringe. Sim, você está certo, a laringe"
+  },
+  {
+    "start": 1061.49,
+    "end": 1064.97,
+    "content": "That's a good diagnosis. Great larynx, Xavier Cougat",
+    "translatedContent": "Esse é um bom diagnóstico. Grande laringe, Xavier Cougat"
+  },
+  {
+    "start": 1065.77,
+    "end": 1067.77,
+    "content": "X-ray specs. Yip yip yip",
+    "translatedContent": "Especificações de raios X. Sim, sim, sim"
+  },
+  {
+    "start": 1068.11,
+    "end": 1076.7,
+    "content": "This toss was nothing",
+    "translatedContent": "Esse lance não foi nada"
+  },
+  {
+    "start": 1076.74,
+    "end": 1080.92,
+    "content": "Didn't even knock you off the game. I'm just feeling emotional about the poignancy of the moment",
+    "translatedContent": "Nem te tirei do jogo. Estou apenas me sentindo emocionado com a pungência do momento"
+  },
+  {
+    "start": 1081.36,
+    "end": 1089.13,
+    "content": "All right, so this next one is going to pile on huh? Accumulative effect. There's no escaping hopefully",
+    "translatedContent": "Tudo bem, então o próximo vai acumular, hein? Efeito acumulativo. Não há como escapar, espero"
+  },
+  {
+    "start": 1090.91,
+    "end": 1092.17,
+    "content": "Okay",
+    "translatedContent": "OK"
+  },
+  {
+    "start": 1092.17,
+    "end": 1098.24,
+    "content": "Going in",
+    "translatedContent": "Entrando"
+  },
+  {
+    "start": 1098.24,
+    "end": 1107.53,
+    "content": "Yeah, man.",
+    "translatedContent": "Sim, cara."
+  },
+  {
+    "start": 1107.53,
+    "end": 1108.53,
+    "content": "I know.",
+    "translatedContent": "Eu sei."
+  },
+  {
+    "start": 1108.53,
+    "end": 1109.53,
+    "content": "Runny nose.",
+    "translatedContent": "Nariz escorrendo."
+  },
+  {
+    "start": 1109.53,
+    "end": 1110.53,
+    "content": "Tearing eyes.",
+    "translatedContent": "Olhos lacrimejantes."
+  },
+  {
+    "start": 1110.53,
+    "end": 1112.25,
+    "content": "But we're so close to the finish line here.",
+    "translatedContent": "Mas estamos tão perto da linha de chegada aqui."
+  },
+  {
+    "start": 1112.25,
+    "end": 1113.25,
+    "content": "So close.",
+    "translatedContent": "Tão perto."
+  },
+  {
+    "start": 1113.25,
+    "end": 1114.25,
+    "content": "I'm good.",
+    "translatedContent": "Estou bem."
+  },
+  {
+    "start": 1114.25,
+    "end": 1117.73,
+    "content": "What's an enduring memory you have of giving a music lesson to Coco, the gorilla whose",
+    "translatedContent": "Que lembrança duradoura você tem de dar uma aula de música para Coco, o gorila cujo"
+  },
+  {
+    "start": 1117.73,
+    "end": 1122.15,
+    "content": "grasp of sign language inspired so many documentaries and academic research?",
+    "translatedContent": "O domínio da linguagem de sinais inspirou tantos documentários e pesquisas acadêmicas?"
+  },
+  {
+    "start": 1122.15,
+    "end": 1125.65,
+    "content": "Well, I can't say that Coco smelt so great.",
+    "translatedContent": "Bem, não posso dizer que Coco cheirasse tão bem."
+  },
+  {
+    "start": 1125.65,
+    "end": 1130.35,
+    "content": "I would say that Coco was very sexual with me.",
+    "translatedContent": "Eu diria que Coco era muito sexual comigo."
+  },
+  {
+    "start": 1130.35,
+    "end": 1131.77,
+    "content": "Obsessed with nipples, I've read about.",
+    "translatedContent": "Obcecado por mamilos, eu li sobre."
+  },
+  {
+    "start": 1131.77,
+    "end": 1132.77,
+    "content": "Nipples.",
+    "translatedContent": "Mamilos."
+  },
+  {
+    "start": 1132.77,
+    "end": 1135.79,
+    "content": "I was going for my nipple the whole time, and they were like, Coco.",
+    "translatedContent": "Eu estava tentando pegar meu mamilo o tempo todo, e eles disseram, Coco."
+  },
+  {
+    "start": 1135.79,
+    "end": 1138.17,
+    "content": "And then, so I'm having the greatest time, right?",
+    "translatedContent": "E então, estou me divertindo muito, certo?"
+  },
+  {
+    "start": 1138.19,
+    "end": 1139.79,
+    "content": "I'm like Dr. Doolittle with this gorilla.",
+    "translatedContent": "Sou como o Dr. Doolittle com este gorila."
+  },
+  {
+    "start": 1139.89,
+    "end": 1141.73,
+    "content": "That sauce is serious and you tried to trick me.",
+    "translatedContent": "Esse molho é sério e você tentou me enganar."
+  },
+  {
+    "start": 1141.75,
+    "end": 1143.15,
+    "content": "No, but not like the other one.",
+    "translatedContent": "Não, mas não como o outro."
+  },
+  {
+    "start": 1143.17,
+    "end": 1144.15,
+    "content": "Not like the other one, Flea.",
+    "translatedContent": "Não como o outro, Flea."
+  },
+  {
+    "start": 1144.21,
+    "end": 1145.49,
+    "content": "I would never lie to you.",
+    "translatedContent": "Eu nunca mentiria para você."
+  },
+  {
+    "start": 1145.55,
+    "end": 1146.35,
+    "content": "I would never lie to you.",
+    "translatedContent": "Eu nunca mentiria para você."
+  },
+  {
+    "start": 1150.41,
+    "end": 1152.43,
+    "content": "Coco, so I had always loved Coco",
+    "translatedContent": "Coco, então eu sempre amei Coco"
+  },
+  {
+    "start": 1152.43,
+    "end": 1154.59,
+    "content": "since the first National Geographic articles",
+    "translatedContent": "desde os primeiros artigos da National Geographic"
+  },
+  {
+    "start": 1154.59,
+    "end": 1156.59,
+    "content": "that were like in the 80s with Coco with her kitten,",
+    "translatedContent": "que era como nos anos 80 com Coco e seu gatinho,"
+  },
+  {
+    "start": 1156.75,
+    "end": 1157.29,
+    "content": "Coco's kitten.",
+    "translatedContent": "A gatinha da Coco."
+  },
+  {
+    "start": 1157.71,
+    "end": 1158.81,
+    "content": "I'd always been amazed.",
+    "translatedContent": "Eu sempre fiquei surpreso."
+  },
+  {
+    "start": 1158.81,
+    "end": 1162.09,
+    "content": "And the idea of being able to communicate with an animal,",
+    "translatedContent": "E a ideia de poder comunicar com um animal,"
+  },
+  {
+    "start": 1162.73,
+    "end": 1163.71,
+    "content": "really exciting.",
+    "translatedContent": "realmente emocionante."
+  },
+  {
+    "start": 1164.23,
+    "end": 1166.11,
+    "content": "And so I go meet Coco.",
+    "translatedContent": "E então vou conhecer Coco."
+  },
+  {
+    "start": 1166.89,
+    "end": 1168.59,
+    "content": "They tell me she might not want you to come in,",
+    "translatedContent": "Eles me disseram que ela pode não querer que você entre,"
+  },
+  {
+    "start": 1168.65,
+    "end": 1170.01,
+    "content": "so I'm kind of outside of her enclosure.",
+    "translatedContent": "então estou meio fora do recinto dela."
+  },
+  {
+    "start": 1171.13,
+    "end": 1172.45,
+    "content": "Whoo, and I'm talking to Coco.",
+    "translatedContent": "Uau, e estou conversando com Coco."
+  },
+  {
+    "start": 1173.45,
+    "end": 1176.49,
+    "content": "And they said, you know, talk to her like she really likes to be complimented.",
+    "translatedContent": "E eles disseram, você sabe, fale com ela como se ela gostasse muito de ser elogiada."
+  },
+  {
+    "start": 1177.09,
+    "end": 1177.87,
+    "content": "And I had my bass.",
+    "translatedContent": "E eu tinha meu baixo."
+  },
+  {
+    "start": 1177.93,
+    "end": 1178.67,
+    "content": "I'm like, bucket to bucket.",
+    "translatedContent": "Eu fico tipo, balde em balde."
+  },
+  {
+    "start": 1178.77,
+    "end": 1180.97,
+    "content": "I'm like, Coco, you are so beautiful.",
+    "translatedContent": "Eu fico tipo, Coco, você é tão linda."
+  },
+  {
+    "start": 1181.55,
+    "end": 1183.35,
+    "content": "Oh, my God, you look so beautiful.",
+    "translatedContent": "Oh, meu Deus, você está tão linda."
+  },
+  {
+    "start": 1183.43,
+    "end": 1186.35,
+    "content": "Your eyes, your face, your whole body, you're so beautiful.",
+    "translatedContent": "Seus olhos, seu rosto, todo o seu corpo, você é tão lindo."
+  },
+  {
+    "start": 1186.35,
+    "end": 1189.91,
+    "content": "And she starts going, like, doing a heart sign and come in,",
+    "translatedContent": "E ela começou a fazer um sinal de coração e entrar,"
+  },
+  {
+    "start": 1189.97,
+    "end": 1191.27,
+    "content": "whatever the sign was, all the stuff.",
+    "translatedContent": "qualquer que fosse o sinal, todas as coisas."
+  },
+  {
+    "start": 1191.35,
+    "end": 1192.27,
+    "content": "Come in, come see me.",
+    "translatedContent": "Entre, venha me ver."
+  },
+  {
+    "start": 1193.09,
+    "end": 1193.81,
+    "content": "I'm excited.",
+    "translatedContent": "Estou animado."
+  },
+  {
+    "start": 1193.93,
+    "end": 1194.45,
+    "content": "I go in.",
+    "translatedContent": "Eu entro."
+  },
+  {
+    "start": 1194.51,
+    "end": 1195.51,
+    "content": "She's embracing me.",
+    "translatedContent": "Ela está me abraçando."
+  },
+  {
+    "start": 1195.51,
+    "end": 1198.45,
+    "content": "but she understood English really well",
+    "translatedContent": "mas ela entendia inglês muito bem"
+  },
+  {
+    "start": 1198.45,
+    "end": 1199.71,
+    "content": "even though she couldn't speak it",
+    "translatedContent": "mesmo que ela não pudesse falar"
+  },
+  {
+    "start": 1199.71,
+    "end": 1200.99,
+    "content": "and there was much stuff that she couldn't sign",
+    "translatedContent": "e havia muitas coisas que ela não conseguia assinar"
+  },
+  {
+    "start": 1200.99,
+    "end": 1203.05,
+    "content": "she understood everything that was going to be said",
+    "translatedContent": "ela entendeu tudo o que ia ser dito"
+  },
+  {
+    "start": 1203.05,
+    "end": 1205.31,
+    "content": "so at one point we're getting towards the end",
+    "translatedContent": "então em um ponto estamos chegando ao fim"
+  },
+  {
+    "start": 1205.31,
+    "end": 1206.27,
+    "content": "and I had a flight",
+    "translatedContent": "e eu tive um vôo"
+  },
+  {
+    "start": 1206.27,
+    "end": 1209.87,
+    "content": "and I said to her carer",
+    "translatedContent": "e eu disse ao cuidador dela"
+  },
+  {
+    "start": 1209.87,
+    "end": 1212.81,
+    "content": "I said I've got a flight at 3.30",
+    "translatedContent": "Eu disse que tenho um vôo às 3h30"
+  },
+  {
+    "start": 1212.81,
+    "end": 1214.05,
+    "content": "so I've got to get going soon",
+    "translatedContent": "então eu tenho que ir logo"
+  },
+  {
+    "start": 1214.05,
+    "end": 1221.07,
+    "content": "and it just went like that",
+    "translatedContent": "e foi assim"
+  },
+  {
+    "start": 1221.07,
+    "end": 1222.01,
+    "content": "like a little kid",
+    "translatedContent": "como uma criança"
+  },
+  {
+    "start": 1222.01,
+    "end": 1223.25,
+    "content": "I don't want you to go",
+    "translatedContent": "Eu não quero que você vá"
+  },
+  {
+    "start": 1223.25,
+    "end": 1223.79,
+    "content": "you know what I mean",
+    "translatedContent": "Você sabe o que eu quero dizer"
+  },
+  {
+    "start": 1223.79,
+    "end": 1225.63,
+    "content": "it was amazing",
+    "translatedContent": "foi incrível"
+  },
+  {
+    "start": 1225.63,
+    "end": 1238.75,
+    "content": "that she was like everything that was being said she understood all right flea so i'm opening up",
+    "translatedContent": "que ela era como se tudo o que estava sendo dito ela entendesse tudo bem, pulga, então estou abrindo"
+  },
+  {
+    "start": 1238.75,
+    "end": 1253.26,
+    "content": "and dabbing you don't have to if you don't want to what do you think i am cheers bottoms up bottoms",
+    "translatedContent": "e enxugar você não precisa se não quiser o que você acha que eu sou felicidades de baixo para cima"
+  },
+  {
+    "start": 1253.26,
+    "end": 1264.86,
+    "content": "up scratch it and down the hatch what you said now not easy but the good news flea the wings of death",
+    "translatedContent": "arranhe e desça pela escotilha o que você disse agora não é fácil, mas as boas notícias voam nas asas da morte"
+  },
+  {
+    "start": 1264.86,
+    "end": 1269.66,
+    "content": "they're behind us and you know through this whole spice journey we've seen the way that music has",
+    "translatedContent": "eles estão atrás de nós e você sabe que durante toda essa jornada de especiarias vimos o jeito que a música tem"
+  },
+  {
+    "start": 1269.66,
+    "end": 1275.42,
+    "content": "shaped your life beginning when you're in school playing the trumpet and the orchestra then of",
+    "translatedContent": "moldou sua vida começando quando você estava na escola tocando trompete e orquestra e depois"
+  },
+  {
+    "start": 1275.42,
+    "end": 1280.78,
+    "content": "course it evolves into this insane career and then later on founding the silver lake conservatory of",
+    "translatedContent": "claro que evolui para esta carreira insana e mais tarde fundando o conservatório de Silver Lake de"
+  },
+  {
+    "start": 1280.78,
+    "end": 1286.06,
+    "content": "music a non-profit that offers lessons to musicians of all skill levels as someone who obviously cares",
+    "translatedContent": "music, uma organização sem fins lucrativos que oferece aulas para músicos de todos os níveis de habilidade, como alguém que obviamente se importa"
+  },
+  {
+    "start": 1286.06,
+    "end": 1290.38,
+    "content": "deeply what letter grade would you give to the current state of music education in america and",
+    "translatedContent": "profundamente que nota você daria ao estado atual da educação musical na América e"
+  },
+  {
+    "start": 1290.38,
+    "end": 1297.34,
+    "content": "what do you think is lost when we stop supporting programs of the arts um i think that stopping",
+    "translatedContent": "o que você acha que se perde quando paramos de apoiar programas de artes? Acho que parar"
+  },
+  {
+    "start": 1297.34,
+    "end": 1304.34,
+    "content": "programs of the arts in public schools or making it so only people who can afford it",
+    "translatedContent": "programas de artes em escolas públicas ou fazê-lo apenas para pessoas que podem pagar"
+  },
+  {
+    "start": 1304.34,
+    "end": 1310.24,
+    "content": "can get them and be exposed to them is like child abuse. I think that all kids should",
+    "translatedContent": "pode pegá-los e ser exposto a eles é como abuso infantil. Eu acho que todas as crianças deveriam"
+  },
+  {
+    "start": 1310.24,
+    "end": 1316.56,
+    "content": "be, have the opportunity to study art at the highest level. It will make our society so",
+    "translatedContent": "ser, ter a oportunidade de estudar arte ao mais alto nível. Isso tornará a nossa sociedade tão"
+  },
+  {
+    "start": 1316.56,
+    "end": 1320.44,
+    "content": "much better, it will build bridges of love between all different cultures and economic",
+    "translatedContent": "muito melhor, construirá pontes de amor entre todas as diferentes culturas e economias"
+  },
+  {
+    "start": 1320.44,
+    "end": 1326.2,
+    "content": "classes and bring people together and that's what I care about, that's my driving force",
+    "translatedContent": "aulas e unir as pessoas e é isso que me importa, essa é a minha força motriz"
+  },
+  {
+    "start": 1326.2,
+    "end": 1331.56,
+    "content": "and being alive each day it's my life's mission and i'm just working in communities low-income",
+    "translatedContent": "e estar vivo todos os dias é a missão da minha vida e só estou trabalhando em comunidades de baixa renda"
+  },
+  {
+    "start": 1331.56,
+    "end": 1336.92,
+    "content": "communities all different types of places and wanting to uh you know to be of assistance and",
+    "translatedContent": "comunidades de todos os diferentes tipos de lugares e querendo, você sabe, ajudar e"
+  },
+  {
+    "start": 1336.92,
+    "end": 1343.72,
+    "content": "nothing else makes me happier nothing nothing well flea what an amazing journey it has been",
+    "translatedContent": "nada mais me faz mais feliz, nada, nada, bem, pulga, que jornada incrível tem sido"
+  },
+  {
+    "start": 1343.72,
+    "end": 1349.24,
+    "content": "with you today and now there is nothing left to do but roll out the red carpet for you flea",
+    "translatedContent": "com você hoje e agora não há mais nada a fazer a não ser estender o tapete vermelho para você, pulga"
+  },
+  {
+    "start": 1349.24,
+    "end": 1352.92,
+    "content": "this camera this camera this camera let the people know what you have going on in your life",
+    "translatedContent": "esta câmera esta câmera esta câmera permite que as pessoas saibam o que você está acontecendo em sua vida"
+  },
+  {
+    "start": 1352.92,
+    "end": 1360.92,
+    "content": "The red carpet for me, you know, my life is an ever-evolving thing.",
+    "translatedContent": "O tapete vermelho para mim, você sabe, minha vida é uma coisa em constante evolução."
+  },
+  {
+    "start": 1360.92,
+    "end": 1363.92,
+    "content": "I'm a humble student of the world.",
+    "translatedContent": "Sou um humilde estudante do mundo."
+  },
+  {
+    "start": 1363.92,
+    "end": 1368.92,
+    "content": "Like I said, I just want to build bridges of love in the world.",
+    "translatedContent": "Como eu disse, só quero construir pontes de amor no mundo."
+  },
+  {
+    "start": 1368.92,
+    "end": 1370.92,
+    "content": "I want to play music. I want to make art.",
+    "translatedContent": "Eu quero tocar música. Eu quero fazer arte."
+  },
+  {
+    "start": 1370.92,
+    "end": 1374.92,
+    "content": "I want to connect with people and do beautiful things.",
+    "translatedContent": "Quero me conectar com pessoas e fazer coisas bonitas."
+  },
+  {
+    "start": 1374.92,
+    "end": 1376.92,
+    "content": "I'm a yearner. I care.",
+    "translatedContent": "Eu sou um anseio. Eu me importo."
+  },
+  {
+    "start": 1376.92,
+    "end": 1384.65,
+    "content": "You know, I want to keep growing.",
+    "translatedContent": "Você sabe, eu quero continuar crescendo."
+  },
+  {
+    "start": 1384.65,
+    "end": 1391.53,
+    "content": "Yeah, the one was hot, like it was seriously hot, but when I watched the Jennifer Lawrence",
+    "translatedContent": "Sim, aquele estava quente, como se estivesse muito quente, mas quando assisti ao Jennifer Lawrence"
+  },
+  {
+    "start": 1391.53,
+    "end": 1392.53,
+    "content": "one, she started crying.",
+    "translatedContent": "um, ela começou a chorar."
+  },
+  {
+    "start": 1392.53,
+    "end": 1393.53,
+    "content": "Yeah, yeah, yeah.",
+    "translatedContent": "Sim, sim, sim."
+  },
+  {
+    "start": 1393.53,
+    "end": 1394.53,
+    "content": "What do you mean?",
+    "translatedContent": "O que você quer dizer?"
+  },
+  {
+    "start": 1394.53,
+    "end": 1395.53,
+    "content": "What do you mean?",
+    "translatedContent": "O que você quer dizer?"
+  },
+  {
+    "start": 1395.53,
+    "end": 1396.59,
+    "content": "What do you mean?",
+    "translatedContent": "O que você quer dizer?"
+  },
+  {
+    "start": 1396.59,
+    "end": 1397.59,
+    "content": "You did so good.",
+    "translatedContent": "Você se saiu tão bem."
+  },
+  {
+    "start": 1397.59,
+    "end": 1398.59,
+    "content": "Thanks, man.",
+    "translatedContent": "Obrigado, cara."
+  },
+  {
+    "start": 1398.59,
+    "end": 1399.59,
+    "content": "Yeah, thank you.",
+    "translatedContent": "Sim, obrigado."
+  },
+  {
+    "start": 1399.59,
+    "end": 1400.59,
+    "content": "You're really cool.",
+    "translatedContent": "Você é muito legal."
+  },
+  {
+    "start": 1400.59,
+    "end": 1408.07,
+    "content": "Hey, what's going on, Hot Ones fans?",
+    "translatedContent": "Ei, o que está acontecendo, fãs dos Hot Ones?"
+  },
+  {
+    "start": 1408.07,
+    "end": 1411.93,
+    "content": "This is Sean Evans, and if you would like to get your hands on the season 22 Hot Ones",
+    "translatedContent": "Este é Sean Evans, e se você quiser colocar as mãos nos Hot Ones da 22ª temporada"
+  },
+  {
+    "start": 1411.93,
+    "end": 1417.01,
+    "content": "hot sauce lineup, at this point, you know the drill, heatness.com, heatness.com.",
+    "translatedContent": "linha de molho picante, neste ponto, você conhece o procedimento, heatness.com, heatness.com."
+  },
+  {
+    "start": 1417.01,
+    "end": 1422.43,
+    "content": "Heatness.com to get your hands on the Hot Ones Season 22 hot sauce lineup, ice cream",
+    "translatedContent": "Heatness.com para colocar as mãos na linha de molhos picantes e sorvetes da 22ª temporada dos Hot Ones"
+  },
+  {
+    "start": 1422.43,
+    "end": 1423.03,
+    "content": "not included.",
+    "translatedContent": "não incluído."
+  },
+  {
+    "start": 1423.37,
+    "end": 1424.63,
+    "content": "Be careful around the eyes.",
+    "translatedContent": "Tenha cuidado ao redor dos olhos."
+  },
+  {
+    "start": 1424.91,
+    "end": 1425.85,
+    "content": "Don't say I didn't warn you.",
+    "translatedContent": "Não diga que não avisei."
+  }
+]
