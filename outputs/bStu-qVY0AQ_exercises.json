@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "question": "This year **was** the 50th anniversary.",
+      "translation": "Este ano foi o 50º aniversário."
+    },
+    {
+      "question": "The Waves plugins are **fantastic** for getting that feel.",
+      "translation": "Os plugins Waves são fantásticos para obter aquela sensação."
+    },
+    {
+      "question": "The Beatles had **given** up George Martin.",
+      "translation": "Os Beatles tinham desistido de George Martin."
+    },
+    {
+      "question": "They actually **stole** it from Ken Townsend.",
+      "translation": "Eles realmente roubaram isso de Ken Townsend."
+    },
+    {
+      "question": "Octopus's Garden **premieres** in the Let It Be movie.",
+      "translation": "Octopus's Garden estreia no filme Let It Be."
+    }
+  ],
+  [
+    {
+      "question": "Abbey Road is still considered a **production** masterpiece.",
+      "translation": "Abbey Road ainda é considerado uma obra-prima de produção."
+    },
+    {
+      "question": "The Beatles were **restricted** to four-track tape machines.",
+      "translation": "Os Beatles estavam restritos a gravadores de quatro canais."
+    },
+    {
+      "question": "Abbey Road **had** the 3M M23 machines.",
+      "translation": "Abbey Road teve as máquinas 3M M23."
+    },
+    {
+      "question": "The eight-track was a **holy** grail.",
+      "translation": "A faixa oito era o Santo Graal."
+    },
+    {
+      "question": "The gorgeous string **arrangements** are on one track.",
+      "translation": "Os lindos arranjos de cordas estão em uma faixa."
+    }
+  ],
+  [
+    {
+      "question": "The low end on Abbey Road is **insane**.",
+      "translation": "Os graves em Abbey Road são insanos."
+    },
+    {
+      "question": "They were building their own **studio** at Apple.",
+      "translation": "Eles estavam construindo seu próprio estúdio na Apple."
+    },
+    {
+      "question": "The TG desk offered **extended** equalization options.",
+      "translation": "A mesa TG ofereceu opções de equalização estendida."
+    },
+    {
+      "question": "They used the same **mics**.",
+      "translation": "Eles usaram os mesmos microfones."
+    },
+    {
+      "question": "George Martin **wrote** gorgeous string arrangements.",
+      "translation": "George Martin escreveu lindos arranjos de cordas."
+    }
+  ]
+]

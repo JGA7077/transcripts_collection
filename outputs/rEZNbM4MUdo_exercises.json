@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "question": "It requires a certain **distaste** for accidental complexity to go like, hey guys, that bridge, we can blow it up if we want.",
+      "translation": "Requer uma certa aversão pela complexidade acidental para dizer, ei pessoal, aquela ponte, podemos explodi-la se quisermos."
+    },
+    {
+      "question": "Ruby is just **uniquely** suited for the kind of magic that describes Rails.",
+      "translation": "Ruby é exclusivamente adequado para o tipo de magia que descreve Rails."
+    },
+    {
+      "question": "This was the reason I originally got **introduced** to Ruby. Dave Thomas and Martin Fowler were using Ruby as essentially the pseudo code language.",
+      "translation": "Esta foi a razão pela qual fui apresentado originalmente ao Ruby. Dave Thomas e Martin Fowler usavam Ruby como essencialmente a linguagem de pseudocódigo."
+    },
+    {
+      "question": "Taking that **translation** layer away, that the programming language actually looks like how I think about programming, is an incredibly powerful technique.",
+      "translation": "Remover aquela camada de tradução, de que a linguagem de programação se parece com como eu penso sobre programação, é uma técnica incrivelmente poderosa."
+    },
+    {
+      "question": "Programming could be more than just a tool. It could be a **vocation**, a passion, a love.",
+      "translation": "A programação poderia ser mais do que apenas uma ferramenta. Poderia ser uma vocação, uma paixão, um amor."
+    }
+  ],
+  [
+    {
+      "question": "Matt placed in his hierarchy of needs the programmer **joy** and happiness is number one.",
+      "translation": "Matt colocou em sua hierarquia de necessidades a alegria e felicidade do programador como número um."
+    },
+    {
+      "question": "It's a **trade-off** of yes, maybe we could do without the semicolons, but then there's going to be these edge cases.",
+      "translation": "É uma troca de sim, talvez pudéssemos fazer sem os ponto-e-vírgula, mas haverá esses casos extremos."
+    },
+    {
+      "question": "I did a **back of the envelope** funny math example a while back. The cost delta of using the most luxurious programming language was just 15 percent of our engineering budget.",
+      "translation": "Fiz um exemplo engraçado de matemática nas costas de um envelope há algum tempo. O delta do custo de usar a linguagem de programação mais luxuosa foi de apenas 15% do nosso orçamento de engenharia."
+    },
+    {
+      "question": "The **overhead** of running Ruby, even in the most extreme case, it was something like 15 percent.",
+      "translation": "A sobrecarga de executar Ruby, mesmo no caso mais extremo, era algo em torno de 15 por cento."
+    },
+    {
+      "question": "Aesthetics for me is right up there near the very top of what brings me **joy** as a programmer.",
+      "translation": "A estética para mim está lá em cima, perto do topo do que me traz alegria como programador."
+    }
+  ],
+  [
+    {
+      "question": "I find a lot of TypeScript code **nasty** to look at, nasty to interact with, nasty to program in.",
+      "translation": "Acho muito código TypeScript desagradável de se ver, desagradável de interagir, desagradável de programar."
+    },
+    {
+      "question": "I'm just proudly a text **editor** person. This is why I love Ruby so much.",
+      "translation": "Tenho orgulho de ser uma pessoa de editor de texto. É por isso que amo tanto Ruby."
+    },
+    {
+      "question": "It is to design a piece of code that when I lean back in my office chair and just look at it, I go like, that is **delicious**.",
+      "translation": "É projetar um pedaço de código que quando eu me inclino para trás na minha cadeira do escritório e apenas olho para ele, eu digo, isso é delicioso."
+    },
+    {
+      "question": "The good parts for me is modern JavaScript like **ES6**, ESM, import maps, running it all in the browser.",
+      "translation": "A parte boa para mim é o JavaScript moderno como ES6, ESM, import maps, rodando tudo no navegador."
+    },
+    {
+      "question": "JavaScript, as I've said many times, is my second favorite **programming** language. It's a distant second, but second is still highly rated.",
+      "translation": "JavaScript, como já disse muitas vezes, é minha segunda linguagem de programação favorita. É um distante segundo lugar, mas o segundo ainda é bem avaliado."
+    }
+  ]
+]

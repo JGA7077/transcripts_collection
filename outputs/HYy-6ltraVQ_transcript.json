@@ -1,0 +1,782 @@
+[
+  {
+    "start": 0.12,
+    "end": 2.68,
+    "content": "Okay, I have a question for you.",
+    "translatedContent": "Ok, tenho uma pergunta para você."
+  },
+  {
+    "start": 2.68,
+    "end": 5,
+    "content": "Listen to these clips from three different songs",
+    "translatedContent": "Ouça esses clipes de três músicas diferentes"
+  },
+  {
+    "start": 5,
+    "end": 18.78,
+    "content": "and try and guess what they all have in common.",
+    "translatedContent": "e tente adivinhar o que todos eles têm em comum."
+  },
+  {
+    "start": 18.78,
+    "end": 19.64,
+    "content": "Could you figure it out?",
+    "translatedContent": "Você poderia descobrir isso?"
+  },
+  {
+    "start": 19.64,
+    "end": 21.62,
+    "content": "Whether directly or indirectly,",
+    "translatedContent": "Seja direta ou indiretamente,"
+  },
+  {
+    "start": 21.62,
+    "end": 25.1,
+    "content": "all of these songs were inspired in some way by blues music.",
+    "translatedContent": "todas essas músicas foram inspiradas de alguma forma no blues."
+  },
+  {
+    "start": 25.1,
+    "end": 27.62,
+    "content": "But how are all these songs that sound so different",
+    "translatedContent": "Mas como são todas essas músicas que soam tão diferentes"
+  },
+  {
+    "start": 27.62,
+    "end": 29.38,
+    "content": "influenced by the same music?",
+    "translatedContent": "influenciado pela mesma música?"
+  },
+  {
+    "start": 29.38,
+    "end": 36.62,
+    "content": "And what makes blues music the blues?",
+    "translatedContent": "E o que faz do blues o blues?"
+  },
+  {
+    "start": 36.62,
+    "end": 38.22,
+    "content": "Because if you don't like the blues,",
+    "translatedContent": "Porque se você não gosta do blues,"
+  },
+  {
+    "start": 38.22,
+    "end": 39.5,
+    "content": "you don't like your mama.",
+    "translatedContent": "você não gosta da sua mãe."
+  },
+  {
+    "start": 39.5,
+    "end": 41.54,
+    "content": "Because this the root of music, man.",
+    "translatedContent": "Porque essa é a raiz da música, cara."
+  },
+  {
+    "start": 41.54,
+    "end": 43.86,
+    "content": "It's like cooking potatoes.",
+    "translatedContent": "É como cozinhar batatas."
+  },
+  {
+    "start": 43.86,
+    "end": 47.48,
+    "content": "You may fry them, you may bake them, you may cut them up,",
+    "translatedContent": "Você pode fritá-los, pode assá-los, pode cortá-los,"
+  },
+  {
+    "start": 47.48,
+    "end": 50.38,
+    "content": "you may smash them, but they're still potatoes.",
+    "translatedContent": "você pode esmagá-los, mas eles ainda são batatas."
+  },
+  {
+    "start": 50.38,
+    "end": 52.66,
+    "content": "Gritty guitar solos, wailing harmonicas,",
+    "translatedContent": "Solos de guitarra corajosos, gaitas lamentosas,"
+  },
+  {
+    "start": 52.66,
+    "end": 55.04,
+    "content": "and soulful lyrics about life's hardships",
+    "translatedContent": "e letras emocionantes sobre as dificuldades da vida"
+  },
+  {
+    "start": 55.04,
+    "end": 57.92,
+    "content": "are all part of what makes people love the blues.",
+    "translatedContent": "fazem parte do que faz as pessoas amarem o blues."
+  },
+  {
+    "start": 57.92,
+    "end": 59.3,
+    "content": "But how did this music start,",
+    "translatedContent": "Mas como essa música começou,"
+  },
+  {
+    "start": 59.3,
+    "end": 61.7,
+    "content": "and why is it so important to American music?",
+    "translatedContent": "e por que isso é tão importante para a música americana?"
+  },
+  {
+    "start": 61.7,
+    "end": 63.54,
+    "content": "The answer to this question can be found",
+    "translatedContent": "A resposta a esta pergunta pode ser encontrada"
+  },
+  {
+    "start": 63.54,
+    "end": 66.34,
+    "content": "deep in the Mississippi Delta of the American South,",
+    "translatedContent": "nas profundezas do Delta do Mississippi, no sul dos Estados Unidos,"
+  },
+  {
+    "start": 66.34,
+    "end": 69.6,
+    "content": "where the blues was born sometime in the late 1800s.",
+    "translatedContent": "onde o blues nasceu em algum momento no final do século XIX."
+  },
+  {
+    "start": 69.6,
+    "end": 71.76,
+    "content": "Even after slavery officially ended,",
+    "translatedContent": "Mesmo depois do fim oficial da escravatura,"
+  },
+  {
+    "start": 71.76,
+    "end": 74.58,
+    "content": "Poverty and unjust laws kept people from full freedom.",
+    "translatedContent": "A pobreza e as leis injustas impediram as pessoas de ter plena liberdade."
+  },
+  {
+    "start": 74.58,
+    "end": 76.38,
+    "content": "Many former slaves stayed in the South",
+    "translatedContent": "Muitos ex-escravos ficaram no Sul"
+  },
+  {
+    "start": 76.38,
+    "end": 78.6,
+    "content": "and continued to work in difficult conditions.",
+    "translatedContent": "e continuou a trabalhar em condições difíceis."
+  },
+  {
+    "start": 78.6,
+    "end": 80.46,
+    "content": "People sang spirituals at church",
+    "translatedContent": "Pessoas cantavam músicas espirituais na igreja"
+  },
+  {
+    "start": 80.46,
+    "end": 81.82,
+    "content": "and worked songs in the field",
+    "translatedContent": "e trabalhou músicas no campo"
+  },
+  {
+    "start": 81.82,
+    "end": 83.52,
+    "content": "to help deal with the daily struggles.",
+    "translatedContent": "para ajudar a lidar com as lutas diárias."
+  },
+  {
+    "start": 83.52,
+    "end": 85.52,
+    "content": "Over time, this music developed",
+    "translatedContent": "Com o tempo, essa música se desenvolveu"
+  },
+  {
+    "start": 85.52,
+    "end": 88.18,
+    "content": "into what people now call the blues.",
+    "translatedContent": "no que as pessoas hoje chamam de blues."
+  },
+  {
+    "start": 88.18,
+    "end": 90.48,
+    "content": "Most blues musicians were farm workers by day",
+    "translatedContent": "A maioria dos músicos de blues trabalhavam em fazendas durante o dia"
+  },
+  {
+    "start": 90.48,
+    "end": 94.2,
+    "content": "and would play at blues bars called juke joints by night.",
+    "translatedContent": "e tocava em bares de blues chamados juke joint à noite."
+  },
+  {
+    "start": 94.2,
+    "end": 96.52,
+    "content": "The earliest form of the blues was often referred to",
+    "translatedContent": "A forma mais antiga do blues era frequentemente referida"
+  },
+  {
+    "start": 96.52,
+    "end": 98.76,
+    "content": "as country blues or delta blues,",
+    "translatedContent": "como country blues ou delta blues,"
+  },
+  {
+    "start": 98.76,
+    "end": 101.44,
+    "content": "and this style usually had a solo singer",
+    "translatedContent": "e esse estilo geralmente tinha um cantor solo"
+  },
+  {
+    "start": 101.44,
+    "end": 107.2,
+    "content": "would also either play the harmonica or bottleneck slide guitar. Bottleneck slide guitar is when a",
+    "translatedContent": "também tocava gaita ou guitarra slide gargalo. Gargalo slide guitar é quando um"
+  },
+  {
+    "start": 107.2,
+    "end": 112.72,
+    "content": "musician presses a hard object across multiple strings on a guitar and slides it down the",
+    "translatedContent": "músico pressiona um objeto duro em várias cordas de um violão e o desliza para baixo"
+  },
+  {
+    "start": 112.72,
+    "end": 119.68,
+    "content": "fingerboard. Sometimes they would use a steel bar, a knife, or a bottleneck and this would create a",
+    "translatedContent": "escala. Às vezes eles usavam uma barra de aço, uma faca ou um gargalo e isso criava um"
+  },
+  {
+    "start": 119.68,
+    "end": 129.2,
+    "content": "smooth wailing type of sound. The Delta Blues also emphasized rhythm, fingerstyle guitar, and",
+    "translatedContent": "tipo de som de lamento suave. O Delta Blues também enfatizou o ritmo, a guitarra estilo dedo e"
+  },
+  {
+    "start": 129.2,
+    "end": 133.76,
+    "content": "reflective lyrics about the hard lives of African-American farmers in the south. As",
+    "translatedContent": "letras reflexivas sobre a vida difícil dos agricultores afro-americanos no sul. Como"
+  },
+  {
+    "start": 133.76,
+    "end": 138.24,
+    "content": "As blues music grew in popularity, some musicians like Charlie Patton, Eddie James",
+    "translatedContent": "À medida que a popularidade do blues crescia, alguns músicos como Charlie Patton, Eddie James"
+  },
+  {
+    "start": 138.24,
+    "end": 143.68,
+    "content": "Sonhouse Jr., and Robert Johnson became famous and toured around the Delta region.",
+    "translatedContent": "Sonhouse Jr. e Robert Johnson tornaram-se famosos e viajaram pela região do Delta."
+  },
+  {
+    "start": 143.68,
+    "end": 148.64,
+    "content": "Later, blues musicians started performing in Memphis, Tennessee to establish their careers.",
+    "translatedContent": "Mais tarde, músicos de blues começaram a se apresentar em Memphis, Tennessee, para estabelecer suas carreiras."
+  },
+  {
+    "start": 148.64,
+    "end": 152.52,
+    "content": "This included famous bluesmen like B.B. King and John Lee Hooker.",
+    "translatedContent": "Isso incluiu bluesmen famosos como B.B. King e John Lee Hooker."
+  },
+  {
+    "start": 152.52,
+    "end": 158,
+    "content": "During what's known as the Great Migration from 1910 to 1970, millions of African-Americans",
+    "translatedContent": "Durante o que é conhecido como a Grande Migração, de 1910 a 1970, milhões de afro-americanos"
+  },
+  {
+    "start": 158,
+    "end": 162.68,
+    "content": "tried to escape the racism and Jim Crow laws of the South by moving to northern cities.",
+    "translatedContent": "tentou escapar do racismo e das leis Jim Crow do Sul, mudando-se para cidades do norte."
+  },
+  {
+    "start": 162.68,
+    "end": 165.06,
+    "content": "Many moved to the city of Chicago, in particular.",
+    "translatedContent": "Muitos se mudaram para a cidade de Chicago, em particular."
+  },
+  {
+    "start": 167.06,
+    "end": 170.38,
+    "content": "Blues musicians like Howlin' Wolf, Willie Dixon,",
+    "translatedContent": "Músicos de blues como Howlin' Wolf, Willie Dixon,"
+  },
+  {
+    "start": 170.38,
+    "end": 172.12,
+    "content": "and Muddy Waters made this journey",
+    "translatedContent": "e Muddy Waters fizeram esta jornada"
+  },
+  {
+    "start": 172.12,
+    "end": 173.76,
+    "content": "and brought the blues with them.",
+    "translatedContent": "e trouxe o blues com eles."
+  },
+  {
+    "start": 173.76,
+    "end": 176.64,
+    "content": "They also developed the new Chicago Blues sound.",
+    "translatedContent": "Eles também desenvolveram o novo som do Chicago Blues."
+  },
+  {
+    "start": 176.64,
+    "end": 179.08,
+    "content": "Chicago Blues was basically the same style of blues",
+    "translatedContent": "Chicago Blues era basicamente o mesmo estilo de blues"
+  },
+  {
+    "start": 179.08,
+    "end": 182,
+    "content": "played in the Delta, except played more energetically,",
+    "translatedContent": "jogou no Delta, exceto jogou com mais energia,"
+  },
+  {
+    "start": 182,
+    "end": 184.58,
+    "content": "with an electric guitar, sometimes a bass guitar,",
+    "translatedContent": "com uma guitarra elétrica, às vezes um baixo,"
+  },
+  {
+    "start": 184.58,
+    "end": 185.7,
+    "content": "piano, and drums.",
+    "translatedContent": "piano e bateria."
+  },
+  {
+    "start": 185.7,
+    "end": 187.34,
+    "content": "Listen to this clip from Robert Johnson's",
+    "translatedContent": "Ouça este clipe de Robert Johnson"
+  },
+  {
+    "start": 187.34,
+    "end": 190.5,
+    "content": "Delta Blues-style song, I Believe I'll Dust My Broom,",
+    "translatedContent": "Música estilo Delta Blues, I Believe I'll Dust My Broom,"
+  },
+  {
+    "start": 190.5,
+    "end": 192.52,
+    "content": "recorded in 1936.",
+    "translatedContent": "gravado em 1936."
+  },
+  {
+    "start": 192.52,
+    "end": 204.96,
+    "content": "Now listen to a 1966 version of the same song in a more Chicago style by Howlin' Wolf.",
+    "translatedContent": "Agora ouça uma versão de 1966 da mesma música em um estilo mais Chicago de Howlin' Wolf."
+  },
+  {
+    "start": 210.28,
+    "end": 215.28,
+    "content": "Now this Chicago style would later have an influence on rock and roll, but we'll talk more about that later.",
+    "translatedContent": "Agora, esse estilo de Chicago mais tarde teria influência no rock and roll, mas falaremos mais sobre isso mais tarde."
+  },
+  {
+    "start": 215.72,
+    "end": 218.44,
+    "content": "What gives you the blues in R.A. when they run out of peanut butter jelly?",
+    "translatedContent": "O que te deixa triste em R.A. quando a geleia de manteiga de amendoim acaba?"
+  },
+  {
+    "start": 219.6,
+    "end": 221.42,
+    "content": "Oh wow, you know me really well now.",
+    "translatedContent": "Nossa, você me conhece muito bem agora."
+  },
+  {
+    "start": 221.56,
+    "end": 224.18,
+    "content": "How much experience do you have playing the blues?",
+    "translatedContent": "Quanta experiência você tem tocando blues?"
+  },
+  {
+    "start": 224.18,
+    "end": 234.88,
+    "content": "That is a very interesting question because it's also asking me how much experience do I have playing gospel, rock and roll, R&B, soul music.",
+    "translatedContent": "Essa é uma pergunta muito interessante porque também me pergunta quanta experiência eu tenho tocando gospel, rock and roll, R&B, soul music."
+  },
+  {
+    "start": 234.88,
+    "end": 235.72,
+    "content": "It's all intertwined.",
+    "translatedContent": "Está tudo interligado."
+  },
+  {
+    "start": 235.86,
+    "end": 236.22,
+    "content": "Yeah.",
+    "translatedContent": "Sim."
+  },
+  {
+    "start": 236.74,
+    "end": 240.3,
+    "content": "I actually did an episode on my channel on the blues a year ago.",
+    "translatedContent": "Na verdade, fiz um episódio no meu canal sobre blues há um ano."
+  },
+  {
+    "start": 241.12,
+    "end": 245.53,
+    "content": "And since then, I've learned a lot about blues.",
+    "translatedContent": "E desde então aprendi muito sobre blues."
+  },
+  {
+    "start": 245.87,
+    "end": 246.11,
+    "content": "Okay.",
+    "translatedContent": "OK."
+  },
+  {
+    "start": 246.13,
+    "end": 248.75,
+    "content": "About the blues as a genre and also the form.",
+    "translatedContent": "Sobre o blues como gênero e também como forma."
+  },
+  {
+    "start": 248.75,
+    "end": 255.63,
+    "content": "How would you say blues music and your realm of classical music are related?",
+    "translatedContent": "Como você diria que o blues e o seu reino da música clássica estão relacionados?"
+  },
+  {
+    "start": 255.81,
+    "end": 262.93,
+    "content": "The way that melody is formed over chords, how it's elaborating upon different chords,",
+    "translatedContent": "A forma como a melodia é formada sobre acordes, como ela se elabora em diferentes acordes,"
+  },
+  {
+    "start": 262.93,
+    "end": 266.05,
+    "content": "different chord progression, I think that's where the similarity is.",
+    "translatedContent": "progressão de acordes diferente, acho que é aí que está a semelhança."
+  },
+  {
+    "start": 267.65,
+    "end": 270.13,
+    "content": "So what is it that makes blues music sound bluesy?",
+    "translatedContent": "Então, o que faz a música blues soar blues?"
+  },
+  {
+    "start": 270.13,
+    "end": 273.41,
+    "content": "Well let's take a look at the scale that's most commonly found in blues songs,",
+    "translatedContent": "Bem, vamos dar uma olhada na escala que é mais comumente encontrada em músicas de blues,"
+  },
+  {
+    "start": 273.41,
+    "end": 277.01,
+    "content": "which is a six note scale based off of a five note scale.",
+    "translatedContent": "que é uma escala de seis notas baseada em uma escala de cinco notas."
+  },
+  {
+    "start": 277.01,
+    "end": 279.65,
+    "content": "That five note scale either being the major pentatonic scale",
+    "translatedContent": "Essa escala de cinco notas é a escala pentatônica maior"
+  },
+  {
+    "start": 279.65,
+    "end": 287.49,
+    "content": "or the minor one. And as you can hear these five note scales are quite",
+    "translatedContent": "ou o menor. E como você pode ouvir, essas escalas de cinco notas são bastante"
+  },
+  {
+    "start": 287.49,
+    "end": 293.39,
+    "content": "different than the seven note scales that you most commonly hear in Western",
+    "translatedContent": "diferente das escalas de sete notas que você ouve mais comumente no Ocidente"
+  },
+  {
+    "start": 293.39,
+    "end": 298.23,
+    "content": "music. Now going back to the major pentatonic scale, to that we're going to",
+    "translatedContent": "música. Agora voltando para a escala pentatônica maior, para isso vamos"
+  },
+  {
+    "start": 298.23,
+    "end": 307.62,
+    "content": "add a flat three from the root note. So that'll sound like this. To the minor one",
+    "translatedContent": "adicione um três bemol da nota fundamental. Então isso vai soar assim. Para o menor"
+  },
+  {
+    "start": 307.62,
+    "end": 314.43,
+    "content": "we're going to add the flat five from the root note and that'll sound like",
+    "translatedContent": "vamos adicionar o cinco bemol da nota fundamental e isso soará como"
+  },
+  {
+    "start": 314.43,
+    "end": 323.45,
+    "content": "this. Another important part of the blues is the form and most blues will follow a",
+    "translatedContent": "esse. Outra parte importante do blues é a forma e a maioria dos blues seguirá uma"
+  },
+  {
+    "start": 323.45,
+    "end": 327.59,
+    "content": "12 bar blues chord progression which is based around three different chords.",
+    "translatedContent": "Progressão de acordes de blues de 12 compassos baseada em três acordes diferentes."
+  },
+  {
+    "start": 327.59,
+    "end": 336.11,
+    "content": "Those chords in C major will be C, the I chord, F, the IV chord, and G, the V chord.",
+    "translatedContent": "Esses acordes em Dó maior serão Dó, o acorde I, F, o acorde IV, e Sol, o acorde V."
+  },
+  {
+    "start": 336.11,
+    "end": 342.19,
+    "content": "And these chords will be repeated in a specific order, most commonly with a",
+    "translatedContent": "E esses acordes serão repetidos em uma ordem específica, mais comumente com um"
+  },
+  {
+    "start": 342.19,
+    "end": 348.03,
+    "content": "a b7 as well, so a c7, f7, and g7.",
+    "translatedContent": "um b7 também, então um c7, f7 e g7."
+  },
+  {
+    "start": 348.03,
+    "end": 351.87,
+    "content": "And that'll sound like this.",
+    "translatedContent": "E isso vai soar assim."
+  },
+  {
+    "start": 351.87,
+    "end": 377.68,
+    "content": "C7 for 4 measures, 3, 4, f7 for 2, c7 for 2, g7 for 1, f7 for 1, and back to c7 for 2.",
+    "translatedContent": "C7 para 4 compassos, 3, 4, f7 para 2, c7 para 2, g7 para 1, f7 para 1 e de volta a c7 para 2."
+  },
+  {
+    "start": 377.68,
+    "end": 381.66,
+    "content": "Of course, improvisation is a huge part of the blues and no tune is complete without",
+    "translatedContent": "Claro, a improvisação é uma grande parte do blues e nenhuma música está completa sem"
+  },
+  {
+    "start": 381.66,
+    "end": 413.57,
+    "content": "it so I'm gonna give it a shot is there something that is similar to what a blue",
+    "translatedContent": "então vou tentar, há algo semelhante ao que é um azul"
+  },
+  {
+    "start": 413.57,
+    "end": 419.29,
+    "content": "note is in terms of pitches in the context of just drums absolutely with",
+    "translatedContent": "nota é em termos de tons no contexto apenas de bateria absolutamente com"
+  },
+  {
+    "start": 419.29,
+    "end": 424.27,
+    "content": "pitch is like if you're playing in between a C and a C sharp there's a note",
+    "translatedContent": "o tom é como se você estivesse tocando entre um dó e um dó sustenido, há uma nota"
+  },
+  {
+    "start": 424.27,
+    "end": 428.89,
+    "content": "in between the C and C sharp a blue note in rhythm would be like if it's directly",
+    "translatedContent": "entre o dó e o dó sustenido, uma nota azul no ritmo seria como se fosse diretamente"
+  },
+  {
+    "start": 428.89,
+    "end": 435.09,
+    "content": "on the beat or there's things that there's notes in between the quantized",
+    "translatedContent": "na batida ou há coisas em que há notas entre as quantizadas"
+  },
+  {
+    "start": 435.09,
+    "end": 439.53,
+    "content": "beats that you could still ride with. Another important element of blues is",
+    "translatedContent": "batidas com as quais você ainda pode andar. Outro elemento importante do blues é"
+  },
+  {
+    "start": 439.53,
+    "end": 445.09,
+    "content": "its AAB lyrical structure. Let's go back to the Robert Johnson track, I Believe I'll Dust My Broom.",
+    "translatedContent": "sua estrutura lírica AAB. Voltemos à faixa de Robert Johnson, I Believe I'll Dust My Broom."
+  },
+  {
+    "start": 445.09,
+    "end": 453.46,
+    "content": "Now, do you know what lyrics come next?",
+    "translatedContent": "Agora, você sabe qual letra vem a seguir?"
+  },
+  {
+    "start": 453.46,
+    "end": 458.79,
+    "content": "I'm gonna get up, I'll dust my broom.",
+    "translatedContent": "Vou me levantar, vou tirar o pó da vassoura."
+  },
+  {
+    "start": 458.79,
+    "end": 464.79,
+    "content": "It's the first line repeated. This AAB lyrical structure is very common in the blues.",
+    "translatedContent": "É a primeira linha repetida. Essa estrutura lírica AAB é muito comum no blues."
+  },
+  {
+    "start": 464.79,
+    "end": 468.45,
+    "content": "It's inspired by the call-and-response style of singing in African American",
+    "translatedContent": "É inspirado no estilo de canto de chamada e resposta da língua afro-americana"
+  },
+  {
+    "start": 468.45,
+    "end": 473.25,
+    "content": "spirituals and work songs. In the blues, the first line is often repeated and the",
+    "translatedContent": "espirituais e canções de trabalho. No blues, a primeira linha é frequentemente repetida e a"
+  },
+  {
+    "start": 473.25,
+    "end": 484.5,
+    "content": "third line answers. Of course, what the lyrics are about is also important.",
+    "translatedContent": "respostas da terceira linha. Claro, o assunto da letra também é importante."
+  },
+  {
+    "start": 484.5,
+    "end": 493.98,
+    "content": "Now, true blues, the lyrics are absolutely true. Same as my life experience. Sometimes good,",
+    "translatedContent": "Agora, verdadeiro blues, as letras são absolutamente verdadeiras. Igual à minha experiência de vida. Às vezes bom,"
+  },
+  {
+    "start": 493.98,
+    "end": 499.38,
+    "content": "sometimes bad, but they didn't lie. As blues musicians moved from the South and took",
+    "translatedContent": "às vezes ruins, mas eles não mentiram. À medida que os músicos de blues migraram do Sul e tomaram"
+  },
+  {
+    "start": 499.38,
+    "end": 503.4,
+    "content": "their music to different parts of the U.S., the blues mixed with other musical",
+    "translatedContent": "sua música para diferentes partes dos EUA, o blues misturado com outros musicais"
+  },
+  {
+    "start": 503.4,
+    "end": 507.28,
+    "content": "styles from those regions and helped inspire many new genres.",
+    "translatedContent": "estilos dessas regiões e ajudou a inspirar muitos novos gêneros."
+  },
+  {
+    "start": 507.28,
+    "end": 511.76,
+    "content": "The 12-bar blues chord progression became one of the most popular forms for early jazz",
+    "translatedContent": "A progressão de acordes de blues de 12 compassos tornou-se uma das formas mais populares do jazz antigo."
+  },
+  {
+    "start": 511.76,
+    "end": 513.42,
+    "content": "improvisation.",
+    "translatedContent": "improvisação."
+  },
+  {
+    "start": 513.42,
+    "end": 517.92,
+    "content": "Jazz performers like Louis Armstrong, Duke Ellington, and Miles Davis were all influenced",
+    "translatedContent": "Artistas de jazz como Louis Armstrong, Duke Ellington e Miles Davis foram todos influenciados"
+  },
+  {
+    "start": 517.92,
+    "end": 526.26,
+    "content": "by the blues, often using a 12-bar structure for their songs.",
+    "translatedContent": "pelo blues, muitas vezes usando uma estrutura de 12 compassos para suas músicas."
+  },
+  {
+    "start": 526.26,
+    "end": 530.04,
+    "content": "The 12-bar structure was also a major influence on rock and roll.",
+    "translatedContent": "A estrutura de 12 compassos também foi uma grande influência no rock and roll."
+  },
+  {
+    "start": 530.04,
+    "end": 534.34,
+    "content": "Some even call rock and roll blues with a backbeat, and Elvis Presley probably had this",
+    "translatedContent": "Alguns até chamam o rock and roll de blues com uma batida de fundo, e Elvis Presley provavelmente tinha isso"
+  },
+  {
+    "start": 534.34,
+    "end": 540.02,
+    "content": "in mind when he recorded his version of a blues song by Big Mama Thornton called Hound Dog.",
+    "translatedContent": "em mente quando gravou sua versão de uma canção de blues de Big Mama Thornton chamada Hound Dog."
+  },
+  {
+    "start": 550.34,
+    "end": 553.62,
+    "content": "Blues also inspired other rock and pop artists such as",
+    "translatedContent": "O blues também inspirou outros artistas de rock e pop, como"
+  },
+  {
+    "start": 567.83,
+    "end": 571.51,
+    "content": "All of these songs use some form of the 12 bar structure or the blues scale.",
+    "translatedContent": "Todas essas músicas usam alguma forma de estrutura de 12 compassos ou escala de blues."
+  },
+  {
+    "start": 571.51,
+    "end": 574.79,
+    "content": "The pentatonic and blues scales are even common throughout heavy metal music.",
+    "translatedContent": "As escalas pentatônicas e de blues são comuns até mesmo em todo o heavy metal."
+  },
+  {
+    "start": 579.36,
+    "end": 584.72,
+    "content": "Country music too. In fact, country is thought to be the result of blues music mixing with folk",
+    "translatedContent": "Música sertaneja também. Na verdade, acredita-se que o country seja o resultado da mistura da música blues com o folk."
+  },
+  {
+    "start": 584.72,
+    "end": 589.76,
+    "content": "music brought by european immigrants to the u.s because of this many country songs are written",
+    "translatedContent": "música trazida por imigrantes europeus para os EUA por causa disso, muitas músicas country são escritas"
+  },
+  {
+    "start": 589.76,
+    "end": 601.4,
+    "content": "with the blues scale or following the 12 bar blues progression blues here we go blues i was thinking",
+    "translatedContent": "com a escala de blues ou seguindo a progressão de blues de 12 compassos blues, aqui vamos nós, blues, eu estava pensando"
+  },
+  {
+    "start": 601.4,
+    "end": 607.8,
+    "content": "we don't have to do classic blues we'll just have our own twist to it that's what it is we just gotta",
+    "translatedContent": "não precisamos fazer blues clássico, apenas teremos nosso próprio toque, é isso que precisamos"
+  },
+  {
+    "start": 607.8,
+    "end": 612.68,
+    "content": "let creation happen i mean we always do so our song contains the 12 bar blues chord progression",
+    "translatedContent": "deixe a criação acontecer, quero dizer, sempre fazemos isso, nossa música contém a progressão de acordes de blues de 12 compassos"
+  },
+  {
+    "start": 612.68,
+    "end": 619.16,
+    "content": "as well as the blues scale and some other elements of the blues were included but with our own twist",
+    "translatedContent": "assim como a escala de blues e alguns outros elementos do blues foram incluídos, mas com nosso próprio toque"
+  },
+  {
+    "start": 619.16,
+    "end": 624.04,
+    "content": "for example the wailing type of sound of the bottleneck slide guitar got translated into",
+    "translatedContent": "por exemplo, o tipo de som lamentoso da guitarra slide gargalo foi traduzido para"
+  },
+  {
+    "start": 624.04,
+    "end": 631.99,
+    "content": "this type of synth sound which i think has this squiggle and has that wailing quality",
+    "translatedContent": "esse tipo de som de sintetizador que eu acho que tem esse rabisco e aquela qualidade de lamento"
+  },
+  {
+    "start": 632.87,
+    "end": 641.91,
+    "content": "and obviously the other parts are quite not traditional but we try to go with sounds that",
+    "translatedContent": "e obviamente as outras partes não são tradicionais, mas tentamos usar sons que"
+  },
+  {
+    "start": 641.91,
+    "end": 694.55,
+    "content": "have this laid back yet yearning type of quality let us know what you think of our blues inspired",
+    "translatedContent": "tenha esse tipo de qualidade descontraída, mas ansiosa, diga-nos o que você acha do nosso blues inspirado"
+  },
+  {
+    "start": 694.55,
+    "end": 698.71,
+    "content": "song and make sure you don't forget to subscribe three is the one three is the one yep",
+    "translatedContent": "música e não se esqueça de se inscrever três é o um três é o único sim"
+  }
+]

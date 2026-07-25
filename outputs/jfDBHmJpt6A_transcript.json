@@ -1,0 +1,374 @@
+[
+  {
+    "start": 0,
+    "end": 4.08,
+    "content": "so a lot of the projects i started i'm just waiting on parts to get here so i can finish",
+    "translatedContent": "então, muitos dos projetos que comecei, só estou esperando as peças chegarem para poder terminar"
+  },
+  {
+    "start": 4.08,
+    "end": 10.06,
+    "content": "them so instead of waiting you know another week to upload a bunch of videos i figured uh let's see",
+    "translatedContent": "então, em vez de esperar mais uma semana para enviar um monte de vídeos, pensei, vamos ver"
+  },
+  {
+    "start": 10.06,
+    "end": 14.54,
+    "content": "if i can just build an amp out of spare parts i got laying around so we should be able to make",
+    "translatedContent": "se eu puder construir um amplificador com peças sobressalentes que tenho por aí, então poderemos fazer"
+  },
+  {
+    "start": 14.54,
+    "end": 20.24,
+    "content": "a guitar amp out of just what you see here i got these lm386 chips a while back and i've really",
+    "translatedContent": "um amplificador de guitarra exatamente com o que você vê aqui, comprei esses chips lm386 há um tempo e realmente"
+  },
+  {
+    "start": 20.24,
+    "end": 24.86,
+    "content": "wanted to make a guitar amplifier out of them so i did a bunch of searching on the web last night",
+    "translatedContent": "queria fazer um amplificador de guitarra com eles, então fiz muitas pesquisas na web ontem à noite"
+  },
+  {
+    "start": 24.86,
+    "end": 30.72,
+    "content": "and came across a schematic for the little gem 2 i'll put a link for that in the description so",
+    "translatedContent": "e me deparei com um esquema da pequena joia 2, vou colocar um link para isso na descrição, então"
+  },
+  {
+    "start": 30.72,
+    "end": 36.3,
+    "content": "you guys can build as well if you want to try it out and i pretty much had everything but i",
+    "translatedContent": "vocês também podem construir se quiserem experimentar e eu tinha praticamente tudo, mas eu"
+  },
+  {
+    "start": 36.3,
+    "end": 43.58,
+    "content": "struggled to find any kind of transistor i was lucky enough that i had an old radio shack short",
+    "translatedContent": "Lutei para encontrar qualquer tipo de transistor, tive a sorte de ter um velho barraco de rádio curto"
+  },
+  {
+    "start": 43.58,
+    "end": 50.54,
+    "content": "wave radio kit that i was able to rob a piece out of and then this old speaker that i rescued off",
+    "translatedContent": "kit de rádio wave do qual consegui roubar um pedaço e depois esse alto-falante antigo que resgatei"
+  },
+  {
+    "start": 50.54,
+    "end": 54.34,
+    "content": "of a job site who knows what this came out of i don't know it was sitting in some kind of basement",
+    "translatedContent": "de um local de trabalho quem sabe de onde saiu isso não sei estava em algum tipo de porão"
+  },
+  {
+    "start": 54.34,
+    "end": 58.28,
+    "content": "i don't even know if it works let's see if we can put this together and make some noise",
+    "translatedContent": "nem sei se funciona vamos ver se conseguimos montar isso e fazer barulho"
+  },
+  {
+    "start": 58.28,
+    "end": 66.46,
+    "content": "well it just keeps getting wackier and wackier so i don't have anything to plug in any power i don't",
+    "translatedContent": "bem, está ficando cada vez mais maluco, então não tenho nada para conectar, nenhuma energia, não tenho"
+  },
+  {
+    "start": 66.46,
+    "end": 72.9,
+    "content": "seem to have any nine volt adapters or anything like that so what i did is i actually had an old",
+    "translatedContent": "parece ter algum adaptador de nove volts ou algo parecido, então o que fiz foi realmente ter um antigo"
+  },
+  {
+    "start": 72.9,
+    "end": 79.68,
+    "content": "behringer fcb 1010 that was uh damaged and broken beyond repair so i was able to pull the transformer",
+    "translatedContent": "behringer fcb 1010 que estava danificado e quebrado sem possibilidade de reparo, então consegui puxar o transformador"
+  },
+  {
+    "start": 79.68,
+    "end": 90.58,
+    "content": "out i have a nine volt regulator and a bridge rectifier from an old radio shack score long",
+    "translatedContent": "fora, eu tenho um regulador de nove volts e uma ponte retificadora de um antigo barraco de rádio com pontuação longa"
+  },
+  {
+    "start": 90.58,
+    "end": 97.22,
+    "content": "long time ago so i should be able to put all that together and also i think we can reuse",
+    "translatedContent": "há muito tempo, então devo ser capaz de juntar tudo isso e também acho que podemos reutilizar"
+  },
+  {
+    "start": 97.22,
+    "end": 105.54,
+    "content": "the iec jack from the behringer as well as the power switch so i took a bandsaw and cut this",
+    "translatedContent": "o conector iec do behringer, bem como o botão liga / desliga, então peguei uma serra de fita e cortei isso"
+  },
+  {
+    "start": 105.54,
+    "end": 110.94,
+    "content": "part of the panel out that the jacks were mounted to and i should be able to just put it right on",
+    "translatedContent": "parte do painel onde os conectores foram montados e eu deveria ser capaz de colocá-lo corretamente"
+  },
+  {
+    "start": 110.94,
+    "end": 117.7,
+    "content": "this hammond box i have mark it out trace it and i can probably drill and cut these out so they'll",
+    "translatedContent": "esta caixa de hammond eu marquei, rastreei e provavelmente posso furar e recortar para que eles"
+  },
+  {
+    "start": 117.7,
+    "end": 191.41,
+    "content": "go in there perfect so let's give that a shot that's not too bad god damn it well i kind of",
+    "translatedContent": "entre lá perfeito, então vamos tentar, isso não é tão ruim, caramba, bem, eu meio que"
+  },
+  {
+    "start": 191.41,
+    "end": 196.59,
+    "content": "got a little bit more involved than i wanted to i found this hammond box that i had and i went ahead",
+    "translatedContent": "me envolvi um pouco mais do que eu queria, encontrei essa caixa de hammond que eu tinha e fui em frente"
+  },
+  {
+    "start": 196.59,
+    "end": 202.45,
+    "content": "and mounted all the components inside and now we got to see if i can fit my circuit board in there",
+    "translatedContent": "e montei todos os componentes dentro e agora precisamos ver se consigo colocar minha placa de circuito lá"
+  },
+  {
+    "start": 202.45,
+    "end": 209.57,
+    "content": "which I haven't made up yet. I was hoping to test it all before I got this far. I really was just",
+    "translatedContent": "que ainda não inventei. Eu esperava testar tudo antes de chegar tão longe. Eu realmente estava apenas"
+  },
+  {
+    "start": 209.57,
+    "end": 214.29,
+    "content": "going to make something. I was just going to throw in whatever I had laying around. And while this",
+    "translatedContent": "vai fazer alguma coisa. Eu ia jogar tudo o que tinha por aí. E enquanto isso"
+  },
+  {
+    "start": 214.29,
+    "end": 221.79,
+    "content": "was technically laying around, this is becoming more or less a real amp build. Just getting",
+    "translatedContent": "estava tecnicamente por aí, isso está se tornando mais ou menos uma construção de amplificador real. Apenas conseguindo"
+  },
+  {
+    "start": 221.79,
+    "end": 230.47,
+    "content": "started here. I got my input load resistor here and the transistor rolling. Just trying to get a",
+    "translatedContent": "começou aqui. Eu tenho meu resistor de carga de entrada aqui e o transistor girando. Apenas tentando conseguir um"
+  },
+  {
+    "start": 230.47,
+    "end": 233.45,
+    "content": "feel for it I've had to modify this circuit quite a bit to get the controls",
+    "translatedContent": "sinta, tive que modificar um pouco este circuito para obter os controles"
+  },
+  {
+    "start": 233.45,
+    "end": 239.19,
+    "content": "I want out of it so I'm like I wanted a buffer I wanted to be a bridged LM 386",
+    "translatedContent": "Eu quero sair disso, então eu queria um buffer, eu queria ser um LM 386 em ponte"
+  },
+  {
+    "start": 239.19,
+    "end": 243.91,
+    "content": "amplifier but the little gem 2 doesn't have those controls on it so we're gonna",
+    "translatedContent": "amplificador, mas a pequena joia 2 não tem esses controles, então vamos"
+  },
+  {
+    "start": 243.91,
+    "end": 262.27,
+    "content": "have to change up where we put them we're gonna have to fucking fuck off got",
+    "translatedContent": "temos que mudar onde os colocamos, vamos ter que nos foder, vamos"
+  },
+  {
+    "start": 262.27,
+    "end": 286.5,
+    "content": "my circuit board done all right we're gonna plug this thing in and fucking",
+    "translatedContent": "minha placa de circuito está bem, vamos conectar essa coisa e porra"
+  },
+  {
+    "start": 286.5,
+    "end": 316.06,
+    "content": "kill ourselves yeah oh got mods here for asymmetrical clipping it's a bit of a",
+    "translatedContent": "nos matar, sim, oh, tenho mods aqui para recorte assimétrico, é meio que"
+  },
+  {
+    "start": 316.06,
+    "end": 320.94,
+    "content": "rat's nest I had some trouble with the smoothing from the power section but hey",
+    "translatedContent": "ninho de rato, tive alguns problemas com a suavização da seção de energia, mas ei"
+  },
+  {
+    "start": 320.94,
+    "end": 339.08,
+    "content": "now it's working I had two c1815 transistors no matter what I did I",
+    "translatedContent": "agora está funcionando, eu tinha dois transistores c1815, não importa o que eu fizesse"
+  },
+  {
+    "start": 339.08,
+    "end": 343.56,
+    "content": "could not get any of them to work I did manage to get the amplifier working good",
+    "translatedContent": "não consegui fazer nenhum deles funcionar, consegui fazer o amplificador funcionar bem"
+  },
+  {
+    "start": 343.56,
+    "end": 349.38,
+    "content": "I think with a few more modifications we could have done a little bit more but",
+    "translatedContent": "Acho que com mais algumas modificações poderíamos ter feito um pouco mais, mas"
+  },
+  {
+    "start": 349.38,
+    "end": 352.5,
+    "content": "I'm kind of just giving up at this point so now it's time to hear how the amp",
+    "translatedContent": "Estou meio que desistindo neste momento, então agora é hora de ouvir como o amplificador"
+  },
+  {
+    "start": 352.5,
+    "end": 359.62,
+    "content": "sounds plugged up I got it miked up with an SM 57 on a Celestion g12 t75 and it",
+    "translatedContent": "parece conectado, eu microfonei com um SM 57 em um Celestion g12 t75 e"
+  },
+  {
+    "start": 359.62,
+    "end": 364.92,
+    "content": "doesn't sound bad at all interestingly enough you saw how I stuck it in a",
+    "translatedContent": "não parece nada ruim, curiosamente você viu como eu o enfiei em um"
+  },
+  {
+    "start": 364.92,
+    "end": 369.88,
+    "content": "plastic box I would not recommend that because every time I get my cell phone",
+    "translatedContent": "caixa de plástico eu não recomendaria isso porque toda vez que pego meu celular"
+  },
+  {
+    "start": 369.88,
+    "end": 376.96,
+    "content": "near it it starts to make bleep bleep bleep bleeping noises but I digress I made this just as kind of",
+    "translatedContent": "perto dele, ele começa a fazer barulhos de bip, bip, bip, mas estou divagando, fiz isso da mesma forma"
+  },
+  {
+    "start": 376.96,
+    "end": 392.67,
+    "content": "like an afternoon project and just to see what it would sound like so that is with the I guess the",
+    "translatedContent": "como um projeto da tarde e só para ver como soaria, então é com o que eu acho que"
+  },
+  {
+    "start": 392.67,
+    "end": 427.48,
+    "content": "volume the gain knob pretty down pretty low and mind you it's driving a full 4x12 let's crank it",
+    "translatedContent": "diminua o volume do botão de ganho e lembre-se, ele está dirigindo um 4x12 completo, vamos acioná-lo"
+  },
+  {
+    "start": 427.48,
+    "end": 477.26,
+    "content": "up a little bit and you can still clean it up with the guitar volume too you can go single",
+    "translatedContent": "aumente um pouco e você ainda pode limpar com o volume da guitarra também, você pode ficar solteiro"
+  },
+  {
+    "start": 477.26,
+    "end": 504.92,
+    "content": "coil here now you can start to hear it now some of the problem I have with this",
+    "translatedContent": "bobina aqui agora você pode começar a ouvir agora alguns dos problemas que tenho com isso"
+  },
+  {
+    "start": 504.92,
+    "end": 510.02,
+    "content": "design is that I wasn't able to do an input buffer none of the transistors I",
+    "translatedContent": "O design é que não fui capaz de fazer um buffer de entrada em nenhum dos transistores que"
+  },
+  {
+    "start": 510.02,
+    "end": 518.94,
+    "content": "had were working and this is also more like a bridged stereo power amplifier",
+    "translatedContent": "estavam funcionando e isso também é mais como um amplificador de potência estéreo em ponte"
+  },
+  {
+    "start": 518.94,
+    "end": 525.6,
+    "content": "using the two IC chips or the two LM386s it just makes it more difficult to",
+    "translatedContent": "usando os dois chips IC ou os dois LM386s, apenas torna mais difícil"
+  },
+  {
+    "start": 525.6,
+    "end": 528.4,
+    "content": "control because you pretty much should be doubling all the controls so the",
+    "translatedContent": "controle porque você praticamente deveria dobrar todos os controles para que o"
+  },
+  {
+    "start": 528.4,
+    "end": 533.28,
+    "content": "payoff I don't think was worth it to use this kind of design I should have just",
+    "translatedContent": "recompensa, não acho que valeu a pena usar esse tipo de design, eu deveria ter acabado"
+  },
+  {
+    "start": 533.28,
+    "end": 536.7,
+    "content": "used a single chip and then I would have been able to actually have more tone",
+    "translatedContent": "usei um único chip e então eu teria conseguido realmente ter mais tom"
+  },
+  {
+    "start": 536.7,
+    "end": 540.9,
+    "content": "controls and more volume controls or just more overall control over the tone",
+    "translatedContent": "controles e mais controles de volume ou apenas mais controle geral sobre o tom"
+  },
+  {
+    "start": 540.9,
+    "end": 551.14,
+    "content": "rather than it was really difficult to get it in another way it was but you can",
+    "translatedContent": "em vez de ser realmente difícil conseguir isso de outra maneira, mas você pode"
+  },
+  {
+    "start": 551.14,
+    "end": 561.32,
+    "content": "also hear this distorted overtone it's it's an out-of-tune harmonic but if you",
+    "translatedContent": "também ouvir esse tom distorcido, é um harmônico desafinado, mas se você"
+  },
+  {
+    "start": 561.32,
+    "end": 578.51,
+    "content": "don't want it you know obviously just turn the gain down a little bit but",
+    "translatedContent": "não quero, você sabe, obviamente, apenas diminua um pouco o ganho, mas"
+  },
+  {
+    "start": 578.51,
+    "end": 614.48,
+    "content": "anyway I gained the ever-loving shit out of this thing if we roll the tone knob",
+    "translatedContent": "de qualquer forma, ganhei o amor eterno dessa coisa se girarmos o botão de tom"
+  },
+  {
+    "start": 614.48,
+    "end": 617.72,
+    "content": "down we can get some gnarly shit let's just turn everything up all the way to",
+    "translatedContent": "para baixo, podemos conseguir alguma merda desagradável, vamos aumentar tudo até o fim"
+  },
+  {
+    "start": 617.72,
+    "end": 680.52,
+    "content": "I think that sounds pretty cool. So does it doom? Yes. Does it rock? No. I would do a different",
+    "translatedContent": "Eu acho que isso parece muito legal. Então isso é uma condenação? Sim. Isso é demais? Não. Eu faria diferente"
+  },
+  {
+    "start": 680.52,
+    "end": 718.16,
+    "content": "design with a little bit less gain and more clean headroom. Well, that's it. There you go. There's a",
+    "translatedContent": "design com um pouco menos de ganho e mais headroom limpo. Bem, é isso. Aí está. Há um"
+  },
+  {
+    "start": 718.16,
+    "end": 723.04,
+    "content": "one watt amp you can build in an afternoon. I would totally recommend against using a bridge",
+    "translatedContent": "um amplificador de watt que você pode construir em uma tarde. Eu recomendaria totalmente não usar uma ponte"
+  },
+  {
+    "start": 723.04,
+    "end": 728.46,
+    "content": "circuit like that. I don't think the volume is worth a trade off of the tone, but there's a lot",
+    "translatedContent": "circuito assim. Não acho que valha a pena trocar o volume pelo tom, mas há muito"
+  },
+  {
+    "start": 728.46,
+    "end": 733.36,
+    "content": "of other shit you can do with that chip. Anyway, thanks for watching. See you next time.",
+    "translatedContent": "de outras merdas que você pode fazer com esse chip. De qualquer forma, obrigado por assistir. Até a próxima."
+  }
+]

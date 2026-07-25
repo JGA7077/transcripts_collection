@@ -1,0 +1,3824 @@
+[
+  {
+    "start": 21.26,
+    "end": 28.34,
+    "content": "Back in 99 or 2000, you know, I'd had this web design company called 37 Signals and I had two",
+    "translatedContent": "Em 99 ou 2000, você sabe, eu tinha uma empresa de web design chamada 37 Signals e tinha duas"
+  },
+  {
+    "start": 28.34,
+    "end": 33.42,
+    "content": "partners in the business and we were doing some web design for people. But I had this side project",
+    "translatedContent": "parceiros no negócio e estávamos fazendo web design para pessoas. Mas eu tinha esse projeto paralelo"
+  },
+  {
+    "start": 33.42,
+    "end": 38.38,
+    "content": "that I was also doing called Single File, which was this book, online book database thing that I",
+    "translatedContent": "que eu também estava fazendo chamado Single File, que era esse livro, banco de dados de livros on-line que eu"
+  },
+  {
+    "start": 38.38,
+    "end": 43.64,
+    "content": "was trying to build. And I was building it out of PHP. I didn't know how to program, but I picked",
+    "translatedContent": "estava tentando construir. E eu estava construindo isso em PHP. Eu não sabia programar, mas escolhi"
+  },
+  {
+    "start": 43.64,
+    "end": 48.46,
+    "content": "up a book on PHP and I started making this thing and I got pretty far, but then I got stumped.",
+    "translatedContent": "criei um livro sobre PHP e comecei a fazer isso e cheguei bastante longe, mas fiquei perplexo."
+  },
+  {
+    "start": 48.46,
+    "end": 52.46,
+    "content": "So I wrote this post online asking for help.",
+    "translatedContent": "Então escrevi este post online pedindo ajuda."
+  },
+  {
+    "start": 52.46,
+    "end": 54.46,
+    "content": "It was a general call for help.",
+    "translatedContent": "Foi um pedido geral de ajuda."
+  },
+  {
+    "start": 54.46,
+    "end": 55.46,
+    "content": "There's my problem.",
+    "translatedContent": "Esse é o meu problema."
+  },
+  {
+    "start": 55.46,
+    "end": 56.46,
+    "content": "Anyone know how to do this?",
+    "translatedContent": "Alguém sabe como fazer isso?"
+  },
+  {
+    "start": 56.46,
+    "end": 60.46,
+    "content": "You know, this is way back before Stack Overflow and all the places you could get answers.",
+    "translatedContent": "Você sabe, isso foi muito antes do Stack Overflow e de todos os lugares onde você poderia obter respostas."
+  },
+  {
+    "start": 60.46,
+    "end": 61.46,
+    "content": "There were no answers.",
+    "translatedContent": "Não houve respostas."
+  },
+  {
+    "start": 61.46,
+    "end": 63.46,
+    "content": "So help someone.",
+    "translatedContent": "Então ajude alguém."
+  },
+  {
+    "start": 63.46,
+    "end": 76.96,
+    "content": "And it turned out this guy wrote me from Denmark.",
+    "translatedContent": "E aconteceu que um cara me escreveu da Dinamarca."
+  },
+  {
+    "start": 76.96,
+    "end": 81.96,
+    "content": "Back then, I was here in Copenhagen, Denmark, working in the web industry.",
+    "translatedContent": "Naquela época, eu estava aqui em Copenhague, na Dinamarca, trabalhando na indústria da web."
+  },
+  {
+    "start": 81.96,
+    "end": 83.96,
+    "content": "And I was just a big fan of the company.",
+    "translatedContent": "E eu era apenas um grande fã da empresa."
+  },
+  {
+    "start": 83.96,
+    "end": 90.84,
+    "content": "right from the inception there was a weblog signal versus noise that i followed religiously right",
+    "translatedContent": "desde o início, houve um sinal versus ruído do weblog que eu segui religiosamente, certo"
+  },
+  {
+    "start": 90.84,
+    "end": 95.72,
+    "content": "from the get-go it was just such a weird company this was a design company that was focused more",
+    "translatedContent": "desde o início, era uma empresa tão estranha, era uma empresa de design focada mais"
+  },
+  {
+    "start": 95.72,
+    "end": 100.52,
+    "content": "on writing than it was on pretty pictures or graphics or anything else that i associated",
+    "translatedContent": "na escrita do que em imagens ou gráficos bonitos ou qualquer outra coisa que eu associe"
+  },
+  {
+    "start": 100.52,
+    "end": 107.08,
+    "content": "with design at the time so i was following this company for a couple of years and then in 2001",
+    "translatedContent": "com design na época, então acompanhei essa empresa por alguns anos e depois em 2001"
+  },
+  {
+    "start": 107.08,
+    "end": 111,
+    "content": "jason freed one of the original co-founders and still my business partner to this day",
+    "translatedContent": "Jason libertou um dos cofundadores originais e ainda é meu parceiro de negócios até hoje"
+  },
+  {
+    "start": 111.72,
+    "end": 117.56,
+    "content": "posted on the blog a question about programming i saw this question and i went like hey i know",
+    "translatedContent": "postei no blog uma pergunta sobre programação eu vi essa pergunta e pensei ei, eu sei"
+  },
+  {
+    "start": 117.56,
+    "end": 123.32,
+    "content": "the answer to this this is a way for me to give something back to someone i've enjoyed reading",
+    "translatedContent": "a resposta para isso é uma maneira de retribuir algo a alguém que gostei de ler"
+  },
+  {
+    "start": 123.32,
+    "end": 129.56,
+    "content": "and learning from in the past two years so i did just that i wrote up an answer explaining how to",
+    "translatedContent": "e aprendendo nos últimos dois anos, então escrevi uma resposta explicando como"
+  },
+  {
+    "start": 129.56,
+    "end": 135.48,
+    "content": "do this thing he wanted to do in php with great detail the best as i knew it i wasn't an expert",
+    "translatedContent": "fazer isso que ele queria fazer em php com grande detalhe, o melhor que eu sabia, não era um especialista"
+  },
+  {
+    "start": 135.48,
+    "end": 140.52,
+    "content": "programmer really but i knew the answer to this question his his answer and his help was so",
+    "translatedContent": "programador realmente, mas eu sabia a resposta para essa pergunta, a resposta dele e a ajuda dele foi tão"
+  },
+  {
+    "start": 140.52,
+    "end": 144.68,
+    "content": "thorough and there was this quality and this character to his answer that made me feel like",
+    "translatedContent": "minucioso e havia essa qualidade e esse caráter em sua resposta que me fez sentir"
+  },
+  {
+    "start": 144.68,
+    "end": 149.64,
+    "content": "he really wanted to help and not just respond but he really wanted to help and so we started",
+    "translatedContent": "ele realmente queria ajudar e não apenas responder, mas ele realmente queria ajudar e então começamos"
+  },
+  {
+    "start": 149.64,
+    "end": 155.16,
+    "content": "talking back and forth about this help and then we got deeper into it and he's like can i see the",
+    "translatedContent": "conversando sobre essa ajuda e então nos aprofundamos no assunto e ele disse: posso ver o"
+  },
+  {
+    "start": 155.16,
+    "end": 159.48,
+    "content": "whole thing and i said sure and i showed him the code and he's like this sucks like we should",
+    "translatedContent": "a coisa toda e eu disse claro e mostrei a ele o código e ele disse que isso é uma merda como deveríamos"
+  },
+  {
+    "start": 159.48,
+    "end": 163.8,
+    "content": "really start over let me do this for you and so that's how my relationship with david actually",
+    "translatedContent": "realmente recomeçar, deixe-me fazer isso por você e é assim que meu relacionamento com David realmente"
+  },
+  {
+    "start": 163.8,
+    "end": 170.44,
+    "content": "began he telling me my work sucked and me going okay let's do something better then and it was a",
+    "translatedContent": "começou ele me dizendo que meu trabalho era uma droga e que eu estava bem, vamos fazer algo melhor então e foi um"
+  },
+  {
+    "start": 170.44,
+    "end": 175.32,
+    "content": "perfect perfect partnership from the beginning there i got my first computer when i was six",
+    "translatedContent": "parceria perfeita parceria desde o início ganhei meu primeiro computador quando tinha seis anos"
+  },
+  {
+    "start": 175.32,
+    "end": 183.16,
+    "content": "years old this was in 1985 it was an armstrad 464 and that was my first exposure to programming",
+    "translatedContent": "anos, isso foi em 1985, era um armstrad 464 e esse foi meu primeiro contato com programação"
+  },
+  {
+    "start": 183.16,
+    "end": 188.84,
+    "content": "typing video games in from the back of a magazine i wasn't very good at them i only made a couple of",
+    "translatedContent": "digitando videogames no final de uma revista, eu não era muito bom com eles, só fiz alguns"
+  },
+  {
+    "start": 188.84,
+    "end": 194.64,
+    "content": "of them work but this was how I got started. Next up was trying to learn programming once more when",
+    "translatedContent": "deles funcionam, mas foi assim que comecei. O próximo passo foi tentar aprender programação mais uma vez quando"
+  },
+  {
+    "start": 194.64,
+    "end": 203.54,
+    "content": "I was around 10, 11, 12. A programming environment called Easy Amos. It was not easy for me. It may",
+    "translatedContent": "Eu tinha cerca de 10, 11, 12 anos. Um ambiente de programação chamado Easy Amos. Não foi fácil para mim. Pode"
+  },
+  {
+    "start": 203.54,
+    "end": 209.78,
+    "content": "have been Amos but it wasn't easy. So I failed once more to learn programming. I had a hard time",
+    "translatedContent": "tenho sido Amós, mas não foi fácil. Então falhei mais uma vez em aprender programação. Eu tive um momento difícil"
+  },
+  {
+    "start": 209.78,
+    "end": 215.56,
+    "content": "with even the basics of variables and loops and conditionals and all the basic constructs you need",
+    "translatedContent": "até mesmo com o básico de variáveis, loops e condicionais e todas as construções básicas que você precisa"
+  },
+  {
+    "start": 215.56,
+    "end": 224.36,
+    "content": "learn how to program. So I gave it up once more and it wasn't until I discovered the internet in 1995",
+    "translatedContent": "aprenda a programar. Então desisti mais uma vez e só quando descobri a internet em 1995"
+  },
+  {
+    "start": 224.36,
+    "end": 231.08,
+    "content": "getting involved with making HTML that I thought hey here's another opportunity for me to be able",
+    "translatedContent": "me envolvendo com a criação de HTML que pensei: ei, aqui está outra oportunidade para eu poder"
+  },
+  {
+    "start": 231.08,
+    "end": 238.6,
+    "content": "to create something. And in 1999 I started working on a gaming website with another programmer in",
+    "translatedContent": "para criar algo. E em 1999 comecei a trabalhar num site de jogos com outro programador em"
+  },
+  {
+    "start": 238.6,
+    "end": 245.4,
+    "content": "php and that was really the first time things clicked at that time i'm 20 years old i've had",
+    "translatedContent": "php e essa foi realmente a primeira vez que as coisas deram certo naquela época, tenho 20 anos, tive"
+  },
+  {
+    "start": 245.4,
+    "end": 252.28,
+    "content": "this is my third attempt at learning to program but now i understood it and that was really the",
+    "translatedContent": "esta é minha terceira tentativa de aprender a programar, mas agora eu entendi e essa foi realmente a"
+  },
+  {
+    "start": 252.28,
+    "end": 259.32,
+    "content": "prep i had before a year later i would write jason that email so the first time i met dave was in",
+    "translatedContent": "preparação que tive antes de um ano depois, eu escreveria aquele e-mail para Jason, então a primeira vez que conheci Dave foi em"
+  },
+  {
+    "start": 259.32,
+    "end": 264.04,
+    "content": "chicago we were uh been working together we had been working together for quite a while actually",
+    "translatedContent": "Chicago, estávamos trabalhando juntos, já estávamos trabalhando juntos há um bom tempo, na verdade"
+  },
+  {
+    "start": 264.04,
+    "end": 269.16,
+    "content": "but we never met in person just on skype you know so i'm at the john cancock building in chicago",
+    "translatedContent": "mas nunca nos conhecemos pessoalmente, apenas pelo skype, você sabe, então estou no prédio John Cancock em Chicago"
+  },
+  {
+    "start": 269.16,
+    "end": 273.72,
+    "content": "which is a famous building in this big plaza waiting for him to arrive we agreed we're going",
+    "translatedContent": "que é um prédio famoso nesta grande praça esperando por ele chegar, concordamos que vamos"
+  },
+  {
+    "start": 273.72,
+    "end": 277.96,
+    "content": "to meet in the morning and so i'm waiting there and i'm looking around like is that him is that",
+    "translatedContent": "para me encontrar de manhã e então estou esperando lá e olhando em volta, tipo se ele é aquele"
+  },
+  {
+    "start": 277.96,
+    "end": 285.4,
+    "content": "him is that him and then no it wasn't him but then this guy shows up and he comes around the corner",
+    "translatedContent": "ele é ele e então não, não foi ele, mas então esse cara aparece e ele vira a esquina"
+  },
+  {
+    "start": 285.4,
+    "end": 293.08,
+    "content": "and he's wearing all white rail thin like white t-shirt really short sleeves white capri pants",
+    "translatedContent": "e ele está vestindo todo branco, fino como uma camiseta branca, mangas muito curtas, calças capri brancas"
+  },
+  {
+    "start": 293.08,
+    "end": 299.6,
+    "content": "white shoes I'm like there's Denmark right there that's David and so and I",
+    "translatedContent": null
+  },
+  {
+    "start": 299.6,
+    "end": 303.08,
+    "content": "think actually you know I'm thinking he had white shoes but I think he may have",
+    "translatedContent": null
+  },
+  {
+    "start": 303.08,
+    "end": 306.44,
+    "content": "had rollerblades on now that I think about it I'm not exactly sure but it was",
+    "translatedContent": null
+  },
+  {
+    "start": 306.44,
+    "end": 313.79,
+    "content": "so obvious that it was him after we'd worked on this book thing for a while we",
+    "translatedContent": null
+  },
+  {
+    "start": 313.79,
+    "end": 316.55,
+    "content": "worked on another client project then actually a few because we were a web",
+    "translatedContent": null
+  },
+  {
+    "start": 316.55,
+    "end": 320.07,
+    "content": "design firm so we were just doing web design we did a few more things together",
+    "translatedContent": null
+  },
+  {
+    "start": 320.07,
+    "end": 324.01,
+    "content": "and then we started getting really busy and needed a way to manage our projects",
+    "translatedContent": null
+  },
+  {
+    "start": 324.01,
+    "end": 331.91,
+    "content": "and so we had this idea to to build this project management tool for ourselves and now David is",
+    "translatedContent": null
+  },
+  {
+    "start": 331.91,
+    "end": 336.61,
+    "content": "still a student at this time he's still in Copenhagen at business school there so he didn't",
+    "translatedContent": null
+  },
+  {
+    "start": 336.61,
+    "end": 342.55,
+    "content": "have a lot of time he wasn't a full-time employee or anything yet and I hired him to do this right",
+    "translatedContent": null
+  },
+  {
+    "start": 342.55,
+    "end": 348.61,
+    "content": "the back end of Basecamp and at the time he's like I don't want money I want laptops I want",
+    "translatedContent": null
+  },
+  {
+    "start": 348.61,
+    "end": 353.11,
+    "content": "computer equipment because it was very hard for him to get modern Apple stuff",
+    "translatedContent": "equipamento de informática porque era muito difícil para ele conseguir coisas modernas da Apple"
+  },
+  {
+    "start": 353.11,
+    "end": 356.95,
+    "content": "in Denmark so every time he came to the US and this is probably legal but",
+    "translatedContent": "na Dinamarca, então toda vez que ele veio para os EUA e isso provavelmente é legal, mas"
+  },
+  {
+    "start": 356.95,
+    "end": 361.15,
+    "content": "anyways he came to the US I gave him a laptop or I gave him a you know",
+    "translatedContent": "de qualquer forma, ele veio para os EUA, eu dei a ele um laptop ou um, você sabe"
+  },
+  {
+    "start": 361.15,
+    "end": 364.87,
+    "content": "whatever he needed at the time right and that was payment for base camp and he",
+    "translatedContent": "tudo o que ele precisava no momento certo e isso era o pagamento do acampamento base e ele"
+  },
+  {
+    "start": 364.87,
+    "end": 369.19,
+    "content": "would only give us like 10 hours a week that's all the time he had 2003 is when",
+    "translatedContent": "nos daria apenas 10 horas por semana, esse é todo o tempo que ele tinha em 2003, quando"
+  },
+  {
+    "start": 369.19,
+    "end": 374.25,
+    "content": "we decide to start on base camp we had worked together in these consulting",
+    "translatedContent": "decidimos começar no acampamento base onde trabalhamos juntos nessas consultorias"
+  },
+  {
+    "start": 374.25,
+    "end": 378.07,
+    "content": "projects and most of the organization around that had been over email and",
+    "translatedContent": "projetos e a maior parte da organização em torno disso havia sido enviada por e-mail e"
+  },
+  {
+    "start": 378.07,
+    "end": 380.13,
+    "content": "An experience everyone feels, I think,",
+    "translatedContent": "Uma experiência que todos sentem, eu acho,"
+  },
+  {
+    "start": 380.13,
+    "end": 382.61,
+    "content": "if they try to organize projects over email.",
+    "translatedContent": "se eles tentarem organizar projetos por e-mail."
+  },
+  {
+    "start": 382.61,
+    "end": 383.77,
+    "content": "So we thought, do you know what?",
+    "translatedContent": "Então pensamos, quer saber?"
+  },
+  {
+    "start": 383.77,
+    "end": 385.31,
+    "content": "We know how to make web applications.",
+    "translatedContent": "Sabemos como fazer aplicações web."
+  },
+  {
+    "start": 385.31,
+    "end": 387.09,
+    "content": "Can't we just make an application",
+    "translatedContent": "Não podemos simplesmente fazer um pedido"
+  },
+  {
+    "start": 387.09,
+    "end": 388.91,
+    "content": "that'll make this easier for us to do",
+    "translatedContent": "isso tornará isso mais fácil para nós"
+  },
+  {
+    "start": 388.91,
+    "end": 391.91,
+    "content": "so that we don't have to deal with all these email threads",
+    "translatedContent": "para que não tenhamos que lidar com todos esses tópicos de e-mail"
+  },
+  {
+    "start": 391.91,
+    "end": 394.63,
+    "content": "and which version of the file is the latest",
+    "translatedContent": "e qual versão do arquivo é a mais recente"
+  },
+  {
+    "start": 394.63,
+    "end": 397.25,
+    "content": "and what's left to do before we can launch?",
+    "translatedContent": "e o que resta fazer antes de podermos lançar?"
+  },
+  {
+    "start": 397.25,
+    "end": 398.63,
+    "content": "And that's what we did.",
+    "translatedContent": "E foi isso que fizemos."
+  },
+  {
+    "start": 398.63,
+    "end": 402.01,
+    "content": "And I had just earlier that year discovered Ruby.",
+    "translatedContent": "E eu tinha descoberto Ruby no início daquele ano."
+  },
+  {
+    "start": 402.95,
+    "end": 406.07,
+    "content": "Through the writings of Martin Fowler and Dave Thomas,",
+    "translatedContent": "Através dos escritos de Martin Fowler e Dave Thomas,"
+  },
+  {
+    "start": 406.07,
+    "end": 409.03,
+    "content": "were using Ruby to illustrate programming concepts",
+    "translatedContent": "estavam usando Ruby para ilustrar conceitos de programação"
+  },
+  {
+    "start": 409.03,
+    "end": 412.35,
+    "content": "that they were writing about in programming magazines,",
+    "translatedContent": "sobre o qual eles estavam escrevendo em revistas de programação,"
+  },
+  {
+    "start": 412.35,
+    "end": 413.37,
+    "content": "I just thought,",
+    "translatedContent": "Eu apenas pensei,"
+  },
+  {
+    "start": 413.37,
+    "end": 415.97,
+    "content": "this is a really interesting programming language.",
+    "translatedContent": "esta é uma linguagem de programação realmente interessante."
+  },
+  {
+    "start": 415.97,
+    "end": 418.35,
+    "content": "First of all, I hadn't heard about it before,",
+    "translatedContent": "Primeiro de tudo, eu não tinha ouvido falar disso antes,"
+  },
+  {
+    "start": 418.35,
+    "end": 419.89,
+    "content": "and I'd been working with the web",
+    "translatedContent": "e eu estava trabalhando com a web"
+  },
+  {
+    "start": 419.89,
+    "end": 422.09,
+    "content": "for quite some years at that point.",
+    "translatedContent": "por alguns anos naquele ponto."
+  },
+  {
+    "start": 422.09,
+    "end": 423.45,
+    "content": "That was intriguing.",
+    "translatedContent": "Isso foi intrigante."
+  },
+  {
+    "start": 423.45,
+    "end": 425.25,
+    "content": "It was out of Japan.",
+    "translatedContent": "Estava fora do Japão."
+  },
+  {
+    "start": 425.25,
+    "end": 426.55,
+    "content": "That was intriguing.",
+    "translatedContent": "Isso foi intrigante."
+  },
+  {
+    "start": 426.55,
+    "end": 430.13,
+    "content": "I saw the code and it looked just like pseudocode.",
+    "translatedContent": "Eu vi o código e parecia pseudocódigo."
+  },
+  {
+    "start": 430.13,
+    "end": 432.33,
+    "content": "You know how if you're trying to explain",
+    "translatedContent": "Você sabe como se estiver tentando explicar"
+  },
+  {
+    "start": 432.33,
+    "end": 433.57,
+    "content": "a programming concept,",
+    "translatedContent": "um conceito de programação,"
+  },
+  {
+    "start": 433.57,
+    "end": 436.41,
+    "content": "sometimes you won't write the exact right syntax.",
+    "translatedContent": "às vezes você não escreve a sintaxe correta."
+  },
+  {
+    "start": 436.41,
+    "end": 439.01,
+    "content": "You'll just write something that more looks like English.",
+    "translatedContent": "Você apenas escreverá algo que se pareça mais com o inglês."
+  },
+  {
+    "start": 439.01,
+    "end": 441.21,
+    "content": "And that's exactly what Ruby looked like.",
+    "translatedContent": "E era exatamente assim que Ruby parecia."
+  },
+  {
+    "start": 441.21,
+    "end": 443.95,
+    "content": "And I thought, this is just really interesting.",
+    "translatedContent": "E eu pensei, isso é realmente interessante."
+  },
+  {
+    "start": 443.95,
+    "end": 446.53,
+    "content": "And here are these two titans of the industry,",
+    "translatedContent": "E aqui estão esses dois titãs da indústria,"
+  },
+  {
+    "start": 446.53,
+    "end": 448.01,
+    "content": "Dave Thomas and Martin Fowler,",
+    "translatedContent": "Dave Thomas e Martin Fowler,"
+  },
+  {
+    "start": 448.01,
+    "end": 452.63,
+    "content": "who were clearly very enamored with the language,",
+    "translatedContent": "que estavam claramente muito apaixonados pela língua,"
+  },
+  {
+    "start": 452.63,
+    "end": 455.15,
+    "content": "expressing that they would wish to write systems",
+    "translatedContent": "expressando que gostariam de escrever sistemas"
+  },
+  {
+    "start": 455.15,
+    "end": 458.03,
+    "content": "in this language if they could only get permission to do so.",
+    "translatedContent": "neste idioma, se ao menos conseguissem permissão para fazê-lo."
+  },
+  {
+    "start": 458.03,
+    "end": 459.17,
+    "content": "And I thought, do you know what?",
+    "translatedContent": "E eu pensei, quer saber?"
+  },
+  {
+    "start": 459.17,
+    "end": 462.53,
+    "content": "Here's a project where we can choose to do whatever we want.",
+    "translatedContent": "Aqui está um projeto onde podemos escolher fazer o que quisermos."
+  },
+  {
+    "start": 462.53,
+    "end": 465.03,
+    "content": "So I got to make the choice and the choice was,",
+    "translatedContent": "Então eu tive que fazer a escolha e a escolha foi,"
+  },
+  {
+    "start": 465.03,
+    "end": 466.79,
+    "content": "let's try Ruby.",
+    "translatedContent": "vamos tentar Ruby."
+  },
+  {
+    "start": 466.79,
+    "end": 469.91,
+    "content": "So I remember in the early days of building Basecamp,",
+    "translatedContent": "Então eu me lembro dos primeiros dias de construção do Basecamp,"
+  },
+  {
+    "start": 469.91,
+    "end": 472.71,
+    "content": "I didn't have any input on the backend,",
+    "translatedContent": "Eu não tive nenhuma contribuição no back-end,"
+  },
+  {
+    "start": 472.71,
+    "end": 474.47,
+    "content": "but David's like, you know,",
+    "translatedContent": "mas David é tipo, você sabe,"
+  },
+  {
+    "start": 474.47,
+    "end": 478.03,
+    "content": "I'm gonna use this thing called Ruby to build Basecamp.",
+    "translatedContent": "Vou usar essa coisa chamada Ruby para construir o Basecamp."
+  },
+  {
+    "start": 478.03,
+    "end": 480.57,
+    "content": "Cause we'd been working in PHP previously.",
+    "translatedContent": "Porque já trabalhamos em PHP anteriormente."
+  },
+  {
+    "start": 480.57,
+    "end": 481.89,
+    "content": "And I'm like, what the fuck is Ruby?",
+    "translatedContent": "E eu fico tipo, que porra é Ruby?"
+  },
+  {
+    "start": 481.89,
+    "end": 482.87,
+    "content": "I've never heard of this.",
+    "translatedContent": "Eu nunca ouvi falar disso."
+  },
+  {
+    "start": 482.87,
+    "end": 485.69,
+    "content": "He's like, it's this thing out of Japan.",
+    "translatedContent": "Ele fica tipo, é uma coisa saída do Japão."
+  },
+  {
+    "start": 485.69,
+    "end": 487.29,
+    "content": "I'm like, all right.",
+    "translatedContent": "Eu estou tipo, tudo bem."
+  },
+  {
+    "start": 487.29,
+    "end": 489.15,
+    "content": "I mean, really, I truly, I didn't care",
+    "translatedContent": "Quero dizer, realmente, eu realmente, eu não me importei"
+  },
+  {
+    "start": 489.15,
+    "end": 491.97,
+    "content": "because it's his part of the project.",
+    "translatedContent": "porque é a parte dele no projeto."
+  },
+  {
+    "start": 491.97,
+    "end": 495.97,
+    "content": "It's not my job to tell him what to use, and I trusted him.",
+    "translatedContent": "Não é meu trabalho dizer a ele o que usar, e eu confiei nele."
+  },
+  {
+    "start": 495.97,
+    "end": 499.49,
+    "content": "When we started working on Basecamp in 2003,",
+    "translatedContent": "Quando começamos a trabalhar no Basecamp em 2003,"
+  },
+  {
+    "start": 499.49,
+    "end": 501.65,
+    "content": "I was getting proficient enough in programming",
+    "translatedContent": "Eu estava ficando proficiente o suficiente em programação"
+  },
+  {
+    "start": 501.65,
+    "end": 506.55,
+    "content": "to start to develop a taste for what I liked in programming,",
+    "translatedContent": "começar a desenvolver o gosto pelo que eu gostava em programação,"
+  },
+  {
+    "start": 506.55,
+    "end": 510.91,
+    "content": "but I hadn't found yet somewhere to express that taste.",
+    "translatedContent": "mas ainda não tinha encontrado um lugar para expressar esse gosto."
+  },
+  {
+    "start": 510.91,
+    "end": 514.15,
+    "content": "It really wasn't until I discovered Ruby",
+    "translatedContent": "Realmente não foi até que descobri Ruby"
+  },
+  {
+    "start": 514.15,
+    "end": 516.25,
+    "content": "that I found the programming language",
+    "translatedContent": "que encontrei a linguagem de programação"
+  },
+  {
+    "start": 516.25,
+    "end": 518.21,
+    "content": "that simply clicked for me.",
+    "translatedContent": "isso simplesmente clicou para mim."
+  },
+  {
+    "start": 518.21,
+    "end": 520.45,
+    "content": "And what I loved about Ruby was the sense",
+    "translatedContent": "E o que eu adorei em Ruby foi a sensação"
+  },
+  {
+    "start": 520.45,
+    "end": 523.85,
+    "content": "of combining the immediacy of PHP,",
+    "translatedContent": "de combinar o imediatismo do PHP,"
+  },
+  {
+    "start": 523.85,
+    "end": 527.67,
+    "content": "being able to get Hello World onto the web",
+    "translatedContent": "ser capaz de colocar o Hello World na web"
+  },
+  {
+    "start": 527.67,
+    "end": 530.15,
+    "content": "with a minimal amount of fuss,",
+    "translatedContent": "com um mínimo de barulho,"
+  },
+  {
+    "start": 530.15,
+    "end": 533.63,
+    "content": "together with a really sophisticated,",
+    "translatedContent": "juntamente com um ambiente realmente sofisticado,"
+  },
+  {
+    "start": 533.63,
+    "end": 536.41,
+    "content": "well thought out, coherent,",
+    "translatedContent": "bem pensado, coerente,"
+  },
+  {
+    "start": 536.41,
+    "end": 539.55,
+    "content": "object oriented programming language.",
+    "translatedContent": "linguagem de programação orientada a objetos."
+  },
+  {
+    "start": 539.55,
+    "end": 542.65,
+    "content": "That was the appeal I found in Java,",
+    "translatedContent": "Esse foi o apelo que encontrei em Java,"
+  },
+  {
+    "start": 542.65,
+    "end": 545.53,
+    "content": "that there was all this intellectual rigor,",
+    "translatedContent": "que havia todo esse rigor intelectual,"
+  },
+  {
+    "start": 545.53,
+    "end": 548.85,
+    "content": "the software patents and all the other stuff",
+    "translatedContent": "as patentes de software e todas as outras coisas"
+  },
+  {
+    "start": 548.85,
+    "end": 553.85,
+    "content": "that serious system development engineers were all about.",
+    "translatedContent": "que eram os engenheiros sérios de desenvolvimento de sistemas."
+  },
+  {
+    "start": 555.19,
+    "end": 559.25,
+    "content": "And Ruby, to me, brought both of those things together,",
+    "translatedContent": "E Ruby, para mim, juntou essas duas coisas,"
+  },
+  {
+    "start": 559.25,
+    "end": 562.19,
+    "content": "or at least could bring both of those two things together.",
+    "translatedContent": "ou pelo menos poderia reunir essas duas coisas."
+  },
+  {
+    "start": 562.19,
+    "end": 564.77,
+    "content": "And that's where I saw an opportunity.",
+    "translatedContent": "E foi aí que vi uma oportunidade."
+  },
+  {
+    "start": 565.81,
+    "end": 567.47,
+    "content": "It started out really simple.",
+    "translatedContent": "Tudo começou muito simples."
+  },
+  {
+    "start": 567.47,
+    "end": 570.95,
+    "content": "I had a two-week window that I gave myself",
+    "translatedContent": "Eu tive uma janela de duas semanas que me dei"
+  },
+  {
+    "start": 570.95,
+    "end": 574.65,
+    "content": "of could I build just the basics of a web application?",
+    "translatedContent": "de eu poderia construir apenas o básico de um aplicativo da web?"
+  },
+  {
+    "start": 574.65,
+    "end": 576.75,
+    "content": "Could I get HTML up in the screen",
+    "translatedContent": "Posso colocar o HTML na tela"
+  },
+  {
+    "start": 576.75,
+    "end": 578.63,
+    "content": "that was rendered from Ruby?",
+    "translatedContent": "que foi renderizado a partir de Ruby?"
+  },
+  {
+    "start": 578.63,
+    "end": 580.69,
+    "content": "and I was talking to a database,",
+    "translatedContent": "e eu estava conversando com um banco de dados,"
+  },
+  {
+    "start": 580.69,
+    "end": 583.37,
+    "content": "and could I simply make those things happen?",
+    "translatedContent": "e eu poderia simplesmente fazer essas coisas acontecerem?"
+  },
+  {
+    "start": 583.37,
+    "end": 585.69,
+    "content": "So there wasn't a lot of libraries.",
+    "translatedContent": "Portanto, não havia muitas bibliotecas."
+  },
+  {
+    "start": 585.69,
+    "end": 587.35,
+    "content": "There were not a lot of frameworks.",
+    "translatedContent": "Não havia muitos frameworks."
+  },
+  {
+    "start": 587.35,
+    "end": 589.63,
+    "content": "There were certainly not a lot of things to help you",
+    "translatedContent": "Certamente não havia muitas coisas para ajudá-lo"
+  },
+  {
+    "start": 589.63,
+    "end": 594.63,
+    "content": "with database access or with web development in general.",
+    "translatedContent": "com acesso a banco de dados ou com desenvolvimento web em geral."
+  },
+  {
+    "start": 594.83,
+    "end": 597.31,
+    "content": "And that's how Rails came about,",
+    "translatedContent": "E foi assim que surgiu o Rails,"
+  },
+  {
+    "start": 597.31,
+    "end": 599.75,
+    "content": "that I simply had to build the tools myself",
+    "translatedContent": "que eu simplesmente tive que construir as ferramentas sozinho"
+  },
+  {
+    "start": 599.75,
+    "end": 603.35,
+    "content": "in order to be able to use Ruby as my programming language",
+    "translatedContent": "para poder usar Ruby como minha linguagem de programação"
+  },
+  {
+    "start": 603.35,
+    "end": 606.39,
+    "content": "for this new system we were creating.",
+    "translatedContent": "para este novo sistema que estávamos criando."
+  },
+  {
+    "start": 606.39,
+    "end": 608.65,
+    "content": "It wasn't because I had already looked",
+    "translatedContent": "Não foi porque eu já tinha olhado"
+  },
+  {
+    "start": 608.65,
+    "end": 610.65,
+    "content": "at a bunch of other things in Ruby.",
+    "translatedContent": "em um monte de outras coisas em Ruby."
+  },
+  {
+    "start": 610.65,
+    "end": 612.05,
+    "content": "I'd looked at other things in PHP,",
+    "translatedContent": "Eu olhei para outras coisas em PHP,"
+  },
+  {
+    "start": 612.05,
+    "end": 613.47,
+    "content": "I'd looked at things in Java,",
+    "translatedContent": "Eu olhei para coisas em Java,"
+  },
+  {
+    "start": 613.47,
+    "end": 616.57,
+    "content": "so I had a good idea of what I wanted,",
+    "translatedContent": "então eu tinha uma boa ideia do que queria,"
+  },
+  {
+    "start": 616.57,
+    "end": 620.77,
+    "content": "but Ruby was the language that gave those ideas wings,",
+    "translatedContent": "mas Ruby foi a linguagem que deu asas a essas ideias,"
+  },
+  {
+    "start": 620.77,
+    "end": 622.73,
+    "content": "where I thought I could write code",
+    "translatedContent": "onde pensei que poderia escrever código"
+  },
+  {
+    "start": 622.73,
+    "end": 627.05,
+    "content": "that wasn't just functional, but it was beautiful.",
+    "translatedContent": "isso não era apenas funcional, mas era lindo."
+  },
+  {
+    "start": 627.05,
+    "end": 630.79,
+    "content": "Over the next six, seven months,",
+    "translatedContent": "Nos próximos seis, sete meses,"
+  },
+  {
+    "start": 630.79,
+    "end": 634.63,
+    "content": "we created Basecamp, and during that process,",
+    "translatedContent": "criamos o Basecamp e, durante esse processo,"
+  },
+  {
+    "start": 634.63,
+    "end": 639.61,
+    "content": "I extracted Rails, not as a big upfront design",
+    "translatedContent": "Eu extraí o Rails, não como um grande design inicial"
+  },
+  {
+    "start": 639.61,
+    "end": 643.73,
+    "content": "that I want to create this grand framework,",
+    "translatedContent": "que quero criar esta grande estrutura,"
+  },
+  {
+    "start": 643.73,
+    "end": 645.91,
+    "content": "web framework and release it to the masses.",
+    "translatedContent": "framework web e liberá-lo para as massas."
+  },
+  {
+    "start": 645.91,
+    "end": 648.47,
+    "content": "There was not even a thought of releasing it originally.",
+    "translatedContent": "Não houve sequer a ideia de lançá-lo originalmente."
+  },
+  {
+    "start": 648.47,
+    "end": 650.15,
+    "content": "I simply needed these things.",
+    "translatedContent": "Eu simplesmente precisava dessas coisas."
+  },
+  {
+    "start": 650.15,
+    "end": 654.35,
+    "content": "So I did that in the period between the summer of 2003",
+    "translatedContent": "Então eu fiz isso no período entre o verão de 2003"
+  },
+  {
+    "start": 654.35,
+    "end": 658.89,
+    "content": "and the release of Basecamp in February of 2004.",
+    "translatedContent": "e o lançamento do Basecamp em fevereiro de 2004."
+  },
+  {
+    "start": 658.89,
+    "end": 663.23,
+    "content": "That was the main gestation period for the framework itself.",
+    "translatedContent": "Esse foi o principal período de gestação do próprio quadro."
+  },
+  {
+    "start": 663.23,
+    "end": 668.17,
+    "content": "But I didn't really release Rails until later in 2004",
+    "translatedContent": "Mas eu realmente não lancei o Rails até o final de 2004"
+  },
+  {
+    "start": 668.17,
+    "end": 671.39,
+    "content": "because I had this vision right from the get go",
+    "translatedContent": "porque eu tive essa visão desde o início"
+  },
+  {
+    "start": 671.39,
+    "end": 674.37,
+    "content": "that here's something that could be special.",
+    "translatedContent": "que aqui está algo que pode ser especial."
+  },
+  {
+    "start": 674.37,
+    "end": 678.33,
+    "content": "The first version of Rails needed to be good",
+    "translatedContent": "A primeira versão do Rails precisava ser boa"
+  },
+  {
+    "start": 678.33,
+    "end": 680.51,
+    "content": "and good not just in terms of the code",
+    "translatedContent": "e bom não apenas em termos de código"
+  },
+  {
+    "start": 680.51,
+    "end": 682.87,
+    "content": "but also good in terms of the documentation.",
+    "translatedContent": "mas também bom em termos de documentação."
+  },
+  {
+    "start": 682.87,
+    "end": 685.45,
+    "content": "So I spent a good six months, I think it almost was,",
+    "translatedContent": "Então passei uns bons seis meses, acho que quase foi,"
+  },
+  {
+    "start": 685.45,
+    "end": 690.11,
+    "content": "after the release of Basecamp polishing things up,",
+    "translatedContent": "após o lançamento do Basecamp aprimorando as coisas,"
+  },
+  {
+    "start": 690.11,
+    "end": 702.53,
+    "content": "polishing the documentation before putting it out there.",
+    "translatedContent": "polir a documentação antes de divulgá-la."
+  },
+  {
+    "start": 702.53,
+    "end": 704.67,
+    "content": "Right here behind me is where I lived",
+    "translatedContent": "Bem aqui atrás de mim é onde eu morava"
+  },
+  {
+    "start": 704.67,
+    "end": 706.59,
+    "content": "when I started working on Rails.",
+    "translatedContent": "quando comecei a trabalhar no Rails."
+  },
+  {
+    "start": 708.13,
+    "end": 711.89,
+    "content": "So when Rails started to take off, it was pretty wild.",
+    "translatedContent": "Então, quando o Rails começou a decolar, foi bastante selvagem."
+  },
+  {
+    "start": 711.89,
+    "end": 715.25,
+    "content": "And was a bit of a two minds about it.",
+    "translatedContent": "E estava um pouco dividido sobre isso."
+  },
+  {
+    "start": 715.25,
+    "end": 716.79,
+    "content": "On the one hand, it was great to see",
+    "translatedContent": "Por um lado, foi ótimo ver"
+  },
+  {
+    "start": 716.79,
+    "end": 718.17,
+    "content": "that something I had created",
+    "translatedContent": "que algo que eu criei"
+  },
+  {
+    "start": 718.17,
+    "end": 720.63,
+    "content": "was creating this much excitement.",
+    "translatedContent": "estava criando tanta excitação."
+  },
+  {
+    "start": 720.63,
+    "end": 723.43,
+    "content": "And at the same time, it was also highly protective",
+    "translatedContent": "E ao mesmo tempo, também era altamente protetor"
+  },
+  {
+    "start": 723.43,
+    "end": 726.93,
+    "content": "of the integrity of the vision I had put into Rails.",
+    "translatedContent": "da integridade da visão que coloquei no Rails."
+  },
+  {
+    "start": 726.93,
+    "end": 728.85,
+    "content": "More and more people were interested in Rails,",
+    "translatedContent": "Mais e mais pessoas estavam interessadas em Rails,"
+  },
+  {
+    "start": 728.85,
+    "end": 730.73,
+    "content": "and some of those people were interested",
+    "translatedContent": "e algumas dessas pessoas estavam interessadas"
+  },
+  {
+    "start": 730.73,
+    "end": 733.55,
+    "content": "in pulling Rails in one direction or another.",
+    "translatedContent": "em puxar Rails em uma direção ou outra."
+  },
+  {
+    "start": 733.55,
+    "end": 736.95,
+    "content": "I think it's very easy to lose control",
+    "translatedContent": "Eu acho que é muito fácil perder o controle"
+  },
+  {
+    "start": 736.95,
+    "end": 738.43,
+    "content": "when something like that happened.",
+    "translatedContent": "quando algo assim aconteceu."
+  },
+  {
+    "start": 738.43,
+    "end": 743.11,
+    "content": "Be so enamored and just pleased",
+    "translatedContent": "Fique tão apaixonado e simplesmente satisfeito"
+  },
+  {
+    "start": 743.11,
+    "end": 745.77,
+    "content": "with other people's contributions that you put it all in",
+    "translatedContent": "com as contribuições de outras pessoas que você coloca tudo"
+  },
+  {
+    "start": 745.77,
+    "end": 747.47,
+    "content": "and you have a hard time saying no.",
+    "translatedContent": "e você tem dificuldade em dizer não."
+  },
+  {
+    "start": 747.47,
+    "end": 750.33,
+    "content": "If you say no to someone, you are risking a conflict.",
+    "translatedContent": "Se você disser não a alguém, estará arriscando um conflito."
+  },
+  {
+    "start": 750.33,
+    "end": 752.01,
+    "content": "And I said no to a lot of things.",
+    "translatedContent": "E eu disse não para muitas coisas."
+  },
+  {
+    "start": 752.01,
+    "end": 755.39,
+    "content": "I said no to certain things I did not want Rails to be.",
+    "translatedContent": "Eu disse não para certas coisas que não queria que o Rails fosse."
+  },
+  {
+    "start": 755.39,
+    "end": 757.69,
+    "content": "there was this infamous slide",
+    "translatedContent": "havia esse slide infame"
+  },
+  {
+    "start": 757.69,
+    "end": 761.49,
+    "content": "at a early Rails conference in Canada",
+    "translatedContent": "em uma das primeiras conferências Rails no Canadá"
+  },
+  {
+    "start": 761.49,
+    "end": 764.91,
+    "content": "where I simply just put up the words, fuck you.",
+    "translatedContent": "onde eu simplesmente coloquei as palavras, vá se foder."
+  },
+  {
+    "start": 765.77,
+    "end": 768.83,
+    "content": "And I put up those words as a way of expressing",
+    "translatedContent": "E eu coloquei essas palavras como uma forma de expressar"
+  },
+  {
+    "start": 768.83,
+    "end": 772.75,
+    "content": "my at times frustration when someone would show up",
+    "translatedContent": "minha frustração às vezes quando alguém aparecia"
+  },
+  {
+    "start": 772.75,
+    "end": 775.87,
+    "content": "with what I consider an unreasonable demand",
+    "translatedContent": "com o que considero uma exigência irracional"
+  },
+  {
+    "start": 775.87,
+    "end": 779.91,
+    "content": "for me to put something into Rails",
+    "translatedContent": "para eu colocar algo no Rails"
+  },
+  {
+    "start": 779.91,
+    "end": 782.11,
+    "content": "then follow up with a threat.",
+    "translatedContent": "em seguida, prossiga com uma ameaça."
+  },
+  {
+    "start": 782.11,
+    "end": 784.83,
+    "content": "Unless you put this thing into Rails,",
+    "translatedContent": "A menos que você coloque isso no Rails,"
+  },
+  {
+    "start": 784.83,
+    "end": 786.09,
+    "content": "you will fail.",
+    "translatedContent": "você irá falhar."
+  },
+  {
+    "start": 786.09,
+    "end": 787.71,
+    "content": "Fuck you.",
+    "translatedContent": "Foda-se."
+  },
+  {
+    "start": 787.71,
+    "end": 791.75,
+    "content": "That's just not, you don't get to tell me what to do.",
+    "translatedContent": "Isso simplesmente não é, você não pode me dizer o que fazer."
+  },
+  {
+    "start": 791.75,
+    "end": 794.27,
+    "content": "I'm working on Rails because I wanna work on Rails",
+    "translatedContent": "Estou trabalhando no Rails porque quero trabalhar no Rails"
+  },
+  {
+    "start": 794.27,
+    "end": 796.01,
+    "content": "and I will solve my problems",
+    "translatedContent": "e eu resolverei meus problemas"
+  },
+  {
+    "start": 796.01,
+    "end": 798.55,
+    "content": "and I will protect the integrity of the framework.",
+    "translatedContent": "e protegerei a integridade da estrutura."
+  },
+  {
+    "start": 798.55,
+    "end": 800.63,
+    "content": "I'm not here to be your servant.",
+    "translatedContent": "Não estou aqui para ser seu servo."
+  },
+  {
+    "start": 800.63,
+    "end": 804.11,
+    "content": "I am not allowing you to buy anything from me.",
+    "translatedContent": "Não estou permitindo que você compre nada de mim."
+  },
+  {
+    "start": 804.11,
+    "end": 807.33,
+    "content": "This is one of the main reasons I love open source so much.",
+    "translatedContent": "Esta é uma das principais razões pelas quais adoro tanto o código aberto."
+  },
+  {
+    "start": 807.33,
+    "end": 809.91,
+    "content": "It is not a commercial relationship.",
+    "translatedContent": "Não é uma relação comercial."
+  },
+  {
+    "start": 809.91,
+    "end": 812.13,
+    "content": "You don't get to tell me what to do.",
+    "translatedContent": "Você não pode me dizer o que fazer."
+  },
+  {
+    "start": 812.13,
+    "end": 813.93,
+    "content": "You don't get to tell me the direction",
+    "translatedContent": "Você não pode me dizer a direção"
+  },
+  {
+    "start": 813.93,
+    "end": 816.01,
+    "content": "that Rails has to take.",
+    "translatedContent": "que o Rails precisa aceitar."
+  },
+  {
+    "start": 816.01,
+    "end": 819.01,
+    "content": "I'll make those decisions on my own, thank you very much.",
+    "translatedContent": "Tomarei essas decisões sozinho, muito obrigado."
+  },
+  {
+    "start": 819.01,
+    "end": 822.27,
+    "content": "I'll take input, absolutely, I'll take feedback.",
+    "translatedContent": "Aceitarei sugestões, com certeza, receberei feedback."
+  },
+  {
+    "start": 822.27,
+    "end": 823.87,
+    "content": "And Rails is what it is today",
+    "translatedContent": "E Rails é o que é hoje"
+  },
+  {
+    "start": 823.87,
+    "end": 828.33,
+    "content": "because thousands of people contributed really great work",
+    "translatedContent": "porque milhares de pessoas contribuíram com um trabalho realmente excelente"
+  },
+  {
+    "start": 828.33,
+    "end": 844.92,
+    "content": "that I had no hesitation saying yes to.",
+    "translatedContent": "para o qual não hesitei em dizer sim."
+  },
+  {
+    "start": 844.92,
+    "end": 846.94,
+    "content": "I arrived in the Ruby community",
+    "translatedContent": "Cheguei na comunidade Ruby"
+  },
+  {
+    "start": 846.94,
+    "end": 848.62,
+    "content": "because I thought Ruby was cool.",
+    "translatedContent": "porque achei Ruby legal."
+  },
+  {
+    "start": 848.62,
+    "end": 850.06,
+    "content": "I like programming languages.",
+    "translatedContent": "Gosto de linguagens de programação."
+  },
+  {
+    "start": 850.06,
+    "end": 853.8,
+    "content": "I would dabble in them and just try things out in them.",
+    "translatedContent": "Eu me envolveria com eles e apenas experimentaria coisas neles."
+  },
+  {
+    "start": 853.8,
+    "end": 856.8,
+    "content": "And when I tried Ruby, I really liked it.",
+    "translatedContent": "E quando experimentei Ruby, gostei muito."
+  },
+  {
+    "start": 856.8,
+    "end": 858.8,
+    "content": "It stuck with me in a special way",
+    "translatedContent": "Isso ficou comigo de uma maneira especial"
+  },
+  {
+    "start": 858.8,
+    "end": 860.38,
+    "content": "that I kept coming back to.",
+    "translatedContent": "que eu continuei voltando."
+  },
+  {
+    "start": 862.32,
+    "end": 863.64,
+    "content": "Just felt close to my heart",
+    "translatedContent": "Apenas me senti perto do meu coração"
+  },
+  {
+    "start": 863.64,
+    "end": 866.04,
+    "content": "and I didn't try to analyze it too much of the time.",
+    "translatedContent": "e não tentei analisá-lo muito na maior parte do tempo."
+  },
+  {
+    "start": 866.04,
+    "end": 868.52,
+    "content": "As the years went by and I did web development",
+    "translatedContent": "Com o passar dos anos eu fiz desenvolvimento web"
+  },
+  {
+    "start": 868.52,
+    "end": 871.92,
+    "content": "in Java and PHP and Perl and other languages,",
+    "translatedContent": "em Java e PHP e Perl e outras linguagens,"
+  },
+  {
+    "start": 871.92,
+    "end": 874.26,
+    "content": "I kept thinking about feeling that old tug",
+    "translatedContent": "Fiquei pensando em sentir aquele velho puxão"
+  },
+  {
+    "start": 874.26,
+    "end": 875.84,
+    "content": "of why isn't Ruby here?",
+    "translatedContent": "de por que Ruby não está aqui?"
+  },
+  {
+    "start": 875.84,
+    "end": 878.12,
+    "content": "Why isn't Ruby showed up?",
+    "translatedContent": "Por que Ruby não apareceu?"
+  },
+  {
+    "start": 878.12,
+    "end": 881.42,
+    "content": "Here comes this guy announcing on the RubyTalk mailing list,",
+    "translatedContent": "Aí vem esse cara anunciando na lista de discussão do RubyTalk,"
+  },
+  {
+    "start": 881.42,
+    "end": 882.92,
+    "content": "I've got a plan.",
+    "translatedContent": "Eu tenho um plano."
+  },
+  {
+    "start": 882.92,
+    "end": 884.98,
+    "content": "It's like, what are you coming down from Mount Sinai",
+    "translatedContent": "É como, o que você está descendo do Monte Sinai"
+  },
+  {
+    "start": 884.98,
+    "end": 891.94,
+    "content": "with your tablets of who gave you these commandments, the way to develop for",
+    "translatedContent": "com suas tábuas de quem lhe deu esses mandamentos, o caminho para desenvolver para"
+  },
+  {
+    "start": 891.94,
+    "end": 898.78,
+    "content": "Ruby and the way to develop for the Reb. We haven't seen you before. So it was",
+    "translatedContent": "Ruby e a forma de desenvolver para o Reb. Nós não vimos você antes. Então foi"
+  },
+  {
+    "start": 898.78,
+    "end": 905.44,
+    "content": "a provocation and there was some spice to it. It's like, is this",
+    "translatedContent": "uma provocação e havia algum tempero nisso. É tipo, é isso"
+  },
+  {
+    "start": 905.44,
+    "end": 910.3,
+    "content": "guy an asshole? Or is there something to it? And it was a little bit of both.",
+    "translatedContent": "cara é um idiota? Ou há algo nisso? E foi um pouco dos dois."
+  },
+  {
+    "start": 910.3,
+    "end": 915.1,
+    "content": "hear this guy with like a kind of well-carried arrogance about having the",
+    "translatedContent": "ouvir esse cara com uma espécie de arrogância bem-carregada sobre ter o"
+  },
+  {
+    "start": 915.1,
+    "end": 921.34,
+    "content": "right ideas and willing to set those ideas out for everybody to see and they",
+    "translatedContent": "ideias certas e dispostos a expor essas ideias para que todos vejam e eles"
+  },
+  {
+    "start": 921.34,
+    "end": 925.54,
+    "content": "were great they were good ideas sure some of them were like old ideas",
+    "translatedContent": "foram ótimos, eram boas ideias, com certeza algumas delas eram como ideias antigas"
+  },
+  {
+    "start": 925.54,
+    "end": 929.5,
+    "content": "reconfigured but they weren't pitched as anything but that the active record",
+    "translatedContent": "reconfigurados, mas não foram apresentados como nada além de que o registro ativo"
+  },
+  {
+    "start": 929.5,
+    "end": 932.66,
+    "content": "pattern says it right on the tin now it took it from a pattern to being a",
+    "translatedContent": "o padrão diz isso na lata agora passou de um padrão a um"
+  },
+  {
+    "start": 932.66,
+    "end": 939.3,
+    "content": "framework and that added it was a jolt of energy and kind of electricity and a",
+    "translatedContent": "estrutura e isso acrescentou que foi um choque de energia e tipo de eletricidade e um"
+  },
+  {
+    "start": 939.3,
+    "end": 945.44,
+    "content": "Ruby community that was very generous, very kind, and now had this kind of aliveness, like what's",
+    "translatedContent": "comunidade Ruby que era muito generosa, muito gentil, e agora tinha esse tipo de vitalidade, como o que"
+  },
+  {
+    "start": 945.44,
+    "end": 951.86,
+    "content": "going on here? How do we channel this energy? What are we going to do with this person? And it",
+    "translatedContent": "acontecendo aqui? Como canalizamos essa energia? O que vamos fazer com essa pessoa? E isso"
+  },
+  {
+    "start": 951.86,
+    "end": 970.86,
+    "content": "varied from tolerate this person to embrace and see what he brought. I first heard about Ruby on",
+    "translatedContent": "variava desde tolerar essa pessoa até abraçar e ver o que ela trazia. Ouvi falar de Ruby pela primeira vez em"
+  },
+  {
+    "start": 970.86,
+    "end": 979.12,
+    "content": "Rails at the 2004 International Ruby Conference. I was working for Brigham Young University at the",
+    "translatedContent": "Rails na Conferência Internacional Ruby de 2004. Eu estava trabalhando para a Universidade Brigham Young na"
+  },
+  {
+    "start": 979.12,
+    "end": 984.94,
+    "content": "time and not using Ruby. But I received permission to go to this conference because I was very",
+    "translatedContent": "tempo e não usando Ruby. Mas recebi permissão para ir a esta conferência porque estava muito"
+  },
+  {
+    "start": 984.94,
+    "end": 990.88,
+    "content": "excited about the Ruby programming language and was doing a lot with Ruby on the side and even",
+    "translatedContent": "entusiasmado com a linguagem de programação Ruby e estava fazendo muito com Ruby paralelamente e até"
+  },
+  {
+    "start": 990.88,
+    "end": 996.5,
+    "content": "sneaking it into the system, so to speak. And I went, I was actually presenting about something",
+    "translatedContent": "inserindo-o no sistema, por assim dizer. E eu disse, na verdade estava apresentando algo"
+  },
+  {
+    "start": 996.5,
+    "end": 1003.14,
+    "content": "that I had been working on on the side. It was not a big conference. There was maybe just 30 or 40",
+    "translatedContent": "que eu estava trabalhando paralelamente. Não foi uma grande conferência. Talvez houvesse apenas 30 ou 40"
+  },
+  {
+    "start": 1003.14,
+    "end": 1010.74,
+    "content": "people in total. But I remember sitting there and one of the presenters was David Heinemeier Hansen,",
+    "translatedContent": "pessoas no total. Mas lembro-me de estar sentado lá e um dos apresentadores foi David Heinemeier Hansen,"
+  },
+  {
+    "start": 1010.74,
+    "end": 1015.7,
+    "content": "who I'd never heard of before. I'd never heard of Ruby on Rails. It was brand new, just barely",
+    "translatedContent": "de quem eu nunca tinha ouvido falar antes. Eu nunca tinha ouvido falar de Ruby on Rails. Era novinho em folha, por pouco"
+  },
+  {
+    "start": 1015.7,
+    "end": 1022.82,
+    "content": "released. And he got up and was talking about why he wrote Rails. He really was pushing a better",
+    "translatedContent": "lançado. E ele se levantou e falou sobre por que escreveu Rails. Ele realmente estava tentando melhorar"
+  },
+  {
+    "start": 1022.82,
+    "end": 1028.5,
+    "content": "experience for programmers. And I remember him standing up there holding an imaginary piccolo",
+    "translatedContent": "experiência para programadores. E eu me lembro dele parado ali segurando um flautim imaginário"
+  },
+  {
+    "start": 1028.5,
+    "end": 1034.34,
+    "content": "to his lips and talking about how like the pied piper of hamlin he was going to lead programmers",
+    "translatedContent": "aos lábios e falando sobre como, como o flautista de Hamlin, ele iria liderar programadores"
+  },
+  {
+    "start": 1034.34,
+    "end": 1047.62,
+    "content": "to a better a better experience a better a better way of living for about the first year there was",
+    "translatedContent": "para uma experiência melhor, uma experiência melhor, uma maneira de viver melhor, durante o primeiro ano em que houve"
+  },
+  {
+    "start": 1047.62,
+    "end": 1053.94,
+    "content": "no one else but me making commits directly to the code i took patches from people we took patches",
+    "translatedContent": "ninguém além de mim fazendo commits diretamente no código eu peguei patches de pessoas nós pegamos patches"
+  },
+  {
+    "start": 1053.94,
+    "end": 1059.38,
+    "content": "over email i think we used a wiki at the time this was well before github was created and made",
+    "translatedContent": "por e-mail, acho que usávamos um wiki na época, isso foi bem antes de o github ser criado e feito"
+  },
+  {
+    "start": 1059.38,
+    "end": 1067.46,
+    "content": "everything so easy but i didn't expand the access to the code itself until i think almost a year in",
+    "translatedContent": "tudo tão fácil, mas não ampliei o acesso ao código em si até quase um ano depois"
+  },
+  {
+    "start": 1068.18,
+    "end": 1074.74,
+    "content": "at that time we instituted the rails core team which were basically just a group of people who",
+    "translatedContent": "naquela época, instituímos a equipe principal do Rails, que era basicamente um grupo de pessoas que"
+  },
+  {
+    "start": 1074.74,
+    "end": 1080.9,
+    "content": "had sent me the most patches who had sent me the best work those people got access to the codebase",
+    "translatedContent": "me enviaram o maior número de patches que me enviaram o melhor trabalho essas pessoas tiveram acesso à base de código"
+  },
+  {
+    "start": 1080.9,
+    "end": 1086.74,
+    "content": "and amongst those people was jamis buck i remember being struck by",
+    "translatedContent": "e entre essas pessoas estava Jamis Buck, lembro-me de ter sido atingido por"
+  },
+  {
+    "start": 1086.74,
+    "end": 1091.74,
+    "content": "by just how excited he was about this project.",
+    "translatedContent": "pelo quão animado ele estava com este projeto."
+  },
+  {
+    "start": 1092.36,
+    "end": 1094.42,
+    "content": "He was very passionate about it.",
+    "translatedContent": "Ele era muito apaixonado por isso."
+  },
+  {
+    "start": 1094.42,
+    "end": 1097.36,
+    "content": "He never showed a line of Ruby or Rails code",
+    "translatedContent": "Ele nunca mostrou uma linha de código Ruby ou Rails"
+  },
+  {
+    "start": 1097.36,
+    "end": 1098.36,
+    "content": "that whole presentation.",
+    "translatedContent": "toda aquela apresentação."
+  },
+  {
+    "start": 1098.36,
+    "end": 1100.92,
+    "content": "It was all about why he wrote it,",
+    "translatedContent": "Foi tudo sobre por que ele escreveu isso,"
+  },
+  {
+    "start": 1100.92,
+    "end": 1102.64,
+    "content": "what he was hoping to accomplish with it,",
+    "translatedContent": "o que ele esperava realizar com isso,"
+  },
+  {
+    "start": 1102.64,
+    "end": 1105.72,
+    "content": "which I think disappointed some people,",
+    "translatedContent": "o que acho que decepcionou algumas pessoas,"
+  },
+  {
+    "start": 1105.72,
+    "end": 1108.04,
+    "content": "especially those who had heard about Rails,",
+    "translatedContent": "especialmente aqueles que já ouviram falar sobre Rails,"
+  },
+  {
+    "start": 1108.04,
+    "end": 1111.9,
+    "content": "maybe played with the very early releases of it.",
+    "translatedContent": "talvez tenha brincado com os primeiros lançamentos dele."
+  },
+  {
+    "start": 1111.9,
+    "end": 1113.88,
+    "content": "I think there were some there who were hoping",
+    "translatedContent": "Eu acho que havia alguns lá que estavam esperando"
+  },
+  {
+    "start": 1113.88,
+    "end": 1121.64,
+    "content": "little bit more of a technical presentation, but his was all about the charisma. His excitement",
+    "translatedContent": "uma apresentação um pouco mais técnica, mas a sua era toda sobre o carisma. Sua excitação"
+  },
+  {
+    "start": 1121.64,
+    "end": 1126.6,
+    "content": "and passion about the project was contagious. It was easy to see that this was something he",
+    "translatedContent": "e a paixão pelo projeto foi contagiante. Foi fácil ver que isso era algo que ele"
+  },
+  {
+    "start": 1126.6,
+    "end": 1133.48,
+    "content": "was really excited about. And even then, I mean this was 20 years ago almost, you could see his",
+    "translatedContent": "estava muito animado. E mesmo assim, quero dizer, isso foi há quase 20 anos, você podia ver o seu"
+  },
+  {
+    "start": 1134.28,
+    "end": 1140.28,
+    "content": "idea that this was going to change the world. James ended up then being the first programmer",
+    "translatedContent": "ideia de que isso iria mudar o mundo. James acabou sendo então o primeiro programador"
+  },
+  {
+    "start": 1140.28,
+    "end": 1149.4,
+    "content": "i ever hired at 37 signals as basecamp was taking off and i remember reading james's ruby code and",
+    "translatedContent": "eu já contratei na 37 sinais quando o basecamp estava decolando e lembro de ter lido o código Ruby de James e"
+  },
+  {
+    "start": 1149.4,
+    "end": 1156.68,
+    "content": "just thinking wow this guy is really good he just had such a methodical approach to it that",
+    "translatedContent": "só pensando: uau, esse cara é muito bom, ele tinha uma abordagem tão metódica que"
+  },
+  {
+    "start": 1157.32,
+    "end": 1164.04,
+    "content": "i was in off and i was eager to be able to work with him at basecamp on basecamp",
+    "translatedContent": "eu estava de folga e estava ansioso para poder trabalhar com ele no basecamp no basecamp"
+  },
+  {
+    "start": 1164.04,
+    "end": 1173.16,
+    "content": "and that's how we got started that we hired the good number of the early people at 37signals",
+    "translatedContent": "e foi assim que começamos, contratando um bom número de pessoas iniciais na 37signals"
+  },
+  {
+    "start": 1173.16,
+    "end": 1178.68,
+    "content": "were all hired out of the rails core team or other folks who had been contributing to rails",
+    "translatedContent": "foram todos contratados da equipe principal do Rails ou de outras pessoas que contribuíram para o Rails"
+  },
+  {
+    "start": 1178.68,
+    "end": 1189,
+    "content": "something that was exciting about the rails pre-release announcement is that it was coming",
+    "translatedContent": "algo que foi emocionante sobre o anúncio de pré-lançamento do Rails é que ele estava chegando"
+  },
+  {
+    "start": 1189,
+    "end": 1197.46,
+    "content": "from 37signals i had i knew about 37signals and just the fact that they were dipping their toes",
+    "translatedContent": "da 37signals eu sabia sobre a 37signals e apenas o fato de que eles estavam mergulhando os dedos dos pés"
+  },
+  {
+    "start": 1197.46,
+    "end": 1207.3,
+    "content": "isn't a Ruby. It was interesting. It was really curious. Why are they showing up here?",
+    "translatedContent": "não é um Ruby. Foi interessante. Foi muito curioso. Por que eles estão aparecendo aqui?"
+  },
+  {
+    "start": 1207.3,
+    "end": 1212.22,
+    "content": "This wasn't just somebody coming up with their favorite way to build web apps. It was somebody",
+    "translatedContent": "Não foi apenas alguém inventando sua maneira favorita de criar aplicativos da web. Foi alguém"
+  },
+  {
+    "start": 1212.22,
+    "end": 1217.24,
+    "content": "doing something in a 37signals way, and that the mark 37signals had made on the design",
+    "translatedContent": "fazendo algo no estilo 37signals, e que a marca que a 37signals deixou no design"
+  },
+  {
+    "start": 1217.24,
+    "end": 1222.64,
+    "content": "world was showing up to the Ruby world of all places. It felt different and kind of",
+    "translatedContent": "world estava aparecendo para o mundo Ruby de todos os lugares. Parecia diferente e meio"
+  },
+  {
+    "start": 1222.64,
+    "end": 1229.76,
+    "content": "odd and a neat interesting curious kind of odd so it gave it kind of an instant reputation",
+    "translatedContent": "estranho e um tipo interessante, curioso e estranho, então deu-lhe uma reputação instantânea"
+  },
+  {
+    "start": 1230.48,
+    "end": 1235.2,
+    "content": "if you didn't know what it was yet but the fact that it could power something like that",
+    "translatedContent": "se você ainda não sabia o que era, mas o fato de que poderia alimentar algo assim"
+  },
+  {
+    "start": 1235.2,
+    "end": 1242.48,
+    "content": "spoke for itself that reception was of course very warm and loving this was a bunch of ruby",
+    "translatedContent": "falou por si que a recepção foi, claro, muito calorosa e amorosa, este era um monte de rubi"
+  },
+  {
+    "start": 1242.48,
+    "end": 1249.68,
+    "content": "enthusiasts seeing something interesting happening in ruby the reception from the rest of the world",
+    "translatedContent": "entusiastas vendo algo interessante acontecendo em Ruby a recepção do resto do mundo"
+  },
+  {
+    "start": 1249.68,
+    "end": 1257.84,
+    "content": "was a bit more mixed of course it was in part because when i went into full marketing mode",
+    "translatedContent": "foi um pouco mais confuso, é claro, em parte porque quando entrei no modo de marketing completo"
+  },
+  {
+    "start": 1257.84,
+    "end": 1266.48,
+    "content": "for rails i was a little brash about it i knew that the odds of creating awareness from something",
+    "translatedContent": "para Rails, fui um pouco ousado sobre isso, sabia que as chances de criar consciência a partir de algo"
+  },
+  {
+    "start": 1266.48,
+    "end": 1272.08,
+    "content": "like ruby such an unknown programming language couldn't just be a whisper it had to be a shout",
+    "translatedContent": "como Ruby, uma linguagem de programação tão desconhecida não poderia ser apenas um sussurro, tinha que ser um grito"
+  },
+  {
+    "start": 1272.08,
+    "end": 1291.88,
+    "content": "And I went out shouting. I did a bunch of controversial comparisons between Java implementations of certain problems and Rails implementations of the same problems that at the time were characterized as poking Java developers in the eyes.",
+    "translatedContent": "E eu saí gritando. Eu fiz um monte de comparações controversas entre implementações Java de certos problemas e implementações Rails dos mesmos problemas que na época eram caracterizados como cutucando os olhos dos desenvolvedores Java."
+  },
+  {
+    "start": 1291.88,
+    "end": 1297.12,
+    "content": "So, of course, part of that reaction, completely expected, was pushback.",
+    "translatedContent": "Então, é claro, parte dessa reação, completamente esperada, foi uma reação negativa."
+  },
+  {
+    "start": 1297.76,
+    "end": 1307.72,
+    "content": "And this was why it was so helpful to have this one-two punch, a real application with real success and growth and paying customers in Basecamp.",
+    "translatedContent": "E foi por isso que foi tão útil ter esse golpe duplo, um aplicativo real com sucesso e crescimento reais e clientes pagantes no Basecamp."
+  },
+  {
+    "start": 1308.28,
+    "end": 1319.02,
+    "content": "And just the code speaking for itself, things like the 15-minute blog video and other write-ups, contrasting what does it take to solve this problem in Ruby on Rails?",
+    "translatedContent": "E apenas o código fala por si, coisas como o vídeo do blog de 15 minutos e outros artigos, comparando o que é necessário para resolver esse problema em Ruby on Rails?"
+  },
+  {
+    "start": 1319.02,
+    "end": 1321.84,
+    "content": "What does it take to solve the same problem in something else?",
+    "translatedContent": "O que é necessário para resolver o mesmo problema em outra coisa?"
+  },
+  {
+    "start": 1321.88,
+    "end": 1334.54,
+    "content": "So I hope you can read the text. The first thing we do is call the Rails command to generate...",
+    "translatedContent": "Então espero que você consiga ler o texto. A primeira coisa que fazemos é chamar o comando Rails para gerar..."
+  },
+  {
+    "start": 1334.54,
+    "end": 1357.02,
+    "content": "2002 I moved from Germany to Canada. I tried to work for local companies in Canada right after and found out I couldn't because I didn't have a work permit and I had to work for these kind of things.",
+    "translatedContent": "2002 mudei da Alemanha para o Canadá. Tentei trabalhar para empresas locais no Canadá logo depois e descobri que não podia porque não tinha autorização de trabalho e precisava trabalhar para esse tipo de coisa."
+  },
+  {
+    "start": 1357.02,
+    "end": 1361.88,
+    "content": "of thing so I found myself with time. My now wonderful wife suggested like you",
+    "translatedContent": "de coisa então me encontrei com o tempo. Minha agora maravilhosa esposa sugeriu como você"
+  },
+  {
+    "start": 1361.88,
+    "end": 1368.06,
+    "content": "know you've been talking about starting a company and like this seems like an",
+    "translatedContent": "sei que você está falando sobre abrir uma empresa e isso parece um"
+  },
+  {
+    "start": 1368.06,
+    "end": 1373.04,
+    "content": "awfully good time to do it. I didn't feel that spark anymore during those times",
+    "translatedContent": "um momento muito bom para fazer isso. Eu não senti mais aquela faísca naquela época"
+  },
+  {
+    "start": 1373.04,
+    "end": 1380.72,
+    "content": "and what I decided I needed to do was reclaim programming as that passion",
+    "translatedContent": "e o que decidi que precisava fazer era recuperar a programação como aquela paixão"
+  },
+  {
+    "start": 1380.72,
+    "end": 1384.44,
+    "content": "hobby again. What I was looking for is like in some opportunity of like let me",
+    "translatedContent": "passatempo novamente. O que eu estava procurando é alguma oportunidade de deixar-me"
+  },
+  {
+    "start": 1384.44,
+    "end": 1391.52,
+    "content": "I'm going to build something that would allow me to make money while I go snowboarding and",
+    "translatedContent": "Vou construir algo que me permita ganhar dinheiro enquanto pratico snowboard e"
+  },
+  {
+    "start": 1391.52,
+    "end": 1394.2,
+    "content": "while I go program for fun.",
+    "translatedContent": "enquanto eu vou programar para me divertir."
+  },
+  {
+    "start": 1394.2,
+    "end": 1395.78,
+    "content": "That was my plan.",
+    "translatedContent": "Esse era o meu plano."
+  },
+  {
+    "start": 1395.78,
+    "end": 1400.82,
+    "content": "I've been extraordinarily unsuccessful on that particular plan because here's the way",
+    "translatedContent": "Não tive muito sucesso nesse plano específico porque este é o caminho"
+  },
+  {
+    "start": 1400.82,
+    "end": 1402.42,
+    "content": "things happened.",
+    "translatedContent": "coisas aconteceram."
+  },
+  {
+    "start": 1402.42,
+    "end": 1409.24,
+    "content": "I decided because of all the snowboarding I was doing, I knew a lot about snowboarding",
+    "translatedContent": "Decidi que por causa de todo o snowboard que estava praticando, eu sabia muito sobre snowboard"
+  },
+  {
+    "start": 1409.24,
+    "end": 1412.92,
+    "content": "and just like, you know, online stores, this seemed like the right thing to do, whereas",
+    "translatedContent": "e assim como, você sabe, nas lojas online, isso parecia a coisa certa a fazer, enquanto"
+  },
+  {
+    "start": 1412.92,
+    "end": 1414.9,
+    "content": "I couldn't find a good online store.",
+    "translatedContent": "Não consegui encontrar uma boa loja online."
+  },
+  {
+    "start": 1414.9,
+    "end": 1416.06,
+    "content": "You know, it turned out that there wasn't",
+    "translatedContent": "Você sabe, descobriu-se que não havia"
+  },
+  {
+    "start": 1416.06,
+    "end": 1417.22,
+    "content": "good software to use.",
+    "translatedContent": "bom software para usar."
+  },
+  {
+    "start": 1417.22,
+    "end": 1419.58,
+    "content": "I tried to use different packages, they're all horrible.",
+    "translatedContent": "Tentei usar pacotes diferentes, são todos horríveis."
+  },
+  {
+    "start": 1419.58,
+    "end": 1421.94,
+    "content": "So I just sat down and said, okay, well,",
+    "translatedContent": "Então eu sentei e disse, ok, bem,"
+  },
+  {
+    "start": 1422.94,
+    "end": 1425.68,
+    "content": "if I can use anything, like I don't have a boss anymore.",
+    "translatedContent": "se eu puder usar alguma coisa, como se eu não tivesse mais chefe."
+  },
+  {
+    "start": 1425.68,
+    "end": 1427.56,
+    "content": "I can use any technology, no matter what it is.",
+    "translatedContent": "Posso usar qualquer tecnologia, não importa qual seja."
+  },
+  {
+    "start": 1427.56,
+    "end": 1430.46,
+    "content": "It just needs to respond to web requests.",
+    "translatedContent": "Ele só precisa responder às solicitações da web."
+  },
+  {
+    "start": 1430.46,
+    "end": 1433.6,
+    "content": "I remember thinking, man, I would just love to use Ruby.",
+    "translatedContent": "Lembro-me de ter pensado, cara, eu adoraria usar Ruby."
+  },
+  {
+    "start": 1433.6,
+    "end": 1435.66,
+    "content": "Like, it was just this moment.",
+    "translatedContent": "Tipo, foi só esse momento."
+  },
+  {
+    "start": 1438.87,
+    "end": 1440.49,
+    "content": "I think the way I best explain it is like,",
+    "translatedContent": "Acho que a melhor maneira de explicar é:"
+  },
+  {
+    "start": 1440.49,
+    "end": 1443.05,
+    "content": "I just realized my brain was running on Ruby",
+    "translatedContent": "Acabei de perceber que meu cérebro estava funcionando em Ruby"
+  },
+  {
+    "start": 1443.05,
+    "end": 1445.07,
+    "content": "since I started first programming.",
+    "translatedContent": "desde que comecei a programar."
+  },
+  {
+    "start": 1445.09,
+    "end": 1452.67,
+    "content": "Shortly thereafter, I got just very lucky in that I was paying attention when what David",
+    "translatedContent": "Pouco depois, tive muita sorte de estar prestando atenção quando o que David"
+  },
+  {
+    "start": 1452.67,
+    "end": 1460.61,
+    "content": "must have for the first time started talking about him doing the thing I wasn't brave enough",
+    "translatedContent": "devo ter pela primeira vez começado a falar sobre ele fazer algo que não tive coragem suficiente"
+  },
+  {
+    "start": 1460.61,
+    "end": 1461.61,
+    "content": "to do, right?",
+    "translatedContent": "fazer, certo?"
+  },
+  {
+    "start": 1461.61,
+    "end": 1465.09,
+    "content": "Like building from scratch everything that's needed.",
+    "translatedContent": "Como construir do zero tudo o que é necessário."
+  },
+  {
+    "start": 1465.09,
+    "end": 1469.59,
+    "content": "This may well have been me sending a private message and him sending a zip file back.",
+    "translatedContent": "Pode muito bem ter sido eu enviando uma mensagem privada e ele enviando de volta um arquivo zip."
+  },
+  {
+    "start": 1469.59,
+    "end": 1471.97,
+    "content": "The details are a little bit hazy at this point.",
+    "translatedContent": "Os detalhes estão um pouco confusos neste momento."
+  },
+  {
+    "start": 1471.97,
+    "end": 1475.45,
+    "content": "Like, he gave me access very early.",
+    "translatedContent": "Tipo, ele me deu acesso muito cedo."
+  },
+  {
+    "start": 1475.45,
+    "end": 1476.71,
+    "content": "I tried.",
+    "translatedContent": "Tentei."
+  },
+  {
+    "start": 1476.71,
+    "end": 1478.15,
+    "content": "I just fell in love with it.",
+    "translatedContent": "Eu simplesmente me apaixonei por isso."
+  },
+  {
+    "start": 1478.15,
+    "end": 1479.97,
+    "content": "I was building Snow Devil.",
+    "translatedContent": "Eu estava construindo Snow Devil."
+  },
+  {
+    "start": 1479.97,
+    "end": 1482.83,
+    "content": "It took two, three months.",
+    "translatedContent": "Demorou dois, três meses."
+  },
+  {
+    "start": 1482.83,
+    "end": 1487.33,
+    "content": "I was certainly the only engineering team",
+    "translatedContent": "Eu certamente era a única equipe de engenharia"
+  },
+  {
+    "start": 1487.33,
+    "end": 1491.11,
+    "content": "on planet Earth during this time who was doing this alone.",
+    "translatedContent": "no planeta Terra durante este tempo que estava fazendo isso sozinho."
+  },
+  {
+    "start": 1491.11,
+    "end": 1493.21,
+    "content": "Everyone else who was building online stores",
+    "translatedContent": "Todos os outros que estavam construindo lojas online"
+  },
+  {
+    "start": 1493.21,
+    "end": 1494.41,
+    "content": "had a team of 100 people.",
+    "translatedContent": "tinha uma equipe de 100 pessoas."
+  },
+  {
+    "start": 1494.41,
+    "end": 1496.93,
+    "content": "And yet, I was more productive simply",
+    "translatedContent": "E ainda assim, fui mais produtivo simplesmente"
+  },
+  {
+    "start": 1496.93,
+    "end": 1500.53,
+    "content": "because it's hard for people to understand this these days.",
+    "translatedContent": "porque é difícil para as pessoas entenderem isso hoje em dia."
+  },
+  {
+    "start": 1500.53,
+    "end": 1504.03,
+    "content": "But that is the difference of effectiveness of what Rails did.",
+    "translatedContent": "Mas essa é a diferença de eficácia do que o Rails fez."
+  },
+  {
+    "start": 1504.11,
+    "end": 1506.67,
+    "content": "And it made it possible to build systems alone again.",
+    "translatedContent": "E tornou possível construir sistemas sozinhos novamente."
+  },
+  {
+    "start": 1507.85,
+    "end": 1511.25,
+    "content": "It just became a very natural thing based on just what I was seeing",
+    "translatedContent": "Tornou-se uma coisa muito natural com base apenas no que eu estava vendo"
+  },
+  {
+    "start": 1511.25,
+    "end": 1514.19,
+    "content": "to take Snowdevil and turn it into Shopify afterwards.",
+    "translatedContent": "pegar o Snowdevil e depois transformá-lo no Shopify."
+  },
+  {
+    "start": 1514.43,
+    "end": 1517.09,
+    "content": "It just seemed like the right thing to do.",
+    "translatedContent": "Parecia a coisa certa a fazer."
+  },
+  {
+    "start": 1517.19,
+    "end": 1519.21,
+    "content": "And you can clearly see the inferences in it.",
+    "translatedContent": "E você pode ver claramente as inferências nele."
+  },
+  {
+    "start": 1519.21,
+    "end": 1522.27,
+    "content": "I loved working on Rails.",
+    "translatedContent": "Adorei trabalhar no Rails."
+  },
+  {
+    "start": 1522.41,
+    "end": 1523.57,
+    "content": "I loved working on the tool.",
+    "translatedContent": "Adorei trabalhar na ferramenta."
+  },
+  {
+    "start": 1523.91,
+    "end": 1526.27,
+    "content": "I loved working on the technology.",
+    "translatedContent": "Adorei trabalhar com tecnologia."
+  },
+  {
+    "start": 1526.27,
+    "end": 1533.65,
+    "content": "being inspired by the tools that you use to reach higher than you thought you could or you were",
+    "translatedContent": "sendo inspirado pelas ferramentas que você usa para chegar mais alto do que você pensou que poderia ou estava"
+  },
+  {
+    "start": 1533.65,
+    "end": 1543.01,
+    "content": "allowed to or what would be possible is rare and possible and underexplored and in fact literally",
+    "translatedContent": "permitido ou o que seria possível é raro e possível e subexplorado e, na verdade, literalmente"
+  },
+  {
+    "start": 1543.01,
+    "end": 1551.28,
+    "content": "what Shopify is attempting to do right at the end of the day. I don't remember us calling it a core",
+    "translatedContent": "o que o Shopify está tentando fazer certo no final do dia. Não me lembro de termos chamado isso de núcleo"
+  },
+  {
+    "start": 1551.28,
+    "end": 1558.66,
+    "content": "team right away but it kind of became that from those beginnings of Jeremy and me and David",
+    "translatedContent": "equipe imediatamente, mas meio que se tornou isso desde o início de Jeremy, eu e David"
+  },
+  {
+    "start": 1558.66,
+    "end": 1560.66,
+    "content": "committing to the repository.",
+    "translatedContent": "comprometendo-se com o repositório."
+  },
+  {
+    "start": 1560.66,
+    "end": 1563.06,
+    "content": "It wasn't long before there were more committers.",
+    "translatedContent": "Não demorou muito para que houvesse mais committers."
+  },
+  {
+    "start": 1564.8,
+    "end": 1568.16,
+    "content": "Marcel, Melina, Scott Baron, Sam Stevenson,",
+    "translatedContent": "Marcel, Melina, Scott Baron, Sam Stevenson,"
+  },
+  {
+    "start": 1568.16,
+    "end": 1571.5,
+    "content": "some of these others, Michael Koziarski,",
+    "translatedContent": "alguns desses outros, Michael Koziarski,"
+  },
+  {
+    "start": 1571.5,
+    "end": 1573.02,
+    "content": "these early Rails committers.",
+    "translatedContent": "esses primeiros committers do Rails."
+  },
+  {
+    "start": 1574.92,
+    "end": 1577.3,
+    "content": "And it really was a wonderful thing.",
+    "translatedContent": "E realmente foi uma coisa maravilhosa."
+  },
+  {
+    "start": 1577.3,
+    "end": 1582.26,
+    "content": "I had never really been part of a team like that,",
+    "translatedContent": "Eu nunca tinha feito parte de uma equipe como essa,"
+  },
+  {
+    "start": 1582.26,
+    "end": 1585.82,
+    "content": "but there was something about all of us having this,",
+    "translatedContent": "mas havia algo sobre todos nós termos isso,"
+  },
+  {
+    "start": 1585.82,
+    "end": 1590.06,
+    "content": "the same vision and working at such an early stage",
+    "translatedContent": "a mesma visão e trabalhando em um estágio tão inicial"
+  },
+  {
+    "start": 1590.06,
+    "end": 1593.2,
+    "content": "on something that felt like it was gonna change the world.",
+    "translatedContent": "em algo que parecia que iria mudar o mundo."
+  },
+  {
+    "start": 1593.2,
+    "end": 1595.94,
+    "content": "It was exciting.",
+    "translatedContent": "Foi emocionante."
+  },
+  {
+    "start": 1595.94,
+    "end": 1599.88,
+    "content": "Being part of a core team meant that you had David's trust",
+    "translatedContent": "Fazer parte de uma equipe principal significava que você tinha a confiança de David"
+  },
+  {
+    "start": 1599.88,
+    "end": 1604.88,
+    "content": "to build something on the quality bar that he owned.",
+    "translatedContent": "para construir algo com base na qualidade que ele possuía."
+  },
+  {
+    "start": 1605.08,
+    "end": 1608.94,
+    "content": "If you had an IRC channel specifically for that,",
+    "translatedContent": "Se você tivesse um canal de IRC específico para isso,"
+  },
+  {
+    "start": 1608.94,
+    "end": 1611.32,
+    "content": "that's where the real conversations were about like,",
+    "translatedContent": "era aí que as conversas reais eram sobre tipo,"
+  },
+  {
+    "start": 1611.32,
+    "end": 1614.04,
+    "content": "what was Rails, what would Rails become,",
+    "translatedContent": "o que era Rails, o que Rails se tornaria,"
+  },
+  {
+    "start": 1614.04,
+    "end": 1615.16,
+    "content": "what would be the next features?",
+    "translatedContent": "quais seriam os próximos recursos?"
+  },
+  {
+    "start": 1615.16,
+    "end": 1618.04,
+    "content": "And this has been going on for the last 20 years",
+    "translatedContent": "E isso vem acontecendo nos últimos 20 anos"
+  },
+  {
+    "start": 1618.04,
+    "end": 1619.4,
+    "content": "and it's still active.",
+    "translatedContent": "e ainda está ativo."
+  },
+  {
+    "start": 1619.4,
+    "end": 1622.34,
+    "content": "We have much, much better tools these days with GitHub,",
+    "translatedContent": "Temos ferramentas muito, muito melhores atualmente com o GitHub,"
+  },
+  {
+    "start": 1622.34,
+    "end": 1625.2,
+    "content": "thanks to another thing that grew out of Rails.",
+    "translatedContent": "graças a outra coisa que surgiu do Rails."
+  },
+  {
+    "start": 1625.2,
+    "end": 1627.74,
+    "content": "But when we started Rails, there was no GitHub.",
+    "translatedContent": "Mas quando começamos o Rails, não existia GitHub."
+  },
+  {
+    "start": 1629.46,
+    "end": 1634.4,
+    "content": "Concept of having multiple people work on a code base",
+    "translatedContent": "Conceito de ter várias pessoas trabalhando em uma base de código"
+  },
+  {
+    "start": 1634.4,
+    "end": 1638.14,
+    "content": "was a much higher trust affair back in those days.",
+    "translatedContent": "era um caso de confiança muito maior naquela época."
+  },
+  {
+    "start": 1638.14,
+    "end": 1641.54,
+    "content": "That was a 10x environment, and I think David made it,",
+    "translatedContent": "Esse foi um ambiente 10x, e acho que David conseguiu,"
+  },
+  {
+    "start": 1641.54,
+    "end": 1643.6,
+    "content": "created it for us.",
+    "translatedContent": "criou para nós."
+  },
+  {
+    "start": 1643.6,
+    "end": 1654.28,
+    "content": "We, a lot of us, came out of those early years as completely changed programmers afterwards.",
+    "translatedContent": "Nós, muitos de nós, saímos daqueles primeiros anos como programadores completamente mudados depois."
+  },
+  {
+    "start": 1654.28,
+    "end": 1661.42,
+    "content": "Rails A compelled me to realize what my potential was there, and it also gave me the ambition",
+    "translatedContent": "Rails A me obrigou a perceber qual era o meu potencial e também me deu a ambição"
+  },
+  {
+    "start": 1661.42,
+    "end": 1674.18,
+    "content": "to reach high, because a lot of people's potential limitation is learned rather than inherent.",
+    "translatedContent": "para chegar ao alto, porque muitas das limitações potenciais das pessoas são aprendidas e não inerentes."
+  },
+  {
+    "start": 1674.18,
+    "end": 1686.38,
+    "content": "And it gave me the configuration of my life by allowing me to be an entrepreneur.",
+    "translatedContent": "E me deu a configuração da minha vida ao me permitir ser empreendedor."
+  },
+  {
+    "start": 1686.38,
+    "end": 1692.46,
+    "content": "When I first released Rails, it wasn't even a consideration not to make it open source.",
+    "translatedContent": "Quando lancei o Rails pela primeira vez, nem sequer foi considerado não torná-lo open source."
+  },
+  {
+    "start": 1692.46,
+    "end": 1697.42,
+    "content": "We had been building our business, everything that I had worked on for the web had been",
+    "translatedContent": "Estávamos construindo nosso negócio, tudo em que trabalhei para a web foi"
+  },
+  {
+    "start": 1697.42,
+    "end": 1700,
+    "content": "with open source tools.",
+    "translatedContent": "com ferramentas de código aberto."
+  },
+  {
+    "start": 1700,
+    "end": 1704.66,
+    "content": "These were cornerstones of what enabled me to be able to work with the web.",
+    "translatedContent": "Esses foram os pilares que me permitiram trabalhar com a web."
+  },
+  {
+    "start": 1704.66,
+    "end": 1710.58,
+    "content": "So when I finally had something, my own toolbox to share, I didn't even think twice about",
+    "translatedContent": "Então, quando finalmente tive algo, minha própria caixa de ferramentas para compartilhar, nem pensei duas vezes antes de"
+  },
+  {
+    "start": 1710.58,
+    "end": 1711.58,
+    "content": "it.",
+    "translatedContent": "isto."
+  },
+  {
+    "start": 1711.58,
+    "end": 1713.26,
+    "content": "Of course this had to be open source.",
+    "translatedContent": "É claro que isso tinha que ser de código aberto."
+  },
+  {
+    "start": 1713.26,
+    "end": 1718.18,
+    "content": "I remember one of the most fascinating conversations that I've had the pleasure to be part of in",
+    "translatedContent": "Lembro-me de uma das conversas mais fascinantes da qual tive o prazer de participar em"
+  },
+  {
+    "start": 1718.18,
+    "end": 1723.18,
+    "content": "in my life was a conversation, definitely David,",
+    "translatedContent": "na minha vida houve uma conversa, definitivamente David,"
+  },
+  {
+    "start": 1723.18,
+    "end": 1725.96,
+    "content": "I think Jeremy, like I was part of it,",
+    "translatedContent": "Acho que Jeremy, como se eu fizesse parte disso,"
+  },
+  {
+    "start": 1725.96,
+    "end": 1729.86,
+    "content": "and definitely a few others.",
+    "translatedContent": "e definitivamente alguns outros."
+  },
+  {
+    "start": 1729.86,
+    "end": 1732.26,
+    "content": "And it was one where we said like,",
+    "translatedContent": "E foi aquele em que dissemos tipo,"
+  },
+  {
+    "start": 1732.26,
+    "end": 1735.92,
+    "content": "hey, we are building companies,",
+    "translatedContent": "ei, estamos construindo empresas,"
+  },
+  {
+    "start": 1735.92,
+    "end": 1737.78,
+    "content": "we are building important companies, they are working.",
+    "translatedContent": "estamos construindo empresas importantes, elas estão funcionando."
+  },
+  {
+    "start": 1737.78,
+    "end": 1741.62,
+    "content": "We are clearly more effective with small teams",
+    "translatedContent": "Somos claramente mais eficazes com equipes pequenas"
+  },
+  {
+    "start": 1741.62,
+    "end": 1744.04,
+    "content": "than larger teams with lesser tools.",
+    "translatedContent": "do que equipes maiores com menos ferramentas."
+  },
+  {
+    "start": 1744.04,
+    "end": 1746.5,
+    "content": "Is open source the right model here?",
+    "translatedContent": "O código aberto é o modelo certo aqui?"
+  },
+  {
+    "start": 1746.5,
+    "end": 1751.18,
+    "content": "like A, shouldn't we charge money for Rails?",
+    "translatedContent": "como A, não deveríamos cobrar dinheiro pelo Rails?"
+  },
+  {
+    "start": 1751.18,
+    "end": 1753.68,
+    "content": "B, should we even share it at all",
+    "translatedContent": "B, deveríamos ao menos compartilhar isso"
+  },
+  {
+    "start": 1753.68,
+    "end": 1755.72,
+    "content": "or just use it as a competitive advantage?",
+    "translatedContent": "ou apenas usá-lo como vantagem competitiva?"
+  },
+  {
+    "start": 1755.72,
+    "end": 1758.64,
+    "content": "These were ideas that people were sharing.",
+    "translatedContent": "Essas eram ideias que as pessoas estavam compartilhando."
+  },
+  {
+    "start": 1758.64,
+    "end": 1763.28,
+    "content": "And David said, no, open source is important.",
+    "translatedContent": "E David disse, não, o código aberto é importante."
+  },
+  {
+    "start": 1763.28,
+    "end": 1766.02,
+    "content": "In fact, MIT licensed open source is important.",
+    "translatedContent": "Na verdade, o código aberto licenciado pelo MIT é importante."
+  },
+  {
+    "start": 1767.04,
+    "end": 1771.26,
+    "content": "And they're gonna make Rails extraordinarily successful.",
+    "translatedContent": "E eles farão do Rails um sucesso extraordinário."
+  },
+  {
+    "start": 1771.26,
+    "end": 1773.32,
+    "content": "And I'm like, I remember pushing and saying,",
+    "translatedContent": "E eu penso, lembro-me de empurrar e dizer:"
+  },
+  {
+    "start": 1773.32,
+    "end": 1778.12,
+    "content": "hey david that's not something you can just sort of decide like you can't just decide something is",
+    "translatedContent": "ei David, isso não é algo que você pode simplesmente decidir, como você não pode simplesmente decidir que algo é"
+  },
+  {
+    "start": 1778.12,
+    "end": 1782.76,
+    "content": "going to be successful that is like an outcome that happens that requires luck in all these",
+    "translatedContent": "vai ter sucesso, é como um resultado que acontece e exige sorte em todas essas"
+  },
+  {
+    "start": 1782.76,
+    "end": 1789.4,
+    "content": "components and he said no we can decide this when this discussion happened david must have been like",
+    "translatedContent": "componentes e ele disse não, podemos decidir isso quando essa discussão aconteceu, David deve ter ficado tipo"
+  },
+  {
+    "start": 1789.4,
+    "end": 1795.24,
+    "content": "24. i'm just like i'm trying to figure out where you get that from at that age it seems it still",
+    "translatedContent": "24. Estou tentando descobrir de onde você tirou isso nessa idade, parece que ainda"
+  },
+  {
+    "start": 1795.24,
+    "end": 1800.92,
+    "content": "seems remarkable because i i you know and now in our 40s and i still don't run in a lot of people",
+    "translatedContent": "parece notável porque eu, você sabe, e agora estamos na casa dos 40 e ainda não corro em muitas pessoas"
+  },
+  {
+    "start": 1800.92,
+    "end": 1805.96,
+    "content": "who have a kind of that kind of conviction and out-of-the-box meta understanding of markets,",
+    "translatedContent": "que têm esse tipo de convicção e meta compreensão inovadora dos mercados,"
+  },
+  {
+    "start": 1805.96,
+    "end": 1813.72,
+    "content": "dynamics, attention, drama, and frankly business development. I think I got a business degree",
+    "translatedContent": "dinâmica, atenção, drama e, francamente, desenvolvimento de negócios. Acho que tenho um diploma de administração"
+  },
+  {
+    "start": 1813.72,
+    "end": 1820.2,
+    "content": "during those years accidentally, playing out right in front of me while just trying to get work done",
+    "translatedContent": "durante aqueles anos, acidentalmente, brincando bem na minha frente enquanto apenas tentava fazer o trabalho"
+  },
+  {
+    "start": 1820.2,
+    "end": 1827.48,
+    "content": "that I wanted to get done. And it's just remarkable, honestly remarkable. When I was first hired",
+    "translatedContent": "que eu queria terminar. E é simplesmente notável, honestamente notável. Quando fui contratado pela primeira vez"
+  },
+  {
+    "start": 1827.48,
+    "end": 1833.48,
+    "content": "by 37signals, they asked me, one of my first tasks was to create a way to deploy Basecamp.",
+    "translatedContent": "pela 37signals, eles me perguntaram, uma das minhas primeiras tarefas foi criar uma maneira de implantar o Basecamp."
+  },
+  {
+    "start": 1834.2,
+    "end": 1839.08,
+    "content": "At the time, Basecamp was deployed to a single server, database and web server, all on one",
+    "translatedContent": "Na época, o Basecamp foi implantado em um único servidor, banco de dados e servidor web, tudo em um"
+  },
+  {
+    "start": 1839.08,
+    "end": 1846.84,
+    "content": "machine, which is laughable now. But shortly afterwards, they grew and now we needed two",
+    "translatedContent": "máquina, o que é ridículo agora. Mas pouco depois eles cresceram e agora precisávamos de dois"
+  },
+  {
+    "start": 1846.84,
+    "end": 1852.2,
+    "content": "machines and we had to figure out how to deploy Basecamp to more than one server. And this became",
+    "translatedContent": "máquinas e tivemos que descobrir como implantar o Basecamp em mais de um servidor. E isso se tornou"
+  },
+  {
+    "start": 1852.2,
+    "end": 1858.44,
+    "content": "my baby jason and david actually told me you can have ownership of this product even though you",
+    "translatedContent": "meu querido Jason e David me disseram que você pode ser proprietário deste produto mesmo que você"
+  },
+  {
+    "start": 1858.44,
+    "end": 1865.08,
+    "content": "wrote it for us this is your baby you can do what you need with it and that was extremely fulfilling",
+    "translatedContent": "escreveu para nós, este é o seu bebê, você pode fazer o que precisar com ele e isso foi extremamente gratificante"
+  },
+  {
+    "start": 1865.08,
+    "end": 1874.19,
+    "content": "to be able to work on on this product called it capistrano and that stuck yeah there were there",
+    "translatedContent": "para poder trabalhar neste produto chamado de capistrano e isso pegou, sim, havia"
+  },
+  {
+    "start": 1874.19,
+    "end": 1879.55,
+    "content": "were some really key moments in early rails development and rails 1.0 was a big one but it",
+    "translatedContent": "foram alguns momentos realmente importantes no desenvolvimento inicial do Rails e o Rails 1.0 foi um grande problema, mas"
+  },
+  {
+    "start": 1879.55,
+    "end": 1884.67,
+    "content": "it was the starting point of what makes a 1.0. There were some key moments after that that really",
+    "translatedContent": "foi o ponto de partida do que constitui um 1.0. Houve alguns momentos importantes depois disso que realmente"
+  },
+  {
+    "start": 1884.67,
+    "end": 1893.07,
+    "content": "kept the sense of momentum. Rails 1.2 was a watershed for me. I still love that release. It",
+    "translatedContent": "manteve a sensação de impulso. Rails 1.2 foi um divisor de águas para mim. Eu ainda amo esse lançamento. Isto"
+  },
+  {
+    "start": 1893.07,
+    "end": 1898.27,
+    "content": "was a very stable early release where you started having those glimmers of this is what it's like",
+    "translatedContent": "foi um lançamento inicial muito estável, onde você começou a ter aqueles vislumbres de como é"
+  },
+  {
+    "start": 1898.27,
+    "end": 1907.41,
+    "content": "to be a kind of mature web framework. And I still feel excited thinking about the audaciousness of",
+    "translatedContent": "para ser uma espécie de estrutura web madura. E ainda me sinto animado pensando na audácia de"
+  },
+  {
+    "start": 1907.41,
+    "end": 1911.73,
+    "content": "we're just going to switch the way we do development and everybody's along for the ride",
+    "translatedContent": "vamos apenas mudar a maneira como fazemos o desenvolvimento e todos participarão"
+  },
+  {
+    "start": 1911.73,
+    "end": 1917.17,
+    "content": "and everybody wanted to be along for the ride. And it was that same year, December, 2007,",
+    "translatedContent": "e todo mundo queria estar junto no passeio. E foi nesse mesmo ano, dezembro de 2007,"
+  },
+  {
+    "start": 1917.17,
+    "end": 1925.47,
+    "content": "when we released Rails 2.0. Rails 2.0 brought cookie-based sessions, brought things like",
+    "translatedContent": "quando lançamos o Rails 2.0. Rails 2.0 trouxe sessões baseadas em cookies, trouxe coisas como"
+  },
+  {
+    "start": 1925.47,
+    "end": 1932.81,
+    "content": "named scopes. So it started to change the way that, well, it was a look at",
+    "translatedContent": "escopos nomeados. Então começou a mudar a maneira como, bem, era uma olhada"
+  },
+  {
+    "start": 1932.81,
+    "end": 1936.83,
+    "content": "at what it looks like to see our products",
+    "translatedContent": "como é ver nossos produtos"
+  },
+  {
+    "start": 1936.83,
+    "end": 1938.77,
+    "content": "and applications mature.",
+    "translatedContent": "e os aplicativos amadurecem."
+  },
+  {
+    "start": 1938.77,
+    "end": 1943.77,
+    "content": "One of the big criticisms of the detractors of Rails",
+    "translatedContent": "Uma das grandes críticas dos detratores do Rails"
+  },
+  {
+    "start": 1944.45,
+    "end": 1948.13,
+    "content": "back in the day was that Rails can't scale.",
+    "translatedContent": "antigamente era que o Rails não pode ser escalado."
+  },
+  {
+    "start": 1948.13,
+    "end": 1949.55,
+    "content": "That was their mantra.",
+    "translatedContent": "Esse era o mantra deles."
+  },
+  {
+    "start": 1949.55,
+    "end": 1952.63,
+    "content": "They would chant that at us all the time.",
+    "translatedContent": "Eles cantavam isso para nós o tempo todo."
+  },
+  {
+    "start": 1952.63,
+    "end": 1955.21,
+    "content": "And we could point at Basecamp and say,",
+    "translatedContent": "E poderíamos apontar para o Basecamp e dizer:"
+  },
+  {
+    "start": 1955.21,
+    "end": 1957.19,
+    "content": "this is non-trivial.",
+    "translatedContent": "isso não é trivial."
+  },
+  {
+    "start": 1957.19,
+    "end": 1961.17,
+    "content": "I mean, we're not doing a million requests a day,",
+    "translatedContent": "Quer dizer, não estamos fazendo um milhão de solicitações por dia,"
+  },
+  {
+    "start": 1961.17,
+    "end": 1965.27,
+    "content": "but we're serving people's needs, we're providing value.",
+    "translatedContent": "mas estamos atendendo às necessidades das pessoas, estamos agregando valor."
+  },
+  {
+    "start": 1965.27,
+    "end": 1966.59,
+    "content": "Isn't that, at the end of the day,",
+    "translatedContent": "Não é que, no final do dia,"
+  },
+  {
+    "start": 1966.59,
+    "end": 1968.29,
+    "content": "isn't that the important thing?",
+    "translatedContent": "não é isso que importa?"
+  },
+  {
+    "start": 1968.29,
+    "end": 1970.09,
+    "content": "And so even though at the time",
+    "translatedContent": "E mesmo que na época"
+  },
+  {
+    "start": 1970.09,
+    "end": 1972.99,
+    "content": "people poo-pooed our accomplishments,",
+    "translatedContent": "as pessoas fizeram cocô em nossas realizações,"
+  },
+  {
+    "start": 1972.99,
+    "end": 1975.37,
+    "content": "they were accomplishments nonetheless.",
+    "translatedContent": "mesmo assim, foram conquistas."
+  },
+  {
+    "start": 1975.37,
+    "end": 1977.37,
+    "content": "And we never reached a point where we're like,",
+    "translatedContent": "E nunca chegamos a um ponto em que pensamos,"
+  },
+  {
+    "start": 1977.37,
+    "end": 1981.27,
+    "content": "oh, well, I guess Rails can't scale.",
+    "translatedContent": "ah, bem, acho que o Rails não pode escalar."
+  },
+  {
+    "start": 1981.27,
+    "end": 1985.07,
+    "content": "We've reached a number where we can't go beyond it,",
+    "translatedContent": "Chegamos a um número onde não podemos ir além,"
+  },
+  {
+    "start": 1985.07,
+    "end": 1987.63,
+    "content": "we're done, we continue to be able to scale.",
+    "translatedContent": "terminamos, continuamos a ser capazes de escalar."
+  },
+  {
+    "start": 1988.51,
+    "end": 1990.67,
+    "content": "It actually became a bit of a meme joke,",
+    "translatedContent": "Na verdade, tornou-se uma espécie de piada de meme,"
+  },
+  {
+    "start": 1990.67,
+    "end": 1992.13,
+    "content": "but will it scale?",
+    "translatedContent": "mas será escalado?"
+  },
+  {
+    "start": 1992.13,
+    "end": 1994.23,
+    "content": "This was a serious thing that people said",
+    "translatedContent": "Isso foi uma coisa séria que as pessoas disseram"
+  },
+  {
+    "start": 1994.23,
+    "end": 1995.89,
+    "content": "in the early days of Rails.",
+    "translatedContent": "nos primeiros dias do Rails."
+  },
+  {
+    "start": 1995.89,
+    "end": 1999.49,
+    "content": "But that question wasn't so much about technology",
+    "translatedContent": "Mas essa questão não era tanto sobre tecnologia"
+  },
+  {
+    "start": 1999.49,
+    "end": 2003.95,
+    "content": "as it was about FUD, fear, uncertainty, and doubt.",
+    "translatedContent": "já que se tratava de FUD, medo, incerteza e dúvida."
+  },
+  {
+    "start": 2003.95,
+    "end": 2007.03,
+    "content": "People who saw an interest in putting Rails down",
+    "translatedContent": "Pessoas que viram interesse em abandonar o Rails"
+  },
+  {
+    "start": 2007.03,
+    "end": 2009.19,
+    "content": "would often bring up scalability",
+    "translatedContent": "muitas vezes traria escalabilidade"
+  },
+  {
+    "start": 2009.19,
+    "end": 2011.31,
+    "content": "because it was something you could throw out there",
+    "translatedContent": "porque era algo que você poderia jogar fora"
+  },
+  {
+    "start": 2011.31,
+    "end": 2015.29,
+    "content": "before Rails had major applications like Shopify,",
+    "translatedContent": "antes do Rails ter aplicações importantes como Shopify,"
+  },
+  {
+    "start": 2015.29,
+    "end": 2017.57,
+    "content": "like GitHub, or even like Basecamp",
+    "translatedContent": "como GitHub, ou mesmo como Basecamp"
+  },
+  {
+    "start": 2017.57,
+    "end": 2019.23,
+    "content": "at the scale it's at now.",
+    "translatedContent": "na escala em que está agora."
+  },
+  {
+    "start": 2019.23,
+    "end": 2021.91,
+    "content": "It never really had a foundation in reality.",
+    "translatedContent": "Nunca teve realmente uma base na realidade."
+  },
+  {
+    "start": 2021.91,
+    "end": 2025.19,
+    "content": "Rails was essentially scalable from day one.",
+    "translatedContent": "Rails foi essencialmente escalável desde o primeiro dia."
+  },
+  {
+    "start": 2025.19,
+    "end": 2026.99,
+    "content": "Various people took this pretty seriously.",
+    "translatedContent": "Várias pessoas levaram isso muito a sério."
+  },
+  {
+    "start": 2026.99,
+    "end": 2030.09,
+    "content": "Some people so seriously that they would rewrite",
+    "translatedContent": "Algumas pessoas tão a sério que reescreveriam"
+  },
+  {
+    "start": 2030.09,
+    "end": 2031.55,
+    "content": "their system at some point.",
+    "translatedContent": "seu sistema em algum momento."
+  },
+  {
+    "start": 2031.55,
+    "end": 2033.29,
+    "content": "It's well documented in some cases.",
+    "translatedContent": "Está bem documentado em alguns casos."
+  },
+  {
+    "start": 2037.39,
+    "end": 2039.51,
+    "content": "Making things fast is pretty fun.",
+    "translatedContent": "Tornar as coisas rápidas é muito divertido."
+  },
+  {
+    "start": 2039.51,
+    "end": 2045.24,
+    "content": "It's like, if you use the right algorithms",
+    "translatedContent": "É como se você usasse os algoritmos certos"
+  },
+  {
+    "start": 2045.24,
+    "end": 2049.95,
+    "content": "and data structures, we know how to,",
+    "translatedContent": "e estruturas de dados, sabemos como,"
+  },
+  {
+    "start": 2049.95,
+    "end": 2051.87,
+    "content": "like computers are really fast.",
+    "translatedContent": "como se os computadores fossem muito rápidos."
+  },
+  {
+    "start": 2051.87,
+    "end": 2057.25,
+    "content": "From personal experience, like Shopify is a significant percentage of internet traffic.",
+    "translatedContent": "Por experiência pessoal, como o Shopify, representa uma porcentagem significativa do tráfego da Internet."
+  },
+  {
+    "start": 2057.25,
+    "end": 2063.87,
+    "content": "It's about 10% of e-commerce global.",
+    "translatedContent": "É cerca de 10% do comércio eletrônico global."
+  },
+  {
+    "start": 2063.87,
+    "end": 2066.59,
+    "content": "It's a large code base, a very large code base.",
+    "translatedContent": "É uma base de código grande, uma base de código muito grande."
+  },
+  {
+    "start": 2066.59,
+    "end": 2071.47,
+    "content": "By the way, if you would look at it, same folder structure as any Rails application",
+    "translatedContent": "A propósito, se você olhar para isso, a mesma estrutura de pastas de qualquer aplicativo Rails"
+  },
+  {
+    "start": 2071.47,
+    "end": 2075.11,
+    "content": "that you would just generate on your laptop right now.",
+    "translatedContent": "que você geraria em seu laptop agora."
+  },
+  {
+    "start": 2075.11,
+    "end": 2077.55,
+    "content": "It's on the latest version of Rails.",
+    "translatedContent": "Está na versão mais recente do Rails."
+  },
+  {
+    "start": 2077.55,
+    "end": 2080.45,
+    "content": "So most of the lines of code of Shopify are in Ruby.",
+    "translatedContent": "Portanto, a maioria das linhas de código do Shopify estão em Ruby."
+  },
+  {
+    "start": 2080.45,
+    "end": 2085.69,
+    "content": "We are not religious about using Ruby, we use the best tool, and Ruby is the best tool",
+    "translatedContent": "Não somos religiosos quanto ao uso de Ruby, usamos a melhor ferramenta e Ruby é a melhor ferramenta"
+  },
+  {
+    "start": 2085.69,
+    "end": 2091.21,
+    "content": "for a lot of the types of problems that are being solved by the thousands of engineers",
+    "translatedContent": "para muitos dos tipos de problemas que estão sendo resolvidos por milhares de engenheiros"
+  },
+  {
+    "start": 2091.21,
+    "end": 2092.21,
+    "content": "around Shopify.",
+    "translatedContent": "em torno do Shopify."
+  },
+  {
+    "start": 2092.21,
+    "end": 2097.73,
+    "content": "Shopify is pretty fast, it's totally doable to build.",
+    "translatedContent": "Shopify é muito rápido e totalmente fácil de construir."
+  },
+  {
+    "start": 2097.73,
+    "end": 2106.13,
+    "content": "I don't know who is supposed to see the kind of scale that you couldn't handle with Shopify.",
+    "translatedContent": "Não sei quem deveria ver o tipo de escala que você não conseguiria com o Shopify."
+  },
+  {
+    "start": 2106.13,
+    "end": 2110.13,
+    "content": "We have unique complexities that most people don't face.",
+    "translatedContent": "Temos complexidades únicas que a maioria das pessoas não enfrenta."
+  },
+  {
+    "start": 2110.13,
+    "end": 2115.13,
+    "content": "You know what's harder to scale than performance of web servers?",
+    "translatedContent": "Você sabe o que é mais difícil de escalar do que o desempenho dos servidores web?"
+  },
+  {
+    "start": 2115.13,
+    "end": 2120.13,
+    "content": "Finding foundational ideas that scale for 20 years and still feel good.",
+    "translatedContent": "Encontrar ideias fundamentais que durem 20 anos e ainda sejam boas."
+  },
+  {
+    "start": 2120.13,
+    "end": 2122.13,
+    "content": "That requires a level of foresight.",
+    "translatedContent": "Isso requer um nível de previsão."
+  },
+  {
+    "start": 2122.13,
+    "end": 2129.13,
+    "content": "That do-over is very, very hard to get.",
+    "translatedContent": "Essa reformulação é muito, muito difícil de conseguir."
+  },
+  {
+    "start": 2129.13,
+    "end": 2131.13,
+    "content": "On the security side it was a bit more tricky",
+    "translatedContent": "Do lado da segurança foi um pouco mais complicado"
+  },
+  {
+    "start": 2131.13,
+    "end": 2134.13,
+    "content": "because there were things we needed to do explicitly",
+    "translatedContent": "porque havia coisas que precisávamos fazer explicitamente"
+  },
+  {
+    "start": 2134.13,
+    "end": 2139.13,
+    "content": "explicitly to prevent common attack vectors.",
+    "translatedContent": "explicitamente para evitar vetores de ataque comuns."
+  },
+  {
+    "start": 2139.13,
+    "end": 2142.57,
+    "content": "And we made a bunch of concerted efforts to ensure",
+    "translatedContent": "E fizemos vários esforços concertados para garantir"
+  },
+  {
+    "start": 2142.57,
+    "end": 2145.75,
+    "content": "that security was a thing you could just rely on",
+    "translatedContent": "que a segurança era algo em que você poderia confiar"
+  },
+  {
+    "start": 2145.75,
+    "end": 2150.23,
+    "content": "Rails being good at.",
+    "translatedContent": "Rails sendo bom em."
+  },
+  {
+    "start": 2150.23,
+    "end": 2155.23,
+    "content": "The next big release for me was Rails 2.3 in March 2009.",
+    "translatedContent": "O próximo grande lançamento para mim foi o Rails 2.3 em março de 2009."
+  },
+  {
+    "start": 2157.07,
+    "end": 2160.57,
+    "content": "A little bit longer and a lot more depth.",
+    "translatedContent": "Um pouco mais e com muito mais profundidade."
+  },
+  {
+    "start": 2160.57,
+    "end": 2164.27,
+    "content": "It was the release that felt like Rails was,",
+    "translatedContent": "Foi o lançamento que parecia que Rails era,"
+  },
+  {
+    "start": 2164.27,
+    "end": 2165.87,
+    "content": "kind of had arrived.",
+    "translatedContent": "meio que havia chegado."
+  },
+  {
+    "start": 2165.87,
+    "end": 2170.87,
+    "content": "This framework had everything a modern web developer",
+    "translatedContent": "Este framework tinha tudo que um desenvolvedor web moderno"
+  },
+  {
+    "start": 2171.37,
+    "end": 2175.45,
+    "content": "needed to develop small-scale, large-scale apps",
+    "translatedContent": "necessário para desenvolver aplicativos de pequena e grande escala"
+  },
+  {
+    "start": 2175.45,
+    "end": 2176.83,
+    "content": "and everything in between.",
+    "translatedContent": "e tudo mais."
+  },
+  {
+    "start": 2176.83,
+    "end": 2179.21,
+    "content": "At that time, jQuery was coming on the scene",
+    "translatedContent": "Naquela época, jQuery estava entrando em cena"
+  },
+  {
+    "start": 2179.21,
+    "end": 2182.65,
+    "content": "and we were bound and determined to make room for it.",
+    "translatedContent": "e estávamos determinados e determinados a abrir espaço para isso."
+  },
+  {
+    "start": 2182.65,
+    "end": 2186.17,
+    "content": "There was energy happening in the JavaScript world",
+    "translatedContent": "Havia energia acontecendo no mundo JavaScript"
+  },
+  {
+    "start": 2186.17,
+    "end": 2188.99,
+    "content": "and Rails wanted to meet it where it was arriving.",
+    "translatedContent": "e Rails queria encontrá-lo onde ele estava chegando."
+  },
+  {
+    "start": 2188.99,
+    "end": 2191.97,
+    "content": "After Rails 2.3, we had everything we needed.",
+    "translatedContent": "Depois do Rails 2.3, tínhamos tudo o que precisávamos."
+  },
+  {
+    "start": 2191.97,
+    "end": 2193.31,
+    "content": "Like the toolbox was full,",
+    "translatedContent": "Como se a caixa de ferramentas estivesse cheia,"
+  },
+  {
+    "start": 2193.31,
+    "end": 2195.71,
+    "content": "we were happy with the way all the tools behaved,",
+    "translatedContent": "ficamos felizes com a forma como todas as ferramentas se comportaram,"
+  },
+  {
+    "start": 2195.71,
+    "end": 2197.01,
+    "content": "There weren't gaps among them.",
+    "translatedContent": "Não havia lacunas entre eles."
+  },
+  {
+    "start": 2197.01,
+    "end": 2198.81,
+    "content": "We didn't have too many tools.",
+    "translatedContent": "Não tínhamos muitas ferramentas."
+  },
+  {
+    "start": 2198.81,
+    "end": 2202.33,
+    "content": "It felt like we were at the sweet spot for web development.",
+    "translatedContent": "Parecia que estávamos no ponto ideal para o desenvolvimento web."
+  },
+  {
+    "start": 2202.33,
+    "end": 2203.91,
+    "content": "Where do we go from here?",
+    "translatedContent": "Para onde vamos a partir daqui?"
+  },
+  {
+    "start": 2203.91,
+    "end": 2206.53,
+    "content": "There was a new Ruby web framework",
+    "translatedContent": "Havia um novo framework web Ruby"
+  },
+  {
+    "start": 2206.53,
+    "end": 2210.06,
+    "content": "on the scene called Merb.",
+    "translatedContent": "na cena chamada Merb."
+  },
+  {
+    "start": 2210.06,
+    "end": 2215.06,
+    "content": "That's 3.0, was that, that was a merge with Merb, right?",
+    "translatedContent": "Isso é 3.0, foi uma fusão com o Merb, certo?"
+  },
+  {
+    "start": 2215.36,
+    "end": 2218.42,
+    "content": "Like, holy hell, that took some doing.",
+    "translatedContent": "Tipo, caramba, isso demorou um pouco."
+  },
+  {
+    "start": 2218.42,
+    "end": 2220.06,
+    "content": "Oh my God.",
+    "translatedContent": "Oh meu Deus."
+  },
+  {
+    "start": 2220.06,
+    "end": 2222.2,
+    "content": "By the way, has this ever happened?",
+    "translatedContent": "A propósito, isso já aconteceu?"
+  },
+  {
+    "start": 2222.2,
+    "end": 2225.76,
+    "content": "Like have frameworks merged ever and became just better?",
+    "translatedContent": "Tipo, as estruturas já se fundiram e ficaram ainda melhores?"
+  },
+  {
+    "start": 2225.76,
+    "end": 2229.22,
+    "content": "Like, that's a singular story too.",
+    "translatedContent": "Tipo, essa também é uma história singular."
+  },
+  {
+    "start": 2229.22,
+    "end": 2230.98,
+    "content": "We had a competitor.",
+    "translatedContent": "Tínhamos um concorrente."
+  },
+  {
+    "start": 2230.98,
+    "end": 2235.6,
+    "content": "MIRB came on the scene as a young upstart Ruby framework",
+    "translatedContent": "MIRB entrou em cena como um jovem framework Ruby"
+  },
+  {
+    "start": 2235.6,
+    "end": 2238.36,
+    "content": "that challenged Rails by being faster,",
+    "translatedContent": "que desafiou o Rails por ser mais rápido,"
+  },
+  {
+    "start": 2238.36,
+    "end": 2240.78,
+    "content": "lighter, slimmer, doing less,",
+    "translatedContent": "mais leve, mais fino, fazendo menos,"
+  },
+  {
+    "start": 2240.78,
+    "end": 2243.54,
+    "content": "kind of the Rails to Rails itself.",
+    "translatedContent": "tipo o próprio Rails to Rails."
+  },
+  {
+    "start": 2243.54,
+    "end": 2248.18,
+    "content": "And it lit a fire under us as Rails developers.",
+    "translatedContent": "E isso acendeu um fogo para nós como desenvolvedores Rails."
+  },
+  {
+    "start": 2249.2,
+    "end": 2250.78,
+    "content": "We wanted those things too.",
+    "translatedContent": "Queríamos essas coisas também."
+  },
+  {
+    "start": 2250.78,
+    "end": 2252.76,
+    "content": "And we felt like we had those things to offer",
+    "translatedContent": "E sentimos que tínhamos essas coisas para oferecer"
+  },
+  {
+    "start": 2252.76,
+    "end": 2255.64,
+    "content": "and it was a competitor that really showed us",
+    "translatedContent": "e foi um concorrente que realmente nos mostrou"
+  },
+  {
+    "start": 2255.64,
+    "end": 2262.68,
+    "content": "another path forward and Yehuda and Karl from the MERB core team showed us the way.",
+    "translatedContent": "outro caminho a seguir e Yehuda e Karl da equipe principal do MERB nos mostraram o caminho."
+  },
+  {
+    "start": 2262.68,
+    "end": 2269.64,
+    "content": "We put a significant effort into re-engineering the internals of Rails to be configurable,",
+    "translatedContent": "Colocamos um esforço significativo na reengenharia dos componentes internos do Rails para serem configuráveis,"
+  },
+  {
+    "start": 2269.64,
+    "end": 2275.3,
+    "content": "recomposable, modular, so that you could build a framework like MERB from it.",
+    "translatedContent": "recombinável, modular, para que você possa construir uma estrutura como o MERB a partir dele."
+  },
+  {
+    "start": 2275.3,
+    "end": 2288.48,
+    "content": "The Rails and MERB teams talked and decided to merge together.",
+    "translatedContent": "As equipes Rails e MERB conversaram e decidiram se fundir."
+  },
+  {
+    "start": 2288.48,
+    "end": 2296.72,
+    "content": "This Ruby approach, this Rails approach, for some people, not all, not most, it's not better.",
+    "translatedContent": "Essa abordagem Ruby, essa abordagem Rails, para algumas pessoas, nem todas, nem a maioria, não é melhor."
+  },
+  {
+    "start": 2296.72,
+    "end": 2300.32,
+    "content": "For some people, it is a hundred times better.",
+    "translatedContent": "Para algumas pessoas, é cem vezes melhor."
+  },
+  {
+    "start": 2300.32,
+    "end": 2301.82,
+    "content": "It's not a bit better.",
+    "translatedContent": "Não é nem um pouco melhor."
+  },
+  {
+    "start": 2301.82,
+    "end": 2304.64,
+    "content": "And this is why you see the bifurcation about this thing.",
+    "translatedContent": "E é por isso que você vê a bifurcação nessa coisa."
+  },
+  {
+    "start": 2304.64,
+    "end": 2310.84,
+    "content": "This is why you see the love and the hate and very little indifference.",
+    "translatedContent": "É por isso que você vê o amor e o ódio e muito pouca indiferença."
+  },
+  {
+    "start": 2310.84,
+    "end": 2314.9,
+    "content": "Most technologies that exist in the world is like a small group of people who really",
+    "translatedContent": "A maioria das tecnologias que existem no mundo é como um pequeno grupo de pessoas que realmente"
+  },
+  {
+    "start": 2314.9,
+    "end": 2320.2,
+    "content": "They like it because they have the type of problems that are being solved.",
+    "translatedContent": "Eles gostam porque têm o tipo de problemas que estão sendo resolvidos."
+  },
+  {
+    "start": 2320.2,
+    "end": 2329.4,
+    "content": "And most of the spectrum is indifference because it's not relevant to you that this exists",
+    "translatedContent": "E a maior parte do espectro é indiferença porque não é relevante para você que isso exista"
+  },
+  {
+    "start": 2329.4,
+    "end": 2330.4,
+    "content": "or is good or bad.",
+    "translatedContent": "ou é bom ou ruim."
+  },
+  {
+    "start": 2330.4,
+    "end": 2331.4,
+    "content": "It doesn't matter.",
+    "translatedContent": "Não importa."
+  },
+  {
+    "start": 2331.4,
+    "end": 2336.84,
+    "content": "Rails, people have very strong opinions about because it just comes from a different place.",
+    "translatedContent": "As pessoas têm opiniões muito fortes sobre Rails porque ele vem de um lugar diferente."
+  },
+  {
+    "start": 2336.84,
+    "end": 2339.98,
+    "content": "I think that's precious and exciting.",
+    "translatedContent": "Acho isso precioso e emocionante."
+  },
+  {
+    "start": 2339.98,
+    "end": 2345.78,
+    "content": "It's been, you know, honestly, like an honor to be part of.",
+    "translatedContent": "Tem sido, você sabe, honestamente, uma honra fazer parte."
+  },
+  {
+    "start": 2346.12,
+    "end": 2347.86,
+    "content": "Again, it's been important.",
+    "translatedContent": "Mais uma vez, tem sido importante."
+  },
+  {
+    "start": 2348.04,
+    "end": 2349.3,
+    "content": "I know these terms are so weird.",
+    "translatedContent": "Eu sei que esses termos são tão estranhos."
+  },
+  {
+    "start": 2349.36,
+    "end": 2352.04,
+    "content": "It's so weird to talk about an honor to hang out in an ISC channel",
+    "translatedContent": "É tão estranho falar sobre uma honra participar de um canal do ISC"
+  },
+  {
+    "start": 2352.04,
+    "end": 2352.8,
+    "content": "that you got invited to.",
+    "translatedContent": "para o qual você foi convidado."
+  },
+  {
+    "start": 2352.88,
+    "end": 2353.64,
+    "content": "But, man, it was.",
+    "translatedContent": "Mas, cara, foi."
+  },
+  {
+    "start": 2353.78,
+    "end": 2354.9,
+    "content": "It was special.",
+    "translatedContent": "Foi especial."
+  },
+  {
+    "start": 2355.92,
+    "end": 2360.18,
+    "content": "I would be a completely different human being at a completely –",
+    "translatedContent": "Eu seria um ser humano completamente diferente, de uma forma completamente –"
+  },
+  {
+    "start": 2360.18,
+    "end": 2364.24,
+    "content": "life would not have gone the way it did if I wouldn't have –",
+    "translatedContent": "a vida não teria sido do jeito que foi se eu não tivesse -"
+  },
+  {
+    "start": 2364.24,
+    "end": 2368.72,
+    "content": "if some of those dots I'm now looking at and can connect in a way of a mirror",
+    "translatedContent": "se alguns desses pontos que estou olhando agora podem se conectar como um espelho"
+  },
+  {
+    "start": 2368.72,
+    "end": 2376.72,
+    "content": "would have gone any which other into another way so i'm deeply thankful for that just the the",
+    "translatedContent": "teria ido de qualquer outra maneira, então estou profundamente grato por isso, apenas pelo"
+  },
+  {
+    "start": 2376.72,
+    "end": 2383.76,
+    "content": "community that we were building the friendships that we shared and it's like we had always been",
+    "translatedContent": "comunidade que estávamos construindo as amizades que compartilhamos e é como se sempre tivéssemos sido"
+  },
+  {
+    "start": 2383.76,
+    "end": 2390.96,
+    "content": "this team it just felt so natural and so exciting and i had never had anything like that before to",
+    "translatedContent": "essa equipe parecia tão natural e emocionante e eu nunca tinha tido nada parecido antes"
+  },
+  {
+    "start": 2390.96,
+    "end": 2397.68,
+    "content": "that degree and it was it was really fulfilling in a way that nothing had fulfilled me before",
+    "translatedContent": "aquele diploma e foi realmente gratificante de uma forma que nada havia me preenchido antes"
+  },
+  {
+    "start": 2397.68,
+    "end": 2403.52,
+    "content": "seeing the rails community grow and seeing everybody seeing others have that kind of",
+    "translatedContent": "vendo a comunidade rails crescer e vendo todo mundo vendo os outros terem esse tipo de"
+  },
+  {
+    "start": 2403.52,
+    "end": 2409.2,
+    "content": "experience of it's all it's theirs it's individual each person has the opportunity to be in a place",
+    "translatedContent": "experiência de tudo é deles é individual cada pessoa tem a oportunidade de estar em um lugar"
+  },
+  {
+    "start": 2409.2,
+    "end": 2417.28,
+    "content": "where i was and i can help create an environment that's that's there for them and supports them",
+    "translatedContent": "onde estive e posso ajudar a criar um ambiente que esteja disponível para eles e os apoie"
+  },
+  {
+    "start": 2417.28,
+    "end": 2426.48,
+    "content": "and and respects them but that's all i can do and and i have just i have a deep appreciation",
+    "translatedContent": "e os respeita, mas isso é tudo que posso fazer e tenho apenas um profundo apreço"
+  },
+  {
+    "start": 2426.48,
+    "end": 2431.76,
+    "content": "for others being able to share in that with me and whatever small part i've had",
+    "translatedContent": "para que outros possam compartilhar isso comigo e qualquer pequena parte que eu tive"
+  },
+  {
+    "start": 2434,
+    "end": 2436.48,
+    "content": "yeah it's it's been the experience of a lifetime",
+    "translatedContent": "sim, foi a experiência de uma vida"
+  },
+  {
+    "start": 2443.76,
+    "end": 2447.36,
+    "content": "things like rails things like base camp things like 37 signals",
+    "translatedContent": "coisas como trilhos coisas como acampamento base coisas como 37 sinais"
+  },
+  {
+    "start": 2448.72,
+    "end": 2455.6,
+    "content": "you can't plan these things these things don't happen because you set up a business plan",
+    "translatedContent": "você não pode planejar essas coisas, essas coisas não acontecem porque você definiu um plano de negócios"
+  },
+  {
+    "start": 2455.6,
+    "end": 2463.84,
+    "content": "or something in advance these things unfold and like anything that unfolds it",
+    "translatedContent": "ou algo com antecedência essas coisas se desenrolam e como qualquer coisa que se desenrola"
+  },
+  {
+    "start": 2463.84,
+    "end": 2469.28,
+    "content": "needs time to unfold and I think that time proves these things out to some",
+    "translatedContent": "precisa de tempo para se desenrolar e acho que o tempo prova essas coisas para alguns"
+  },
+  {
+    "start": 2469.28,
+    "end": 2474.14,
+    "content": "degree as it says on the website at the moment rails really does allow you to go",
+    "translatedContent": "grau, como diz no site no momento, o Rails realmente permite que você vá"
+  },
+  {
+    "start": 2474.14,
+    "end": 2480.26,
+    "content": "from hello world to IPO with a tiny team as you get started we have a one-person",
+    "translatedContent": "do hello world ao IPO com uma pequena equipe, quando você começar, temos uma pessoa"
+  },
+  {
+    "start": 2480.26,
+    "end": 2485.04,
+    "content": "framework where a single developer is able to make a huge amount of progress",
+    "translatedContent": "estrutura onde um único desenvolvedor é capaz de fazer um enorme progresso"
+  },
+  {
+    "start": 2485.04,
+    "end": 2487.96,
+    "content": "in a miniscule amount of time.",
+    "translatedContent": "em uma quantidade minúscula de tempo."
+  },
+  {
+    "start": 2487.96,
+    "end": 2492.06,
+    "content": "The community, the framework, the code base",
+    "translatedContent": "A comunidade, a estrutura, a base de código"
+  },
+  {
+    "start": 2492.06,
+    "end": 2494.56,
+    "content": "has never been in better quality than it is today.",
+    "translatedContent": "nunca esteve em melhor qualidade do que é hoje."
+  },
+  {
+    "start": 2495.68,
+    "end": 2497.98,
+    "content": "There is so much respect for what David has built",
+    "translatedContent": "Há muito respeito pelo que David construiu"
+  },
+  {
+    "start": 2497.98,
+    "end": 2501.58,
+    "content": "and what David's approach to leadership,",
+    "translatedContent": "e qual a abordagem de David à liderança,"
+  },
+  {
+    "start": 2503.42,
+    "end": 2507.82,
+    "content": "love it, hate it, and do not deny its effectiveness",
+    "translatedContent": "ame, odeie e não negue sua eficácia"
+  },
+  {
+    "start": 2507.82,
+    "end": 2512.14,
+    "content": "and do not, and this is important,",
+    "translatedContent": "e não, e isso é importante,"
+  },
+  {
+    "start": 2512.14,
+    "end": 2516.94,
+    "content": "ever, ever think that Rails is what it is,",
+    "translatedContent": "nunca, nunca pense que Rails é o que é,"
+  },
+  {
+    "start": 2516.94,
+    "end": 2519.62,
+    "content": "despite of anything David does.",
+    "translatedContent": "apesar de tudo que David faz."
+  },
+  {
+    "start": 2519.62,
+    "end": 2521.22,
+    "content": "It is what it is.",
+    "translatedContent": "É o que é."
+  },
+  {
+    "start": 2521.22,
+    "end": 2524.94,
+    "content": "It's as successful as it is, as good as it is,",
+    "translatedContent": "É tão bem sucedido quanto é, tão bom quanto é,"
+  },
+  {
+    "start": 2524.94,
+    "end": 2527.48,
+    "content": "because of everything David does.",
+    "translatedContent": "por causa de tudo que David faz."
+  },
+  {
+    "start": 2527.48,
+    "end": 2529.38,
+    "content": "These things are not separatable.",
+    "translatedContent": "Essas coisas não são separáveis."
+  },
+  {
+    "start": 2529.38,
+    "end": 2531.72,
+    "content": "There is no Rails without David.",
+    "translatedContent": "Não há Rails sem David."
+  },
+  {
+    "start": 2532.68,
+    "end": 2534.54,
+    "content": "Ruby on Rails is full of people",
+    "translatedContent": "Ruby on Rails está cheio de gente"
+  },
+  {
+    "start": 2534.54,
+    "end": 2537.42,
+    "content": "who were not trained to be computer scientists,",
+    "translatedContent": "que não foram treinados para serem cientistas da computação,"
+  },
+  {
+    "start": 2537.42,
+    "end": 2539.14,
+    "content": "who were not trained to be programmers,",
+    "translatedContent": "que não foram treinados para serem programadores,"
+  },
+  {
+    "start": 2539.14,
+    "end": 2541.22,
+    "content": "who came from all walks of life,",
+    "translatedContent": "que veio de todas as esferas da vida,"
+  },
+  {
+    "start": 2541.22,
+    "end": 2543.12,
+    "content": "who simply developed an interest",
+    "translatedContent": "que simplesmente desenvolveu um interesse"
+  },
+  {
+    "start": 2543.12,
+    "end": 2544.7,
+    "content": "in creating web applications,",
+    "translatedContent": "na criação de aplicações web,"
+  },
+  {
+    "start": 2544.7,
+    "end": 2547.88,
+    "content": "were able to learn how to do it with Ruby on Rails",
+    "translatedContent": "pudemos aprender como fazer isso com Ruby on Rails"
+  },
+  {
+    "start": 2547.88,
+    "end": 2549.2,
+    "content": "because it was easy,",
+    "translatedContent": "porque foi fácil,"
+  },
+  {
+    "start": 2549.2,
+    "end": 2552.76,
+    "content": "because it did not require this extensive background training",
+    "translatedContent": "porque não exigia esse extenso treinamento prévio"
+  },
+  {
+    "start": 2552.76,
+    "end": 2554.28,
+    "content": "to get something going.",
+    "translatedContent": "para fazer algo funcionar."
+  },
+  {
+    "start": 2554.28,
+    "end": 2556.46,
+    "content": "Ruby on Rails has from the outset",
+    "translatedContent": "Ruby on Rails tem desde o início"
+  },
+  {
+    "start": 2556.46,
+    "end": 2559.82,
+    "content": "focused on making it simple to get started.",
+    "translatedContent": "focado em simplificar o início."
+  },
+  {
+    "start": 2559.82,
+    "end": 2562.38,
+    "content": "Because if you can't get started, you can't keep going.",
+    "translatedContent": "Porque se você não consegue começar, não consegue continuar."
+  },
+  {
+    "start": 2562.38,
+    "end": 2565.62,
+    "content": "That initial wall for so many people is so tall.",
+    "translatedContent": "Aquela parede inicial para tantas pessoas é tão alta."
+  },
+  {
+    "start": 2565.62,
+    "end": 2568.22,
+    "content": "I faced that wall myself when I was trying",
+    "translatedContent": "Eu mesmo enfrentei aquela parede quando estava tentando"
+  },
+  {
+    "start": 2568.22,
+    "end": 2572.6,
+    "content": "and failed to learn programming several times in my life.",
+    "translatedContent": "e não consegui aprender programação várias vezes na minha vida."
+  },
+  {
+    "start": 2572.6,
+    "end": 2575.14,
+    "content": "Ruby on Rails has to have this kind of slope.",
+    "translatedContent": "Ruby on Rails tem que ter esse tipo de inclinação."
+  },
+  {
+    "start": 2575.14,
+    "end": 2578.94,
+    "content": "You start down really low, really simple,",
+    "translatedContent": "Você começa bem baixo, muito simples,"
+  },
+  {
+    "start": 2578.94,
+    "end": 2581,
+    "content": "having to learn very little,",
+    "translatedContent": "tendo que aprender muito pouco,"
+  },
+  {
+    "start": 2581,
+    "end": 2582.72,
+    "content": "and then you can go all the way",
+    "translatedContent": "e então você pode ir até o fim"
+  },
+  {
+    "start": 2582.72,
+    "end": 2587.22,
+    "content": "to become the top person programmer in your company,",
+    "translatedContent": "para se tornar o melhor programador da sua empresa,"
+  },
+  {
+    "start": 2587.22,
+    "end": 2590.82,
+    "content": "in your industry, even if you don't have the credentials.",
+    "translatedContent": "em seu setor, mesmo que você não tenha as credenciais."
+  },
+  {
+    "start": 2590.82,
+    "end": 2592.56,
+    "content": "I love that part of Ruby on Rails.",
+    "translatedContent": "Eu amo essa parte do Ruby on Rails."
+  },
+  {
+    "start": 2592.56,
+    "end": 2595.34,
+    "content": "I love the diversity of the people",
+    "translatedContent": "Eu amo a diversidade das pessoas"
+  },
+  {
+    "start": 2595.34,
+    "end": 2598.72,
+    "content": "who've been able to create a career in programming",
+    "translatedContent": "que conseguiram criar uma carreira em programação"
+  },
+  {
+    "start": 2598.72,
+    "end": 2633.3,
+    "content": "because of this framework that we've created.",
+    "translatedContent": "por causa desta estrutura que criamos."
+  },
+  {
+    "start": 2633.3,
+    "end": 2634.76,
+    "content": "Thousands of developers find jobs",
+    "translatedContent": "Milhares de desenvolvedores encontram empregos"
+  },
+  {
+    "start": 2634.76,
+    "end": 2636.68,
+    "content": "across Europe using Honeypot.",
+    "translatedContent": "em toda a Europa usando Honeypot."
+  },
+  {
+    "start": 2636.68,
+    "end": 2638.06,
+    "content": "If you're up for a new challenge",
+    "translatedContent": "Se você está pronto para um novo desafio"
+  },
+  {
+    "start": 2638.06,
+    "end": 2641.58,
+    "content": "in one of these European cities, sign up at honeypot.io.",
+    "translatedContent": "em uma dessas cidades europeias, inscreva-se em honeypot.io."
+  },
+  {
+    "start": 2643,
+    "end": 2645.22,
+    "content": "If you wanna see more tech documentaries,",
+    "translatedContent": "Se você quiser ver mais documentários sobre tecnologia,"
+  },
+  {
+    "start": 2645.22,
+    "end": 2647.42,
+    "content": "then subscribe so you don't miss the next one.",
+    "translatedContent": "então se inscreva para não perder o próximo."
+  }
+]

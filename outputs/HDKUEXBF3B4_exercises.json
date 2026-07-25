@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "question": "So I wrote this **post** online asking for help.",
+      "translation": "ENTÃO ESCREVI ESTE POST ONLINE PEDINDO AJUDA."
+    },
+    {
+      "question": "He telling me my work **sucked** and me going okay let's do something better then.",
+      "translation": "ELE ME DIZENDO QUE MEU TRABALHO ERA UMA BOSTA E EU DIZENDO OK VAMOS FAZER ALGO MELHOR ENTÃO."
+    },
+    {
+      "question": "I got my first **computer** when I was six years old.",
+      "translation": "GANHEI MEU PRIMEIRO COMPUTADOR QUANDO Tinha SEIS ANOS."
+    },
+    {
+      "question": "I saw the **code** and it looked just like pseudocode.",
+      "translation": "VI O CÓDIGO E PARECIA PSEUDOCÓDIGO."
+    },
+    {
+      "question": "I'd **never** heard of Ruby on Rails.",
+      "translation": "NUNCA OUVI FALAR DE RUBY ON RAILS."
+    }
+  ],
+  [
+    {
+      "question": "And Ruby, to me, **brought** both of those things together.",
+      "translation": "E RUBY, PARA MIM, JUNTOU ESSAS DUAS COISAS."
+    },
+    {
+      "question": "This is one of the **main** reasons I love open source so much.",
+      "translation": "ESTA É UMA DAS PRINCIPAIS RAZÕES PELO AS QUAIS ADORO TANTO O CÓDIGO ABERTO."
+    },
+    {
+      "question": "It is not a **commercial** relationship.",
+      "translation": "NÃO É UMA RELAÇÃO COMERCIAL."
+    },
+    {
+      "question": "There was this **infamous** slide at a early Rails conference in Canada where I simply just put up the words, fuck you.",
+      "translation": "HAVIA ESSE SLIDE INFAME EM UMA DAS PRIMEIRAS CONFERÊNCIAS RAILS NO CANADÁ ONDE EU SIMPLESMENTE COLOQUEI AS PALAVRAS, VÁ SE FODER."
+    },
+    {
+      "question": "Rails is what it is today because thousands of people **contributed** really great work.",
+      "translation": "RAILS É O QUE É HOJE PORQUE MILHARES DE PESSOAS CONTRIBUÍRAM COM UM TRABALHO REALMENTE EXCELENTE."
+    }
+  ],
+  [
+    {
+      "question": "It **stuck** with me in a special way that I kept coming back to.",
+      "translation": "FIQUEI COM ISSO DE UMA MANEIRA ESPECIAL QUE EU CONTINUEI VOLTANDO."
+    },
+    {
+      "question": "I'll **make** those decisions on my own, thank you very much.",
+      "translation": "TOMAREI ESSAS DECISÕES SOZINHO, MUITO OBRIGADO."
+    },
+    {
+      "question": "I'm working on **Rails** because I wanna work on Rails.",
+      "translation": "ESTOU TRABALHANDO NO RAILS PORQUE QUERO TRABALHAR NO RAILS."
+    },
+    {
+      "question": "I'm not here to be your **servant**.",
+      "translation": "NÃO ESTOU AQUI PARA SER SEU SERVO."
+    },
+    {
+      "question": "You don't get to tell me the **direction** that Rails has to take.",
+      "translation": "VOCÊ NÃO PODE ME DIZER A DIREÇÃO QUE O RAILS PRECISA ACEITAR."
+    }
+  ]
+]

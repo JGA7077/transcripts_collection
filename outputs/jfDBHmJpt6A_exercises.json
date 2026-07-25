@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "question": "I figured let's see if I can just build an **amp** out of spare parts I got laying around.",
+      "translation": "Pensei, vamos ver se consigo construir um amplificador com peças sobressalentes que tenho por aí."
+    },
+    {
+      "question": "I got these LM386 **chips** a while back and I've really wanted to make a guitar amplifier out of them.",
+      "translation": "Comprei esses chips LM386 há um tempo e realmente queria fazer um amplificador de guitarra com eles."
+    },
+    {
+      "question": "I came across a schematic for the Little Gem **2**. I'll put a link for that in the description.",
+      "translation": "Me deparei com um esquema da Little Gem 2. Vou colocar um link para isso na descrição."
+    },
+    {
+      "question": "I struggled to find any kind of **transistor**. I was lucky enough that I had an old Radio Shack kit.",
+      "translation": "Lutei para encontrar qualquer tipo de transistor. Tive a sorte de ter um velho kit da Radio Shack."
+    },
+    {
+      "question": "This old **speaker** that I rescued off of a job site. Who knows what this came out of.",
+      "translation": "Esse alto-falante antigo que resgatei de um local de trabalho. Quem sabe de onde saiu isso."
+    }
+  ],
+  [
+    {
+      "question": "I don't have anything to plug in, any **power**. I don't seem to have any nine volt adapters.",
+      "translation": "Não tenho nada para conectar, nenhuma energia. Não pareço ter nenhum adaptador de nove volts."
+    },
+    {
+      "question": "I actually had an old Behringer FCB 1010 that was damaged and broken beyond **repair**.",
+      "translation": "Eu realmente tinha um antigo Behringer FCB 1010 que estava danificado e quebrado sem possibilidade de reparo."
+    },
+    {
+      "question": "I took a bandsaw and cut this part of the **panel** out that the jacks were mounted to.",
+      "translation": "Peguei uma serra de fita e cortei essa parte do painel onde os conectores foram montados."
+    },
+    {
+      "question": "This is becoming more or less a real amp **build**. Just getting started here.",
+      "translation": "Isso está se tornando mais ou menos uma construção de amplificador real. Apenas começando aqui."
+    },
+    {
+      "question": "I've had to **modify** this circuit quite a bit to get the controls I want out of it.",
+      "translation": "Tive que modificar um pouco este circuito para obter os controles que eu quero dele."
+    }
+  ],
+  [
+    {
+      "question": "I got my input load **resistor** here and the transistor rolling. Just trying to get a feel for it.",
+      "translation": "Tenho meu resistor de carga de entrada aqui e o transistor funcionando. Apenas tentando ter uma ideia."
+    },
+    {
+      "question": "I wanted a **buffer**, I wanted it to be a bridged LM386 amplifier.",
+      "translation": "Eu queria um buffer, eu queria que fosse um amplificador LM386 em ponte."
+    },
+    {
+      "question": "I got mods here for asymmetrical **clipping**. It's a bit of a rat's nest.",
+      "translation": "Tenho mods aqui para recorte assimétrico. É um pouco um ninho de rato."
+    },
+    {
+      "question": "I had two C1815 transistors. No matter what I did, I could not get any of them to **work**.",
+      "translation": "Eu tinha dois transistores C1815. Não importa o que eu fizesse, não consegui fazer nenhum deles funcionar."
+    },
+    {
+      "question": "I don't think the **volume** is worth a trade off of the tone, but there's a lot of other things you can do with that chip.",
+      "translation": "Não acho que o volume valha a pena como troca pelo tom, mas há muitas outras coisas que você pode fazer com esse chip."
+    }
+  ]
+]
