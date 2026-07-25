@@ -109,12 +109,18 @@ export default async function Sidebar({
       </div>
 
         {process.env.ALLOW_IMPORT === "true" && (
-          <div className="p-4 border-t border-slate-800 bg-slate-950">
+          <div className="p-4 border-t border-slate-800 bg-slate-950 space-y-2">
             <Link 
               href="/import"
               className="flex items-center justify-center gap-2 w-full py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg transition-colors border border-slate-700"
             >
               <span>➕ Importar Novo</span>
+            </Link>
+            <Link 
+              href="/export"
+              className="flex items-center justify-center gap-2 w-full py-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium rounded-lg transition-colors border border-slate-700"
+            >
+              <span>📥 Exportar</span>
             </Link>
           </div>
         )}
