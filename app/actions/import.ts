@@ -248,30 +248,39 @@ export async function evaluateParaphrases(
 }
 
 export async function generateAudios(infos: GenerateAudios) {
-  const payload = {
-    text: infos.text,
-    lang: infos.lang,
+  const GTTS = (await import('gtts')).default;
+  const fs = await import('fs');
+  const path = await import('path');
+
+  const languageMap: Record<string, string> = {
+    'Inglês': 'en', 'Espanhol': 'es', 'Português': 'pt',
+    'en': 'en', 'es': 'es', 'pt': 'pt', 'fr': 'fr', 'it': 'it', 'de': 'de'
   };
 
-  const baseUrl = process.env.URL || 'http://localhost:3000';
+  const language = languageMap[infos.lang] || infos.lang || 'en';
+  const gtts = new GTTS(` ${infos.text}`, language);
 
-  try {
-    const response = await fetch(`${baseUrl}/api/tts`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error(`Erro ao gerar áudio: ${response.status}`);
-    }
-
-    const data = await response.json();
-
-    return data;
-  } catch (error) {
-    console.log('error API: ', error);
-    throw error
+  const isVercel = !!process.env.VERCEL;
+  const tempDir = isVercel ? '/tmp' : path.join(process.cwd(), 'public', 'tmp');
+  if (!fs.existsSync(tempDir)) {
+    fs.mkdirSync(tempDir, { recursive: true });
   }
+
+  const fileName = `audio_${Date.now()}.mp3`;
+  const filePath = path.join(tempDir, fileName);
+  fs.writeFileSync(filePath, '');
+
+  await new Promise<void>((resolve, reject) => {
+    gtts.save(filePath, (err: string) => {
+      if (err) reject(err);
+      else resolve();
+    });
+  });
+
+  const audioBuffer = fs.readFileSync(filePath);
+  const audioBase64 = audioBuffer.toString('base64');
+
+  try { fs.unlinkSync(filePath); } catch {}
+
+  return { base64: audioBase64 };
 }
