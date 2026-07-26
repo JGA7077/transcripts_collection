@@ -26,7 +26,7 @@ export async function POST(req: Request) {
     const language = languageMap[lang] || lang || 'en';
     const gtts = new GTTS(` ${text}`, language);
 
-    const isVercel = !process.env.IS_VERCEL;
+    const isVercel = !!process.env.IS_VERCEL;
     const tempDir = isVercel ? '/tmp' : path.join(process.cwd(), 'public', 'tmp');
     if (!fs.existsSync(tempDir)) {
       fs.mkdirSync(tempDir, { recursive: true });

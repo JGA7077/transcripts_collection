@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import { 
-  generateListeningExercises, 
   generateAudios, 
-  evaluateParaphrases 
+  evaluateParaphrases
 } from "@/app/actions/import";
 import { ParaphraseEvaluation } from "@/app/types/genericTypes";
 
@@ -30,14 +29,17 @@ interface ParaphraseExercise {
 export default function ExerciseSection({ 
   transcriptText, 
   language,
-  exercises 
+  exercises,
+  listeningPhrases
 }: { 
   transcriptText: string;
   language: string;
   exercises: GapFillExercise[][];
+  listeningPhrases?: string[];
 }) {
   const [gapFillExercises, setGapFillExercises] = useState<GapFillExercise[]>([]);
   const [listeningExercises, setListeningExercises] = useState<ListeningExercise[]>([]);
+  const [showListening, setShowListening] = useState(false);
   const [paraphraseExercises, setParaphraseExercises] = useState<ParaphraseExercise[]>([]);
   
   const [loading, setLoading] = useState<{ [key: string]: boolean }>({});
@@ -58,37 +60,46 @@ export default function ExerciseSection({
     setShowSuccessMessage(prev => ({ ...prev, gapFill: false }));
   };
 
-  const generateListeningAndParaphrase = async () => {
-    setLoading({ listening: true });
-    setErrorMsg(null);
+  const loadListening = async () => {
+    if (!listeningPhrases || listeningPhrases.length === 0) return;
+    
+    setLoading(prev => ({ ...prev, listening: true }));
+    setShowListening(true);
+
     try {
-      const phrases = await generateListeningExercises(transcriptText, language);
-      
-      const listeningData: ListeningExercise[] = await Promise.all(
-        phrases.map(async (phrase) => {
-          const audio = await generateAudios({ text: phrase, lang: language });
-          return {
-            phrase,
-            audioBase64: audio.base64,
-            userAnswer: "",
-            isValidated: false,
-            isCorrect: false
-          };
+      const exercisesWithAudio = await Promise.all(
+        listeningPhrases.map(async (phrase) => {
+          try {
+            const result = await generateAudios({ text: phrase, lang: language });
+            return {
+              phrase,
+              audioBase64: result.base64,
+              userAnswer: "",
+              isValidated: false,
+              isCorrect: false
+            };
+          } catch {
+            return {
+              phrase,
+              audioBase64: undefined,
+              userAnswer: "",
+              isValidated: false,
+              isCorrect: false
+            };
+          }
         })
       );
-      setListeningExercises(listeningData);
+      setListeningExercises(exercisesWithAudio);
 
-      const paraphraseData: ParaphraseExercise[] = phrases.map(phrase => ({
+      const paraphraseData: ParaphraseExercise[] = listeningPhrases.map(phrase => ({
         original: phrase,
         userRewrite: ""
       }));
       setParaphraseExercises(paraphraseData);
-
     } catch (error) {
-      console.error("Error generating listening/paraphrase:", error);
-      setErrorMsg("Erro ao gerar exercícios adicionais. Tente novamente.");
+      console.error("Error loading listening exercises:", error);
     } finally {
-      setLoading({ listening: false });
+      setLoading(prev => ({ ...prev, listening: false }));
     }
   };
 
@@ -153,10 +164,28 @@ export default function ExerciseSection({
     }
   };
 
-  const playAudio = (base64?: string) => {
-    if (!base64) return;
-    const audio = new Audio(`data:audio/mp3;base64,${base64}`);
-    audio.play();
+  const playAudio = async (phrase: string, index: number) => {
+    const existing = listeningExercises[index].audioBase64;
+    if (existing) {
+      const audio = new Audio(`data:audio/mp3;base64,${existing}`);
+      audio.play();
+      return;
+    }
+
+    setLoading(prev => ({ ...prev, [`audio-${index}`]: true }));
+    try {
+      const result = await generateAudios({ text: phrase, lang: language });
+      const newExercises = [...listeningExercises];
+      newExercises[index].audioBase64 = result.base64;
+      setListeningExercises(newExercises);
+
+      const audio = new Audio(`data:audio/mp3;base64,${result.base64}`);
+      audio.play();
+    } catch (error) {
+      console.error("Error generating audio:", error);
+    } finally {
+      setLoading(prev => ({ ...prev, [`audio-${index}`]: false }));
+    }
   };
 
   const renderGapFillText = (text: string, exerciseIndex: number) => {
@@ -296,17 +325,17 @@ export default function ExerciseSection({
               >
                 Verificar Respostas
               </button>
-              
-              {!listeningExercises.length && (
+
+              {!showListening && listeningPhrases && listeningPhrases.length > 0 && (
                 <button 
-                  onClick={generateListeningAndParaphrase}
+                  onClick={loadListening}
                   disabled={loading.listening}
                   className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 text-white text-sm font-medium rounded-lg transition-all flex items-center gap-2"
                 >
                   {loading.listening ? (
                     <>
                       <span className="w-3 h-3 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-                      Gerando Listening & Vocabulário...
+                      Gerando áudios...
                     </>
                   ) : (
                     "🎧 Próxima Etapa: Listening & Vocabulário"
@@ -317,7 +346,7 @@ export default function ExerciseSection({
           </div>
 
           {/* LISTENING SECTION */}
-          {listeningExercises.length > 0 && (
+          {showListening && listeningExercises.length > 0 && (
             <div className="bg-slate-800/20 p-6 rounded-2xl border border-white/5 animate-in fade-in slide-in-from-bottom-4 duration-500">
               <h3 className="text-lg font-semibold text-purple-400 mb-4 flex items-center gap-2">
                 🎧 Listening: Ouça e Digite
@@ -330,10 +359,15 @@ export default function ExerciseSection({
                   <div key={i} className="p-4 bg-black/20 rounded-xl border border-white/5 flex flex-col gap-2">
                     <div className="flex flex-col md:flex-row gap-4 items-center w-full">
                       <button 
-                        onClick={() => playAudio(ex.audioBase64)}
+                        onClick={() => playAudio(ex.phrase, i)}
+                        disabled={loading[`audio-${i}`]}
                         className="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-blue-600/20 text-blue-400 rounded-full hover:bg-blue-600/30 transition-all border border-blue-500/20"
                       >
-                        ▶️
+                        {loading[`audio-${i}`] ? (
+                          <span className="w-4 h-4 border-2 border-blue-400/30 border-t-blue-400 rounded-full animate-spin"></span>
+                        ) : (
+                          "▶️"
+                        )}
                       </button>
                       <input 
                         type="text"
@@ -343,6 +377,7 @@ export default function ExerciseSection({
                           newEx[i].userAnswer = e.target.value;
                           setListeningExercises(newEx);
                         }}
+                        data-answer={ex.phrase}
                         placeholder="Digite o que você ouviu..."
                         className={`flex-1 w-full bg-slate-800/50 border rounded-xl px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all ${
                           ex.isValidated 

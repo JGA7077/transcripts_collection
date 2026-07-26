@@ -22,6 +22,7 @@ interface Transcript {
   title: string;
   sourceLanguage: string;
   exercises: GapFillExercise[][];
+  listeningExercises: string[];
 }
 
 // Tipagem para a API do YouTube IFrame
@@ -338,6 +339,7 @@ export default function TranscriptClient({
               transcriptText={fullTranscriptText} 
               language={transcript.sourceLanguage}
               exercises={transcript.exercises}
+              listeningPhrases={transcript.listeningExercises}
             />
           ) : (
             segments.map((s) => (

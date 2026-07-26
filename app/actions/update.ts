@@ -11,6 +11,7 @@ export async function updateTranscript(id: string, formData: FormData) {
   const categoryString = formData.get("categories") as string;
   const sourceLanguage = formData.get("sourceLanguage") as string;
   const exercisesJson = formData.get("exercises") as string | null;
+  const listeningExercisesJson = formData.get("listeningExercises") as string | null;
 
   if (!title) {
     throw new Error("O título é obrigatório");
@@ -40,6 +41,20 @@ export async function updateTranscript(id: string, formData: FormData) {
     }
   }
 
+  let listeningExercises: string[] | undefined;
+  if (listeningExercisesJson !== null) {
+    try {
+      const parsed = JSON.parse(listeningExercisesJson);
+      if (Array.isArray(parsed) && parsed.every((s: unknown) => typeof s === "string")) {
+        listeningExercises = parsed.slice(0, 3);
+      } else {
+        listeningExercises = [];
+      }
+    } catch {
+      listeningExercises = [];
+    }
+  }
+
   await prisma.transcript.update({
     where: { id },
     data: {
@@ -47,8 +62,9 @@ export async function updateTranscript(id: string, formData: FormData) {
       youtubeId: youtubeId || null,
       channelName: channelName || null,
       categories: categories,
-      sourceLanguage: sourceLanguage || "en",
+      sourceLanguage: sourceLanguage || "Inglês",
       ...(exercises !== undefined && { exercises: exercises as unknown as Prisma.InputJsonValue }),
+      ...(listeningExercises !== undefined && { listeningExercises: listeningExercises as unknown as Prisma.InputJsonValue }),
     },
   });
 

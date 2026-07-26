@@ -61,7 +61,14 @@ export default async function TranscriptPage({
 
 
         <div className="flex-1 overflow-hidden">
-          <TranscriptClient transcript={{ ...transcript, exercises: transcript.exercises as { question: string; translation: string }[][] }} segments={transcript.segments} />
+          <TranscriptClient 
+            transcript={{ 
+              ...transcript, 
+              exercises: transcript.exercises as { question: string; translation: string }[][],
+              listeningExercises: transcript.listeningExercises as string[]
+            }} 
+            segments={transcript.segments} 
+          />
         </div>
       </div>
     </MainLayout>

@@ -32,6 +32,7 @@ export async function importTranscript(formData: FormData) {
   const sourceLanguage = formData.get("sourceLanguage") as string;
   const jsonContent = formData.get("jsonContent") as string;
   const exercisesJson = formData.get("exercises") as string | null;
+  const listeningExercisesJson = formData.get("listeningExercises") as string | null;
 
   if (!title || !jsonContent) {
     throw new Error("Título e conteúdo JSON são obrigatórios");
@@ -57,6 +58,18 @@ export async function importTranscript(formData: FormData) {
     }
   }
 
+  let listeningExercises: string[] = [];
+  if (listeningExercisesJson) {
+    try {
+      const parsed = JSON.parse(listeningExercisesJson);
+      if (Array.isArray(parsed) && parsed.every((s: unknown) => typeof s === "string")) {
+        listeningExercises = parsed.slice(0, 3);
+      }
+    } catch {
+      listeningExercises = [];
+    }
+  }
+
   const segments: SegmentInput[] = JSON.parse(jsonContent);
 
   const transcript = await prisma.transcript.create({
@@ -65,8 +78,9 @@ export async function importTranscript(formData: FormData) {
       youtubeId: youtubeId || null,
       channelName: channelName || null,
       categories: categories,
-      sourceLanguage: sourceLanguage || "en",
+      sourceLanguage: sourceLanguage || "Inglês",
       exercises: exercises as unknown as Prisma.InputJsonValue,
+      listeningExercises: listeningExercises as unknown as Prisma.InputJsonValue,
       segments: {
         create: segments.map((s) => ({
           start: s.start,
@@ -239,12 +253,10 @@ export async function generateAudios(infos: GenerateAudios) {
     lang: infos.lang,
   };
 
+  const baseUrl = process.env.URL || 'http://localhost:3000';
+
   try {
-    const response = await fetch(
-      process.env.URL
-        ? `${process.env.URL}/api/tts`
-        : 'https://idiom-seeker.vercel.app/api/tts',
-      {
+    const response = await fetch(`${baseUrl}/api/tts`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

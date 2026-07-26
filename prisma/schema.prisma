@@ -19,6 +19,7 @@ model Transcript {
   sourceLanguage String    @default("en") // en, es
   targetLanguage String    @default("pt")
   exercises      Json      @default("[]")
+  listeningExercises Json  @default("[]")
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
   segments       Segment[]

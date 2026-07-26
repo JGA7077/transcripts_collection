@@ -12,6 +12,7 @@ interface TranscriptData {
   categories: string[];
   sourceLanguage: string;
   exercises: { question: string; translation: string }[][];
+  listeningExercises: string[];
 }
 
 export default function EditForm({ transcript }: { transcript: TranscriptData }) {
@@ -126,6 +127,20 @@ export default function EditForm({ transcript }: { transcript: TranscriptData })
             className="w-full bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all text-xs font-mono resize-none"
           />
           <p className="text-xs text-slate-600 mt-1">Formato: array de versões, cada versão é um array de exercícios Gap Fill</p>
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-slate-400 mb-1">
+            Listening Exercises (JSON) <span className="text-slate-600">- Máx. 3 frases</span>
+          </label>
+          <textarea 
+            name="listeningExercises" 
+            rows={4}
+            defaultValue={transcript.listeningExercises?.length ? JSON.stringify(transcript.listeningExercises, null, 2) : ""}
+            placeholder='["First sentence for listening.", "Second sentence.", "Third sentence."]'
+            className="w-full bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all text-xs font-mono resize-none"
+          />
+          <p className="text-xs text-slate-600 mt-1">Formato: array de strings, cada string é uma frase para listening (máx. 10 palavras)</p>
         </div>
       </div>
 
