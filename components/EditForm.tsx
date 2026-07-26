@@ -86,8 +86,8 @@ export default function EditForm({ transcript }: { transcript: TranscriptData })
               defaultValue={transcript.sourceLanguage}
               className="w-full h-[52px] bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all appearance-none"
             >
-              <option value="en">Inglês</option>
-              <option value="es">Espanhol</option>
+              <option value="Inglês">Inglês</option>
+              <option value="Espanhol">Espanhol</option>
             </select>
           </div>
         </div>
