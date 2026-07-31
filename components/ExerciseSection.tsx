@@ -26,21 +26,39 @@ interface ParaphraseExercise {
   evaluation?: ParaphraseEvaluation;
 }
 
+interface SequenceWord {
+  id: string;
+  text: string;
+}
+
+interface SequenceItem {
+  original: string;
+  translation: string;
+  words: SequenceWord[];
+  placed: SequenceWord[];
+  isValidated: boolean;
+  isCorrect: boolean;
+}
+
 export default function ExerciseSection({ 
   transcriptText, 
   language,
   exercises,
-  listeningPhrases
+  listeningPhrases,
+  sequenceExercises
 }: { 
   transcriptText: string;
   language: string;
   exercises: GapFillExercise[][];
   listeningPhrases?: string[];
+  sequenceExercises?: { original: string; translation: string }[];
 }) {
   const [gapFillExercises, setGapFillExercises] = useState<GapFillExercise[]>([]);
   const [listeningExercises, setListeningExercises] = useState<ListeningExercise[]>([]);
   const [showListening, setShowListening] = useState(false);
   const [paraphraseExercises, setParaphraseExercises] = useState<ParaphraseExercise[]>([]);
+  const [sequenceItems, setSequenceItems] = useState<SequenceItem[]>([]);
+  const [showSequence, setShowSequence] = useState(false);
   
   const [loading, setLoading] = useState<{ [key: string]: boolean }>({});
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -101,6 +119,167 @@ export default function ExerciseSection({
     } finally {
       setLoading(prev => ({ ...prev, listening: false }));
     }
+  };
+
+  const shuffleArray = <T,>(arr: T[]): T[] => {
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  };
+
+  const loadSequence = () => {
+    if (!sequenceExercises || sequenceExercises.length === 0) return;
+
+    const items: SequenceItem[] = sequenceExercises.map((ex) => {
+      const wordTexts = ex.original.trim().split(/\s+/);
+      const words: SequenceWord[] = shuffleArray(
+        wordTexts.map((text, i) => ({ id: `${i}-${Date.now()}-${Math.random()}`, text }))
+      );
+      return {
+        original: ex.original,
+        translation: ex.translation,
+        words,
+        placed: [],
+        isValidated: false,
+        isCorrect: false
+      };
+    });
+
+    setSequenceItems(items);
+    setShowSequence(true);
+  };
+
+  const appendToPlaced = (itemIndex: number, wordId: string) => {
+    setSequenceItems(prev => prev.map((item, i) => {
+      if (i !== itemIndex) return item;
+      const word = item.words.find(w => w.id === wordId);
+      if (!word) return item;
+      return {
+        ...item,
+        words: item.words.filter(w => w.id !== wordId),
+        placed: [...item.placed, word],
+        isValidated: false
+      };
+    }));
+  };
+
+  const moveToPool = (itemIndex: number, wordId: string) => {
+    setSequenceItems(prev => prev.map((item, i) => {
+      if (i !== itemIndex) return item;
+      const word = item.placed.find(w => w.id === wordId);
+      if (!word) return item;
+      return {
+        ...item,
+        placed: item.placed.filter(w => w.id !== wordId),
+        words: [...item.words, word],
+        isValidated: false
+      };
+    }));
+  };
+
+  const handleSequenceDrop = (e: React.DragEvent, itemIndex: number, slotIndex?: number) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const wordId = e.dataTransfer.getData("text/plain");
+    if (!wordId) return;
+
+    setSequenceItems(prev => {
+      const item = prev[itemIndex];
+      const inPool = item.words.some(w => w.id === wordId);
+      const placedFrom = item.placed.findIndex(w => w.id === wordId);
+
+      if (inPool) {
+        if (slotIndex !== undefined) {
+          const word = item.words.find(w => w.id === wordId)!;
+          const newPlaced = [...item.placed];
+          newPlaced.splice(Math.min(slotIndex, newPlaced.length), 0, word);
+          return prev.map((it, i) => i !== itemIndex ? it : {
+            ...it,
+            words: it.words.filter(w => w.id !== wordId),
+            placed: newPlaced,
+            isValidated: false
+          });
+        }
+        const word = item.words.find(w => w.id === wordId)!;
+        return prev.map((it, i) => i !== itemIndex ? it : {
+          ...it,
+          words: it.words.filter(w => w.id !== wordId),
+          placed: [...it.placed, word],
+          isValidated: false
+        });
+      }
+
+      if (placedFrom !== -1) {
+        if (slotIndex !== undefined && slotIndex !== placedFrom) {
+          const newPlaced = [...item.placed];
+          const [moved] = newPlaced.splice(placedFrom, 1);
+          newPlaced.splice(Math.min(slotIndex, newPlaced.length), 0, moved);
+          return prev.map((it, i) => i !== itemIndex ? it : {
+            ...it,
+            placed: newPlaced,
+            isValidated: false
+          });
+        }
+        const word = item.placed.find(w => w.id === wordId)!;
+        return prev.map((it, i) => i !== itemIndex ? it : {
+          ...it,
+          placed: it.placed.filter(w => w.id !== wordId),
+          words: [...it.words, word],
+          isValidated: false
+        });
+      }
+
+      return prev;
+    });
+  };
+
+  const handleDropOnPool = (e: React.DragEvent, itemIndex: number) => {
+    e.preventDefault();
+    const wordId = e.dataTransfer.getData("text/plain");
+    if (!wordId) return;
+    moveToPool(itemIndex, wordId);
+  };
+
+  const validateSequence = () => {
+    const normalize = (s: string) =>
+      s.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?!]/g, "").replace(/\s+/g, " ").trim();
+
+    setSequenceItems(prev => prev.map(item => {
+      const userSentence = item.placed.map(w => w.text).join(" ").trim();
+      const isCorrect = item.placed.length === item.original.trim().split(/\s+/).length
+        && normalize(userSentence) === normalize(item.original);
+      return { ...item, isValidated: true, isCorrect };
+    }));
+  };
+
+  const renderSequenceFeedback = (item: SequenceItem) => {
+    const correctWords = item.original.trim().split(/\s+/);
+    const normalize = (s: string) =>
+      s.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?!]/g, "");
+
+    return (
+      <div className="mt-3 flex flex-wrap gap-1 p-3 bg-black/40 rounded-lg border border-white/5 animate-in fade-in slide-in-from-top-1 duration-300">
+        {item.placed.map((w, i) => {
+          const isWordCorrect = normalize(w.text) === normalize(correctWords[i] || "");
+          return (
+            <span
+              key={w.id}
+              className={`font-medium ${isWordCorrect ? "text-green-400" : "text-blue-400"}`}
+            >
+              {w.text}
+            </span>
+          );
+        })}
+        {item.placed.length < correctWords.length && (
+          <span className="text-slate-600 italic text-xs flex items-center">
+            (faltam palavras...)
+          </span>
+        )}
+      </div>
+    );
   };
 
   const validateGapFill = () => {
@@ -342,6 +521,15 @@ export default function ExerciseSection({
                   )}
                 </button>
               )}
+
+              {!showSequence && sequenceExercises && sequenceExercises.length > 0 && !showListening && (
+                <button 
+                  onClick={loadSequence}
+                  className="px-4 py-2 bg-teal-600 hover:bg-teal-500 text-white text-sm font-medium rounded-lg transition-all"
+                >
+                  🔤 Próxima Etapa: Sequence
+                </button>
+              )}
             </div>
           </div>
 
@@ -390,11 +578,109 @@ export default function ExerciseSection({
                   </div>
                 ))}
               </div>
+              <div className="mt-6 flex justify-between items-center gap-4">
+                <button 
+                  onClick={validateListening}
+                  className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium rounded-lg transition-all"
+                >
+                  Verificar Listening
+                </button>
+
+                {!showSequence && sequenceExercises && sequenceExercises.length > 0 && (
+                  <button 
+                    onClick={loadSequence}
+                    className="px-4 py-2 bg-teal-600 hover:bg-teal-500 text-white text-sm font-medium rounded-lg transition-all"
+                  >
+                    🔤 Próxima Etapa: Sequence
+                  </button>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* SEQUENCE SECTION */}
+          {showSequence && sequenceItems.length > 0 && (
+            <div className="bg-slate-800/20 p-6 rounded-2xl border border-white/5 animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <h3 className="text-lg font-semibold text-teal-400 mb-4 flex items-center gap-2">
+                🔤 Sequence: Organize as Palavras
+              </h3>
+              <p className="text-slate-400 text-sm mb-6">
+                Clique ou arraste as palavras para ordená-las, formando a frase correta. Use a tradução abaixo como guia.
+              </p>
+              <div className="space-y-8">
+                {sequenceItems.map((item, itemIndex) => {
+                  const totalWords = item.original.trim().split(/\s+/).length;
+                  return (
+                    <div key={itemIndex} className="p-4 bg-black/20 rounded-xl border border-white/5 space-y-4">
+                      <div
+                        onDragOver={(e) => e.preventDefault()}
+                        onDrop={(e) => handleSequenceDrop(e, itemIndex)}
+                        className={`min-h-[3.5rem] flex flex-wrap gap-2 items-center p-3 rounded-lg border border-dashed transition-all ${
+                          item.isValidated && item.isCorrect
+                            ? "border-green-500/50 bg-green-900/10"
+                            : "border-slate-700"
+                        }`}
+                      >
+                        {item.placed.length === 0 && (
+                          <span className="text-slate-600 text-sm italic">
+                            Arraste ou clique nas palavras abaixo para montar a frase...
+                          </span>
+                        )}
+                        {item.placed.map((w, slotIndex) => (
+                          <button
+                            key={w.id}
+                            draggable
+                            onClick={() => moveToPool(itemIndex, w.id)}
+                            onDragStart={(e) => e.dataTransfer.setData("text/plain", w.id)}
+                            onDragOver={(e) => e.preventDefault()}
+                            onDrop={(e) => handleSequenceDrop(e, itemIndex, slotIndex)}
+                            className={`px-3 py-1.5 rounded-lg text-sm font-semibold cursor-grab active:cursor-grabbing transition-all border ${
+                              item.isValidated && item.isCorrect
+                                ? "bg-green-600/20 border-green-500/40 text-green-300"
+                                : "bg-blue-600/20 border-blue-500/40 text-blue-300 hover:bg-blue-600/30"
+                            }`}
+                            title="Clique para remover"
+                          >
+                            {w.text}
+                          </button>
+                        ))}
+                      </div>
+
+                      <p className="text-slate-500 text-sm italic border-l-2 border-teal-500/40 pl-3">
+                        {item.translation}
+                      </p>
+
+                      <div
+                        onDragOver={(e) => e.preventDefault()}
+                        onDrop={(e) => handleDropOnPool(e, itemIndex)}
+                        className="flex flex-wrap gap-2 items-center p-3 rounded-lg bg-slate-900/40 border border-slate-800 min-h-[3rem]"
+                      >
+                        <span className="text-[10px] uppercase tracking-wider text-slate-500 font-bold mr-1">
+                          Palavras ({item.words.length}/{totalWords})
+                        </span>
+                        {item.words.map((w) => (
+                          <button
+                            key={w.id}
+                            draggable
+                            onClick={() => appendToPlaced(itemIndex, w.id)}
+                            onDragStart={(e) => e.dataTransfer.setData("text/plain", w.id)}
+                            className="px-3 py-1.5 rounded-lg text-sm font-semibold bg-slate-700 hover:bg-slate-600 text-white cursor-grab active:cursor-grabbing transition-all"
+                          >
+                            {w.text}
+                          </button>
+                        ))}
+                      </div>
+
+                      {item.isValidated && renderSequenceFeedback(item)}
+                    </div>
+                  );
+                })}
+              </div>
               <button 
-                onClick={validateListening}
+                onClick={validateSequence}
                 className="mt-6 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium rounded-lg transition-all"
               >
-                Verificar Listening
+                Verificar Sequence
               </button>
             </div>
           )}

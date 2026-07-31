@@ -65,7 +65,8 @@ export default async function TranscriptPage({
             transcript={{ 
               ...transcript, 
               exercises: transcript.exercises as { question: string; translation: string }[][],
-              listeningExercises: transcript.listeningExercises as string[]
+              listeningExercises: transcript.listeningExercises as string[],
+              sequenceExercises: transcript.sequenceExercises as { original: string; translation: string }[]
             }} 
             segments={transcript.segments} 
           />

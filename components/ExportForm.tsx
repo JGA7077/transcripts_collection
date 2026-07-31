@@ -76,8 +76,9 @@ export default function ExportForm() {
       downloadFile(JSON.stringify(data.segments, null, 2), `${filename}_transcript.json`);
       downloadFile(JSON.stringify(data.exercises, null, 2), `${filename}_exercises.json`);
       downloadFile(JSON.stringify(data.listeningExercises || [], null, 2), `${filename}_listening.json`);
+      downloadFile(JSON.stringify(data.sequenceExercises || [], null, 2), `${filename}_sequence.json`);
 
-      setMessage(`4 arquivos exportados para "${data.title}"`);
+      setMessage(`5 arquivos exportados para "${data.title}"`);
     } catch (err: unknown) {
       if (err instanceof Error) {
         setMessage(`Erro: ${err.message}`);
@@ -160,7 +161,7 @@ export default function ExportForm() {
                 disabled={exportingId === item.id}
                 className="ml-4 shrink-0 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-1.5 px-3 rounded-md transition duration-200 disabled:opacity-50"
               >
-                {exportingId === item.id ? "Exportando..." : "Exportar 4 JSONs"}
+                {exportingId === item.id ? "Exportando..." : "Exportar 5 JSONs"}
               </button>
             </div>
           ))}

@@ -1,5 +1,14 @@
 [
-  "Although they were critically acclaimed",
-  "You wrote a lot more lyrics on this record",
-  "I was a singer and he was a keyboard player"
+  {
+    "original": "Although they were critically acclaimed",
+    "translation": "Embora eles fossem aclamados pela crítica"
+  },
+  {
+    "original": "You wrote a lot more lyrics on this record",
+    "translation": "Você escreveu muito mais letras neste álbum"
+  },
+  {
+    "original": "I was a singer and he was a keyboard player",
+    "translation": "Eu era cantor e ele era tecladista"
+  }
 ]

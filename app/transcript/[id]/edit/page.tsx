@@ -31,7 +31,8 @@ export default async function EditTranscriptPage({
         <EditForm transcript={{ 
           ...transcript, 
           exercises: transcript.exercises as { question: string; translation: string }[][],
-          listeningExercises: transcript.listeningExercises as string[]
+          listeningExercises: transcript.listeningExercises as string[],
+          sequenceExercises: transcript.sequenceExercises as { original: string; translation: string }[]
         }} />
       </div>
     </MainLayout>

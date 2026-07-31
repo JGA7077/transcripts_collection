@@ -13,6 +13,7 @@ interface TranscriptData {
   sourceLanguage: string;
   exercises: { question: string; translation: string }[][];
   listeningExercises: string[];
+  sequenceExercises: { original: string; translation: string }[];
 }
 
 export default function EditForm({ transcript }: { transcript: TranscriptData }) {
@@ -141,6 +142,20 @@ export default function EditForm({ transcript }: { transcript: TranscriptData })
             className="w-full bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all text-xs font-mono resize-none"
           />
           <p className="text-xs text-slate-600 mt-1">Formato: array de strings, cada string é uma frase para listening (máx. 10 palavras)</p>
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium text-slate-400 mb-1">
+            Sequence Exercises (JSON) <span className="text-slate-600">- Máx. 3 frases</span>
+          </label>
+          <textarea 
+            name="sequenceExercises" 
+            rows={5}
+            defaultValue={transcript.sequenceExercises?.length ? JSON.stringify(transcript.sequenceExercises, null, 2) : ""}
+            placeholder='[{"original": "I have been working all day", "translation": "Eu estive trabalhando o dia todo"}]'
+            className="w-full bg-slate-800 border-slate-700 rounded-xl text-white px-4 py-3 focus:ring-2 focus:ring-blue-500 outline-none transition-all text-xs font-mono resize-none"
+          />
+          <p className="text-xs text-slate-600 mt-1">Formato: array de objetos com &quot;original&quot; e &quot;translation&quot; (máx. 3 frases)</p>
         </div>
       </div>
 

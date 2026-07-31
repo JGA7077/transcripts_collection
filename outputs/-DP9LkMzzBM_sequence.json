@@ -1,5 +1,14 @@
 [
-  "I really just have to have a stable guitar",
-  "My brother had the Thinline when I was a kid",
-  "I was able to actually collaborate with people"
+  {
+    "original": "I really just have to have a stable guitar",
+    "translation": "Eu realmente só preciso ter uma guitarra estável"
+  },
+  {
+    "original": "My brother had the Thinline when I was a kid",
+    "translation": "Meu irmão tinha a Thinline quando eu era criança"
+  },
+  {
+    "original": "I was able to actually collaborate with people",
+    "translation": "Eu consegui realmente colaborar com as pessoas"
+  }
 ]

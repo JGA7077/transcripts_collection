@@ -28,6 +28,11 @@ export default function ImportForm() {
         formData.append("exercises", exercisesText);
       }
 
+      const sequenceExercisesText = (e.currentTarget.elements.namedItem("sequenceExercises") as HTMLTextAreaElement).value;
+      if (sequenceExercisesText.trim()) {
+        formData.append("sequenceExercises", sequenceExercisesText);
+      }
+
       const result = await importTranscript(formData);
       if (result.success && result.id) {
         setMessage("✅ Importado com sucesso! Redirecionando...");
@@ -119,6 +124,19 @@ export default function ImportForm() {
           className="mt-1 block w-full bg-slate-800 border-slate-700 rounded-md text-white px-3 py-2 text-xs font-mono"
         />
         <p className="text-xs text-slate-600 mt-1">Formato: array de versões, cada versão é um array de exercícios (máx 3 versões)</p>
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-slate-400">
+          Sequence Exercises (JSON) <span className="text-slate-600">- Opcional</span>
+        </label>
+        <textarea 
+          name="sequenceExercises" 
+          rows={4}
+          placeholder='[{"original": "I have been working all day", "translation": "Eu estive trabalhando o dia todo"}]'
+          className="mt-1 block w-full bg-slate-800 border-slate-700 rounded-md text-white px-3 py-2 text-xs font-mono"
+        />
+        <p className="text-xs text-slate-600 mt-1">Formato: array de objetos com &quot;original&quot; e &quot;translation&quot; (máx 3 frases)</p>
       </div>
 
       <button 

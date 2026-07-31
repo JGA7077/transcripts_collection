@@ -16,6 +16,11 @@ interface GapFillExercise {
   translation: string;
 }
 
+interface SequenceExercise {
+  original: string;
+  translation: string;
+}
+
 interface Transcript {
   id: string;
   youtubeId: string | null;
@@ -23,6 +28,7 @@ interface Transcript {
   sourceLanguage: string;
   exercises: GapFillExercise[][];
   listeningExercises: string[];
+  sequenceExercises: SequenceExercise[];
 }
 
 // Tipagem para a API do YouTube IFrame
@@ -340,6 +346,7 @@ export default function TranscriptClient({
               language={transcript.sourceLanguage}
               exercises={transcript.exercises}
               listeningPhrases={transcript.listeningExercises}
+              sequenceExercises={transcript.sequenceExercises}
             />
           ) : (
             segments.map((s) => (

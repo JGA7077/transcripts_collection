@@ -12,6 +12,7 @@ export async function updateTranscript(id: string, formData: FormData) {
   const sourceLanguage = formData.get("sourceLanguage") as string;
   const exercisesJson = formData.get("exercises") as string | null;
   const listeningExercisesJson = formData.get("listeningExercises") as string | null;
+  const sequenceExercisesJson = formData.get("sequenceExercises") as string | null;
 
   if (!title) {
     throw new Error("O título é obrigatório");
@@ -55,6 +56,26 @@ export async function updateTranscript(id: string, formData: FormData) {
     }
   }
 
+  let sequenceExercises: { original: string; translation: string }[] | undefined;
+  if (sequenceExercisesJson !== null) {
+    try {
+      const parsed = JSON.parse(sequenceExercisesJson);
+      if (
+        Array.isArray(parsed) &&
+        parsed.every((e: unknown) => {
+          const item = e as { original?: unknown; translation?: unknown };
+          return typeof item?.original === "string" && typeof item?.translation === "string";
+        })
+      ) {
+        sequenceExercises = (parsed as { original: string; translation: string }[]).slice(0, 3);
+      } else {
+        sequenceExercises = [];
+      }
+    } catch {
+      sequenceExercises = [];
+    }
+  }
+
   await prisma.transcript.update({
     where: { id },
     data: {
@@ -65,6 +86,7 @@ export async function updateTranscript(id: string, formData: FormData) {
       sourceLanguage: sourceLanguage || "Inglês",
       ...(exercises !== undefined && { exercises: exercises as unknown as Prisma.InputJsonValue }),
       ...(listeningExercises !== undefined && { listeningExercises: listeningExercises as unknown as Prisma.InputJsonValue }),
+      ...(sequenceExercises !== undefined && { sequenceExercises: sequenceExercises as unknown as Prisma.InputJsonValue }),
     },
   });
 

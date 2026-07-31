@@ -20,6 +20,7 @@ model Transcript {
   targetLanguage String    @default("pt")
   exercises      Json      @default("[]")
   listeningExercises Json  @default("[]")
+  sequenceExercises Json   @default("[]")
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
   segments       Segment[]

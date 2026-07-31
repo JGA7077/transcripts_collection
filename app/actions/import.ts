@@ -33,6 +33,7 @@ export async function importTranscript(formData: FormData) {
   const jsonContent = formData.get("jsonContent") as string;
   const exercisesJson = formData.get("exercises") as string | null;
   const listeningExercisesJson = formData.get("listeningExercises") as string | null;
+  const sequenceExercisesJson = formData.get("sequenceExercises") as string | null;
 
   if (!title || !jsonContent) {
     throw new Error("Título e conteúdo JSON são obrigatórios");
@@ -70,6 +71,24 @@ export async function importTranscript(formData: FormData) {
     }
   }
 
+  let sequenceExercises: { original: string; translation: string }[] = [];
+  if (sequenceExercisesJson) {
+    try {
+      const parsed = JSON.parse(sequenceExercisesJson);
+      if (
+        Array.isArray(parsed) &&
+        parsed.every((e: unknown) => {
+          const item = e as { original?: unknown; translation?: unknown };
+          return typeof item?.original === "string" && typeof item?.translation === "string";
+        })
+      ) {
+        sequenceExercises = (parsed as { original: string; translation: string }[]).slice(0, 3);
+      }
+    } catch {
+      sequenceExercises = [];
+    }
+  }
+
   const segments: SegmentInput[] = JSON.parse(jsonContent);
 
   const transcript = await prisma.transcript.create({
@@ -81,6 +100,7 @@ export async function importTranscript(formData: FormData) {
       sourceLanguage: sourceLanguage || "Inglês",
       exercises: exercises as unknown as Prisma.InputJsonValue,
       listeningExercises: listeningExercises as unknown as Prisma.InputJsonValue,
+      sequenceExercises: sequenceExercises as unknown as Prisma.InputJsonValue,
       segments: {
         create: segments.map((s) => ({
           start: s.start,

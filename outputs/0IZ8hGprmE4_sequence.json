@@ -1,5 +1,14 @@
 [
-  "If we explain what the songs mean",
-  "You wrote a lot more lyrics on this record",
-  "I was a singer and he was a keyboard player"
+  {
+    "original": "If we explain what the songs mean",
+    "translation": "Se explicarmos o que as músicas significam"
+  },
+  {
+    "original": "You wrote a lot more lyrics on this record",
+    "translation": "Você escreveu muito mais letras neste álbum"
+  },
+  {
+    "original": "I was a singer and he was a keyboard player",
+    "translation": "Eu era cantor e ele era tecladista"
+  }
 ]

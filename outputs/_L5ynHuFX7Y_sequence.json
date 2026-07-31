@@ -1,5 +1,14 @@
 [
-  "I went as hard as I could to fix that",
-  "I'm spending a lot of time looking for remote positions",
-  "I wish I didn't have to move"
+  {
+    "original": "I went as hard as I could to fix that",
+    "translation": "Eu me esforcei ao máximo para consertar isso"
+  },
+  {
+    "original": "I'm spending a lot of time looking for remote positions",
+    "translation": "Estou passando muito tempo procurando vagas remotas"
+  },
+  {
+    "original": "I wish I didn't have to move",
+    "translation": "Eu gostaria de não precisar me mudar"
+  }
 ]
