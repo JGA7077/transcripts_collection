@@ -1,11 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { 
-  generateAudios, 
-  evaluateParaphrases
-} from "@/app/actions/import";
-import { ParaphraseEvaluation } from "@/app/types/genericTypes";
+import { generateAudios } from "@/app/actions/import";
 
 interface GapFillExercise {
   question: string;
@@ -18,12 +14,6 @@ interface ListeningExercise {
   userAnswer: string;
   isValidated: boolean;
   isCorrect: boolean;
-}
-
-interface ParaphraseExercise {
-  original: string;
-  userRewrite: string;
-  evaluation?: ParaphraseEvaluation;
 }
 
 interface SequenceWord {
@@ -56,7 +46,6 @@ export default function ExerciseSection({
   const [gapFillExercises, setGapFillExercises] = useState<GapFillExercise[]>([]);
   const [listeningExercises, setListeningExercises] = useState<ListeningExercise[]>([]);
   const [showListening, setShowListening] = useState(false);
-  const [paraphraseExercises, setParaphraseExercises] = useState<ParaphraseExercise[]>([]);
   const [sequenceItems, setSequenceItems] = useState<SequenceItem[]>([]);
   const [showSequence, setShowSequence] = useState(false);
   
@@ -79,41 +68,41 @@ export default function ExerciseSection({
   };
 
   const loadListening = async () => {
-    if (!listeningPhrases || listeningPhrases.length === 0) return;
-    
+    const hasListening = listeningPhrases && listeningPhrases.length > 0;
+    const hasSequence = sequenceExercises && sequenceExercises.length > 0;
+    if (!hasListening && !hasSequence) return;
+
     setLoading(prev => ({ ...prev, listening: true }));
     setShowListening(true);
 
     try {
-      const exercisesWithAudio = await Promise.all(
-        listeningPhrases.map(async (phrase) => {
-          try {
-            const result = await generateAudios({ text: phrase, lang: language });
-            return {
-              phrase,
-              audioBase64: result.base64,
-              userAnswer: "",
-              isValidated: false,
-              isCorrect: false
-            };
-          } catch {
-            return {
-              phrase,
-              audioBase64: undefined,
-              userAnswer: "",
-              isValidated: false,
-              isCorrect: false
-            };
-          }
-        })
-      );
-      setListeningExercises(exercisesWithAudio);
+      if (hasListening) {
+        const exercisesWithAudio = await Promise.all(
+          listeningPhrases!.map(async (phrase) => {
+            try {
+              const result = await generateAudios({ text: phrase, lang: language });
+              return {
+                phrase,
+                audioBase64: result.base64,
+                userAnswer: "",
+                isValidated: false,
+                isCorrect: false
+              };
+            } catch {
+              return {
+                phrase,
+                audioBase64: undefined,
+                userAnswer: "",
+                isValidated: false,
+                isCorrect: false
+              };
+            }
+          })
+        );
+        setListeningExercises(exercisesWithAudio);
+      }
 
-      const paraphraseData: ParaphraseExercise[] = listeningPhrases.map(phrase => ({
-        original: phrase,
-        userRewrite: ""
-      }));
-      setParaphraseExercises(paraphraseData);
+      loadSequence();
     } catch (error) {
       console.error("Error loading listening exercises:", error);
     } finally {
@@ -322,27 +311,6 @@ export default function ExerciseSection({
     setShowReviseMessage(prev => ({ ...prev, listening: hasError }));
   };
 
-  const handleEvaluateParaphrases = async () => {
-    setLoading(prev => ({ ...prev, paraphrases: true }));
-    try {
-      const evaluations = await evaluateParaphrases(
-        language, 
-        paraphraseExercises.map(ex => ({ original: ex.original, userRewrite: ex.userRewrite }))
-      );
-      
-      if (evaluations) {
-        setParaphraseExercises(prev => prev.map((ex, i) => ({
-          ...ex,
-          evaluation: evaluations[i]
-        })));
-      }
-    } catch (error) {
-      console.error("Error evaluating paraphrases:", error);
-    } finally {
-      setLoading(prev => ({ ...prev, paraphrases: false }));
-    }
-  };
-
   const playAudio = async (phrase: string, index: number) => {
     const existing = listeningExercises[index].audioBase64;
     if (existing) {
@@ -505,7 +473,7 @@ export default function ExerciseSection({
                 Verificar Respostas
               </button>
 
-              {!showListening && listeningPhrases && listeningPhrases.length > 0 && (
+              {!showListening && (listeningPhrases && listeningPhrases.length > 0 || sequenceExercises && sequenceExercises.length > 0) && (
                 <button 
                   onClick={loadListening}
                   disabled={loading.listening}
@@ -517,17 +485,8 @@ export default function ExerciseSection({
                       Gerando áudios...
                     </>
                   ) : (
-                    "🎧 Próxima Etapa: Listening & Vocabulário"
+                    "🎧 Próxima Etapa: Listening & Sequence"
                   )}
-                </button>
-              )}
-
-              {!showSequence && sequenceExercises && sequenceExercises.length > 0 && !showListening && (
-                <button 
-                  onClick={loadSequence}
-                  className="px-4 py-2 bg-teal-600 hover:bg-teal-500 text-white text-sm font-medium rounded-lg transition-all"
-                >
-                  🔤 Próxima Etapa: Sequence
                 </button>
               )}
             </div>
@@ -578,22 +537,13 @@ export default function ExerciseSection({
                   </div>
                 ))}
               </div>
-              <div className="mt-6 flex justify-between items-center gap-4">
+              <div className="mt-6">
                 <button 
                   onClick={validateListening}
                   className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium rounded-lg transition-all"
                 >
                   Verificar Listening
                 </button>
-
-                {!showSequence && sequenceExercises && sequenceExercises.length > 0 && (
-                  <button 
-                    onClick={loadSequence}
-                    className="px-4 py-2 bg-teal-600 hover:bg-teal-500 text-white text-sm font-medium rounded-lg transition-all"
-                  >
-                    🔤 Próxima Etapa: Sequence
-                  </button>
-                )}
               </div>
             </div>
           )}
@@ -681,61 +631,6 @@ export default function ExerciseSection({
                 className="mt-6 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium rounded-lg transition-all"
               >
                 Verificar Sequence
-              </button>
-            </div>
-          )}
-
-          {/* PARAPHRASE SECTION */}
-          {paraphraseExercises.length > 0 && (
-            <div className="bg-slate-800/20 p-6 rounded-2xl border border-white/5 animate-in fade-in slide-in-from-bottom-4 duration-500">
-              <h3 className="text-lg font-semibold text-emerald-400 mb-4 flex items-center gap-2">
-                🔄 Vocabulário: Reescrita de Frases
-              </h3>
-              <p className="text-slate-400 text-sm mb-6">Reescreva as frases abaixo usando outras palavras, mantendo o mesmo sentido.</p>
-              <div className="space-y-6">
-                {paraphraseExercises.map((ex, i) => (
-                  <div key={i} className="p-4 bg-black/20 rounded-xl border border-white/5 space-y-4">
-                    <div className="p-3 bg-slate-900/50 rounded-lg border border-slate-800">
-                      <span className="text-[10px] uppercase tracking-wider text-slate-500 font-bold block mb-1">Frase Original</span>
-                      <p className="text-slate-300 font-medium">{ex.original}</p>
-                    </div>
-                    <textarea 
-                      value={ex.userRewrite}
-                      onChange={(e) => {
-                        const newEx = [...paraphraseExercises];
-                        newEx[i].userRewrite = e.target.value;
-                        setParaphraseExercises(newEx);
-                      }}
-                      placeholder="Sua versão da frase..."
-                      rows={2}
-                      className="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all resize-none"
-                    />
-                    {ex.evaluation && (
-                      <div className={`p-3 rounded-lg border flex items-start gap-3 animate-in fade-in zoom-in-95 duration-300 ${
-                        ex.evaluation.isCorrect 
-                          ? "bg-green-900/20 border-green-500/30 text-green-300" 
-                          : "bg-orange-900/20 border-orange-500/30 text-orange-300"
-                      }`}>
-                        <span className="text-xl">{ex.evaluation.isCorrect ? "✅" : "💡"}</span>
-                        <p className="text-sm">{ex.evaluation.feedback}</p>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-              <button 
-                onClick={handleEvaluateParaphrases}
-                disabled={loading.paraphrases}
-                className="mt-6 px-6 py-2.5 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-700 text-white font-semibold rounded-xl transition-all flex items-center gap-2"
-              >
-                {loading.paraphrases ? (
-                  <>
-                    <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-                    Avaliando...
-                  </>
-                ) : (
-                  "🤖 Avaliar Reescritas"
-                )}
               </button>
             </div>
           )}
